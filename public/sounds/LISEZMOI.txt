@@ -1,0 +1,4 @@
+Dépose ici tes propres fichiers audio pour remplacer les sons synthétisés de l'app :
+coup, prise, echec, echec-prise, roque, promotion, mat, erreur, ok, fin, premove
+(.mp3, .ogg ou .wav ; ex. coup.mp3). Recharge la page ensuite.
+Respecte les droits d'auteur : ne redistribue pas des sons dont tu n'as pas la licence.

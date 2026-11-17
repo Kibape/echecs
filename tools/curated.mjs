@@ -1,0 +1,677 @@
+// Répertoire "curé" : textes écrits pour ce projet (pas copiés de livres).
+// Les coups sont validés par tools/build-data.mjs :
+//   1) légalité de chaque coup (chess.js)
+//   2) recoupement avec la base d'ouvertures Lichess (CC0) : la position atteinte doit porter
+//      un nom contenant l'un des mots de `attendu`.
+// Les notes "facilite" et "puissance" (1 à 5) sont un AVIS ÉDITORIAL pour un joueur < 1000 Elo.
+// Seules les stats `stats400` proviennent de données (voir SOURCES).
+
+export const SOURCES = {
+  cv_london: { titre: "Chessiverse — London System (stats par Elo)", url: "https://chessiverse.com/resources/openings/london-system" },
+  cv_caro: { titre: "Chessiverse — Caro-Kann (stats par Elo)", url: "https://chessiverse.com/resources/openings/caro-kann" },
+  cv_italian: { titre: "Chessiverse — Italian Game (stats par Elo)", url: "https://chessiverse.com/resources/openings/italian-game" },
+  cv_giuoco: { titre: "Chessiverse — Giuoco Piano (stats par Elo)", url: "https://chessiverse.com/resources/openings/giuoco-piano" },
+  cv_e5: { titre: "Chessiverse — 1.e4 e5 (stats par Elo)", url: "https://chessiverse.com/resources/openings/e5" },
+  cv_rank: { titre: "Chessiverse — ouvertures blancs classées par niveau et style", url: "https://chessiverse.com/blog/best-chess-openings-for-white-ranked-by-rating-and-style" },
+  studer: { titre: "IM Noel Studer — Choisir ses ouvertures quand on débute (blog Lichess)", url: "https://lichess.org/@/NoelStuder/blog/choosing-the-right-chess-openings-for-beginners--3-key-traits/4nRnrPkW" },
+  lichess_db: { titre: "Base d'ouvertures Lichess (CC0)", url: "https://github.com/lichess-org/chess-openings" },
+};
+
+const STATS_GIUOCO = { source: "cv_giuoco", blancs: 50.1, nulles: 4.0, noirs: 45.9, note: "Giuoco Piano, parties Lichess blitz/rapide, joueurs ~400" };
+const STATS_LONDON = { source: "cv_london", blancs: 52.7, nulles: 4.1, noirs: 43.1, note: "London System, parties Lichess blitz/rapide, joueurs ~400" };
+const STATS_CARO = { source: "cv_caro", blancs: 47.4, nulles: 4.1, noirs: 48.5, note: "Caro-Kann, parties Lichess blitz/rapide, joueurs ~400" };
+const STATS_E5 = { source: "cv_e5", blancs: 50.8, nulles: 4.6, noirs: 44.6, note: "1.e4 e5 (toutes suites), parties Lichess blitz/rapide, joueurs ~400" };
+
+export const OUVERTURES = [
+  // ───────────────────────── BLANCS ─────────────────────────
+  {
+    id: "italienne-pianissimo",
+    nom: "Italienne — Giuoco Pianissimo",
+    camp: "blancs", eco: "C54",
+    elo: [0, 2000], facilite: 5, puissance: 4, theorie: "faible", style: "classique",
+    idee: "Développer vite, viser f7 avec le fou c4, puis jouer c3 et d3 pour construire un centre solide avant de roquer.",
+    plans: [
+      "Sortir les cavaliers et le fou c4, puis roquer rapidement.",
+      "Jouer c3 et d3 : préparer d4 sans se précipiter.",
+      "Quand tout est développé, ouvrir le centre avec d4 ou attaquer sur l'aile roi.",
+    ],
+    erreurs: [
+      "Jouer plusieurs coups de pions d'affilée avant d'avoir développé les pièces.",
+      "Oublier de roquer : le roi reste au centre et devient une cible.",
+    ],
+    stats400: STATS_GIUOCO,
+    sources: ["cv_giuoco", "cv_italian", "studer"],
+    attendu: ["Italian", "Giuoco"],
+    lignes: [
+      { nom: "Attaque Möller (variante tranchante)", coups: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Nc3 Nxe4 O-O Bxc3 d5", notes: { 9: "On ouvre le centre : d4 est l'idée centrale de c3. Cela demande de connaître la suite par cœur.", 15: "Le roque met le roi à l'abri avant les complications : si Noir prend en e4, on a du jeu contre le cavalier e4." } },
+      { nom: "Pianissimo classique", coups: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d3 d6 O-O a6 Bb3 Ba7 Re1 O-O Nbd2",
+        notes: { 5: "Le fou vise f7, la case la plus faible du camp noir au départ.", 7: "c3 prépare d4 et laisse une case de retraite au fou en cas de ...Ca5.", 9: "d3 est plus lent que d4 mais très solide : le centre est protégé." } },
+    ],
+  },
+  {
+    id: "italienne-fried-liver",
+    nom: "Italienne — Attaque du Foie Frit (piège)",
+    camp: "blancs", eco: "C57", piege: true,
+    elo: [0, 1200], facilite: 3, puissance: 5, theorie: "moyenne", style: "attaque",
+    idee: "Contre 3...Cf6, jouer 4.Cg5 : si Noir répond 5...Cxd5 ?, le sacrifice Cxf7 donne une attaque très dangereuse.",
+    plans: [
+      "Après 4.Cg5 d5 5.exd5, Noir doit jouer 5...Ca5 ! ; sinon 5...Cxd5? permet le sacrifice sur f7.",
+      "Si Noir tombe dans le piège : Cxf7 Rxf7, Df3+ pour attirer le roi au centre.",
+      "Si Noir joue 5...Ca5 : Fb5+ c6 dxc6 bxc6 Fe2, puis récupérer le pion en développant.",
+    ],
+    erreurs: [
+      "Jouer Cg5 contre un adversaire qui connaît 5...Ca5 sans connaître la suite.",
+      "Sacrifier sur f7 sans avoir vérifié que Df3+ suit.",
+    ],
+    sources: ["studer", "cv_italian"],
+    attendu: ["Italian", "Two Knights", "Fried Liver"],
+    lignes: [
+      { nom: "Le piège : 5...Cxd5 ? 6.Cxf7", coups: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Nxd5 Nxf7 Kxf7 Qf3+ Ke6 Nc3 Nb4 Qe4 c6 a3 Na6 d4",
+        notes: { 10: "Noir reprend en d5 : c'est l'erreur ! La bonne réponse est 5...Ca5.", 11: "Sacrifice de cavalier : le roi noir ne pourra plus roquer.", 13: "Échec avec la dame : le roi est attiré au centre." } },
+      { nom: "La bonne défense : 5...Ca5", coups: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 Bb5+ c6 dxc6 bxc6 Be2 h6 Nf3 e4 Ne5 Bd6",
+        notes: { 10: "Le cavalier a5 attaque le fou c4 et évite le piège sur f7." } },
+    ],
+  },
+  {
+    id: "mat-legal",
+    nom: "Piège du mat de Légal",
+    camp: "blancs", eco: "C41", piege: true,
+    elo: [0, 1000], facilite: 4, puissance: 5, theorie: "faible", style: "piège",
+    idee: "Contre un adversaire qui cloue le cavalier avec ...Fg4 et prend la dame, sacrifier la dame pour mater avec les pièces mineures.",
+    plans: [
+      "Jouer 1.e4 e5 2.Cf3 d6 3.Fc4 : si Noir répond 3...Fg4, le piège est en place.",
+      "Après 4.Cc3 g6 ? 5.Cxe5 !, si Noir prend la dame (5...Fxd1), le mat arrive.",
+      "Contre un adversaire qui ne prend pas la dame, tu gagnes simplement un pion.",
+    ],
+    erreurs: [
+      "Prendre la dame en retour avec Fxd1 sans calculer 6.Fxf7+ : c'est justement le piège.",
+      "Jouer le piège contre un adversaire qui sait que ...Fxd1 perd : tu perds ta dame pour rien.",
+    ],
+    sources: ["lichess_db"],
+    attendu: ["Philidor", "Italian", "Légal", "Legal", "Lopez", "Bishop"],
+    lignes: [
+      { nom: "Mat de Légal", coups: "e4 e5 Nf3 d6 Bc4 Bg4 Nc3 g6 Nxe5 Bxd1 Bxf7+ Ke7 Nd5#",
+        notes: { 9: "Sacrifice de dame ! Cxe5 laisse la dame en prise, mais Fxd1 est une erreur.", 11: "Le fou donne échec et le roi doit aller en e7.", 13: "Mat : le roi est enfermé par ses propres pièces (Dd8, Ff8, pion d6) et par Ce5, Ff7 et Cd5." } },
+    ],
+  },
+  {
+    id: "mat-berger",
+    nom: "Mat du Berger (et comment le parer)",
+    camp: "blancs", eco: "C23", piege: true,
+    elo: [0, 600], facilite: 5, puissance: 5, theorie: "faible", style: "piège",
+    idee: "Dame et fou visent f7 ensemble : si Noir ne réagit pas, c'est mat en 4 coups.",
+    plans: [
+      "1.e4 e5 2.Fc4 Cc6 3.Dh5 : f7 est attaqué deux fois et défendu une seule.",
+      "Si Noir joue 3...Cf6 ?? alors 4.Dxf7#.",
+      "Si Noir se défend (par exemple 3...g6), ne t'obstine pas : retire la dame (Df3) et développe.",
+    ],
+    erreurs: [
+      "Insister avec la dame après 3...g6 : la dame se fait chasser et tu perds du temps.",
+      "Sortir la dame trop tôt contre un adversaire qui connaît la parade.",
+    ],
+    sources: ["lichess_db"],
+    attendu: ["Bishop's Opening", "Bishop", "Italian"],
+    lignes: [
+      { nom: "Le mat en 4 coups", coups: "e4 e5 Bc4 Nc6 Qh5 Nf6 Qxf7#",
+        notes: { 5: "Dame et fou visent f7 : seul le roi le défend.", 7: "Mat : le fou protège la dame, le roi ne peut pas la prendre." } },
+    ],
+  },
+  {
+    id: "ecossaise",
+    nom: "Partie écossaise",
+    camp: "blancs", eco: "C45",
+    elo: [0, 2200], facilite: 4, puissance: 4, theorie: "moyenne", style: "ouvert, direct",
+    idee: "Ouvrir le centre tout de suite avec d4 : les pièces blanches deviennent actives et la position est claire.",
+    plans: [
+      "Après 3.d4 exd4 4.Cxd4, le cavalier d4 domine le centre.",
+      "Développer rapidement, roquer, puis chercher l'initiative au centre.",
+      "Contre ...Fc5, garder un œil sur c3 et e3 pour ne pas perdre de temps.",
+    ],
+    erreurs: [
+      "Avancer e5 trop tôt quand Noir peut attaquer le pion.",
+      "Laisser Noir égaliser en échangeant trop de pièces sans plan.",
+    ],
+    sources: ["cv_rank", "studer"],
+    attendu: ["Scotch"],
+    lignes: [
+      { nom: "Écossaise : 4...Cf6 (Mieses)", coups: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nf6 Nxc6 bxc6 e5 Qe7 Qe2 Nd5 c4 Ba6 b3",
+        notes: { 5: "d4 ouvre le centre : c'est l'idée de toute l'ouverture.", 11: "e5 gagne du temps en attaquant le cavalier f6." } },
+      { nom: "Écossaise : 4...Fc5", coups: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Be3 Qf6 c3 Nge7 Bc4 Ne5 Be2",
+        notes: { 9: "Fe3 défend le cavalier d4 et prépare c3." } },
+    ],
+  },
+  {
+    id: "viennoise",
+    nom: "Partie viennoise (gambit f4)",
+    camp: "blancs", eco: "C29",
+    elo: [0, 2000], facilite: 3, puissance: 4, theorie: "moyenne", style: "agressif",
+    idee: "Contrôler d5 et e4 avec Cc3, puis préparer f4 pour un centre fort et une attaque sur l'aile roi.",
+    plans: [
+      "Développer Cc3 avant Cf3 : f4 reste une option.",
+      "Si Noir joue ...Cf6 et ...d5, ouvrir le centre avec fxe5 et d4.",
+      "Roquer court et lancer les pièces vers l'aile roi.",
+    ],
+    erreurs: [
+      "Jouer f4 sans avoir de développement : le roi devient vulnérable sur la diagonale e1-h4.",
+      "Ignorer ...Dh4+ quand f4 est joué et que le pion g reste en place.",
+    ],
+    sources: ["cv_rank"],
+    attendu: ["Vienna"],
+    lignes: [
+      { nom: "Gambit viennois", coups: "e4 e5 Nc3 Nf6 f4 d5 fxe5 Nxe4 Nf3 Be7 d4 O-O Bd3 f5 exf6 Bxf6 O-O Nxc3 bxc3",
+        notes: { 5: "f4 prépare une attaque, mais affaiblit la diagonale du roi blanc." } },
+    ],
+  },
+  {
+    id: "espagnole",
+    nom: "Partie espagnole (Ruy Lopez)",
+    camp: "blancs", eco: "C70",
+    elo: [1000, 2500], facilite: 2, puissance: 4, theorie: "forte", style: "positionnel",
+    idee: "Fb5 met la pression sur le cavalier qui défend e5, pour construire un avantage lent et durable.",
+    plans: [
+      "Roquer, jouer c3 et d4 pour obtenir un centre fort.",
+      "Garder le fou b3 sur la diagonale a2-g8.",
+      "Utiliser la pression sur e5 pour obtenir un avantage progressif.",
+    ],
+    erreurs: [
+      "Vouloir tout gagner vite : cette ouverture récompense la patience.",
+      "Échanger le fou sur c6 sans comprendre pourquoi (variante d'échange).",
+    ],
+    sources: ["cv_rank"],
+    attendu: ["Ruy Lopez"],
+    lignes: [
+      { nom: "Défense Berlinoise : le finale de dames échangées", coups: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Nd6 Bxc6 dxc6 dxe5 Nf5 Qxd8+ Kxd8", notes: { 15: "Les dames s'échangent tôt : le roi noir ne peut plus roquer, c'est l'avantage structurel des Blancs." } },
+      { nom: "Espagnole fermée", coups: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Nb8 d4 Nbd7" },
+      { nom: "Variante d'échange", coups: "e4 e5 Nf3 Nc6 Bb5 a6 Bxc6 dxc6 O-O f6 d4 exd4 Nxd4 c5 Nb3 Qxd1 Rxd1 Bg4 f3 Be6 Nc3",
+        notes: { 7: "Le fou prend le cavalier : Noir a la paire de fous mais une structure de pions abîmée." } },
+    ],
+  },
+  {
+    id: "london-blancs",
+    nom: "Système de Londres",
+    camp: "blancs", eco: "D02",
+    elo: [0, 2200], facilite: 5, puissance: 4, theorie: "faible", style: "système",
+    idee: "Toujours la même installation (d4, Cf3, Ff4, e3, c3, Fd3, Cbd2) quoi que fasse l'adversaire.",
+    plans: [
+      "Sortir le fou f4 AVANT de jouer e3 : sinon il reste enfermé.",
+      "Installer d4, e3, c3, Cbd2, Fd3 puis roquer.",
+      "Viser un cavalier sur e5, soutenu par d4 et le fou f4.",
+    ],
+    erreurs: [
+      "Jouer e3 avant Ff4 : le fou c1 est bloqué.",
+      "Oublier ...Db6 qui attaque b2 : prévoir Db3 ou b3 à l'avance.",
+    ],
+    stats400: STATS_LONDON,
+    sources: ["cv_london", "studer"],
+    attendu: ["London"],
+    lignes: [
+      { nom: "Contre ...c5 : le plan Cc6 / e6", coups: "d4 d5 Bf4 Nf6 e3 c5 c3 Nc6 Nd2 e6 Ngf3 Bd6 Bg3 O-O Bd3", notes: { 11: "Le fou f4 est sorti AVANT e3 : sinon il reste enfermé derrière sa chaîne de pions.", 15: "Le fou échange la pièce la plus active des Noirs (Fd6) ; on garde un jeu simple et solide." } },
+      { nom: "London contre ...e6 et ...Fd6", coups: "d4 d5 Nf3 Nf6 Bf4 e6 e3 Bd6 Bg3 O-O Nbd2 c5 c3 Nc6 Bd3",
+        notes: { 5: "Le fou sort avant e3 : c'est la clé du système.", 7: "e3 ferme le centre et protège d4.", 9: "Fg3 échange le fou noir ou le laisse inactif." } },
+      { nom: "London contre ...c5", coups: "d4 d5 Nf3 Nf6 Bf4 c5 e3 Nc6 c3 Qb6 Qb3 c4 Qxb6 axb6 Nbd2 e6 Be2 Bd6 Bg3",
+        notes: { 11: "Db3 défend b2 ; Noir peut proposer l'échange des dames." } },
+    ],
+  },
+  {
+    id: "colle",
+    nom: "Système Colle",
+    camp: "blancs", eco: "D05",
+    elo: [0, 1600], facilite: 5, puissance: 3, theorie: "faible", style: "système",
+    idee: "Installation compacte : d4, Cf3, e3, Fd3, c3, Cbd2, puis préparer e4 pour libérer les pièces.",
+    plans: [
+      "Construire le triangle de pions d4-e3-c3 et placer le fou en d3.",
+      "Roquer court et préparer e4 : c'est le moment où la position s'ouvre.",
+      "Après e4 et l'ouverture du centre, chercher l'attaque sur le roque noir.",
+    ],
+    erreurs: [
+      "Jouer e4 trop tôt, avant d'avoir roqué et développé.",
+      "Rester passif si Noir se place très bien : il faut préparer e4 activement.",
+    ],
+    sources: ["lichess_db"],
+    attendu: ["Colle", "Queen's Pawn"],
+    lignes: [
+      { nom: "Colle classique", coups: "d4 d5 Nf3 Nf6 e3 e6 Bd3 c5 c3 Nc6 Nbd2 Bd6 O-O O-O dxc5 Bxc5 e4 dxe4 Nxe4 Be7",
+        notes: { 17: "e4 est le coup que prépare toute la structure." } },
+    ],
+  },
+  {
+    id: "gambit-dame",
+    nom: "Gambit dame",
+    camp: "blancs", eco: "D06",
+    elo: [800, 2500], facilite: 3, puissance: 4, theorie: "moyenne", style: "stratégique",
+    idee: "Offrir un pion (c4) pour détourner le pion d5 et prendre le contrôle du centre.",
+    plans: [
+      "Attaquer le centre noir avec c4 : si ...dxc4, récupérer le pion en développant.",
+      "Contre ...e6 : développer Cc3, Cf3, Fg5 et jouer e3.",
+      "Contre la Slave (...c6), jouer a4 pour garder la case c4 sous contrôle.",
+    ],
+    erreurs: [
+      "Essayer de garder le pion de gambit trop longtemps après ...dxc4.",
+      "Négliger le développement des pièces mineures.",
+    ],
+    sources: ["cv_rank"],
+    attendu: ["Queen's Gambit", "Slav"],
+    lignes: [
+      { nom: "Gambit dame refusé (Tartakower)", coups: "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 h6 Bh4 b6 cxd5 Nxd5 Bxe7 Qxe7 Nxd5 exd5 Rc1 Be6" },
+      { nom: "Gambit dame accepté", coups: "d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 c5 O-O a6 Qe2 b5 Bb3 Bb7 Rd1 Nbd7",
+        notes: { 4: "Noir prend le pion mais ne peut pas le garder longtemps." } },
+      { nom: "Contre la Slave", coups: "d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 a4 Bf5 e3 e6 Bxc4 Bb4 O-O Nbd7 Qe2 Bg6 e4 O-O Bd3 Bh5" },
+    ],
+  },
+  {
+    id: "anglaise",
+    nom: "Partie anglaise",
+    camp: "blancs", eco: "A20",
+    elo: [1200, 2500], facilite: 3, puissance: 3, theorie: "moyenne", style: "flexible",
+    idee: "Contrôler d5 avec c4 et jouer g3 + Fg2 : une ouverture souple qui évite beaucoup de théorie.",
+    plans: [
+      "Jouer c4, Cc3, g3, Fg2 puis roquer.",
+      "Contre ...e5, jouer Cf3 et laisser le fou g2 viser la grande diagonale.",
+      "Chercher la pression sur la colonne c et la case d5.",
+    ],
+    erreurs: [
+      "Jouer trop passivement : il faut garder l'initiative sur d5.",
+      "Se faire déborder au centre si Noir prend l'espace avec ...d5.",
+    ],
+    sources: ["cv_rank"],
+    attendu: ["English"],
+    lignes: [
+      { nom: "Anglaise : 1...e5", coups: "c4 e5 Nc3 Nf6 Nf3 Nc6 g3 d5 cxd5 Nxd5 Bg2 Nb6 O-O Be7 a3 O-O b4" },
+    ],
+  },
+  {
+    id: "gambit-danois",
+    nom: "Gambit danois",
+    camp: "blancs", eco: "C21", piege: true,
+    elo: [0, 1000], facilite: 4, puissance: 4, theorie: "faible", style: "gambit agressif",
+    idee: "Sacrifier deux pions pour développer très vite les fous sur les grandes diagonales.",
+    plans: [
+      "Après 2.d4 exd4 3.c3 dxc3 4.Fc4, menacer cxb2 et récupérer les pions.",
+      "Mettre les deux fous sur les diagonales vers f7 et g7.",
+      "Rester actif : si Noir refuse (3...d5), continuer à développer.",
+    ],
+    erreurs: [
+      "Jouer le gambit sans avoir de plan d'attaque : deux pions de moins se paient.",
+      "Négliger Dh4 et d'autres tactiques si l'adversaire se défend bien.",
+    ],
+    sources: ["lichess_db"],
+    attendu: ["Danish"],
+    lignes: [
+      { nom: "Gambit danois accepté", coups: "e4 e5 d4 exd4 c3 dxc3 Bc4 cxb2 Bxb2 d5 Bxd5 Nf6",
+        notes: { 7: "Les fous visent f7 et g7 : c'est la compensation des deux pions sacrifiés.", 11: "Le fou reprend d5 : Blanc a récupéré un pion et ses pièces sont très actives." } },
+    ],
+  },
+  {
+    id: "gambit-evans",
+    nom: "Gambit Evans",
+    camp: "blancs", eco: "C51",
+    elo: [400, 1800], facilite: 3, puissance: 4, theorie: "moyenne", style: "attaque",
+    idee: "Sacrifier le pion b4 pour gagner des temps et obtenir un grand centre avec c3 et d4.",
+    plans: [
+      "Après 4.b4 Fxb4 5.c3, menacer d4 et gagner l'initiative.",
+      "Roquer vite et utiliser le grand centre pour attaquer.",
+      "Si Noir refuse le gambit, jouer b4 reste une bonne idée.",
+    ],
+    erreurs: [
+      "Se précipiter sans développer : le pion de moins doit être compensé.",
+      "Oublier de roquer avant d'ouvrir le jeu.",
+    ],
+    sources: ["lichess_db"],
+    attendu: ["Evans"],
+    lignes: [
+      { nom: "Gambit Evans", coups: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 exd4 O-O d6 cxd4 Bb6 Nc3" },
+    ],
+  },
+  {
+    id: "quatre-cavaliers",
+    nom: "Partie des quatre cavaliers",
+    camp: "blancs", eco: "C47",
+    elo: [0, 1800], facilite: 4, puissance: 3, theorie: "faible", style: "classique",
+    idee: "Développer les quatre cavaliers, puis Fb5 pour clouer et créer une position équilibrée mais facile à jouer.",
+    plans: [
+      "Développer symétriquement, roquer, puis Fg5 pour clouer le cavalier f6.",
+      "Jouer d3 : structure solide, plan clair.",
+      "Chercher à échanger les pièces pour une fin de partie légèrement meilleure.",
+    ],
+    erreurs: [
+      "Penser que la symétrie donne le nul : il faut un plan actif.",
+      "Oublier la clouage Fb4 et les menaces sur c3.",
+    ],
+    sources: ["lichess_db"],
+    attendu: ["Four Knights"],
+    lignes: [
+      { nom: "Quatre cavaliers (Espagnole)", coups: "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4 O-O O-O d3 d6 Bg5 Bxc3 bxc3 Qe7 Re1 Nd8 d4 Ne6" },
+    ],
+  },
+  {
+    id: "ouverture-fou",
+    nom: "Ouverture du fou",
+    camp: "blancs", eco: "C23",
+    elo: [0, 1600], facilite: 4, puissance: 3, theorie: "faible", style: "classique",
+    idee: "Sortir le fou en c4 immédiatement : développement rapide et idée de pression sur f7.",
+    plans: [
+      "Jouer Fc4, d3, Cf3, Cc3 et roquer.",
+      "Jouer f4 plus tard si l'occasion se présente.",
+      "Garder le fou actif sur la diagonale a2-g8.",
+    ],
+    erreurs: [
+      "Se contenter de jouer 'tranquille' : il faut un plan central.",
+      "Oublier ...d5 qui peut gagner du temps contre le fou.",
+    ],
+    sources: ["lichess_db"],
+    attendu: ["Bishop's Opening"],
+    lignes: [
+      { nom: "Ouverture du fou", coups: "e4 e5 Bc4 Nf6 d3 c6 Nf3 d5 Bb3 Bd6 Nc3" },
+    ],
+  },
+
+  // ───────────────────────── NOIRS ─────────────────────────
+  {
+    id: "caro-kann",
+    nom: "Défense Caro-Kann",
+    camp: "noirs", eco: "B12",
+    elo: [0, 2500], facilite: 4, puissance: 4, theorie: "moyenne", style: "solide",
+    idee: "Préparer ...d5 avec ...c6 : on contrôle le centre sans enfermer le fou c8.",
+    plans: [
+      "Jouer ...c6 puis ...d5 ; contre l'avance e5, sortir le fou c8 en f5.",
+      "Développer ...Cf6 et ...e6, puis roquer.",
+      "Contre l'échange (3.exd5), reprendre cxd5 et jouer simplement.",
+    ],
+    erreurs: [
+      "Rester trop passif sans plan : attaquer le centre avec ...c5 au bon moment.",
+      "Oublier que le fou c8 doit sortir avant ...e6.",
+    ],
+    stats400: STATS_CARO,
+    sources: ["cv_caro", "studer"],
+    attendu: ["Caro-Kann"],
+    lignes: [
+      { nom: "Variante classique (3.Cc3)", coups: "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Bf5 Ng3 Bg6 h4 h6 Nf3 Nd7 h5 Bh7 Bd3 Bxd3 Qxd3 e6 Bf4 Ngf6 O-O-O",
+        notes: { 8: "Le fou sort AVANT ...e6 : c'est tout le point de la Caro-Kann.", 12: "...h6 prépare la retraite du fou en h7." } },
+      { nom: "Variante d'avance (3.e5)", coups: "e4 c6 d4 d5 e5 Bf5 Nf3 e6 Be2 c5 Be3 cxd4 Nxd4 Ne7" },
+      { nom: "Variante d'échange / Panov", coups: "e4 c6 d4 d5 exd5 cxd5 c4 Nf6 Nc3 e6 Nf3 Be7 cxd5 Nxd5 Bd3 Nc6 O-O O-O" },
+      { nom: "Contre 2.Fc4 (Hillbilly)", coups: "e4 c6 Bc4 d5 exd5 cxd5 Bb5+ Bd7 Bxd7+ Nxd7 d4 Ngf6 Nf3 e6",
+        notes: { 4: "...d5 chasse le fou : c'est la bonne réponse contre 2.Fc4." } },
+    ],
+  },
+  {
+    id: "scandinave",
+    nom: "Défense scandinave",
+    camp: "noirs", eco: "B01",
+    elo: [0, 2000], facilite: 4, puissance: 3, theorie: "faible", style: "solide",
+    idee: "Attaquer immédiatement le pion e4 avec ...d5 : un centre clair et une théorie légère.",
+    plans: [
+      "Après 2.exd5, reprendre avec la dame (Dxd5) ou avec le cavalier (Cf6).",
+      "Jouer ...Da5 ou ...Dd6 pour sortir la dame sans perdre de temps.",
+      "Développer ...Cf6, ...c6, ...Ff5 puis roquer.",
+    ],
+    erreurs: [
+      "Laisser la dame sortir trop tôt : elle peut être chassée par Cc3.",
+      "Oublier de développer le fou c8 avant ...e6.",
+    ],
+    sources: ["lichess_db", "studer"],
+    attendu: ["Scandinavian"],
+    lignes: [
+      { nom: "Scandinave : 2...Dxd5", coups: "e4 d5 exd5 Qxd5 Nc3 Qa5 d4 Nf6 Nf3 c6 Bc4 Bf5 Bd2 e6" },
+      { nom: "Scandinave moderne : 2...Cf6", coups: "e4 d5 exd5 Nf6 d4 Nxd5 Nf3 g6 Be2 Bg7 O-O O-O c4 Nb6 Nc3 Nc6" },
+    ],
+  },
+  {
+    id: "e5-italienne",
+    nom: "1...e5 contre l'Italienne",
+    camp: "noirs", eco: "C54",
+    elo: [0, 2000], facilite: 5, puissance: 4, theorie: "faible", style: "classique",
+    idee: "Copier le centre blanc avec ...e5, développer vite et roquer : une défense simple et logique.",
+    plans: [
+      "Contre le Fc4, jouer ...Fc5 et ...Cf6 pour un jeu symétrique et sain.",
+      "Contre l'attaque 4.Cg5, jouer ...d5 puis ...Ca5 (et non ...Cxd5).",
+      "Roquer vite et jouer ...d6 pour protéger e5.",
+    ],
+    erreurs: [
+      "Reprendre 5...Cxd5 ? après 4.Cg5 d5 5.exd5 : c'est le piège du Foie Frit.",
+      "Jouer trop de coups de pions avant d'avoir développé.",
+    ],
+    stats400: STATS_E5,
+    sources: ["cv_e5", "cv_italian"],
+    attendu: ["Italian", "Giuoco", "Two Knights"],
+    lignes: [
+      { nom: "Contre le Pianissimo", coups: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d3 d6 O-O a6 Bb3 Ba7 Re1 O-O Nbd2" },
+      { nom: "Contre 4.Cg5 : 5...Ca5 !", coups: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 Bb5+ c6 dxc6 bxc6 Be2 h6 Nf3 e4 Ne5 Bd6",
+        notes: { 10: "Le cavalier a5 attaque le fou c4 et évite le piège du Foie Frit." } },
+    ],
+  },
+  {
+    id: "e5-espagnole",
+    nom: "1...e5 contre l'Espagnole",
+    camp: "noirs", eco: "C65",
+    elo: [800, 2500], facilite: 3, puissance: 4, theorie: "moyenne", style: "solide",
+    idee: "Défendre e5 sans se précipiter : la Berlinoise est très solide, l'Espagnole fermée est classique.",
+    plans: [
+      "Berlinoise (3...Cf6) : échanger les dames tôt et obtenir une position très saine.",
+      "Espagnole fermée (3...a6, ...Cf6, ...Fe7, ...b5, ...d6) : un plan clair et connu.",
+      "Garder e5 bien défendu et chercher le contre-jeu au centre.",
+    ],
+    erreurs: [
+      "Jouer ...Cxe4 trop tôt sans connaître la suite.",
+      "Perdre du temps avec des coups de pions inutiles.",
+    ],
+    sources: ["cv_e5"],
+    attendu: ["Ruy Lopez"],
+    lignes: [
+      { nom: "Berlinoise (fin de partie solide)", coups: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Nd6 Bxc6 dxc6 dxe5 Nf5 Qxd8+ Kxd8" },
+      { nom: "Espagnole fermée (Breyer)", coups: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Nb8 d4 Nbd7" },
+    ],
+  },
+  {
+    id: "e5-ecossaise",
+    nom: "1...e5 contre l'Écossaise",
+    camp: "noirs", eco: "C45",
+    elo: [0, 2000], facilite: 4, puissance: 4, theorie: "moyenne", style: "classique",
+    idee: "Reprendre au centre (exd4) puis développer vite : Fc5 et Df6 mettent la pression.",
+    plans: [
+      "Jouer ...exd4 et ...Fc5 pour attaquer le cavalier d4.",
+      "Contre Cxc6, reprendre en gardant la structure solide.",
+      "Roquer vite et chercher à égaliser puis à prendre l'initiative.",
+    ],
+    erreurs: [
+      "Laisser Blanc prendre trop d'espace avec e5.",
+      "Perdre des temps en jouant ...Dh4 trop tôt.",
+    ],
+    sources: ["cv_rank"],
+    attendu: ["Scotch"],
+    lignes: [
+      { nom: "Contre l'Écossaise : 4...Fc5", coups: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Be3 Qf6 c3 Nge7 Bc4 Ne5 Be2" },
+    ],
+  },
+  {
+    id: "defense-berger",
+    nom: "Parer le Mat du Berger",
+    camp: "noirs", eco: "C23", piege: true,
+    elo: [0, 600], facilite: 5, puissance: 5, theorie: "faible", style: "défense",
+    idee: "Contre 3.Dh5, défendre f7 avec ...g6 ou ...Dd8-e7 et chasser la dame en développant.",
+    plans: [
+      "Dès que la dame blanche arrive en h5 avec le fou en c4, penser à f7.",
+      "Jouer 3...g6 : la dame est attaquée, elle doit bouger.",
+      "Développer ...Cf6 et roquer : la dame blanche sera gênée.",
+    ],
+    erreurs: [
+      "Jouer 3...Cf6?? : 4.Dxf7# est mat.",
+      "Oublier que f7 n'est défendu que par le roi au début.",
+    ],
+    sources: ["lichess_db"],
+    attendu: ["Bishop's Opening", "Bishop", "Italian"],
+    lignes: [
+      { nom: "La parade ...g6", coups: "e4 e5 Bc4 Nc6 Qh5 g6 Qf3 Nf6",
+        notes: { 6: "...g6 attaque la dame : elle doit reculer.", 8: "...Cf6 bloque la colonne f : f7 n'est plus attaqué par la dame." } },
+    ],
+  },
+  {
+    id: "contre-danois",
+    nom: "Contre le gambit danois",
+    camp: "noirs", eco: "C21", piege: true,
+    elo: [0, 1400], facilite: 4, puissance: 4, theorie: "faible", style: "défense",
+    idee: "Refuser le gambit avec ...d5 : on rend un pion mais on obtient un jeu très confortable.",
+    plans: [
+      "Après 2.d4 exd4 3.c3, jouer 3...d5 ! plutôt que d'accepter.",
+      "Reprendre le pion d5 avec la dame, puis développer ...Cc6 et ...Fg4.",
+      "Si on préfère accepter, il faut connaître la suite : rendre du matériel au bon moment.",
+    ],
+    erreurs: [
+      "Avaler tous les pions sans rendre au bon moment : Blanc a trop d'attaque.",
+      "Oublier de développer les pièces pendant que Blanc attaque.",
+    ],
+    sources: ["lichess_db"],
+    attendu: ["Danish"],
+    lignes: [
+      { nom: "Refus du gambit : 3...d5", coups: "e4 e5 d4 exd4 c3 d5 exd5 Qxd5 cxd4 Nc6 Nf3 Bg4 Be2 Nf6 Nc3 Bb4" },
+    ],
+  },
+  {
+    id: "francaise",
+    nom: "Défense française",
+    camp: "noirs", eco: "C00",
+    elo: [400, 2200], facilite: 3, puissance: 3, theorie: "moyenne", style: "solide",
+    idee: "Construire une chaîne de pions ...e6 et ...d5 : un centre solide et un contre-jeu avec ...c5.",
+    plans: [
+      "Jouer ...e6 et ...d5 pour un centre solide.",
+      "Attaquer la base de la chaîne blanche avec ...c5.",
+      "Penser à sortir le fou c8 : c'est la pièce problématique.",
+    ],
+    erreurs: [
+      "Laisser le fou c8 enfermé : c'est le défaut classique.",
+      "Rester passif sans jouer ...c5 à temps.",
+    ],
+    sources: ["lichess_db"],
+    attendu: ["French"],
+    lignes: [
+      { nom: "Variante Winawer", coups: "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Ne7", notes: { 7: "e5 ferme le centre : le fou noir était brouillé avec les pions blancs, Noir doit attaquer le centre avec c5.", 10: "Noir donne la paire de fous contre un pion doublé en c3 : un choix typique de la Winawer." } },
+      { nom: "Française classique", coups: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 Bxe7 Qxe7 f4 O-O Nf3 c5 Qd2 Nc6" },
+      { nom: "Française Tarrasch", coups: "e4 e6 d4 d5 Nd2 c5 exd5 exd5 Ngf3 Nc6 Bb5 Bd6 dxc5 Bxc5 O-O Nge7 Nb3 Bd6 Nbd4 O-O" },
+    ],
+  },
+  {
+    id: "sicilienne-najdorf",
+    nom: "Sicilienne Najdorf",
+    camp: "noirs", eco: "B90",
+    elo: [1600, 2800], facilite: 1, puissance: 5, theorie: "forte", style: "dynamique",
+    idee: "Lutter pour le centre depuis le flanc avec ...c5, puis ...a6 pour préparer ...e5 ou ...b5.",
+    plans: [
+      "Jouer ...c5, ...d6, ...Cf6 et ...a6.",
+      "Préparer ...e5 pour un centre solide ou ...b5 pour l'activité sur l'aile dame.",
+      "Réagir aux plans blancs (attaque sur l'aile roi, roques opposés).",
+    ],
+    erreurs: [
+      "Jouer cette ouverture sans connaître les bases tactiques.",
+      "Rester trop passif : la Sicilienne récompense l'initiative.",
+    ],
+    sources: ["lichess_db"],
+    attendu: ["Sicilian"],
+    lignes: [
+      { nom: "Najdorf — attaque anglaise", coups: "e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 Be3 e5 Nb3 Be6 f3 Be7 Qd2 O-O O-O-O Nbd7 g4 b5" },
+    ],
+  },
+  {
+    id: "gambit-dame-noirs",
+    nom: "Défense du gambit dame refusé",
+    camp: "noirs", eco: "D50",
+    elo: [800, 2500], facilite: 3, puissance: 4, theorie: "moyenne", style: "solide",
+    idee: "Refuser le pion avec ...e6 : un centre solide et un développement sans risque.",
+    plans: [
+      "Jouer ...e6, ...Cf6, ...Fe7 puis roquer.",
+      "Échanger les pièces pour dégager le fou c8.",
+      "Attaquer le centre avec ...c5 ou ...dxc4 au bon moment.",
+    ],
+    erreurs: [
+      "Laisser le fou c8 sans plan : il doit sortir.",
+      "Jouer ...dxc4 sans comprendre comment récupérer le pion.",
+    ],
+    sources: ["lichess_db"],
+    attendu: ["Queen's Gambit"],
+    lignes: [
+      { nom: "Gambit dame refusé (Tartakower)", coups: "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 h6 Bh4 b6 cxd5 Nxd5 Bxe7 Qxe7 Nxd5 exd5 Rc1 Be6" },
+    ],
+  },
+  {
+    id: "slave",
+    nom: "Défense slave",
+    camp: "noirs", eco: "D10",
+    elo: [800, 2500], facilite: 3, puissance: 4, theorie: "moyenne", style: "solide",
+    idee: "Défendre d5 avec ...c6 sans enfermer le fou c8 : une structure très saine.",
+    plans: [
+      "Jouer ...c6, ...Cf6, ...dxc4 puis sortir le fou c8.",
+      "Garder le centre solide et attendre l'occasion de contre-attaquer.",
+      "Roquer et chercher ...c5 ou ...e5 pour égaliser.",
+    ],
+    erreurs: [
+      "Perdre du temps avec des coups de pions inutiles.",
+      "Oublier de sortir le fou c8 avant ...e6.",
+    ],
+    sources: ["lichess_db"],
+    attendu: ["Slav"],
+    lignes: [
+      { nom: "Slave principale", coups: "d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 a4 Bf5 e3 e6 Bxc4 Bb4 O-O Nbd7 Qe2 Bg6 e4 O-O Bd3 Bh5" },
+    ],
+  },
+  {
+    id: "contre-london",
+    nom: "Contre le Système de Londres",
+    camp: "noirs", eco: "D00",
+    elo: [0, 2000], facilite: 4, puissance: 4, theorie: "faible", style: "actif",
+    idee: "Attaquer le fou f4 et la base de pions avec ...c5 et ...Db6 pour gêner l'installation londonienne.",
+    plans: [
+      "Jouer ...d5, ...c5 et ...Cc6 pour attaquer le centre blanc.",
+      "Viser b2 avec ...Db6 : Blanc doit répondre.",
+      "Sortir le fou c8 en f5 pour égaliser.",
+    ],
+    erreurs: [
+      "Laisser Blanc finir son installation sans réagir.",
+      "Oublier de surveiller b2 avec ...Db6.",
+    ],
+    sources: ["cv_london"],
+    attendu: ["London"],
+    lignes: [
+      { nom: "Contre le London : ...c5 et ...Db6", coups: "d4 d5 Bf4 c5 e3 Nc6 c3 Qb6 Qb3 c4 Qxb6 axb6 Nd2 Nf6 Ngf3 Bf5" },
+    ],
+  },
+  {
+    id: "est-indienne",
+    nom: "Défense est-indienne",
+    camp: "noirs", eco: "E60",
+    elo: [1400, 2500], facilite: 2, puissance: 4, theorie: "forte", style: "dynamique",
+    idee: "Laisser Blanc construire un grand centre, puis le contester avec ...e5 et une attaque sur l'aile roi.",
+    plans: [
+      "Fianchetto du fou roi, roque, puis ...e5.",
+      "Si Blanc ferme le centre avec d5, attaquer sur l'aile roi avec ...f5.",
+      "Surveiller les menaces blanches sur l'aile dame.",
+    ],
+    erreurs: [
+      "Jouer cette ouverture sans connaître les plans typiques : elle demande de la pratique.",
+      "Ignorer les avances de pions blancs sur l'aile dame.",
+    ],
+    sources: ["lichess_db"],
+    attendu: ["King's Indian"],
+    lignes: [
+      { nom: "Est-indienne classique", coups: "d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Be2 e5 O-O Nc6 d5 Ne7 Ne1 Nd7 Be3 f5" },
+    ],
+  },
+  {
+    id: "pirc",
+    nom: "Défense Pirc",
+    camp: "noirs", eco: "B07",
+    elo: [1000, 2200], facilite: 3, puissance: 3, theorie: "moyenne", style: "hypermoderne",
+    idee: "Laisser Blanc occuper le centre, puis l'attaquer depuis les ailes avec fianchetto et ...c5 ou ...e5.",
+    plans: [
+      "Jouer ...d6, ...Cf6, ...g6, ...Fg7 puis roquer.",
+      "Attaquer le centre avec ...c5 ou ...e5 au bon moment.",
+      "Rester flexible face aux plans blancs (avance de pions, attaque).",
+    ],
+    erreurs: [
+      "Laisser Blanc avancer trop de pions sans réagir.",
+      "Oublier de roquer avant l'attaque blanche.",
+    ],
+    sources: ["lichess_db"],
+    attendu: ["Pirc"],
+    lignes: [
+      { nom: "Pirc classique", coups: "e4 d6 d4 Nf6 Nc3 g6 Nf3 Bg7 Be2 O-O O-O c6 a4 Nbd7" },
+    ],
+  },
+];

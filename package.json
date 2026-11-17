@@ -1,0 +1,15 @@
+{
+  "name": "echecs-entraineur",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Entraîneur d'échecs local : ouvertures classées par niveau, barre d'évaluation Stockfish, répétition espacée.",
+  "scripts": {
+    "start": "node server.js",
+    "build:data": "node tools/build-data.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "chess.js": "^1.4.0",
+    "stockfish": "^19.0.1"
+  }
+}

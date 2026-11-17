@@ -1,0 +1,2 @@
+{ "name": "Échecs — Entraîneur", "short_name": "Échecs", "start_url": "./", "display": "standalone", "background_color": "#262421", "theme_color": "#262421",
+  "icons": [{ "src": "icone.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }] }
