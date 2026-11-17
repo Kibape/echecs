@@ -305,6 +305,7 @@ function demarrerTour() {
       S.verrou = false;
       demarrerTour();
       lancerPremove();
+      board.rafraichirSelection();
     }, 450);
     return;
   }
@@ -693,7 +694,7 @@ function blocVariantes(o) {
       const dep = i > 0 ? Math.min(divergence(o.variantes[i - 1][2].split(" "), coups), coups.length - 1) : 0;
       const st = S.store.carte(ctxVariante(o, v, 0).id);
       return h("div", { class: "ligne" },
-        h("div", {}, h("b", {}, v[1]), " ", pastille(v[0]), dep > 0 ? pastille(`diffère au coup ${Math.floor(dep / 2) + 1}`, "info") : null, st ? pastille(statut(st).texte, statut(st).code === "maitrise" ? "ok" : "") : null),
+        h("div", {}, h("b", {}, v[1]), " ", pastille(v[0]), dep > 0 ? pastille(`diffère au coup ${Math.floor(dep / 2) + 1}`, "info") : null, v[3] ? pastille(`⚠ piège / gambit douteux (Stockfish : un coup perd ~${v[3]} pions)`, "mal") : null, v[3] ? h("span", { class: "pastille mal", title: "Stockfish : un coup de cette ligne perd environ " + v[3] + " pion(s). Gambit ou piège : instructif à connaître, mais pas à jouer systématiquement." }, "⚠ gambit / piège") : null, st ? pastille(statut(st).texte, statut(st).code === "maitrise" ? "ok" : "") : null),
         h("div", { class: "boutons" },
           h("button", { class: "petit", on: { click: () => { S.chaine = null; lancer(ctxVariante(o, v, 0), "decouvrir"); } } }, "Découvrir"),
           h("button", { class: "petit", on: { click: () => lancerVariante(o, i, "apprendre", U.partiel) } }, "Apprendre"),
@@ -743,7 +744,8 @@ function panneauDetail(o) {
   o.lignes.forEach((l, i) => {
     const ctx = ctxCurated(o, i), st = statut(S.store.carte(ctx.id));
     bloc.append(h("div", { class: "ligne" },
-      h("div", {}, h("b", {}, l.nom), " ", pastille(st.texte, st.code === "maitrise" ? "ok" : st.code === "difficile" || st.code === "due" ? "mal" : "")),
+      h("div", {}, h("b", {}, l.nom), " ", pastille(st.texte, st.code === "maitrise" ? "ok" : st.code === "difficile" || st.code === "due" ? "mal" : ""),
+        l.extensionDepuis ? pastille(`${Math.ceil(l.extensionDepuis / 2)} coups de théorie + suite Stockfish`, "info") : null),
       h("div", { class: "boutons" },
         h("button", { class: "petit", on: { click: () => lancer(ctx, "decouvrir") } }, "Découvrir"),
         h("button", { class: "petit", on: { click: () => lancer(ctx, "apprendre") } }, "Apprendre"),
@@ -1043,6 +1045,7 @@ async function tourMoteurFinale(essai = 0) {
     S.verrou = false;
     demarrerTour();
     lancerPremove();
+    board.rafraichirSelection();
   }, 450);
 }
 

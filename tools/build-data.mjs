@@ -6,6 +6,7 @@ import { fileURLToPath } from "node:url";
 import { Chess } from "../public/vendor/chess.js";
 import { OUVERTURES, SOURCES } from "./curated.mjs";
 import { FAMILLES, variantes } from "./familles.mjs";
+import { existsSync } from "node:fs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = join(ROOT, "public", "data");
@@ -38,10 +39,18 @@ writeFileSync(join(OUT, "eco.json"), JSON.stringify(eco));
 console.log(`ECO : ${eco.length} lignes valides, ${rejetes} rejetées`);
 
 // ───────────── 2) Répertoire curé ─────────────
+// Rallonges calculées par tools/extend-lignes.mjs (coups Stockfish, marqués comme tels) et audit Stockfish des variantes.
+const EXT = existsSync(join(ROOT, "tools", "extensions.json")) ? JSON.parse(readFileSync(join(ROOT, "tools", "extensions.json"), "utf8")) : {};
+const AUDIT = existsSync(join(ROOT, "tools", "audit-lignes.json")) ? JSON.parse(readFileSync(join(ROOT, "tools", "audit-lignes.json"), "utf8")) : { variantes: [] };
+const PERTE_MAX = new Map(AUDIT.variantes.map((v) => [v.pgn, Math.max(...v.pertes)]));
 let erreurs = 0, avertissements = 0;
 const ouvertures = OUVERTURES.map((o) => {
   const lignes = o.lignes.map((l) => {
-    const coups = l.coups.split(/\s+/).filter(Boolean);
+    let coups = l.coups.split(/\s+/).filter(Boolean);
+    const rallonge = EXT[`${o.id}|${l.nom}`];
+    let extensionDepuis = null;
+    if (rallonge && rallonge.base === coups.join(" ")) { extensionDepuis = coups.length; coups = coups.concat(rallonge.coups); }
+    else if (rallonge) console.warn(`⚠ rallonge périmée ignorée : ${o.id} / ${l.nom} (relance tools/extend-lignes.mjs)`);
     const c = new Chess();
     let nomEco = null;
     for (let i = 0; i < coups.length; i++) {
@@ -63,7 +72,8 @@ const ouvertures = OUVERTURES.map((o) => {
     return {
       nom: l.nom,
       coups,
-      notes: l.notes || {},
+      notes: { ...(l.notes || {}), ...(extensionDepuis ? { [extensionDepuis + 1]: "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres." } : {}) },
+      extensionDepuis,
       ecoDetecte: nomEco ? { code: nomEco.eco, nom: nomEco.nom, ply: nomEco.ply } : null,
       fenFinale: c.fen(),
     };
@@ -72,7 +82,7 @@ const ouvertures = OUVERTURES.map((o) => {
   const { attendu, ...reste } = o;
   const fam = FAMILLES[o.id];
   if (!fam) console.warn(`⚠ pas de famille de variantes pour ${o.id}`);
-  return { ...reste, lignes, variantes: fam ? variantes(eco, fam) : [] };
+  return { ...reste, lignes, variantes: fam ? variantes(eco, fam).map((v) => { const perte = PERTE_MAX.get(v[2]) || 0; return perte > 200 ? [...v, +(Math.min(perte, 999) / 100).toFixed(1)] : v; }) : [] };
 }).filter(Boolean);
 
 for (const o of ouvertures) {

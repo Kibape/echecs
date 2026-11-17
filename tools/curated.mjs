@@ -208,7 +208,7 @@ export const OUVERTURES = [
       { nom: "Contre ...c5 : le plan Cc6 / e6", coups: "d4 d5 Bf4 Nf6 e3 c5 c3 Nc6 Nd2 e6 Ngf3 Bd6 Bg3 O-O Bd3", notes: { 11: "Le fou f4 est sorti AVANT e3 : sinon il reste enfermé derrière sa chaîne de pions.", 15: "Le fou échange la pièce la plus active des Noirs (Fd6) ; on garde un jeu simple et solide." } },
       { nom: "London contre ...e6 et ...Fd6", coups: "d4 d5 Nf3 Nf6 Bf4 e6 e3 Bd6 Bg3 O-O Nbd2 c5 c3 Nc6 Bd3",
         notes: { 5: "Le fou sort avant e3 : c'est la clé du système.", 7: "e3 ferme le centre et protège d4.", 9: "Fg3 échange le fou noir ou le laisse inactif." } },
-      { nom: "London contre ...c5", coups: "d4 d5 Nf3 Nf6 Bf4 c5 e3 Nc6 c3 Qb6 Qb3 c4 Qxb6 axb6 Nbd2 e6 Be2 Bd6 Bg3",
+      { nom: "London contre ...c5", coups: "d4 d5 Nf3 Nf6 Bf4 c5 e3 Nc6 c3 Qb6 Qb3 c4 Qxb6 axb6 Nbd2 e6 Be2",
         notes: { 11: "Db3 défend b2 ; Noir peut proposer l'échange des dames." } },
     ],
   },

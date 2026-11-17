@@ -129,6 +129,7 @@ export class Board {
 
   /** Applique un coup (objet chess.js) avec animation et son. */
   jouer(m, { son = true } = {}) {
+    if (this.selection) this._selPrec = this.selection.from; // on se souvient de la pièce choisie : elle sera re-sélectionnée après le coup adverse
     this.effacerSelection();
     this.effacerBadge();
     this.effacerDessins();
@@ -170,6 +171,13 @@ export class Board {
   }
 
   // ─────────── Sélection / cibles ───────────
+  /** Après un coup adverse : on remet la sélection de l'utilisateur (avec les nouvelles cibles) au lieu de la perdre. */
+  rafraichirSelection() {
+    const sq = this._selPrec;
+    this._selPrec = null;
+    if (sq && !this.selection && this.pieces.get(sq) && this._peutJouer(sq)) this._selectionner(sq);
+  }
+
   effacerSelection() {
     this.selection = null;
     for (const d of Object.values(this.cases)) d.classList.remove("sel", "tgt", "tgt-cap");
@@ -322,7 +330,8 @@ export class Board {
     try { this.el.releasePointerCapture(d.id); } catch { /* ok */ }
     if (!d.deplace) { this._rendre(d.from); return; }
     const sq = this._caseSousPointeur(e);
-    if (sq && sq !== d.from && this.selection && this.selection.coups.some((c) => c.to === sq)) this._essayer(d.from, sq);
+    // Les cibles sont recalculées au moment du lâcher : l'adversaire a pu jouer pendant qu'on tenait la pièce.
+    if (sq && sq !== d.from && this.cibles(d.from).some((c) => c.to === sq)) this._essayer(d.from, sq);
     else { this._rendre(d.from); this.effacerSelection(); }
   }
 

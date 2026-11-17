@@ -76,6 +76,17 @@ tests/             npm test (14 tests, dont vrai Stockfish)
 Stockfish et les pièces « cburnett » sont sous GPL-3.0 (copies de licence dans `public/vendor/` et `public/pieces/`).
 chess.js : BSD-2. Base d'ouvertures Lichess : CC0.
 
+## Fiabilité des ouvertures (audit)
+
+- Chaque coup de chaque ligne (46 lignes curées + 1 880 variantes, 4 483 positions) a été passé à Stockfish
+  (`tools/audit-lignes.mjs`, résultat dans `tools/audit-lignes.json`). Une erreur trouvée et corrigée dans mes lignes
+  (London contre ...c5 : un fou en prise). Les 3 lignes qui « perdent » volontairement sont des pièges (mat de Légal,
+  mat du Berger, Fried Liver).
+- 26 variantes de la base Lichess sont des gambits/pièges douteux : elles sont signalées ⚠ dans la liste.
+- Sources : noms et coups des variantes = base Lichess `chess-openings` (CC0) ; vérification des coups = Stockfish ;
+  textes = écrits pour ce projet. Les lignes curées sont rallongées à ~15 coups avec la meilleure suite de Stockfish
+  (`tools/extend-lignes.mjs`), marquée comme telle dans l'app : ce n'est pas de la théorie de base de parties de maîtres.
+
 ## Prochaines étapes
 
 1. Importer la vraie base de puzzles Lichess (CC0) pour avoir des milliers de problèmes
