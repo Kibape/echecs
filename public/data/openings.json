@@ -29,6 +29,30 @@
    "titre": "IM Noel Studer — Choisir ses ouvertures quand on débute (blog Lichess)",
    "url": "https://lichess.org/@/NoelStuder/blog/choosing-the-right-chess-openings-for-beginners--3-key-traits/4nRnrPkW"
   },
+  "to_c54": {
+   "titre": "Thomas Ollo — C54 Giuoco Pianissimo (statistiques de parties de maîtres)",
+   "url": "https://thomasollo.net/categorie-produit/serie-c/c50-c59-1-e4-e5-2-nf3-nc6-3-bc4-italian-game/c54-italian-game-classical-variation-giuoco-pianissimo/c54f-5-d3-d6-giuoco-pianissimo/"
+  },
+  "wb_pianissimo": {
+   "titre": "Wikibooks — Giuoco Pianissimo",
+   "url": "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...Nc6/3._Bc4/3...Bc5/4._d3"
+  },
+  "wp_scotch": {
+   "titre": "Wikipedia — Scotch Game (4...Nf6 / 4...Bc5)",
+   "url": "https://en.wikipedia.org/wiki/Scotch_Game"
+  },
+  "wp_evans": {
+   "titre": "Wikipedia — Evans Gambit",
+   "url": "https://en.wikipedia.org/wiki/Evans_Gambit"
+  },
+  "wp_qga": {
+   "titre": "Wikipedia — Queen's Gambit Accepted",
+   "url": "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Accepted"
+  },
+  "cd_caro": {
+   "titre": "Chess Drifter — Caro-Kann classique 4...Fb5 (ligne principale annotée)",
+   "url": "https://chessdrifter.blogspot.com/2018/02/b19-classical-caro-kann-4bf5-main-line.html"
+  },
   "lichess_db": {
    "titre": "Base d'ouvertures Lichess (CC0)",
    "url": "https://github.com/lichess-org/chess-openings"
@@ -66,6 +90,8 @@
     "note": "Giuoco Piano, parties Lichess blitz/rapide, joueurs ~400"
    },
    "sources": [
+    "to_c54",
+    "wb_pianissimo",
     "cv_giuoco",
     "cv_italian",
     "studer"
@@ -1244,6 +1270,7 @@
     "Laisser Noir égaliser en échangeant trop de pièces sans plan."
    ],
    "sources": [
+    "wp_scotch",
     "cv_rank",
     "studer"
    ],
@@ -3226,6 +3253,7 @@
     "Négliger le développement des pièces mineures."
    ],
    "sources": [
+    "wp_qga",
     "cv_rank"
    ],
    "lignes": [
@@ -5124,6 +5152,7 @@
     "Oublier de roquer avant d'ouvrir le jeu."
    ],
    "sources": [
+    "wp_evans",
     "lichess_db"
    ],
    "lignes": [
@@ -5910,6 +5939,7 @@
     "note": "Caro-Kann, parties Lichess blitz/rapide, joueurs ~400"
    },
    "sources": [
+    "cd_caro",
     "cv_caro",
     "studer"
    ],

@@ -14,6 +14,12 @@ export const SOURCES = {
   cv_e5: { titre: "Chessiverse — 1.e4 e5 (stats par Elo)", url: "https://chessiverse.com/resources/openings/e5" },
   cv_rank: { titre: "Chessiverse — ouvertures blancs classées par niveau et style", url: "https://chessiverse.com/blog/best-chess-openings-for-white-ranked-by-rating-and-style" },
   studer: { titre: "IM Noel Studer — Choisir ses ouvertures quand on débute (blog Lichess)", url: "https://lichess.org/@/NoelStuder/blog/choosing-the-right-chess-openings-for-beginners--3-key-traits/4nRnrPkW" },
+  to_c54: { titre: "Thomas Ollo — C54 Giuoco Pianissimo (statistiques de parties de maîtres)", url: "https://thomasollo.net/categorie-produit/serie-c/c50-c59-1-e4-e5-2-nf3-nc6-3-bc4-italian-game/c54-italian-game-classical-variation-giuoco-pianissimo/c54f-5-d3-d6-giuoco-pianissimo/" },
+  wb_pianissimo: { titre: "Wikibooks — Giuoco Pianissimo", url: "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...Nc6/3._Bc4/3...Bc5/4._d3" },
+  wp_scotch: { titre: "Wikipedia — Scotch Game (4...Nf6 / 4...Bc5)", url: "https://en.wikipedia.org/wiki/Scotch_Game" },
+  wp_evans: { titre: "Wikipedia — Evans Gambit", url: "https://en.wikipedia.org/wiki/Evans_Gambit" },
+  wp_qga: { titre: "Wikipedia — Queen's Gambit Accepted", url: "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Accepted" },
+  cd_caro: { titre: "Chess Drifter — Caro-Kann classique 4...Fb5 (ligne principale annotée)", url: "https://chessdrifter.blogspot.com/2018/02/b19-classical-caro-kann-4bf5-main-line.html" },
   lichess_db: { titre: "Base d'ouvertures Lichess (CC0)", url: "https://github.com/lichess-org/chess-openings" },
 };
 
@@ -40,7 +46,7 @@ export const OUVERTURES = [
       "Oublier de roquer : le roi reste au centre et devient une cible.",
     ],
     stats400: STATS_GIUOCO,
-    sources: ["cv_giuoco", "cv_italian", "studer"],
+    sources: ["to_c54", "wb_pianissimo", "cv_giuoco", "cv_italian", "studer"],
     attendu: ["Italian", "Giuoco"],
     lignes: [
       { nom: "Attaque Möller (variante tranchante)", coups: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Nc3 Nxe4 O-O Bxc3 d5", notes: { 9: "On ouvre le centre : d4 est l'idée centrale de c3. Cela demande de connaître la suite par cœur.", 15: "Le roque met le roi à l'abri avant les complications : si Noir prend en e4, on a du jeu contre le cavalier e4." } },
@@ -131,7 +137,7 @@ export const OUVERTURES = [
       "Avancer e5 trop tôt quand Noir peut attaquer le pion.",
       "Laisser Noir égaliser en échangeant trop de pièces sans plan.",
     ],
-    sources: ["cv_rank", "studer"],
+    sources: ["wp_scotch", "cv_rank", "studer"],
     attendu: ["Scotch"],
     lignes: [
       { nom: "Écossaise : 4...Cf6 (Mieses)", coups: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nf6 Nxc6 bxc6 e5 Qe7 Qe2 Nd5 c4 Ba6 b3",
@@ -249,7 +255,7 @@ export const OUVERTURES = [
       "Essayer de garder le pion de gambit trop longtemps après ...dxc4.",
       "Négliger le développement des pièces mineures.",
     ],
-    sources: ["cv_rank"],
+    sources: ["wp_qga", "cv_rank"],
     attendu: ["Queen's Gambit", "Slav"],
     lignes: [
       { nom: "Gambit dame refusé (Tartakower)", coups: "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 h6 Bh4 b6 cxd5 Nxd5 Bxe7 Qxe7 Nxd5 exd5 Rc1 Be6" },
@@ -316,7 +322,7 @@ export const OUVERTURES = [
       "Se précipiter sans développer : le pion de moins doit être compensé.",
       "Oublier de roquer avant d'ouvrir le jeu.",
     ],
-    sources: ["lichess_db"],
+    sources: ["wp_evans", "lichess_db"],
     attendu: ["Evans"],
     lignes: [
       { nom: "Gambit Evans", coups: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 exd4 O-O d6 cxd4 Bb6 Nc3" },
@@ -382,7 +388,7 @@ export const OUVERTURES = [
       "Oublier que le fou c8 doit sortir avant ...e6.",
     ],
     stats400: STATS_CARO,
-    sources: ["cv_caro", "studer"],
+    sources: ["cd_caro", "cv_caro", "studer"],
     attendu: ["Caro-Kann"],
     lignes: [
       { nom: "Variante classique (3.Cc3)", coups: "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Bf5 Ng3 Bg6 h4 h6 Nf3 Nd7 h5 Bh7 Bd3 Bxd3 Qxd3 e6 Bf4 Ngf6 O-O-O",

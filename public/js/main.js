@@ -563,6 +563,7 @@ function majBadge() {
 }
 
 function renderPanneau() {
+  document.body.dataset.mode = S.mode || "accueil"; // le CSS s'en sert (téléphone : plateau masqué hors exercice)
   const p = $("#panneau");
   if (S.mode === "tactique") return p.replaceChildren(panneauTactique());
   if (S.mode === "finale") return p.replaceChildren(panneauFinale());

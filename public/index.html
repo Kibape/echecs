@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Échecs — Entraîneur</title>
   <meta name="theme-color" content="#262421">
   <link rel="manifest" href="manifest.webmanifest">
@@ -10,49 +10,54 @@
   <link rel="apple-touch-icon" href="icone.svg">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-  <header class="top">
-    <h1><span aria-hidden="true">&#9822;</span> Entraîneur d'échecs</h1>
+<body data-mode="accueil">
+  <div class="app">
     <nav id="onglets" aria-label="Sections">
-      <button data-onglet="ouvertures" class="actif">Ouvertures</button>
-      <button data-onglet="bibliotheque">Bibliothèque</button>
-      <button data-onglet="revisions">Révisions <span id="badge-dues" class="badge" hidden></span></button>
-      <button data-onglet="tactiques">Tactiques</button>
-      <button data-onglet="finales">Finales</button>
+      <button data-onglet="ouvertures" class="actif"><span class="ico" aria-hidden="true">&#9822;</span><span class="lib">Ouvertures</span></button>
+      <button data-onglet="bibliotheque"><span class="ico" aria-hidden="true">&#9776;</span><span class="lib">Bibliothèque</span></button>
+      <button data-onglet="revisions"><span class="ico" aria-hidden="true">&#8635;</span><span class="lib">Révisions</span><span id="badge-dues" class="badge" hidden></span></button>
+      <button data-onglet="tactiques"><span class="ico" aria-hidden="true">&#9889;</span><span class="lib">Tactiques</span></button>
+      <button data-onglet="finales"><span class="ico" aria-hidden="true">&#9818;</span><span class="lib">Finales</span></button>
     </nav>
-    <label class="coche" title="Sons des coups"><input type="checkbox" id="c-son" checked> &#128266; Son</label>
-    <button id="b-compte" class="petit" type="button">☁ Compte</button>
-    <div id="moteur-statut" class="statut" role="status">Moteur : chargement…</div>
-  </header>
 
-  <main class="layout">
-    <section class="gauche" aria-label="Échiquier">
-      <div class="plateau-zone">
-        <div id="barre" class="barre" data-fin-blanc="bas" data-leader="blancs" title="Barre d'évaluation (Stockfish)">
-          <div class="blanc"></div>
-          <span class="texte" id="texte-barre">0.0</span>
+    <header class="top">
+      <h1><span aria-hidden="true">&#9822;</span> <span class="titre-app">Entraîneur d'échecs</span></h1>
+      <div class="outils">
+        <label class="coche" title="Sons des coups"><input type="checkbox" id="c-son" checked> &#128266;</label>
+        <button id="b-compte" class="petit" type="button">&#9729; Compte</button>
+        <div id="moteur-statut" class="statut" role="status">Moteur : chargement…</div>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="gauche" aria-label="Échiquier">
+        <div class="plateau-zone">
+          <div id="barre" class="barre" data-fin-blanc="bas" data-leader="blancs" title="Barre d'évaluation (Stockfish)">
+            <div class="blanc"></div>
+            <span class="texte" id="texte-barre">0.0</span>
+          </div>
+          <div id="plateau" aria-label="Plateau"></div>
         </div>
-        <div id="plateau" aria-label="Plateau"></div>
-      </div>
-      <div id="phrase-eval" class="phrase-eval">&nbsp;</div>
-      <div class="controles" id="controles">
-        <button id="b-retourner" title="Retourner l'échiquier">&#8645; Retourner</button>
-        <button id="b-prec" title="Coup précédent (←)" hidden>&#9664;</button>
-        <button id="b-suiv" title="Coup suivant (→)" hidden>&#9654;</button>
-        <button id="b-indice" hidden>&#128161; Indice</button>
-        <button id="b-voir" hidden>&#128065; Voir le coup</button>
-        <button id="b-recommencer" hidden>&#8634; Recommencer</button>
-        <button id="b-libre" hidden>Analyse libre</button>
-        <button id="b-annuler" hidden>&#8630; Annuler</button>
-        <label class="coche"><input type="checkbox" id="c-fleche"> Flèche du meilleur coup (analyse libre)</label>
-      </div>
-      <div id="message" class="message" role="status"></div>
-      <div id="note" class="note" hidden></div>
-      <div class="petit-texte aide-dessin">Clic droit + glisser : flèche &middot; clic droit : case &middot; Maj = vert, Ctrl = rouge, Alt = bleu &middot; clic gauche : effacer. Pendant le tour de l'adversaire, tu peux jouer ton coup à l'avance (premove).</div>
-    </section>
+        <div id="phrase-eval" class="phrase-eval">&nbsp;</div>
+        <div class="controles" id="controles">
+          <button id="b-retourner" title="Retourner l'échiquier">&#8645; <span class="lib">Retourner</span></button>
+          <button id="b-prec" title="Coup précédent (←)" hidden>&#9664;</button>
+          <button id="b-suiv" title="Coup suivant (→)" hidden>&#9654;</button>
+          <button id="b-indice" hidden>&#128161; <span class="lib">Indice</span></button>
+          <button id="b-voir" hidden>&#128065; <span class="lib">Voir le coup</span></button>
+          <button id="b-recommencer" hidden>&#8634; <span class="lib">Recommencer</span></button>
+          <button id="b-libre" hidden>Analyse libre</button>
+          <button id="b-annuler" hidden>&#8630; <span class="lib">Annuler</span></button>
+          <label class="coche"><input type="checkbox" id="c-fleche"> Flèche du meilleur coup (analyse libre)</label>
+        </div>
+        <div id="message" class="message" role="status"></div>
+        <div id="note" class="note" hidden></div>
+        <div class="petit-texte aide-dessin">Clic droit + glisser : flèche &middot; clic droit : case &middot; Maj = vert, Ctrl = rouge, Alt = bleu &middot; clic gauche : effacer. Pendant le tour de l'adversaire, tu peux jouer ton coup à l'avance (premove).</div>
+      </section>
 
-    <section class="droite" id="panneau" aria-live="polite"></section>
-  </main>
+      <section class="droite" id="panneau" aria-live="polite"></section>
+    </main>
+  </div>
 
   <dialog id="dlg-compte" class="dialogue"></dialog>
 
