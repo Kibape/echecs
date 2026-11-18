@@ -2,7 +2,7 @@
 //  racine : la ligne doit commencer par ces coups ; motif : le nom ECO doit contenir ce motif (regex, insensible à la casse).
 const BERGER = { motif: "Parham|Bishop's Opening|Napoleon|Danvers" };
 export const FAMILLES = {
-  "italienne-pianissimo": { racine: "e4 e5 Nf3 Nc6 Bc4 Bc5" },
+  "italienne-pianissimo": { racine: "e4 e5 Nf3 Nc6 Bc4" },
   "italienne-fried-liver": { racine: "e4 e5 Nf3 Nc6 Bc4 Nf6" },
   "mat-legal": { racine: "e4 e5 Nf3 d6" },
   "mat-berger": BERGER, "defense-berger": BERGER,

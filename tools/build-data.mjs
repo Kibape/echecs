@@ -42,6 +42,8 @@ console.log(`ECO : ${eco.length} lignes valides, ${rejetes} rejetées`);
 // Rallonges calculées par tools/extend-lignes.mjs (coups Stockfish, marqués comme tels) et audit Stockfish des variantes.
 const EXT = existsSync(join(ROOT, "tools", "extensions.json")) ? JSON.parse(readFileSync(join(ROOT, "tools", "extensions.json"), "utf8")) : {};
 const AUDIT = existsSync(join(ROOT, "tools", "audit-lignes.json")) ? JSON.parse(readFileSync(join(ROOT, "tools", "audit-lignes.json"), "utf8")) : { variantes: [] };
+// Rallonges Stockfish trop tranchantes pour ce niveau : on les coupe à N demi-coups.
+const TRONQUE = { "caro-kann|Caro-Kann : variante d'avance 3.e5": 20 };
 const PERTE_MAX = new Map(AUDIT.variantes.map((v) => [v.pgn, Math.max(...v.pertes)]));
 // Lignes « réponses fréquentes à ton niveau » issues de l'explorateur Lichess (tools/crawl-explorer.mjs), si présentes.
 const EXPL = existsSync(join(ROOT, "tools", "explorer.json")) ? JSON.parse(readFileSync(join(ROOT, "tools", "explorer.json"), "utf8")) : null;
@@ -52,7 +54,7 @@ const ouvertures = OUVERTURES.map((o) => {
     let coups = l.coups.split(/\s+/).filter(Boolean);
     const rallonge = EXT[`${o.id}|${l.nom}`];
     let extensionDepuis = null;
-    if (rallonge && rallonge.base === coups.join(" ")) { extensionDepuis = coups.length; coups = coups.concat(rallonge.coups); }
+    if (rallonge && rallonge.base === coups.join(" ")) { extensionDepuis = coups.length; coups = coups.concat(rallonge.coups); const lim = TRONQUE[`${o.id}|${l.nom}`]; if (lim) coups = coups.slice(0, lim); }
     else if (rallonge) console.warn(`⚠ rallonge périmée ignorée : ${o.id} / ${l.nom} (relance tools/extend-lignes.mjs)`);
     const c = new Chess();
     let nomEco = null;

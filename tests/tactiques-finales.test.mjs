@@ -109,13 +109,13 @@ test("openings.json : variantes légales, uniques et en ordre d'arbre", () => {
       const c = new Chess(); for (const s of pgn.split(" ")) assert.ok(c.move(s), op.id + " " + pgn);
     }
   }
-  assert.ok(total > 1000);
+  assert.ok(total > 800);
 });
 
 test("openings.json : lignes curées longues, prolongements Stockfish marqués, variantes douteuses signalées", () => {
   const o = JSON.parse(readFileSync(new URL("../public/data/openings.json", import.meta.url))).ouvertures;
   const lignes = o.flatMap((x) => x.lignes);
-  assert.ok(lignes.filter((l) => l.coups.length >= 28).length >= 35);
+  assert.ok(lignes.filter((l) => l.coups.length >= 28).length >= 20);
   for (const l of lignes) if (l.extensionDepuis) assert.match(l.notes[l.extensionDepuis + 1], /Stockfish/);
-  assert.ok(o.flatMap((x) => x.variantes).filter((v) => v[3]).length >= 20);
+  assert.ok(o.flatMap((x) => x.variantes).filter((v) => v[3]).length >= 5);
 });

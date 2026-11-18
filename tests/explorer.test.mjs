@@ -23,14 +23,14 @@ test("crawl-explorer + build-data", async () => {
   try {
     await new Promise((ok, ko) => {
       import("node:child_process").then(({ execFile }) =>
-        execFile("node", ["tools/crawl-explorer.mjs"], { env: { ...process.env, BASE: base, ONLY: "pirc", PROFONDEUR: "8", PAUSE_MS: "0", PARTIES_MIN: "1" } }, (e, out, err) => (e ? ko(new Error(err)) : ok())));
+        execFile("node", ["tools/crawl-explorer.mjs"], { env: { ...process.env, BASE: base, ONLY: "caro-kann", PROFONDEUR: "8", PAUSE_MS: "0", PARTIES_MIN: "1" } }, (e, out, err) => (e ? ko(new Error(err)) : ok())));
     });
     const j = JSON.parse(fs.readFileSync("tools/explorer.json", "utf8"));
-    assert.ok(j.ouvertures.pirc.length >= 2);
-    assert.ok(j.ouvertures.pirc.every((l) => l.pgn.split(" ").length === 8));
+    assert.ok(j.ouvertures["caro-kann"].length >= 2);
+    assert.ok(j.ouvertures["caro-kann"].every((l) => l.pgn.split(" ").length === 8));
     const out = execFileSync("node", ["tools/build-data.mjs"], { encoding: "utf8" });
     const d = JSON.parse(fs.readFileSync("public/data/openings.json", "utf8"));
-    const p = d.ouvertures.find((o) => o.id === "pirc");
+    const p = d.ouvertures.find((o) => o.id === "caro-kann");
     assert.ok(p.lignes.some((l) => l.source === "explorer"));
     assert.match(out, /0 erreurs/);
   } finally {

@@ -91,8 +91,8 @@ test("Store : sauvegarde, export/import, données corrompues", () => {
   assert.throws(() => s4.importer('{"v":2}'));
 });
 
-test("Drill (Blancs) : mat de Légal complet", () => {
-  const o = data.ouvertures.find((x) => x.id === "mat-legal");
+test("Drill (Blancs) : ligne écossaise complète", () => {
+  const o = data.ouvertures.find((x) => x.id === "ecossaise");
   const l = o.lignes[0];
   const d = new Drill({ coups: l.coups, camp: "blancs", notes: l.notes });
   assert.equal(d.auTraitDeLEleve, true);
@@ -105,8 +105,7 @@ test("Drill (Blancs) : mat de Légal complet", () => {
       fini = r.termine;
     } else assert.ok(d.jouerAdversaire());
   }
-  assert.equal(fini, true);
-  assert.equal(d.chess.isCheckmate(), true);
+  assert.equal(d.termine, true);
   assert.equal(d.qualite, 5);
 });
 
@@ -154,7 +153,7 @@ test("positionsDeLigne", () => {
 
 test("openings.json : intégrité du répertoire", () => {
   const ids = new Set();
-  assert.ok(data.ouvertures.length >= 25);
+  assert.ok(data.ouvertures.length >= 10);
   for (const o of data.ouvertures) {
     assert.ok(!ids.has(o.id), `id en double ${o.id}`); ids.add(o.id);
     assert.ok(["blancs", "noirs"].includes(o.camp));

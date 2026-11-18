@@ -31,11 +31,11 @@ const STATS_LONDON = { source: "cv_london", blancs: 52.7, nulles: 4.1, noirs: 43
 const STATS_CARO = { source: "cv_caro", blancs: 47.4, nulles: 4.1, noirs: 48.5, note: "Caro-Kann, parties Lichess blitz/rapide, joueurs ~400" };
 const STATS_E5 = { source: "cv_e5", blancs: 50.8, nulles: 4.6, noirs: 44.6, note: "1.e4 e5 (toutes suites), parties Lichess blitz/rapide, joueurs ~400" };
 
-export const OUVERTURES = [
+const ANCIENNES = [
   // ───────────────────────── BLANCS ─────────────────────────
   {
     id: "italienne-pianissimo",
-    nom: "Italienne — Giuoco Pianissimo",
+    nom: "Partie italienne",
     camp: "blancs", eco: "C54",
     elo: [0, 2000], facilite: 5, puissance: 4, theorie: "faible", style: "classique",
     idee: "Développer vite, viser f7 avec le fou c4, puis jouer c3 et d3 pour construire un centre solide avant de roquer.",
@@ -174,7 +174,7 @@ export const OUVERTURES = [
       "Ignorer ...Dh4+ quand f4 est joué et que le pion g reste en place.",
     ],
     sources: ["cv_rank"],
-    attendu: ["Vienna"],
+    attendu: ["Vienna", "Four Knights"],
     lignes: [
       { nom: "Gambit viennois", coups: "e4 e5 Nc3 Nf6 f4 d5 fxe5 Nxe4 Nf3 Be7 d4 O-O Bd3 f5 exf6 Bxf6 O-O Nxc3 bxc3",
         notes: { 5: "f4 prépare une attaque, mais affaiblit la diagonale du roi blanc." } },
@@ -693,3 +693,12 @@ export const OUVERTURES = [
     ],
   },
 ];
+
+// ── Répertoire actuel : les 10 ouvertures du document de Kilian (lignes et explications dans tools/repertoire.mjs).
+// Les fiches (idée, plans, erreurs, sources, stats) sont reprises des anciennes entrées de même identifiant.
+import { REPERTOIRE } from "./repertoire.mjs";
+export const OUVERTURES = Object.entries(REPERTOIRE).map(([id, lignes]) => {
+  const ancienne = ANCIENNES.find((o) => o.id === id);
+  if (!ancienne) throw new Error("ouverture inconnue : " + id);
+  return { ...ancienne, lignes };
+});
