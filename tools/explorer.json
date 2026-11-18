@@ -1,0 +1,5184 @@
+{
+ "ratings": "0,1000",
+ "speeds": "blitz,rapid,classical",
+ "date": "2026-11-18",
+ "ouvertures": {
+  "caro-kann": [
+   {
+    "pgn": "e4 c6 d4 d5 e5 Bf5 Bd3 Bxd3 Qxd3 e6 Nf3 c5 c3 Nc6",
+    "freq": 0.36,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "d4",
+      "pct": 31.2,
+      "n": 6245996,
+      "blancs": 3114008,
+      "nulles": 235470,
+      "noirs": 2896518
+     },
+     {
+      "ply": 5,
+      "san": "e5",
+      "pct": 45.6,
+      "n": 2941950,
+      "blancs": 1484226,
+      "nulles": 103827,
+      "noirs": 1353897
+     },
+     {
+      "ply": 7,
+      "san": "Bd3",
+      "pct": 20.9,
+      "n": 324027,
+      "blancs": 165001,
+      "nulles": 12721,
+      "noirs": 146305
+     },
+     {
+      "ply": 9,
+      "san": "Qxd3",
+      "pct": 94.1,
+      "n": 174750,
+      "blancs": 85446,
+      "nulles": 7071,
+      "noirs": 82233
+     },
+     {
+      "ply": 11,
+      "san": "Nf3",
+      "pct": 66.1,
+      "n": 99598,
+      "blancs": 48562,
+      "nulles": 4024,
+      "noirs": 47012
+     },
+     {
+      "ply": 13,
+      "san": "c3",
+      "pct": 29.6,
+      "n": 25556,
+      "blancs": 12441,
+      "nulles": 994,
+      "noirs": 12121
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 Nf3 d5 exd5 cxd5 d4 Nc6 Nc3 Bg4 h3 Bxf3 Qxf3 e6",
+    "freq": 0.33,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "Nf3",
+      "pct": 31.2,
+      "n": 6244913,
+      "blancs": 2994365,
+      "nulles": 244828,
+      "noirs": 3005720
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 44.1,
+      "n": 2514812,
+      "blancs": 1204566,
+      "nulles": 99082,
+      "noirs": 1211164
+     },
+     {
+      "ply": 7,
+      "san": "d4",
+      "pct": 45.5,
+      "n": 1078623,
+      "blancs": 529353,
+      "nulles": 41137,
+      "noirs": 508133
+     },
+     {
+      "ply": 9,
+      "san": "Nc3",
+      "pct": 40.6,
+      "n": 213476,
+      "blancs": 104121,
+      "nulles": 8617,
+      "noirs": 100738
+     },
+     {
+      "ply": 11,
+      "san": "h3",
+      "pct": 23.5,
+      "n": 41776,
+      "blancs": 18981,
+      "nulles": 1677,
+      "noirs": 21118
+     },
+     {
+      "ply": 13,
+      "san": "Qxf3",
+      "pct": 82.2,
+      "n": 21951,
+      "blancs": 9796,
+      "nulles": 930,
+      "noirs": 11225
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 Nf3 d5 exd5 cxd5 d4 Nc6 Bb5 Bg4 h3 Bxf3 Qxf3 e6",
+    "freq": 0.33,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "Nf3",
+      "pct": 31.2,
+      "n": 6244913,
+      "blancs": 2994365,
+      "nulles": 244828,
+      "noirs": 3005720
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 44.1,
+      "n": 2514812,
+      "blancs": 1204566,
+      "nulles": 99082,
+      "noirs": 1211164
+     },
+     {
+      "ply": 7,
+      "san": "d4",
+      "pct": 45.5,
+      "n": 1078623,
+      "blancs": 529353,
+      "nulles": 41137,
+      "noirs": 508133
+     },
+     {
+      "ply": 9,
+      "san": "Bb5",
+      "pct": 31.6,
+      "n": 166032,
+      "blancs": 81352,
+      "nulles": 6307,
+      "noirs": 78373
+     },
+     {
+      "ply": 11,
+      "san": "h3",
+      "pct": 26.9,
+      "n": 20157,
+      "blancs": 9223,
+      "nulles": 783,
+      "noirs": 10151
+     },
+     {
+      "ply": 13,
+      "san": "Qxf3",
+      "pct": 94.4,
+      "n": 11700,
+      "blancs": 5292,
+      "nulles": 481,
+      "noirs": 5927
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 d4 d5 e5 Bf5 Nf3 e6 Bd3 Bxd3 Qxd3 c5 c3 Nc6",
+    "freq": 0.31,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "d4",
+      "pct": 31.2,
+      "n": 6245996,
+      "blancs": 3114008,
+      "nulles": 235470,
+      "noirs": 2896518
+     },
+     {
+      "ply": 5,
+      "san": "e5",
+      "pct": 45.6,
+      "n": 2941950,
+      "blancs": 1484226,
+      "nulles": 103827,
+      "noirs": 1353897
+     },
+     {
+      "ply": 7,
+      "san": "Nf3",
+      "pct": 36.9,
+      "n": 571621,
+      "blancs": 282471,
+      "nulles": 19923,
+      "noirs": 269227
+     },
+     {
+      "ply": 9,
+      "san": "Bd3",
+      "pct": 32.1,
+      "n": 220780,
+      "blancs": 112259,
+      "nulles": 8176,
+      "noirs": 100345
+     },
+     {
+      "ply": 11,
+      "san": "Qxd3",
+      "pct": 94.5,
+      "n": 111615,
+      "blancs": 55277,
+      "nulles": 4321,
+      "noirs": 52017
+     },
+     {
+      "ply": 13,
+      "san": "c3",
+      "pct": 29.6,
+      "n": 25556,
+      "blancs": 12441,
+      "nulles": 994,
+      "noirs": 12121
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 Nf3 d5 e5 Bf5 d4 e6 Bd3 Bxd3 Qxd3 c5 c3 Nc6",
+    "freq": 0.28,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "Nf3",
+      "pct": 31.2,
+      "n": 6244913,
+      "blancs": 2994365,
+      "nulles": 244828,
+      "noirs": 3005720
+     },
+     {
+      "ply": 5,
+      "san": "e5",
+      "pct": 20.7,
+      "n": 1178104,
+      "blancs": 582064,
+      "nulles": 40709,
+      "noirs": 555331
+     },
+     {
+      "ply": 7,
+      "san": "d4",
+      "pct": 71.6,
+      "n": 288071,
+      "blancs": 143430,
+      "nulles": 9761,
+      "noirs": 134880
+     },
+     {
+      "ply": 9,
+      "san": "Bd3",
+      "pct": 32.1,
+      "n": 220780,
+      "blancs": 112259,
+      "nulles": 8176,
+      "noirs": 100345
+     },
+     {
+      "ply": 11,
+      "san": "Qxd3",
+      "pct": 94.5,
+      "n": 111615,
+      "blancs": 55277,
+      "nulles": 4321,
+      "noirs": 52017
+     },
+     {
+      "ply": 13,
+      "san": "c3",
+      "pct": 29.6,
+      "n": 25556,
+      "blancs": 12441,
+      "nulles": 994,
+      "noirs": 12121
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 d4 d5 e5 Bf5 Bd3 Bxd3 Qxd3 e6 Nf3 c5 dxc5 Bxc5",
+    "freq": 0.21,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "d4",
+      "pct": 31.2,
+      "n": 6245996,
+      "blancs": 3114008,
+      "nulles": 235470,
+      "noirs": 2896518
+     },
+     {
+      "ply": 5,
+      "san": "e5",
+      "pct": 45.6,
+      "n": 2941950,
+      "blancs": 1484226,
+      "nulles": 103827,
+      "noirs": 1353897
+     },
+     {
+      "ply": 7,
+      "san": "Bd3",
+      "pct": 20.9,
+      "n": 324027,
+      "blancs": 165001,
+      "nulles": 12721,
+      "noirs": 146305
+     },
+     {
+      "ply": 9,
+      "san": "Qxd3",
+      "pct": 94.1,
+      "n": 174750,
+      "blancs": 85446,
+      "nulles": 7071,
+      "noirs": 82233
+     },
+     {
+      "ply": 11,
+      "san": "Nf3",
+      "pct": 66.1,
+      "n": 99598,
+      "blancs": 48562,
+      "nulles": 4024,
+      "noirs": 47012
+     },
+     {
+      "ply": 13,
+      "san": "dxc5",
+      "pct": 17,
+      "n": 14618,
+      "blancs": 6891,
+      "nulles": 593,
+      "noirs": 7134
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 Nf3 d5 exd5 cxd5 Nc3 Nf6 d4 Nc6 Bb5 Bd7 O-O e6",
+    "freq": 0.21,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "Nf3",
+      "pct": 31.2,
+      "n": 6244913,
+      "blancs": 2994365,
+      "nulles": 244828,
+      "noirs": 3005720
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 44.1,
+      "n": 2514812,
+      "blancs": 1204566,
+      "nulles": 99082,
+      "noirs": 1211164
+     },
+     {
+      "ply": 7,
+      "san": "Nc3",
+      "pct": 24.2,
+      "n": 572613,
+      "blancs": 265205,
+      "nulles": 23978,
+      "noirs": 283430
+     },
+     {
+      "ply": 9,
+      "san": "d4",
+      "pct": 51,
+      "n": 179597,
+      "blancs": 87570,
+      "nulles": 7807,
+      "noirs": 84220
+     },
+     {
+      "ply": 11,
+      "san": "Bb5",
+      "pct": 45.6,
+      "n": 137260,
+      "blancs": 66684,
+      "nulles": 6014,
+      "noirs": 64562
+     },
+     {
+      "ply": 13,
+      "san": "O-O",
+      "pct": 41.6,
+      "n": 25140,
+      "blancs": 12901,
+      "nulles": 1074,
+      "noirs": 11165
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 Nf3 d5 exd5 cxd5 d4 Nc6 Nc3 Bg4 Be2 e6 O-O Nf6",
+    "freq": 0.19,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "Nf3",
+      "pct": 31.2,
+      "n": 6244913,
+      "blancs": 2994365,
+      "nulles": 244828,
+      "noirs": 3005720
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 44.1,
+      "n": 2514812,
+      "blancs": 1204566,
+      "nulles": 99082,
+      "noirs": 1211164
+     },
+     {
+      "ply": 7,
+      "san": "d4",
+      "pct": 45.5,
+      "n": 1078623,
+      "blancs": 529353,
+      "nulles": 41137,
+      "noirs": 508133
+     },
+     {
+      "ply": 9,
+      "san": "Nc3",
+      "pct": 40.6,
+      "n": 213476,
+      "blancs": 104121,
+      "nulles": 8617,
+      "noirs": 100738
+     },
+     {
+      "ply": 11,
+      "san": "Be2",
+      "pct": 35.6,
+      "n": 63220,
+      "blancs": 29440,
+      "nulles": 2552,
+      "noirs": 31228
+     },
+     {
+      "ply": 13,
+      "san": "O-O",
+      "pct": 32.3,
+      "n": 13543,
+      "blancs": 6013,
+      "nulles": 455,
+      "noirs": 7075
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 d4 d5 e5 Bf5 Nf3 e6 Bd3 Bxd3 Qxd3 c5 dxc5 Bxc5",
+    "freq": 0.18,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "d4",
+      "pct": 31.2,
+      "n": 6245996,
+      "blancs": 3114008,
+      "nulles": 235470,
+      "noirs": 2896518
+     },
+     {
+      "ply": 5,
+      "san": "e5",
+      "pct": 45.6,
+      "n": 2941950,
+      "blancs": 1484226,
+      "nulles": 103827,
+      "noirs": 1353897
+     },
+     {
+      "ply": 7,
+      "san": "Nf3",
+      "pct": 36.9,
+      "n": 571621,
+      "blancs": 282471,
+      "nulles": 19923,
+      "noirs": 269227
+     },
+     {
+      "ply": 9,
+      "san": "Bd3",
+      "pct": 32.1,
+      "n": 220780,
+      "blancs": 112259,
+      "nulles": 8176,
+      "noirs": 100345
+     },
+     {
+      "ply": 11,
+      "san": "Qxd3",
+      "pct": 94.5,
+      "n": 111615,
+      "blancs": 55277,
+      "nulles": 4321,
+      "noirs": 52017
+     },
+     {
+      "ply": 13,
+      "san": "dxc5",
+      "pct": 17,
+      "n": 14618,
+      "blancs": 6891,
+      "nulles": 593,
+      "noirs": 7134
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 d4 d5 exd5 cxd5 Nc3 Nf6 Nf3 Nc6 Bb5 Bd7 O-O e6",
+    "freq": 0.18,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "d4",
+      "pct": 31.2,
+      "n": 6245996,
+      "blancs": 3114008,
+      "nulles": 235470,
+      "noirs": 2896518
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 22.5,
+      "n": 1453452,
+      "blancs": 688354,
+      "nulles": 61509,
+      "noirs": 703589
+     },
+     {
+      "ply": 7,
+      "san": "Nc3",
+      "pct": 42.9,
+      "n": 597389,
+      "blancs": 283101,
+      "nulles": 25144,
+      "noirs": 289144
+     },
+     {
+      "ply": 9,
+      "san": "Nf3",
+      "pct": 47.3,
+      "n": 209888,
+      "blancs": 100417,
+      "nulles": 9214,
+      "noirs": 100257
+     },
+     {
+      "ply": 11,
+      "san": "Bb5",
+      "pct": 45.6,
+      "n": 137260,
+      "blancs": 66684,
+      "nulles": 6014,
+      "noirs": 64562
+     },
+     {
+      "ply": 13,
+      "san": "O-O",
+      "pct": 41.6,
+      "n": 25140,
+      "blancs": 12901,
+      "nulles": 1074,
+      "noirs": 11165
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 Nf3 d5 exd5 cxd5 d4 Nc6 Nc3 Bg4 Be2 e6 h3 Bxf3",
+    "freq": 0.18,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "Nf3",
+      "pct": 31.2,
+      "n": 6244913,
+      "blancs": 2994365,
+      "nulles": 244828,
+      "noirs": 3005720
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 44.1,
+      "n": 2514812,
+      "blancs": 1204566,
+      "nulles": 99082,
+      "noirs": 1211164
+     },
+     {
+      "ply": 7,
+      "san": "d4",
+      "pct": 45.5,
+      "n": 1078623,
+      "blancs": 529353,
+      "nulles": 41137,
+      "noirs": 508133
+     },
+     {
+      "ply": 9,
+      "san": "Nc3",
+      "pct": 40.6,
+      "n": 213476,
+      "blancs": 104121,
+      "nulles": 8617,
+      "noirs": 100738
+     },
+     {
+      "ply": 11,
+      "san": "Be2",
+      "pct": 35.6,
+      "n": 63220,
+      "blancs": 29440,
+      "nulles": 2552,
+      "noirs": 31228
+     },
+     {
+      "ply": 13,
+      "san": "h3",
+      "pct": 29.7,
+      "n": 12446,
+      "blancs": 5460,
+      "nulles": 497,
+      "noirs": 6489
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 Nf3 d5 e5 Bf5 d4 e6 Bd3 Bxd3 Qxd3 c5 dxc5 Bxc5",
+    "freq": 0.16,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "Nf3",
+      "pct": 31.2,
+      "n": 6244913,
+      "blancs": 2994365,
+      "nulles": 244828,
+      "noirs": 3005720
+     },
+     {
+      "ply": 5,
+      "san": "e5",
+      "pct": 20.7,
+      "n": 1178104,
+      "blancs": 582064,
+      "nulles": 40709,
+      "noirs": 555331
+     },
+     {
+      "ply": 7,
+      "san": "d4",
+      "pct": 71.6,
+      "n": 288071,
+      "blancs": 143430,
+      "nulles": 9761,
+      "noirs": 134880
+     },
+     {
+      "ply": 9,
+      "san": "Bd3",
+      "pct": 32.1,
+      "n": 220780,
+      "blancs": 112259,
+      "nulles": 8176,
+      "noirs": 100345
+     },
+     {
+      "ply": 11,
+      "san": "Qxd3",
+      "pct": 94.5,
+      "n": 111615,
+      "blancs": 55277,
+      "nulles": 4321,
+      "noirs": 52017
+     },
+     {
+      "ply": 13,
+      "san": "dxc5",
+      "pct": 17,
+      "n": 14618,
+      "blancs": 6891,
+      "nulles": 593,
+      "noirs": 7134
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 c4 dxc4 e4 Nc6 Nf3 Nf6 Nc3 Bg4 Bxc4 Bxf3 Qxf3 Nxd4",
+    "freq": 0.15,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "c4",
+      "pct": 21.8,
+      "n": 18590597,
+      "blancs": 9956905,
+      "nulles": 721914,
+      "noirs": 7911778
+     },
+     {
+      "ply": 5,
+      "san": "e4",
+      "pct": 33.9,
+      "n": 2646467,
+      "blancs": 1444761,
+      "nulles": 107526,
+      "noirs": 1094180
+     },
+     {
+      "ply": 7,
+      "san": "Nf3",
+      "pct": 48,
+      "n": 277459,
+      "blancs": 154944,
+      "nulles": 11506,
+      "noirs": 111009
+     },
+     {
+      "ply": 9,
+      "san": "Nc3",
+      "pct": 73.5,
+      "n": 83212,
+      "blancs": 47452,
+      "nulles": 3566,
+      "noirs": 32194
+     },
+     {
+      "ply": 11,
+      "san": "Bxc4",
+      "pct": 39,
+      "n": 68437,
+      "blancs": 34479,
+      "nulles": 3049,
+      "noirs": 30909
+     },
+     {
+      "ply": 13,
+      "san": "Qxf3",
+      "pct": 72.6,
+      "n": 21948,
+      "blancs": 9642,
+      "nulles": 951,
+      "noirs": 11355
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 Bf4 Nc6 e3 Nf6 Nf3 e6 Bd3 Bd6 Bg3 Bxg3 hxg3 O-O",
+    "freq": 0.13,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "Bf4",
+      "pct": 21.1,
+      "n": 17978012,
+      "blancs": 9526439,
+      "nulles": 730030,
+      "noirs": 7721543
+     },
+     {
+      "ply": 5,
+      "san": "e3",
+      "pct": 55.5,
+      "n": 3908369,
+      "blancs": 2061795,
+      "nulles": 159029,
+      "noirs": 1687545
+     },
+     {
+      "ply": 7,
+      "san": "Nf3",
+      "pct": 37.3,
+      "n": 885728,
+      "blancs": 476483,
+      "nulles": 37074,
+      "noirs": 372171
+     },
+     {
+      "ply": 9,
+      "san": "Bd3",
+      "pct": 32.9,
+      "n": 338633,
+      "blancs": 187871,
+      "nulles": 13322,
+      "noirs": 137440
+     },
+     {
+      "ply": 11,
+      "san": "Bg3",
+      "pct": 45.8,
+      "n": 92430,
+      "blancs": 51471,
+      "nulles": 3449,
+      "noirs": 37510
+     },
+     {
+      "ply": 13,
+      "san": "hxg3",
+      "pct": 97.3,
+      "n": 50401,
+      "blancs": 28468,
+      "nulles": 2002,
+      "noirs": 19931
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 Nf3 d5 exd5 cxd5 d4 Nc6 Bb5 Bg4 O-O e6 h3 Bxf3",
+    "freq": 0.12,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "Nf3",
+      "pct": 31.2,
+      "n": 6244913,
+      "blancs": 2994365,
+      "nulles": 244828,
+      "noirs": 3005720
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 44.1,
+      "n": 2514812,
+      "blancs": 1204566,
+      "nulles": 99082,
+      "noirs": 1211164
+     },
+     {
+      "ply": 7,
+      "san": "d4",
+      "pct": 45.5,
+      "n": 1078623,
+      "blancs": 529353,
+      "nulles": 41137,
+      "noirs": 508133
+     },
+     {
+      "ply": 9,
+      "san": "Bb5",
+      "pct": 31.6,
+      "n": 166032,
+      "blancs": 81352,
+      "nulles": 6307,
+      "noirs": 78373
+     },
+     {
+      "ply": 11,
+      "san": "O-O",
+      "pct": 29.2,
+      "n": 21911,
+      "blancs": 9937,
+      "nulles": 751,
+      "noirs": 11223
+     },
+     {
+      "ply": 13,
+      "san": "h3",
+      "pct": 30.5,
+      "n": 3463,
+      "blancs": 1545,
+      "nulles": 133,
+      "noirs": 1785
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 Bf4 Nc6 Nf3 Nf6 e3 e6 Bd3 Bd6 Bg3 Bxg3 hxg3 O-O",
+    "freq": 0.11,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "Bf4",
+      "pct": 21.1,
+      "n": 17978012,
+      "blancs": 9526439,
+      "nulles": 730030,
+      "noirs": 7721543
+     },
+     {
+      "ply": 5,
+      "san": "Nf3",
+      "pct": 24.8,
+      "n": 1745218,
+      "blancs": 925485,
+      "nulles": 70585,
+      "noirs": 749148
+     },
+     {
+      "ply": 7,
+      "san": "e3",
+      "pct": 69.8,
+      "n": 1279881,
+      "blancs": 690652,
+      "nulles": 53913,
+      "noirs": 535316
+     },
+     {
+      "ply": 9,
+      "san": "Bd3",
+      "pct": 32.9,
+      "n": 338633,
+      "blancs": 187871,
+      "nulles": 13322,
+      "noirs": 137440
+     },
+     {
+      "ply": 11,
+      "san": "Bg3",
+      "pct": 45.8,
+      "n": 92430,
+      "blancs": 51471,
+      "nulles": 3449,
+      "noirs": 37510
+     },
+     {
+      "ply": 13,
+      "san": "hxg3",
+      "pct": 97.3,
+      "n": 50401,
+      "blancs": 28468,
+      "nulles": 2002,
+      "noirs": 19931
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 Bf4 Nc6 e3 Nf6 Bd3 e6 Nf3 Bd6 Bg3 Bxg3 hxg3 O-O",
+    "freq": 0.1,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "Bf4",
+      "pct": 21.1,
+      "n": 17978012,
+      "blancs": 9526439,
+      "nulles": 730030,
+      "noirs": 7721543
+     },
+     {
+      "ply": 5,
+      "san": "e3",
+      "pct": 55.5,
+      "n": 3908369,
+      "blancs": 2061795,
+      "nulles": 159029,
+      "noirs": 1687545
+     },
+     {
+      "ply": 7,
+      "san": "Bd3",
+      "pct": 18.7,
+      "n": 443233,
+      "blancs": 235864,
+      "nulles": 18286,
+      "noirs": 189083
+     },
+     {
+      "ply": 9,
+      "san": "Nf3",
+      "pct": 52,
+      "n": 124102,
+      "blancs": 67829,
+      "nulles": 4894,
+      "noirs": 51379
+     },
+     {
+      "ply": 11,
+      "san": "Bg3",
+      "pct": 45.8,
+      "n": 92430,
+      "blancs": 51471,
+      "nulles": 3449,
+      "noirs": 37510
+     },
+     {
+      "ply": 13,
+      "san": "hxg3",
+      "pct": 97.3,
+      "n": 50401,
+      "blancs": 28468,
+      "nulles": 2002,
+      "noirs": 19931
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 d4 d5 exd5 cxd5 Nc3 Nf6 Bb5+ Bd7 Bxd7+ Nbxd7 Nf3 e6",
+    "freq": 0.09,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "d4",
+      "pct": 31.2,
+      "n": 6245996,
+      "blancs": 3114008,
+      "nulles": 235470,
+      "noirs": 2896518
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 22.5,
+      "n": 1453452,
+      "blancs": 688354,
+      "nulles": 61509,
+      "noirs": 703589
+     },
+     {
+      "ply": 7,
+      "san": "Nc3",
+      "pct": 42.9,
+      "n": 597389,
+      "blancs": 283101,
+      "nulles": 25144,
+      "noirs": 289144
+     },
+     {
+      "ply": 9,
+      "san": "Bb5+",
+      "pct": 16.7,
+      "n": 74124,
+      "blancs": 33644,
+      "nulles": 3660,
+      "noirs": 36820
+     },
+     {
+      "ply": 11,
+      "san": "Bxd7+",
+      "pct": 49.7,
+      "n": 18682,
+      "blancs": 8756,
+      "nulles": 1155,
+      "noirs": 8771
+     },
+     {
+      "ply": 13,
+      "san": "Nf3",
+      "pct": 53,
+      "n": 6679,
+      "blancs": 3049,
+      "nulles": 398,
+      "noirs": 3232
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 d4 d5 exd5 cxd5 Nf3 Nc6 Nc3 Bg4 h3 Bxf3 Qxf3 e6",
+    "freq": 0.09,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "d4",
+      "pct": 31.2,
+      "n": 6245996,
+      "blancs": 3114008,
+      "nulles": 235470,
+      "noirs": 2896518
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 22.5,
+      "n": 1453452,
+      "blancs": 688354,
+      "nulles": 61509,
+      "noirs": 703589
+     },
+     {
+      "ply": 7,
+      "san": "Nf3",
+      "pct": 24.6,
+      "n": 342625,
+      "blancs": 164420,
+      "nulles": 13915,
+      "noirs": 164290
+     },
+     {
+      "ply": 9,
+      "san": "Nc3",
+      "pct": 40.6,
+      "n": 213476,
+      "blancs": 104121,
+      "nulles": 8617,
+      "noirs": 100738
+     },
+     {
+      "ply": 11,
+      "san": "h3",
+      "pct": 23.5,
+      "n": 41776,
+      "blancs": 18981,
+      "nulles": 1677,
+      "noirs": 21118
+     },
+     {
+      "ply": 13,
+      "san": "Qxf3",
+      "pct": 82.2,
+      "n": 21951,
+      "blancs": 9796,
+      "nulles": 930,
+      "noirs": 11225
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 d4 d5 exd5 cxd5 Nf3 Nc6 Bb5 Bg4 h3 Bxf3 Qxf3 e6",
+    "freq": 0.09,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "d4",
+      "pct": 31.2,
+      "n": 6245996,
+      "blancs": 3114008,
+      "nulles": 235470,
+      "noirs": 2896518
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 22.5,
+      "n": 1453452,
+      "blancs": 688354,
+      "nulles": 61509,
+      "noirs": 703589
+     },
+     {
+      "ply": 7,
+      "san": "Nf3",
+      "pct": 24.6,
+      "n": 342625,
+      "blancs": 164420,
+      "nulles": 13915,
+      "noirs": 164290
+     },
+     {
+      "ply": 9,
+      "san": "Bb5",
+      "pct": 31.6,
+      "n": 166032,
+      "blancs": 81352,
+      "nulles": 6307,
+      "noirs": 78373
+     },
+     {
+      "ply": 11,
+      "san": "h3",
+      "pct": 26.9,
+      "n": 20157,
+      "blancs": 9223,
+      "nulles": 783,
+      "noirs": 10151
+     },
+     {
+      "ply": 13,
+      "san": "Qxf3",
+      "pct": 94.4,
+      "n": 11700,
+      "blancs": 5292,
+      "nulles": 481,
+      "noirs": 5927
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 Nf3 d5 exd5 cxd5 Nc3 Nf6 d4 Nc6 Bb5 Bd7 Bxc6 Bxc6",
+    "freq": 0.09,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "Nf3",
+      "pct": 31.2,
+      "n": 6244913,
+      "blancs": 2994365,
+      "nulles": 244828,
+      "noirs": 3005720
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 44.1,
+      "n": 2514812,
+      "blancs": 1204566,
+      "nulles": 99082,
+      "noirs": 1211164
+     },
+     {
+      "ply": 7,
+      "san": "Nc3",
+      "pct": 24.2,
+      "n": 572613,
+      "blancs": 265205,
+      "nulles": 23978,
+      "noirs": 283430
+     },
+     {
+      "ply": 9,
+      "san": "d4",
+      "pct": 51,
+      "n": 179597,
+      "blancs": 87570,
+      "nulles": 7807,
+      "noirs": 84220
+     },
+     {
+      "ply": 11,
+      "san": "Bb5",
+      "pct": 45.6,
+      "n": 137260,
+      "blancs": 66684,
+      "nulles": 6014,
+      "noirs": 64562
+     },
+     {
+      "ply": 13,
+      "san": "Bxc6",
+      "pct": 16.7,
+      "n": 10063,
+      "blancs": 4634,
+      "nulles": 562,
+      "noirs": 4867
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 Bf4 Nc6 e3 Nf6 Nf3 e6 c3 Bd6 Bg3 Bxg3 hxg3 O-O",
+    "freq": 0.09,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "Bf4",
+      "pct": 21.1,
+      "n": 17978012,
+      "blancs": 9526439,
+      "nulles": 730030,
+      "noirs": 7721543
+     },
+     {
+      "ply": 5,
+      "san": "e3",
+      "pct": 55.5,
+      "n": 3908369,
+      "blancs": 2061795,
+      "nulles": 159029,
+      "noirs": 1687545
+     },
+     {
+      "ply": 7,
+      "san": "Nf3",
+      "pct": 37.3,
+      "n": 885728,
+      "blancs": 476483,
+      "nulles": 37074,
+      "noirs": 372171
+     },
+     {
+      "ply": 9,
+      "san": "c3",
+      "pct": 18.8,
+      "n": 193188,
+      "blancs": 107420,
+      "nulles": 7443,
+      "noirs": 78325
+     },
+     {
+      "ply": 11,
+      "san": "Bg3",
+      "pct": 54.3,
+      "n": 108080,
+      "blancs": 60811,
+      "nulles": 3985,
+      "noirs": 43284
+     },
+     {
+      "ply": 13,
+      "san": "hxg3",
+      "pct": 98.5,
+      "n": 59415,
+      "blancs": 33605,
+      "nulles": 2367,
+      "noirs": 23443
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 Nf3 d5 exd5 cxd5 Nc3 Nf6 Bb5+ Nc6 Bxc6+ bxc6 O-O Bg4",
+    "freq": 0.08,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "Nf3",
+      "pct": 31.2,
+      "n": 6244913,
+      "blancs": 2994365,
+      "nulles": 244828,
+      "noirs": 3005720
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 44.1,
+      "n": 2514812,
+      "blancs": 1204566,
+      "nulles": 99082,
+      "noirs": 1211164
+     },
+     {
+      "ply": 7,
+      "san": "Nc3",
+      "pct": 24.2,
+      "n": 572613,
+      "blancs": 265205,
+      "nulles": 23978,
+      "noirs": 283430
+     },
+     {
+      "ply": 9,
+      "san": "Bb5+",
+      "pct": 30.2,
+      "n": 106328,
+      "blancs": 47890,
+      "nulles": 4989,
+      "noirs": 53449
+     },
+     {
+      "ply": 11,
+      "san": "Bxc6+",
+      "pct": 27.6,
+      "n": 18542,
+      "blancs": 7730,
+      "nulles": 931,
+      "noirs": 9881
+     },
+     {
+      "ply": 13,
+      "san": "O-O",
+      "pct": 41,
+      "n": 9477,
+      "blancs": 3897,
+      "nulles": 477,
+      "noirs": 5103
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 c4 dxc4 e4 Nc6 d5 Ne5 f4 Nd3+ Bxd3 cxd3 Qxd3 e6",
+    "freq": 0.08,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "c4",
+      "pct": 21.8,
+      "n": 18590597,
+      "blancs": 9956905,
+      "nulles": 721914,
+      "noirs": 7911778
+     },
+     {
+      "ply": 5,
+      "san": "e4",
+      "pct": 33.9,
+      "n": 2646467,
+      "blancs": 1444761,
+      "nulles": 107526,
+      "noirs": 1094180
+     },
+     {
+      "ply": 7,
+      "san": "d5",
+      "pct": 25.9,
+      "n": 149721,
+      "blancs": 85901,
+      "nulles": 5749,
+      "noirs": 58071
+     },
+     {
+      "ply": 9,
+      "san": "f4",
+      "pct": 22.6,
+      "n": 25410,
+      "blancs": 13961,
+      "nulles": 988,
+      "noirs": 10461
+     },
+     {
+      "ply": 11,
+      "san": "Bxd3",
+      "pct": 95.5,
+      "n": 8146,
+      "blancs": 4403,
+      "nulles": 361,
+      "noirs": 3382
+     },
+     {
+      "ply": 13,
+      "san": "Qxd3",
+      "pct": 96.5,
+      "n": 7818,
+      "blancs": 4222,
+      "nulles": 350,
+      "noirs": 3246
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 c4 dxc4 e3 Nf6 Bxc4 Nc6 Nf3 e6 O-O Bd6 Nc3 O-O",
+    "freq": 0.08,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "c4",
+      "pct": 21.8,
+      "n": 18590597,
+      "blancs": 9956905,
+      "nulles": 721914,
+      "noirs": 7911778
+     },
+     {
+      "ply": 5,
+      "san": "e3",
+      "pct": 26.7,
+      "n": 2080174,
+      "blancs": 1150554,
+      "nulles": 83749,
+      "noirs": 845871
+     },
+     {
+      "ply": 7,
+      "san": "Bxc4",
+      "pct": 84.9,
+      "n": 567677,
+      "blancs": 301144,
+      "nulles": 23813,
+      "noirs": 242720
+     },
+     {
+      "ply": 9,
+      "san": "Nf3",
+      "pct": 37.8,
+      "n": 133715,
+      "blancs": 72141,
+      "nulles": 5741,
+      "noirs": 55833
+     },
+     {
+      "ply": 11,
+      "san": "O-O",
+      "pct": 39.8,
+      "n": 66998,
+      "blancs": 36213,
+      "nulles": 2729,
+      "noirs": 28056
+     },
+     {
+      "ply": 13,
+      "san": "Nc3",
+      "pct": 52.3,
+      "n": 14800,
+      "blancs": 7973,
+      "nulles": 587,
+      "noirs": 6240
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 Bf4 Nc6 Nf3 Nf6 e3 e6 c3 Bd6 Bg3 Bxg3 hxg3 O-O",
+    "freq": 0.08,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "Bf4",
+      "pct": 21.1,
+      "n": 17978012,
+      "blancs": 9526439,
+      "nulles": 730030,
+      "noirs": 7721543
+     },
+     {
+      "ply": 5,
+      "san": "Nf3",
+      "pct": 24.8,
+      "n": 1745218,
+      "blancs": 925485,
+      "nulles": 70585,
+      "noirs": 749148
+     },
+     {
+      "ply": 7,
+      "san": "e3",
+      "pct": 69.8,
+      "n": 1279881,
+      "blancs": 690652,
+      "nulles": 53913,
+      "noirs": 535316
+     },
+     {
+      "ply": 9,
+      "san": "c3",
+      "pct": 18.8,
+      "n": 193188,
+      "blancs": 107420,
+      "nulles": 7443,
+      "noirs": 78325
+     },
+     {
+      "ply": 11,
+      "san": "Bg3",
+      "pct": 54.3,
+      "n": 108080,
+      "blancs": 60811,
+      "nulles": 3985,
+      "noirs": 43284
+     },
+     {
+      "ply": 13,
+      "san": "hxg3",
+      "pct": 98.5,
+      "n": 59415,
+      "blancs": 33605,
+      "nulles": 2367,
+      "noirs": 23443
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 d4 d5 exd5 cxd5 Nc3 Nf6 Nf3 Nc6 Bb5 Bd7 Bxc6 Bxc6",
+    "freq": 0.07,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "d4",
+      "pct": 31.2,
+      "n": 6245996,
+      "blancs": 3114008,
+      "nulles": 235470,
+      "noirs": 2896518
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 22.5,
+      "n": 1453452,
+      "blancs": 688354,
+      "nulles": 61509,
+      "noirs": 703589
+     },
+     {
+      "ply": 7,
+      "san": "Nc3",
+      "pct": 42.9,
+      "n": 597389,
+      "blancs": 283101,
+      "nulles": 25144,
+      "noirs": 289144
+     },
+     {
+      "ply": 9,
+      "san": "Nf3",
+      "pct": 47.3,
+      "n": 209888,
+      "blancs": 100417,
+      "nulles": 9214,
+      "noirs": 100257
+     },
+     {
+      "ply": 11,
+      "san": "Bb5",
+      "pct": 45.6,
+      "n": 137260,
+      "blancs": 66684,
+      "nulles": 6014,
+      "noirs": 64562
+     },
+     {
+      "ply": 13,
+      "san": "Bxc6",
+      "pct": 16.7,
+      "n": 10063,
+      "blancs": 4634,
+      "nulles": 562,
+      "noirs": 4867
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 Nf3 d5 exd5 cxd5 d4 Nc6 Nc3 Bg4 h3 Bxf3 gxf3 e6",
+    "freq": 0.07,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "Nf3",
+      "pct": 31.2,
+      "n": 6244913,
+      "blancs": 2994365,
+      "nulles": 244828,
+      "noirs": 3005720
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 44.1,
+      "n": 2514812,
+      "blancs": 1204566,
+      "nulles": 99082,
+      "noirs": 1211164
+     },
+     {
+      "ply": 7,
+      "san": "d4",
+      "pct": 45.5,
+      "n": 1078623,
+      "blancs": 529353,
+      "nulles": 41137,
+      "noirs": 508133
+     },
+     {
+      "ply": 9,
+      "san": "Nc3",
+      "pct": 40.6,
+      "n": 213476,
+      "blancs": 104121,
+      "nulles": 8617,
+      "noirs": 100738
+     },
+     {
+      "ply": 11,
+      "san": "h3",
+      "pct": 23.5,
+      "n": 41776,
+      "blancs": 18981,
+      "nulles": 1677,
+      "noirs": 21118
+     },
+     {
+      "ply": 13,
+      "san": "gxf3",
+      "pct": 17.6,
+      "n": 4693,
+      "blancs": 1986,
+      "nulles": 177,
+      "noirs": 2530
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 Nf3 d5 exd5 cxd5 Nc3 Nf6 d4 Nc6 Bg5 Bg4 Bxf6 exf6",
+    "freq": 0.07,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "Nf3",
+      "pct": 31.2,
+      "n": 6244913,
+      "blancs": 2994365,
+      "nulles": 244828,
+      "noirs": 3005720
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 44.1,
+      "n": 2514812,
+      "blancs": 1204566,
+      "nulles": 99082,
+      "noirs": 1211164
+     },
+     {
+      "ply": 7,
+      "san": "Nc3",
+      "pct": 24.2,
+      "n": 572613,
+      "blancs": 265205,
+      "nulles": 23978,
+      "noirs": 283430
+     },
+     {
+      "ply": 9,
+      "san": "d4",
+      "pct": 51,
+      "n": 179597,
+      "blancs": 87570,
+      "nulles": 7807,
+      "noirs": 84220
+     },
+     {
+      "ply": 11,
+      "san": "Bg5",
+      "pct": 16.9,
+      "n": 50804,
+      "blancs": 25376,
+      "nulles": 2367,
+      "noirs": 23061
+     },
+     {
+      "ply": 13,
+      "san": "Bxf6",
+      "pct": 34.7,
+      "n": 7128,
+      "blancs": 3388,
+      "nulles": 393,
+      "noirs": 3347
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 c4 dxc4 e4 Nc6 d5 Ne5 Bf4 f6 Bxe5 fxe5 Bxc4 Nf6",
+    "freq": 0.07,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "c4",
+      "pct": 21.8,
+      "n": 18590597,
+      "blancs": 9956905,
+      "nulles": 721914,
+      "noirs": 7911778
+     },
+     {
+      "ply": 5,
+      "san": "e4",
+      "pct": 33.9,
+      "n": 2646467,
+      "blancs": 1444761,
+      "nulles": 107526,
+      "noirs": 1094180
+     },
+     {
+      "ply": 7,
+      "san": "d5",
+      "pct": 25.9,
+      "n": 149721,
+      "blancs": 85901,
+      "nulles": 5749,
+      "noirs": 58071
+     },
+     {
+      "ply": 9,
+      "san": "Bf4",
+      "pct": 28.6,
+      "n": 32145,
+      "blancs": 19060,
+      "nulles": 1147,
+      "noirs": 11938
+     },
+     {
+      "ply": 11,
+      "san": "Bxe5",
+      "pct": 68.5,
+      "n": 9759,
+      "blancs": 6069,
+      "nulles": 398,
+      "noirs": 3292
+     },
+     {
+      "ply": 13,
+      "san": "Bxc4",
+      "pct": 88.6,
+      "n": 8601,
+      "blancs": 5353,
+      "nulles": 351,
+      "noirs": 2897
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 Bf4 Nc6 e3 Nf6 Bd3 e6 c3 Bd6 Bg3 Bxg3 hxg3 O-O",
+    "freq": 0.07,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "Bf4",
+      "pct": 21.1,
+      "n": 17978012,
+      "blancs": 9526439,
+      "nulles": 730030,
+      "noirs": 7721543
+     },
+     {
+      "ply": 5,
+      "san": "e3",
+      "pct": 55.5,
+      "n": 3908369,
+      "blancs": 2061795,
+      "nulles": 159029,
+      "noirs": 1687545
+     },
+     {
+      "ply": 7,
+      "san": "Bd3",
+      "pct": 18.7,
+      "n": 443233,
+      "blancs": 235864,
+      "nulles": 18286,
+      "noirs": 189083
+     },
+     {
+      "ply": 9,
+      "san": "c3",
+      "pct": 26.7,
+      "n": 63732,
+      "blancs": 33805,
+      "nulles": 2464,
+      "noirs": 27463
+     },
+     {
+      "ply": 11,
+      "san": "Bg3",
+      "pct": 60.8,
+      "n": 48977,
+      "blancs": 26741,
+      "nulles": 1779,
+      "noirs": 20457
+     },
+     {
+      "ply": 13,
+      "san": "hxg3",
+      "pct": 98.5,
+      "n": 27459,
+      "blancs": 15221,
+      "nulles": 1039,
+      "noirs": 11199
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 d4 d5 e5 Bf5 Nf3 e6 Nc3 c5 Bb5+ Nc6 O-O a6",
+    "freq": 0.06,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "d4",
+      "pct": 31.2,
+      "n": 6245996,
+      "blancs": 3114008,
+      "nulles": 235470,
+      "noirs": 2896518
+     },
+     {
+      "ply": 5,
+      "san": "e5",
+      "pct": 45.6,
+      "n": 2941950,
+      "blancs": 1484226,
+      "nulles": 103827,
+      "noirs": 1353897
+     },
+     {
+      "ply": 7,
+      "san": "Nf3",
+      "pct": 36.9,
+      "n": 571621,
+      "blancs": 282471,
+      "nulles": 19923,
+      "noirs": 269227
+     },
+     {
+      "ply": 9,
+      "san": "Nc3",
+      "pct": 25.5,
+      "n": 175165,
+      "blancs": 84770,
+      "nulles": 6203,
+      "noirs": 84192
+     },
+     {
+      "ply": 11,
+      "san": "Bb5+",
+      "pct": 23.9,
+      "n": 25239,
+      "blancs": 11574,
+      "nulles": 753,
+      "noirs": 12912
+     },
+     {
+      "ply": 13,
+      "san": "O-O",
+      "pct": 27.1,
+      "n": 6260,
+      "blancs": 3064,
+      "nulles": 174,
+      "noirs": 3022
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 d4 d5 e5 Bf5 Nf3 e6 Nc3 c5 dxc5 Bxc5 Bb5+ Nc6",
+    "freq": 0.06,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "d4",
+      "pct": 31.2,
+      "n": 6245996,
+      "blancs": 3114008,
+      "nulles": 235470,
+      "noirs": 2896518
+     },
+     {
+      "ply": 5,
+      "san": "e5",
+      "pct": 45.6,
+      "n": 2941950,
+      "blancs": 1484226,
+      "nulles": 103827,
+      "noirs": 1353897
+     },
+     {
+      "ply": 7,
+      "san": "Nf3",
+      "pct": 36.9,
+      "n": 571621,
+      "blancs": 282471,
+      "nulles": 19923,
+      "noirs": 269227
+     },
+     {
+      "ply": 9,
+      "san": "Nc3",
+      "pct": 25.5,
+      "n": 175165,
+      "blancs": 84770,
+      "nulles": 6203,
+      "noirs": 84192
+     },
+     {
+      "ply": 11,
+      "san": "dxc5",
+      "pct": 19.3,
+      "n": 20412,
+      "blancs": 8729,
+      "nulles": 803,
+      "noirs": 10880
+     },
+     {
+      "ply": 13,
+      "san": "Bb5+",
+      "pct": 34.2,
+      "n": 7182,
+      "blancs": 3022,
+      "nulles": 261,
+      "noirs": 3899
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 d4 d5 exd5 cxd5 Nc3 Nf6 Nf3 Nc6 Bg5 Bg4 Bxf6 exf6",
+    "freq": 0.06,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "d4",
+      "pct": 31.2,
+      "n": 6245996,
+      "blancs": 3114008,
+      "nulles": 235470,
+      "noirs": 2896518
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 22.5,
+      "n": 1453452,
+      "blancs": 688354,
+      "nulles": 61509,
+      "noirs": 703589
+     },
+     {
+      "ply": 7,
+      "san": "Nc3",
+      "pct": 42.9,
+      "n": 597389,
+      "blancs": 283101,
+      "nulles": 25144,
+      "noirs": 289144
+     },
+     {
+      "ply": 9,
+      "san": "Nf3",
+      "pct": 47.3,
+      "n": 209888,
+      "blancs": 100417,
+      "nulles": 9214,
+      "noirs": 100257
+     },
+     {
+      "ply": 11,
+      "san": "Bg5",
+      "pct": 16.9,
+      "n": 50804,
+      "blancs": 25376,
+      "nulles": 2367,
+      "noirs": 23061
+     },
+     {
+      "ply": 13,
+      "san": "Bxf6",
+      "pct": 34.7,
+      "n": 7128,
+      "blancs": 3388,
+      "nulles": 393,
+      "noirs": 3347
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 d4 d5 exd5 cxd5 Nc3 Nf6 Bb5+ Bd7 Nf3 Bxb5 Nxb5 Qa5+",
+    "freq": 0.06,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "d4",
+      "pct": 31.2,
+      "n": 6245996,
+      "blancs": 3114008,
+      "nulles": 235470,
+      "noirs": 2896518
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 22.5,
+      "n": 1453452,
+      "blancs": 688354,
+      "nulles": 61509,
+      "noirs": 703589
+     },
+     {
+      "ply": 7,
+      "san": "Nc3",
+      "pct": 42.9,
+      "n": 597389,
+      "blancs": 283101,
+      "nulles": 25144,
+      "noirs": 289144
+     },
+     {
+      "ply": 9,
+      "san": "Bb5+",
+      "pct": 16.7,
+      "n": 74124,
+      "blancs": 33644,
+      "nulles": 3660,
+      "noirs": 36820
+     },
+     {
+      "ply": 11,
+      "san": "Nf3",
+      "pct": 17.6,
+      "n": 6628,
+      "blancs": 3020,
+      "nulles": 291,
+      "noirs": 3317
+     },
+     {
+      "ply": 13,
+      "san": "Nxb5",
+      "pct": 99.5,
+      "n": 5408,
+      "blancs": 2428,
+      "nulles": 238,
+      "noirs": 2742
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 Nf3 d5 exd5 cxd5 d4 Nc6 Bb5 Bg4 O-O e6 Nc3 Nf6",
+    "freq": 0.06,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "Nf3",
+      "pct": 31.2,
+      "n": 6244913,
+      "blancs": 2994365,
+      "nulles": 244828,
+      "noirs": 3005720
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 44.1,
+      "n": 2514812,
+      "blancs": 1204566,
+      "nulles": 99082,
+      "noirs": 1211164
+     },
+     {
+      "ply": 7,
+      "san": "d4",
+      "pct": 45.5,
+      "n": 1078623,
+      "blancs": 529353,
+      "nulles": 41137,
+      "noirs": 508133
+     },
+     {
+      "ply": 9,
+      "san": "Bb5",
+      "pct": 31.6,
+      "n": 166032,
+      "blancs": 81352,
+      "nulles": 6307,
+      "noirs": 78373
+     },
+     {
+      "ply": 11,
+      "san": "O-O",
+      "pct": 29.2,
+      "n": 21911,
+      "blancs": 9937,
+      "nulles": 751,
+      "noirs": 11223
+     },
+     {
+      "ply": 13,
+      "san": "Nc3",
+      "pct": 14.7,
+      "n": 1675,
+      "blancs": 709,
+      "nulles": 62,
+      "noirs": 904
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 Nf3 d5 exd5 cxd5 Nc3 Nf6 Bb5+ Nc6 O-O Bg4 h3 Bxf3",
+    "freq": 0.06,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "Nf3",
+      "pct": 31.2,
+      "n": 6244913,
+      "blancs": 2994365,
+      "nulles": 244828,
+      "noirs": 3005720
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 44.1,
+      "n": 2514812,
+      "blancs": 1204566,
+      "nulles": 99082,
+      "noirs": 1211164
+     },
+     {
+      "ply": 7,
+      "san": "Nc3",
+      "pct": 24.2,
+      "n": 572613,
+      "blancs": 265205,
+      "nulles": 23978,
+      "noirs": 283430
+     },
+     {
+      "ply": 9,
+      "san": "Bb5+",
+      "pct": 30.2,
+      "n": 106328,
+      "blancs": 47890,
+      "nulles": 4989,
+      "noirs": 53449
+     },
+     {
+      "ply": 11,
+      "san": "O-O",
+      "pct": 23.6,
+      "n": 15852,
+      "blancs": 6958,
+      "nulles": 628,
+      "noirs": 8266
+     },
+     {
+      "ply": 13,
+      "san": "h3",
+      "pct": 40.6,
+      "n": 2926,
+      "blancs": 1184,
+      "nulles": 128,
+      "noirs": 1614
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 d4 d5 e5 Bf5 Nf3 e6 Nc3 c5 Bb5+ Nc6 Bxc6+ bxc6",
+    "freq": 0.05,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "d4",
+      "pct": 31.2,
+      "n": 6245996,
+      "blancs": 3114008,
+      "nulles": 235470,
+      "noirs": 2896518
+     },
+     {
+      "ply": 5,
+      "san": "e5",
+      "pct": 45.6,
+      "n": 2941950,
+      "blancs": 1484226,
+      "nulles": 103827,
+      "noirs": 1353897
+     },
+     {
+      "ply": 7,
+      "san": "Nf3",
+      "pct": 36.9,
+      "n": 571621,
+      "blancs": 282471,
+      "nulles": 19923,
+      "noirs": 269227
+     },
+     {
+      "ply": 9,
+      "san": "Nc3",
+      "pct": 25.5,
+      "n": 175165,
+      "blancs": 84770,
+      "nulles": 6203,
+      "noirs": 84192
+     },
+     {
+      "ply": 11,
+      "san": "Bb5+",
+      "pct": 23.9,
+      "n": 25239,
+      "blancs": 11574,
+      "nulles": 753,
+      "noirs": 12912
+     },
+     {
+      "ply": 13,
+      "san": "Bxc6+",
+      "pct": 23.3,
+      "n": 5377,
+      "blancs": 2429,
+      "nulles": 189,
+      "noirs": 2759
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 d4 d5 exd5 cxd5 Nf3 Nc6 Nc3 Bg4 Be2 e6 O-O Nf6",
+    "freq": 0.05,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "d4",
+      "pct": 31.2,
+      "n": 6245996,
+      "blancs": 3114008,
+      "nulles": 235470,
+      "noirs": 2896518
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 22.5,
+      "n": 1453452,
+      "blancs": 688354,
+      "nulles": 61509,
+      "noirs": 703589
+     },
+     {
+      "ply": 7,
+      "san": "Nf3",
+      "pct": 24.6,
+      "n": 342625,
+      "blancs": 164420,
+      "nulles": 13915,
+      "noirs": 164290
+     },
+     {
+      "ply": 9,
+      "san": "Nc3",
+      "pct": 40.6,
+      "n": 213476,
+      "blancs": 104121,
+      "nulles": 8617,
+      "noirs": 100738
+     },
+     {
+      "ply": 11,
+      "san": "Be2",
+      "pct": 35.6,
+      "n": 63220,
+      "blancs": 29440,
+      "nulles": 2552,
+      "noirs": 31228
+     },
+     {
+      "ply": 13,
+      "san": "O-O",
+      "pct": 32.3,
+      "n": 13543,
+      "blancs": 6013,
+      "nulles": 455,
+      "noirs": 7075
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 d4 d5 exd5 cxd5 Nf3 Nc6 Nc3 Bg4 Be2 e6 h3 Bxf3",
+    "freq": 0.05,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "d4",
+      "pct": 31.2,
+      "n": 6245996,
+      "blancs": 3114008,
+      "nulles": 235470,
+      "noirs": 2896518
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 22.5,
+      "n": 1453452,
+      "blancs": 688354,
+      "nulles": 61509,
+      "noirs": 703589
+     },
+     {
+      "ply": 7,
+      "san": "Nf3",
+      "pct": 24.6,
+      "n": 342625,
+      "blancs": 164420,
+      "nulles": 13915,
+      "noirs": 164290
+     },
+     {
+      "ply": 9,
+      "san": "Nc3",
+      "pct": 40.6,
+      "n": 213476,
+      "blancs": 104121,
+      "nulles": 8617,
+      "noirs": 100738
+     },
+     {
+      "ply": 11,
+      "san": "Be2",
+      "pct": 35.6,
+      "n": 63220,
+      "blancs": 29440,
+      "nulles": 2552,
+      "noirs": 31228
+     },
+     {
+      "ply": 13,
+      "san": "h3",
+      "pct": 29.7,
+      "n": 12446,
+      "blancs": 5460,
+      "nulles": 497,
+      "noirs": 6489
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 Nf3 d5 exd5 cxd5 Nc3 Nf6 d4 Nc6 Bg5 Bg4 Be2 e6",
+    "freq": 0.05,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "Nf3",
+      "pct": 31.2,
+      "n": 6244913,
+      "blancs": 2994365,
+      "nulles": 244828,
+      "noirs": 3005720
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 44.1,
+      "n": 2514812,
+      "blancs": 1204566,
+      "nulles": 99082,
+      "noirs": 1211164
+     },
+     {
+      "ply": 7,
+      "san": "Nc3",
+      "pct": 24.2,
+      "n": 572613,
+      "blancs": 265205,
+      "nulles": 23978,
+      "noirs": 283430
+     },
+     {
+      "ply": 9,
+      "san": "d4",
+      "pct": 51,
+      "n": 179597,
+      "blancs": 87570,
+      "nulles": 7807,
+      "noirs": 84220
+     },
+     {
+      "ply": 11,
+      "san": "Bg5",
+      "pct": 16.9,
+      "n": 50804,
+      "blancs": 25376,
+      "nulles": 2367,
+      "noirs": 23061
+     },
+     {
+      "ply": 13,
+      "san": "Be2",
+      "pct": 24.2,
+      "n": 4988,
+      "blancs": 2372,
+      "nulles": 238,
+      "noirs": 2378
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 Nf3 d5 e5 Bf5 d4 e6 Nc3 c5 Bb5+ Nc6 O-O a6",
+    "freq": 0.05,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "Nf3",
+      "pct": 31.2,
+      "n": 6244913,
+      "blancs": 2994365,
+      "nulles": 244828,
+      "noirs": 3005720
+     },
+     {
+      "ply": 5,
+      "san": "e5",
+      "pct": 20.7,
+      "n": 1178104,
+      "blancs": 582064,
+      "nulles": 40709,
+      "noirs": 555331
+     },
+     {
+      "ply": 7,
+      "san": "d4",
+      "pct": 71.6,
+      "n": 288071,
+      "blancs": 143430,
+      "nulles": 9761,
+      "noirs": 134880
+     },
+     {
+      "ply": 9,
+      "san": "Nc3",
+      "pct": 25.5,
+      "n": 175165,
+      "blancs": 84770,
+      "nulles": 6203,
+      "noirs": 84192
+     },
+     {
+      "ply": 11,
+      "san": "Bb5+",
+      "pct": 23.9,
+      "n": 25239,
+      "blancs": 11574,
+      "nulles": 753,
+      "noirs": 12912
+     },
+     {
+      "ply": 13,
+      "san": "O-O",
+      "pct": 27.1,
+      "n": 6260,
+      "blancs": 3064,
+      "nulles": 174,
+      "noirs": 3022
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 Nf3 d5 e5 Bf5 d4 e6 Nc3 c5 dxc5 Bxc5 Bb5+ Nc6",
+    "freq": 0.05,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "Nf3",
+      "pct": 31.2,
+      "n": 6244913,
+      "blancs": 2994365,
+      "nulles": 244828,
+      "noirs": 3005720
+     },
+     {
+      "ply": 5,
+      "san": "e5",
+      "pct": 20.7,
+      "n": 1178104,
+      "blancs": 582064,
+      "nulles": 40709,
+      "noirs": 555331
+     },
+     {
+      "ply": 7,
+      "san": "d4",
+      "pct": 71.6,
+      "n": 288071,
+      "blancs": 143430,
+      "nulles": 9761,
+      "noirs": 134880
+     },
+     {
+      "ply": 9,
+      "san": "Nc3",
+      "pct": 25.5,
+      "n": 175165,
+      "blancs": 84770,
+      "nulles": 6203,
+      "noirs": 84192
+     },
+     {
+      "ply": 11,
+      "san": "dxc5",
+      "pct": 19.3,
+      "n": 20412,
+      "blancs": 8729,
+      "nulles": 803,
+      "noirs": 10880
+     },
+     {
+      "ply": 13,
+      "san": "Bb5+",
+      "pct": 34.2,
+      "n": 7182,
+      "blancs": 3022,
+      "nulles": 261,
+      "noirs": 3899
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 c4 dxc4 e4 Nc6 Nf3 Nf6 Nc3 Bg4 Bxc4 Bxf3 gxf3 Nxd4",
+    "freq": 0.05,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "c4",
+      "pct": 21.8,
+      "n": 18590597,
+      "blancs": 9956905,
+      "nulles": 721914,
+      "noirs": 7911778
+     },
+     {
+      "ply": 5,
+      "san": "e4",
+      "pct": 33.9,
+      "n": 2646467,
+      "blancs": 1444761,
+      "nulles": 107526,
+      "noirs": 1094180
+     },
+     {
+      "ply": 7,
+      "san": "Nf3",
+      "pct": 48,
+      "n": 277459,
+      "blancs": 154944,
+      "nulles": 11506,
+      "noirs": 111009
+     },
+     {
+      "ply": 9,
+      "san": "Nc3",
+      "pct": 73.5,
+      "n": 83212,
+      "blancs": 47452,
+      "nulles": 3566,
+      "noirs": 32194
+     },
+     {
+      "ply": 11,
+      "san": "Bxc4",
+      "pct": 39,
+      "n": 68437,
+      "blancs": 34479,
+      "nulles": 3049,
+      "noirs": 30909
+     },
+     {
+      "ply": 13,
+      "san": "gxf3",
+      "pct": 26,
+      "n": 7855,
+      "blancs": 3894,
+      "nulles": 366,
+      "noirs": 3595
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 c4 dxc4 e4 Nc6 Nf3 Nf6 Nc3 Bg4 d5 Nb4 Bxc4 e6",
+    "freq": 0.05,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "c4",
+      "pct": 21.8,
+      "n": 18590597,
+      "blancs": 9956905,
+      "nulles": 721914,
+      "noirs": 7911778
+     },
+     {
+      "ply": 5,
+      "san": "e4",
+      "pct": 33.9,
+      "n": 2646467,
+      "blancs": 1444761,
+      "nulles": 107526,
+      "noirs": 1094180
+     },
+     {
+      "ply": 7,
+      "san": "Nf3",
+      "pct": 48,
+      "n": 277459,
+      "blancs": 154944,
+      "nulles": 11506,
+      "noirs": 111009
+     },
+     {
+      "ply": 9,
+      "san": "Nc3",
+      "pct": 73.5,
+      "n": 83212,
+      "blancs": 47452,
+      "nulles": 3566,
+      "noirs": 32194
+     },
+     {
+      "ply": 11,
+      "san": "d5",
+      "pct": 22.8,
+      "n": 40042,
+      "blancs": 23370,
+      "nulles": 1407,
+      "noirs": 15265
+     },
+     {
+      "ply": 13,
+      "san": "Bxc4",
+      "pct": 40.2,
+      "n": 5320,
+      "blancs": 3100,
+      "nulles": 218,
+      "noirs": 2002
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 c4 dxc4 e4 Nc6 Nf3 Nf6 Nc3 Bg4 d5 Nb4 Qa4+ c6",
+    "freq": 0.05,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "c4",
+      "pct": 21.8,
+      "n": 18590597,
+      "blancs": 9956905,
+      "nulles": 721914,
+      "noirs": 7911778
+     },
+     {
+      "ply": 5,
+      "san": "e4",
+      "pct": 33.9,
+      "n": 2646467,
+      "blancs": 1444761,
+      "nulles": 107526,
+      "noirs": 1094180
+     },
+     {
+      "ply": 7,
+      "san": "Nf3",
+      "pct": 48,
+      "n": 277459,
+      "blancs": 154944,
+      "nulles": 11506,
+      "noirs": 111009
+     },
+     {
+      "ply": 9,
+      "san": "Nc3",
+      "pct": 73.5,
+      "n": 83212,
+      "blancs": 47452,
+      "nulles": 3566,
+      "noirs": 32194
+     },
+     {
+      "ply": 11,
+      "san": "d5",
+      "pct": 22.8,
+      "n": 40042,
+      "blancs": 23370,
+      "nulles": 1407,
+      "noirs": 15265
+     },
+     {
+      "ply": 13,
+      "san": "Qa4+",
+      "pct": 36.7,
+      "n": 4852,
+      "blancs": 3201,
+      "nulles": 104,
+      "noirs": 1547
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 c4 dxc4 e3 Nf6 Bxc4 Nc6 Nf3 e6 Nc3 Bb4 Bd2 O-O",
+    "freq": 0.05,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "c4",
+      "pct": 21.8,
+      "n": 18590597,
+      "blancs": 9956905,
+      "nulles": 721914,
+      "noirs": 7911778
+     },
+     {
+      "ply": 5,
+      "san": "e3",
+      "pct": 26.7,
+      "n": 2080174,
+      "blancs": 1150554,
+      "nulles": 83749,
+      "noirs": 845871
+     },
+     {
+      "ply": 7,
+      "san": "Bxc4",
+      "pct": 84.9,
+      "n": 567677,
+      "blancs": 301144,
+      "nulles": 23813,
+      "noirs": 242720
+     },
+     {
+      "ply": 9,
+      "san": "Nf3",
+      "pct": 37.8,
+      "n": 133715,
+      "blancs": 72141,
+      "nulles": 5741,
+      "noirs": 55833
+     },
+     {
+      "ply": 11,
+      "san": "Nc3",
+      "pct": 33.7,
+      "n": 56733,
+      "blancs": 30880,
+      "nulles": 2409,
+      "noirs": 23444
+     },
+     {
+      "ply": 13,
+      "san": "Bd2",
+      "pct": 38.5,
+      "n": 49203,
+      "blancs": 27075,
+      "nulles": 2176,
+      "noirs": 19952
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 c4 dxc4 e3 Nf6 Bxc4 Nc6 Nc3 e5 Nf3 exd4 exd4 Bb4",
+    "freq": 0.05,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "c4",
+      "pct": 21.8,
+      "n": 18590597,
+      "blancs": 9956905,
+      "nulles": 721914,
+      "noirs": 7911778
+     },
+     {
+      "ply": 5,
+      "san": "e3",
+      "pct": 26.7,
+      "n": 2080174,
+      "blancs": 1150554,
+      "nulles": 83749,
+      "noirs": 845871
+     },
+     {
+      "ply": 7,
+      "san": "Bxc4",
+      "pct": 84.9,
+      "n": 567677,
+      "blancs": 301144,
+      "nulles": 23813,
+      "noirs": 242720
+     },
+     {
+      "ply": 9,
+      "san": "Nc3",
+      "pct": 25.3,
+      "n": 89340,
+      "blancs": 46952,
+      "nulles": 3879,
+      "noirs": 38509
+     },
+     {
+      "ply": 11,
+      "san": "Nf3",
+      "pct": 32.2,
+      "n": 19489,
+      "blancs": 10138,
+      "nulles": 972,
+      "noirs": 8379
+     },
+     {
+      "ply": 13,
+      "san": "exd4",
+      "pct": 58.8,
+      "n": 12030,
+      "blancs": 6501,
+      "nulles": 560,
+      "noirs": 4969
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 d4 d5 exd5 cxd5 Nc3 Nf6 Nf3 Nc6 Bg5 Bg4 Be2 e6",
+    "freq": 0.04,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "d4",
+      "pct": 31.2,
+      "n": 6245996,
+      "blancs": 3114008,
+      "nulles": 235470,
+      "noirs": 2896518
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 22.5,
+      "n": 1453452,
+      "blancs": 688354,
+      "nulles": 61509,
+      "noirs": 703589
+     },
+     {
+      "ply": 7,
+      "san": "Nc3",
+      "pct": 42.9,
+      "n": 597389,
+      "blancs": 283101,
+      "nulles": 25144,
+      "noirs": 289144
+     },
+     {
+      "ply": 9,
+      "san": "Nf3",
+      "pct": 47.3,
+      "n": 209888,
+      "blancs": 100417,
+      "nulles": 9214,
+      "noirs": 100257
+     },
+     {
+      "ply": 11,
+      "san": "Bg5",
+      "pct": 16.9,
+      "n": 50804,
+      "blancs": 25376,
+      "nulles": 2367,
+      "noirs": 23061
+     },
+     {
+      "ply": 13,
+      "san": "Be2",
+      "pct": 24.2,
+      "n": 4988,
+      "blancs": 2372,
+      "nulles": 238,
+      "noirs": 2378
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 d4 d5 exd5 cxd5 Nc3 Nf6 Bb5+ Bd7 Bxd7+ Nbxd7 Bg5 e6",
+    "freq": 0.04,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "d4",
+      "pct": 31.2,
+      "n": 6245996,
+      "blancs": 3114008,
+      "nulles": 235470,
+      "noirs": 2896518
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 22.5,
+      "n": 1453452,
+      "blancs": 688354,
+      "nulles": 61509,
+      "noirs": 703589
+     },
+     {
+      "ply": 7,
+      "san": "Nc3",
+      "pct": 42.9,
+      "n": 597389,
+      "blancs": 283101,
+      "nulles": 25144,
+      "noirs": 289144
+     },
+     {
+      "ply": 9,
+      "san": "Bb5+",
+      "pct": 16.7,
+      "n": 74124,
+      "blancs": 33644,
+      "nulles": 3660,
+      "noirs": 36820
+     },
+     {
+      "ply": 11,
+      "san": "Bxd7+",
+      "pct": 49.7,
+      "n": 18682,
+      "blancs": 8756,
+      "nulles": 1155,
+      "noirs": 8771
+     },
+     {
+      "ply": 13,
+      "san": "Bg5",
+      "pct": 24.7,
+      "n": 3114,
+      "blancs": 1316,
+      "nulles": 218,
+      "noirs": 1580
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 Nf3 d5 exd5 cxd5 Nc3 Nf6 Bb5+ Nc6 Bxc6+ bxc6 d4 Bg4",
+    "freq": 0.04,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "Nf3",
+      "pct": 31.2,
+      "n": 6244913,
+      "blancs": 2994365,
+      "nulles": 244828,
+      "noirs": 3005720
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 44.1,
+      "n": 2514812,
+      "blancs": 1204566,
+      "nulles": 99082,
+      "noirs": 1211164
+     },
+     {
+      "ply": 7,
+      "san": "Nc3",
+      "pct": 24.2,
+      "n": 572613,
+      "blancs": 265205,
+      "nulles": 23978,
+      "noirs": 283430
+     },
+     {
+      "ply": 9,
+      "san": "Bb5+",
+      "pct": 30.2,
+      "n": 106328,
+      "blancs": 47890,
+      "nulles": 4989,
+      "noirs": 53449
+     },
+     {
+      "ply": 11,
+      "san": "Bxc6+",
+      "pct": 27.6,
+      "n": 18542,
+      "blancs": 7730,
+      "nulles": 931,
+      "noirs": 9881
+     },
+     {
+      "ply": 13,
+      "san": "d4",
+      "pct": 23,
+      "n": 5308,
+      "blancs": 2205,
+      "nulles": 286,
+      "noirs": 2817
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 Nf3 d5 e5 Bf5 d4 e6 Nc3 c5 Bb5+ Nc6 Bxc6+ bxc6",
+    "freq": 0.04,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "Nf3",
+      "pct": 31.2,
+      "n": 6244913,
+      "blancs": 2994365,
+      "nulles": 244828,
+      "noirs": 3005720
+     },
+     {
+      "ply": 5,
+      "san": "e5",
+      "pct": 20.7,
+      "n": 1178104,
+      "blancs": 582064,
+      "nulles": 40709,
+      "noirs": 555331
+     },
+     {
+      "ply": 7,
+      "san": "d4",
+      "pct": 71.6,
+      "n": 288071,
+      "blancs": 143430,
+      "nulles": 9761,
+      "noirs": 134880
+     },
+     {
+      "ply": 9,
+      "san": "Nc3",
+      "pct": 25.5,
+      "n": 175165,
+      "blancs": 84770,
+      "nulles": 6203,
+      "noirs": 84192
+     },
+     {
+      "ply": 11,
+      "san": "Bb5+",
+      "pct": 23.9,
+      "n": 25239,
+      "blancs": 11574,
+      "nulles": 753,
+      "noirs": 12912
+     },
+     {
+      "ply": 13,
+      "san": "Bxc6+",
+      "pct": 23.3,
+      "n": 5377,
+      "blancs": 2429,
+      "nulles": 189,
+      "noirs": 2759
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 c4 dxc4 e3 Nf6 Bxc4 Nc6 Nf3 e6 Nc3 Bb4 O-O O-O",
+    "freq": 0.04,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "c4",
+      "pct": 21.8,
+      "n": 18590597,
+      "blancs": 9956905,
+      "nulles": 721914,
+      "noirs": 7911778
+     },
+     {
+      "ply": 5,
+      "san": "e3",
+      "pct": 26.7,
+      "n": 2080174,
+      "blancs": 1150554,
+      "nulles": 83749,
+      "noirs": 845871
+     },
+     {
+      "ply": 7,
+      "san": "Bxc4",
+      "pct": 84.9,
+      "n": 567677,
+      "blancs": 301144,
+      "nulles": 23813,
+      "noirs": 242720
+     },
+     {
+      "ply": 9,
+      "san": "Nf3",
+      "pct": 37.8,
+      "n": 133715,
+      "blancs": 72141,
+      "nulles": 5741,
+      "noirs": 55833
+     },
+     {
+      "ply": 11,
+      "san": "Nc3",
+      "pct": 33.7,
+      "n": 56733,
+      "blancs": 30880,
+      "nulles": 2409,
+      "noirs": 23444
+     },
+     {
+      "ply": 13,
+      "san": "O-O",
+      "pct": 32.6,
+      "n": 41588,
+      "blancs": 23628,
+      "nulles": 1496,
+      "noirs": 16464
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 d4 d5 e5 Bf5 Nf3 e6 Nc3 c5 dxc5 Bxc5 Bd3 Bxd3",
+    "freq": 0.03,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "d4",
+      "pct": 31.2,
+      "n": 6245996,
+      "blancs": 3114008,
+      "nulles": 235470,
+      "noirs": 2896518
+     },
+     {
+      "ply": 5,
+      "san": "e5",
+      "pct": 45.6,
+      "n": 2941950,
+      "blancs": 1484226,
+      "nulles": 103827,
+      "noirs": 1353897
+     },
+     {
+      "ply": 7,
+      "san": "Nf3",
+      "pct": 36.9,
+      "n": 571621,
+      "blancs": 282471,
+      "nulles": 19923,
+      "noirs": 269227
+     },
+     {
+      "ply": 9,
+      "san": "Nc3",
+      "pct": 25.5,
+      "n": 175165,
+      "blancs": 84770,
+      "nulles": 6203,
+      "noirs": 84192
+     },
+     {
+      "ply": 11,
+      "san": "dxc5",
+      "pct": 19.3,
+      "n": 20412,
+      "blancs": 8729,
+      "nulles": 803,
+      "noirs": 10880
+     },
+     {
+      "ply": 13,
+      "san": "Bd3",
+      "pct": 15,
+      "n": 3151,
+      "blancs": 1500,
+      "nulles": 129,
+      "noirs": 1522
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 d4 d5 exd5 cxd5 Nf3 Nc6 Bb5 Bg4 O-O e6 h3 Bxf3",
+    "freq": 0.03,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "d4",
+      "pct": 31.2,
+      "n": 6245996,
+      "blancs": 3114008,
+      "nulles": 235470,
+      "noirs": 2896518
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 22.5,
+      "n": 1453452,
+      "blancs": 688354,
+      "nulles": 61509,
+      "noirs": 703589
+     },
+     {
+      "ply": 7,
+      "san": "Nf3",
+      "pct": 24.6,
+      "n": 342625,
+      "blancs": 164420,
+      "nulles": 13915,
+      "noirs": 164290
+     },
+     {
+      "ply": 9,
+      "san": "Bb5",
+      "pct": 31.6,
+      "n": 166032,
+      "blancs": 81352,
+      "nulles": 6307,
+      "noirs": 78373
+     },
+     {
+      "ply": 11,
+      "san": "O-O",
+      "pct": 29.2,
+      "n": 21911,
+      "blancs": 9937,
+      "nulles": 751,
+      "noirs": 11223
+     },
+     {
+      "ply": 13,
+      "san": "h3",
+      "pct": 30.5,
+      "n": 3463,
+      "blancs": 1545,
+      "nulles": 133,
+      "noirs": 1785
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 Nf3 d5 exd5 cxd5 Nc3 Nf6 Bb5+ Nc6 O-O Bg4 d4 e6",
+    "freq": 0.03,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "Nf3",
+      "pct": 31.2,
+      "n": 6244913,
+      "blancs": 2994365,
+      "nulles": 244828,
+      "noirs": 3005720
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 44.1,
+      "n": 2514812,
+      "blancs": 1204566,
+      "nulles": 99082,
+      "noirs": 1211164
+     },
+     {
+      "ply": 7,
+      "san": "Nc3",
+      "pct": 24.2,
+      "n": 572613,
+      "blancs": 265205,
+      "nulles": 23978,
+      "noirs": 283430
+     },
+     {
+      "ply": 9,
+      "san": "Bb5+",
+      "pct": 30.2,
+      "n": 106328,
+      "blancs": 47890,
+      "nulles": 4989,
+      "noirs": 53449
+     },
+     {
+      "ply": 11,
+      "san": "O-O",
+      "pct": 23.6,
+      "n": 15852,
+      "blancs": 6958,
+      "nulles": 628,
+      "noirs": 8266
+     },
+     {
+      "ply": 13,
+      "san": "d4",
+      "pct": 19.1,
+      "n": 1376,
+      "blancs": 559,
+      "nulles": 55,
+      "noirs": 762
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 c4 dxc4 e3 Nf6 Bxc4 Nc6 Nc3 e5 Nf3 exd4 Nxd4 Nxd4",
+    "freq": 0.03,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "c4",
+      "pct": 21.8,
+      "n": 18590597,
+      "blancs": 9956905,
+      "nulles": 721914,
+      "noirs": 7911778
+     },
+     {
+      "ply": 5,
+      "san": "e3",
+      "pct": 26.7,
+      "n": 2080174,
+      "blancs": 1150554,
+      "nulles": 83749,
+      "noirs": 845871
+     },
+     {
+      "ply": 7,
+      "san": "Bxc4",
+      "pct": 84.9,
+      "n": 567677,
+      "blancs": 301144,
+      "nulles": 23813,
+      "noirs": 242720
+     },
+     {
+      "ply": 9,
+      "san": "Nc3",
+      "pct": 25.3,
+      "n": 89340,
+      "blancs": 46952,
+      "nulles": 3879,
+      "noirs": 38509
+     },
+     {
+      "ply": 11,
+      "san": "Nf3",
+      "pct": 32.2,
+      "n": 19489,
+      "blancs": 10138,
+      "nulles": 972,
+      "noirs": 8379
+     },
+     {
+      "ply": 13,
+      "san": "Nxd4",
+      "pct": 38.1,
+      "n": 7798,
+      "blancs": 4066,
+      "nulles": 470,
+      "noirs": 3262
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 d4 d5 exd5 cxd5 Nf3 Nc6 Nc3 Bg4 h3 Bxf3 gxf3 e6",
+    "freq": 0.02,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "d4",
+      "pct": 31.2,
+      "n": 6245996,
+      "blancs": 3114008,
+      "nulles": 235470,
+      "noirs": 2896518
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 22.5,
+      "n": 1453452,
+      "blancs": 688354,
+      "nulles": 61509,
+      "noirs": 703589
+     },
+     {
+      "ply": 7,
+      "san": "Nf3",
+      "pct": 24.6,
+      "n": 342625,
+      "blancs": 164420,
+      "nulles": 13915,
+      "noirs": 164290
+     },
+     {
+      "ply": 9,
+      "san": "Nc3",
+      "pct": 40.6,
+      "n": 213476,
+      "blancs": 104121,
+      "nulles": 8617,
+      "noirs": 100738
+     },
+     {
+      "ply": 11,
+      "san": "h3",
+      "pct": 23.5,
+      "n": 41776,
+      "blancs": 18981,
+      "nulles": 1677,
+      "noirs": 21118
+     },
+     {
+      "ply": 13,
+      "san": "gxf3",
+      "pct": 17.6,
+      "n": 4693,
+      "blancs": 1986,
+      "nulles": 177,
+      "noirs": 2530
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 d4 d5 exd5 cxd5 Nf3 Nc6 Bb5 Bg4 O-O e6 Nc3 Nf6",
+    "freq": 0.02,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "d4",
+      "pct": 31.2,
+      "n": 6245996,
+      "blancs": 3114008,
+      "nulles": 235470,
+      "noirs": 2896518
+     },
+     {
+      "ply": 5,
+      "san": "exd5",
+      "pct": 22.5,
+      "n": 1453452,
+      "blancs": 688354,
+      "nulles": 61509,
+      "noirs": 703589
+     },
+     {
+      "ply": 7,
+      "san": "Nf3",
+      "pct": 24.6,
+      "n": 342625,
+      "blancs": 164420,
+      "nulles": 13915,
+      "noirs": 164290
+     },
+     {
+      "ply": 9,
+      "san": "Bb5",
+      "pct": 31.6,
+      "n": 166032,
+      "blancs": 81352,
+      "nulles": 6307,
+      "noirs": 78373
+     },
+     {
+      "ply": 11,
+      "san": "O-O",
+      "pct": 29.2,
+      "n": 21911,
+      "blancs": 9937,
+      "nulles": 751,
+      "noirs": 11223
+     },
+     {
+      "ply": 13,
+      "san": "Nc3",
+      "pct": 14.7,
+      "n": 1675,
+      "blancs": 709,
+      "nulles": 62,
+      "noirs": 904
+     }
+    ]
+   },
+   {
+    "pgn": "e4 c6 Nf3 d5 e5 Bf5 d4 e6 Nc3 c5 dxc5 Bxc5 Bd3 Bxd3",
+    "freq": 0.02,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "e4",
+      "pct": 66.5,
+      "n": 490756720,
+      "blancs": 246380528,
+      "nulles": 20807099,
+      "noirs": 223569093
+     },
+     {
+      "ply": 3,
+      "san": "Nf3",
+      "pct": 31.2,
+      "n": 6244913,
+      "blancs": 2994365,
+      "nulles": 244828,
+      "noirs": 3005720
+     },
+     {
+      "ply": 5,
+      "san": "e5",
+      "pct": 20.7,
+      "n": 1178104,
+      "blancs": 582064,
+      "nulles": 40709,
+      "noirs": 555331
+     },
+     {
+      "ply": 7,
+      "san": "d4",
+      "pct": 71.6,
+      "n": 288071,
+      "blancs": 143430,
+      "nulles": 9761,
+      "noirs": 134880
+     },
+     {
+      "ply": 9,
+      "san": "Nc3",
+      "pct": 25.5,
+      "n": 175165,
+      "blancs": 84770,
+      "nulles": 6203,
+      "noirs": 84192
+     },
+     {
+      "ply": 11,
+      "san": "dxc5",
+      "pct": 19.3,
+      "n": 20412,
+      "blancs": 8729,
+      "nulles": 803,
+      "noirs": 10880
+     },
+     {
+      "ply": 13,
+      "san": "Bd3",
+      "pct": 15,
+      "n": 3151,
+      "blancs": 1500,
+      "nulles": 129,
+      "noirs": 1522
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 c4 dxc4 e3 Nf6 Bxc4 Nc6 Nc3 e5 d5 Nb4 a3 Na6",
+    "freq": 0.02,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "c4",
+      "pct": 21.8,
+      "n": 18590597,
+      "blancs": 9956905,
+      "nulles": 721914,
+      "noirs": 7911778
+     },
+     {
+      "ply": 5,
+      "san": "e3",
+      "pct": 26.7,
+      "n": 2080174,
+      "blancs": 1150554,
+      "nulles": 83749,
+      "noirs": 845871
+     },
+     {
+      "ply": 7,
+      "san": "Bxc4",
+      "pct": 84.9,
+      "n": 567677,
+      "blancs": 301144,
+      "nulles": 23813,
+      "noirs": 242720
+     },
+     {
+      "ply": 9,
+      "san": "Nc3",
+      "pct": 25.3,
+      "n": 89340,
+      "blancs": 46952,
+      "nulles": 3879,
+      "noirs": 38509
+     },
+     {
+      "ply": 11,
+      "san": "d5",
+      "pct": 26.4,
+      "n": 15979,
+      "blancs": 8784,
+      "nulles": 620,
+      "noirs": 6575
+     },
+     {
+      "ply": 13,
+      "san": "a3",
+      "pct": 30.9,
+      "n": 2812,
+      "blancs": 1755,
+      "nulles": 113,
+      "noirs": 944
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 c4 dxc4 e3 Nf6 Bxc4 Nc6 Nc3 e5 d5 Nb4 Qa4+ Bd7",
+    "freq": 0.02,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "c4",
+      "pct": 21.8,
+      "n": 18590597,
+      "blancs": 9956905,
+      "nulles": 721914,
+      "noirs": 7911778
+     },
+     {
+      "ply": 5,
+      "san": "e3",
+      "pct": 26.7,
+      "n": 2080174,
+      "blancs": 1150554,
+      "nulles": 83749,
+      "noirs": 845871
+     },
+     {
+      "ply": 7,
+      "san": "Bxc4",
+      "pct": 84.9,
+      "n": 567677,
+      "blancs": 301144,
+      "nulles": 23813,
+      "noirs": 242720
+     },
+     {
+      "ply": 9,
+      "san": "Nc3",
+      "pct": 25.3,
+      "n": 89340,
+      "blancs": 46952,
+      "nulles": 3879,
+      "noirs": 38509
+     },
+     {
+      "ply": 11,
+      "san": "d5",
+      "pct": 26.4,
+      "n": 15979,
+      "blancs": 8784,
+      "nulles": 620,
+      "noirs": 6575
+     },
+     {
+      "ply": 13,
+      "san": "Qa4+",
+      "pct": 28.5,
+      "n": 2590,
+      "blancs": 1169,
+      "nulles": 79,
+      "noirs": 1342
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 Bf4 Nc6 e3 Nf6 Nf3 e6 Bd3 Bd6 Bxd6 Qxd6 O-O O-O",
+    "freq": 0.02,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "Bf4",
+      "pct": 21.1,
+      "n": 17978012,
+      "blancs": 9526439,
+      "nulles": 730030,
+      "noirs": 7721543
+     },
+     {
+      "ply": 5,
+      "san": "e3",
+      "pct": 55.5,
+      "n": 3908369,
+      "blancs": 2061795,
+      "nulles": 159029,
+      "noirs": 1687545
+     },
+     {
+      "ply": 7,
+      "san": "Nf3",
+      "pct": 37.3,
+      "n": 885728,
+      "blancs": 476483,
+      "nulles": 37074,
+      "noirs": 372171
+     },
+     {
+      "ply": 9,
+      "san": "Bd3",
+      "pct": 32.9,
+      "n": 338633,
+      "blancs": 187871,
+      "nulles": 13322,
+      "noirs": 137440
+     },
+     {
+      "ply": 11,
+      "san": "Bxd6",
+      "pct": 15.1,
+      "n": 30457,
+      "blancs": 13851,
+      "nulles": 1530,
+      "noirs": 15076
+     },
+     {
+      "ply": 13,
+      "san": "O-O",
+      "pct": 41.2,
+      "n": 13978,
+      "blancs": 6656,
+      "nulles": 672,
+      "noirs": 6650
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 Bf4 Nc6 Nf3 Nf6 e3 e6 Bd3 Bd6 Bxd6 Qxd6 O-O O-O",
+    "freq": 0.02,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "Bf4",
+      "pct": 21.1,
+      "n": 17978012,
+      "blancs": 9526439,
+      "nulles": 730030,
+      "noirs": 7721543
+     },
+     {
+      "ply": 5,
+      "san": "Nf3",
+      "pct": 24.8,
+      "n": 1745218,
+      "blancs": 925485,
+      "nulles": 70585,
+      "noirs": 749148
+     },
+     {
+      "ply": 7,
+      "san": "e3",
+      "pct": 69.8,
+      "n": 1279881,
+      "blancs": 690652,
+      "nulles": 53913,
+      "noirs": 535316
+     },
+     {
+      "ply": 9,
+      "san": "Bd3",
+      "pct": 32.9,
+      "n": 338633,
+      "blancs": 187871,
+      "nulles": 13322,
+      "noirs": 137440
+     },
+     {
+      "ply": 11,
+      "san": "Bxd6",
+      "pct": 15.1,
+      "n": 30457,
+      "blancs": 13851,
+      "nulles": 1530,
+      "noirs": 15076
+     },
+     {
+      "ply": 13,
+      "san": "O-O",
+      "pct": 41.2,
+      "n": 13978,
+      "blancs": 6656,
+      "nulles": 672,
+      "noirs": 6650
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 Bf4 Nc6 Nf3 Nf6 Nc3 Bf5 e3 e6 Bd3 Bxd3 Qxd3 Bb4",
+    "freq": 0.02,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "Bf4",
+      "pct": 21.1,
+      "n": 17978012,
+      "blancs": 9526439,
+      "nulles": 730030,
+      "noirs": 7721543
+     },
+     {
+      "ply": 5,
+      "san": "Nf3",
+      "pct": 24.8,
+      "n": 1745218,
+      "blancs": 925485,
+      "nulles": 70585,
+      "noirs": 749148
+     },
+     {
+      "ply": 7,
+      "san": "Nc3",
+      "pct": 12.3,
+      "n": 225308,
+      "blancs": 116994,
+      "nulles": 10034,
+      "noirs": 98280
+     },
+     {
+      "ply": 9,
+      "san": "e3",
+      "pct": 49,
+      "n": 255052,
+      "blancs": 124671,
+      "nulles": 14250,
+      "noirs": 116131
+     },
+     {
+      "ply": 11,
+      "san": "Bd3",
+      "pct": 34,
+      "n": 79578,
+      "blancs": 39901,
+      "nulles": 4547,
+      "noirs": 35130
+     },
+     {
+      "ply": 13,
+      "san": "Qxd3",
+      "pct": 77.5,
+      "n": 19901,
+      "blancs": 9797,
+      "nulles": 1066,
+      "noirs": 9038
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 Bf4 Nc6 Nf3 Nf6 Nc3 Bf5 Nb5 e5 dxe5 Ne4 e6 Bd6",
+    "freq": 0.02,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "Bf4",
+      "pct": 21.1,
+      "n": 17978012,
+      "blancs": 9526439,
+      "nulles": 730030,
+      "noirs": 7721543
+     },
+     {
+      "ply": 5,
+      "san": "Nf3",
+      "pct": 24.8,
+      "n": 1745218,
+      "blancs": 925485,
+      "nulles": 70585,
+      "noirs": 749148
+     },
+     {
+      "ply": 7,
+      "san": "Nc3",
+      "pct": 12.3,
+      "n": 225308,
+      "blancs": 116994,
+      "nulles": 10034,
+      "noirs": 98280
+     },
+     {
+      "ply": 9,
+      "san": "Nb5",
+      "pct": 22.3,
+      "n": 116425,
+      "blancs": 67510,
+      "nulles": 4772,
+      "noirs": 44143
+     },
+     {
+      "ply": 11,
+      "san": "dxe5",
+      "pct": 72.6,
+      "n": 27751,
+      "blancs": 16205,
+      "nulles": 1039,
+      "noirs": 10507
+     },
+     {
+      "ply": 13,
+      "san": "e6",
+      "pct": 85.1,
+      "n": 7275,
+      "blancs": 4150,
+      "nulles": 268,
+      "noirs": 2857
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 Bf4 Nc6 e3 Nf6 Nf3 e6 Bd3 Bd6 Bxd6 Qxd6 c3 O-O",
+    "freq": 0.01,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "Bf4",
+      "pct": 21.1,
+      "n": 17978012,
+      "blancs": 9526439,
+      "nulles": 730030,
+      "noirs": 7721543
+     },
+     {
+      "ply": 5,
+      "san": "e3",
+      "pct": 55.5,
+      "n": 3908369,
+      "blancs": 2061795,
+      "nulles": 159029,
+      "noirs": 1687545
+     },
+     {
+      "ply": 7,
+      "san": "Nf3",
+      "pct": 37.3,
+      "n": 885728,
+      "blancs": 476483,
+      "nulles": 37074,
+      "noirs": 372171
+     },
+     {
+      "ply": 9,
+      "san": "Bd3",
+      "pct": 32.9,
+      "n": 338633,
+      "blancs": 187871,
+      "nulles": 13322,
+      "noirs": 137440
+     },
+     {
+      "ply": 11,
+      "san": "Bxd6",
+      "pct": 15.1,
+      "n": 30457,
+      "blancs": 13851,
+      "nulles": 1530,
+      "noirs": 15076
+     },
+     {
+      "ply": 13,
+      "san": "c3",
+      "pct": 20.7,
+      "n": 7010,
+      "blancs": 3152,
+      "nulles": 345,
+      "noirs": 3513
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 Bf4 Nc6 e3 Nf6 Bd3 e6 Nf3 Bd6 Bxd6 Qxd6 O-O O-O",
+    "freq": 0.01,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "Bf4",
+      "pct": 21.1,
+      "n": 17978012,
+      "blancs": 9526439,
+      "nulles": 730030,
+      "noirs": 7721543
+     },
+     {
+      "ply": 5,
+      "san": "e3",
+      "pct": 55.5,
+      "n": 3908369,
+      "blancs": 2061795,
+      "nulles": 159029,
+      "noirs": 1687545
+     },
+     {
+      "ply": 7,
+      "san": "Bd3",
+      "pct": 18.7,
+      "n": 443233,
+      "blancs": 235864,
+      "nulles": 18286,
+      "noirs": 189083
+     },
+     {
+      "ply": 9,
+      "san": "Nf3",
+      "pct": 52,
+      "n": 124102,
+      "blancs": 67829,
+      "nulles": 4894,
+      "noirs": 51379
+     },
+     {
+      "ply": 11,
+      "san": "Bxd6",
+      "pct": 15.1,
+      "n": 30457,
+      "blancs": 13851,
+      "nulles": 1530,
+      "noirs": 15076
+     },
+     {
+      "ply": 13,
+      "san": "O-O",
+      "pct": 41.2,
+      "n": 13978,
+      "blancs": 6656,
+      "nulles": 672,
+      "noirs": 6650
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 Bf4 Nc6 e3 Nf6 Bd3 e6 Nf3 Bd6 Bxd6 Qxd6 c3 O-O",
+    "freq": 0.01,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "Bf4",
+      "pct": 21.1,
+      "n": 17978012,
+      "blancs": 9526439,
+      "nulles": 730030,
+      "noirs": 7721543
+     },
+     {
+      "ply": 5,
+      "san": "e3",
+      "pct": 55.5,
+      "n": 3908369,
+      "blancs": 2061795,
+      "nulles": 159029,
+      "noirs": 1687545
+     },
+     {
+      "ply": 7,
+      "san": "Bd3",
+      "pct": 18.7,
+      "n": 443233,
+      "blancs": 235864,
+      "nulles": 18286,
+      "noirs": 189083
+     },
+     {
+      "ply": 9,
+      "san": "Nf3",
+      "pct": 52,
+      "n": 124102,
+      "blancs": 67829,
+      "nulles": 4894,
+      "noirs": 51379
+     },
+     {
+      "ply": 11,
+      "san": "Bxd6",
+      "pct": 15.1,
+      "n": 30457,
+      "blancs": 13851,
+      "nulles": 1530,
+      "noirs": 15076
+     },
+     {
+      "ply": 13,
+      "san": "c3",
+      "pct": 20.7,
+      "n": 7010,
+      "blancs": 3152,
+      "nulles": 345,
+      "noirs": 3513
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 Bf4 Nc6 e3 Nf6 Bd3 e6 c3 Bd6 Nf3 Bxf4 exf4 O-O",
+    "freq": 0.01,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "Bf4",
+      "pct": 21.1,
+      "n": 17978012,
+      "blancs": 9526439,
+      "nulles": 730030,
+      "noirs": 7721543
+     },
+     {
+      "ply": 5,
+      "san": "e3",
+      "pct": 55.5,
+      "n": 3908369,
+      "blancs": 2061795,
+      "nulles": 159029,
+      "noirs": 1687545
+     },
+     {
+      "ply": 7,
+      "san": "Bd3",
+      "pct": 18.7,
+      "n": 443233,
+      "blancs": 235864,
+      "nulles": 18286,
+      "noirs": 189083
+     },
+     {
+      "ply": 9,
+      "san": "c3",
+      "pct": 26.7,
+      "n": 63732,
+      "blancs": 33805,
+      "nulles": 2464,
+      "noirs": 27463
+     },
+     {
+      "ply": 11,
+      "san": "Nf3",
+      "pct": 12.3,
+      "n": 9926,
+      "blancs": 4950,
+      "nulles": 425,
+      "noirs": 4551
+     },
+     {
+      "ply": 13,
+      "san": "exf4",
+      "pct": 96.5,
+      "n": 23015,
+      "blancs": 11533,
+      "nulles": 1049,
+      "noirs": 10433
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 Bf4 Nc6 Nf3 Nf6 e3 e6 Bd3 Bd6 Bxd6 Qxd6 c3 O-O",
+    "freq": 0.01,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "Bf4",
+      "pct": 21.1,
+      "n": 17978012,
+      "blancs": 9526439,
+      "nulles": 730030,
+      "noirs": 7721543
+     },
+     {
+      "ply": 5,
+      "san": "Nf3",
+      "pct": 24.8,
+      "n": 1745218,
+      "blancs": 925485,
+      "nulles": 70585,
+      "noirs": 749148
+     },
+     {
+      "ply": 7,
+      "san": "e3",
+      "pct": 69.8,
+      "n": 1279881,
+      "blancs": 690652,
+      "nulles": 53913,
+      "noirs": 535316
+     },
+     {
+      "ply": 9,
+      "san": "Bd3",
+      "pct": 32.9,
+      "n": 338633,
+      "blancs": 187871,
+      "nulles": 13322,
+      "noirs": 137440
+     },
+     {
+      "ply": 11,
+      "san": "Bxd6",
+      "pct": 15.1,
+      "n": 30457,
+      "blancs": 13851,
+      "nulles": 1530,
+      "noirs": 15076
+     },
+     {
+      "ply": 13,
+      "san": "c3",
+      "pct": 20.7,
+      "n": 7010,
+      "blancs": 3152,
+      "nulles": 345,
+      "noirs": 3513
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 Bf4 Nc6 Nf3 Nf6 Nc3 Bf5 e3 e6 Bb5 Bb4 O-O O-O",
+    "freq": 0.01,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "Bf4",
+      "pct": 21.1,
+      "n": 17978012,
+      "blancs": 9526439,
+      "nulles": 730030,
+      "noirs": 7721543
+     },
+     {
+      "ply": 5,
+      "san": "Nf3",
+      "pct": 24.8,
+      "n": 1745218,
+      "blancs": 925485,
+      "nulles": 70585,
+      "noirs": 749148
+     },
+     {
+      "ply": 7,
+      "san": "Nc3",
+      "pct": 12.3,
+      "n": 225308,
+      "blancs": 116994,
+      "nulles": 10034,
+      "noirs": 98280
+     },
+     {
+      "ply": 9,
+      "san": "e3",
+      "pct": 49,
+      "n": 255052,
+      "blancs": 124671,
+      "nulles": 14250,
+      "noirs": 116131
+     },
+     {
+      "ply": 11,
+      "san": "Bb5",
+      "pct": 34.6,
+      "n": 81062,
+      "blancs": 40010,
+      "nulles": 4550,
+      "noirs": 36502
+     },
+     {
+      "ply": 13,
+      "san": "O-O",
+      "pct": 37.6,
+      "n": 15371,
+      "blancs": 7376,
+      "nulles": 947,
+      "noirs": 7048
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 Bf4 Nc6 Nf3 Nf6 Nc3 Bf5 e3 e6 Bb5 Bb4 a3 Bxc3+",
+    "freq": 0,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "Bf4",
+      "pct": 21.1,
+      "n": 17978012,
+      "blancs": 9526439,
+      "nulles": 730030,
+      "noirs": 7721543
+     },
+     {
+      "ply": 5,
+      "san": "Nf3",
+      "pct": 24.8,
+      "n": 1745218,
+      "blancs": 925485,
+      "nulles": 70585,
+      "noirs": 749148
+     },
+     {
+      "ply": 7,
+      "san": "Nc3",
+      "pct": 12.3,
+      "n": 225308,
+      "blancs": 116994,
+      "nulles": 10034,
+      "noirs": 98280
+     },
+     {
+      "ply": 9,
+      "san": "e3",
+      "pct": 49,
+      "n": 255052,
+      "blancs": 124671,
+      "nulles": 14250,
+      "noirs": 116131
+     },
+     {
+      "ply": 11,
+      "san": "Bb5",
+      "pct": 34.6,
+      "n": 81062,
+      "blancs": 40010,
+      "nulles": 4550,
+      "noirs": 36502
+     },
+     {
+      "ply": 13,
+      "san": "a3",
+      "pct": 19.4,
+      "n": 7929,
+      "blancs": 3959,
+      "nulles": 536,
+      "noirs": 3434
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 Bf4 Nc6 Nf3 Nf6 Nc3 Bf5 e3 e6 Bd3 Bxd3 cxd3 Bb4",
+    "freq": 0,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "Bf4",
+      "pct": 21.1,
+      "n": 17978012,
+      "blancs": 9526439,
+      "nulles": 730030,
+      "noirs": 7721543
+     },
+     {
+      "ply": 5,
+      "san": "Nf3",
+      "pct": 24.8,
+      "n": 1745218,
+      "blancs": 925485,
+      "nulles": 70585,
+      "noirs": 749148
+     },
+     {
+      "ply": 7,
+      "san": "Nc3",
+      "pct": 12.3,
+      "n": 225308,
+      "blancs": 116994,
+      "nulles": 10034,
+      "noirs": 98280
+     },
+     {
+      "ply": 9,
+      "san": "e3",
+      "pct": 49,
+      "n": 255052,
+      "blancs": 124671,
+      "nulles": 14250,
+      "noirs": 116131
+     },
+     {
+      "ply": 11,
+      "san": "Bd3",
+      "pct": 34,
+      "n": 79578,
+      "blancs": 39901,
+      "nulles": 4547,
+      "noirs": 35130
+     },
+     {
+      "ply": 13,
+      "san": "cxd3",
+      "pct": 22.2,
+      "n": 5693,
+      "blancs": 2428,
+      "nulles": 362,
+      "noirs": 2903
+     }
+    ]
+   },
+   {
+    "pgn": "d4 d5 Bf4 Nc6 Nf3 Nf6 Nc3 Bf5 Nb5 e5 Nxe5 Nxe5 Bxe5 Bd6",
+    "freq": 0,
+    "coups": [
+     {
+      "ply": 1,
+      "san": "d4",
+      "pct": 20.7,
+      "n": 153009954,
+      "blancs": 76777190,
+      "nulles": 6732699,
+      "noirs": 69500065
+     },
+     {
+      "ply": 3,
+      "san": "Bf4",
+      "pct": 21.1,
+      "n": 17978012,
+      "blancs": 9526439,
+      "nulles": 730030,
+      "noirs": 7721543
+     },
+     {
+      "ply": 5,
+      "san": "Nf3",
+      "pct": 24.8,
+      "n": 1745218,
+      "blancs": 925485,
+      "nulles": 70585,
+      "noirs": 749148
+     },
+     {
+      "ply": 7,
+      "san": "Nc3",
+      "pct": 12.3,
+      "n": 225308,
+      "blancs": 116994,
+      "nulles": 10034,
+      "noirs": 98280
+     },
+     {
+      "ply": 9,
+      "san": "Nb5",
+      "pct": 22.3,
+      "n": 116425,
+      "blancs": 67510,
+      "nulles": 4772,
+      "noirs": 44143
+     },
+     {
+      "ply": 11,
+      "san": "Nxe5",
+      "pct": 15.1,
+      "n": 5790,
+      "blancs": 3251,
+      "nulles": 251,
+      "noirs": 2288
+     },
+     {
+      "ply": 13,
+      "san": "Bxe5",
+      "pct": 91.6,
+      "n": 2530,
+      "blancs": 1382,
+      "nulles": 128,
+      "noirs": 1020
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -53,6 +53,18 @@
    "titre": "Chess Drifter — Caro-Kann classique 4...Fb5 (ligne principale annotée)",
    "url": "https://chessdrifter.blogspot.com/2018/02/b19-classical-caro-kann-4bf5-main-line.html"
   },
+  "c365_c50": {
+   "titre": "365chess — C50 Italian Game (statistiques de parties : 4.c3 le plus joué, 4.d3 en Deux cavaliers)",
+   "url": "https://www.365chess.com/eco/C50_Italian_Game"
+  },
+  "exeter_italian": {
+   "titre": "Exeter Chess Club — The Modern Italian Game (plans : d3 puis c3/d4, routes de cavaliers)",
+   "url": "https://exeterchessclub.org.uk/content/modern-italian-game"
+  },
+  "chessarchive_italian": {
+   "titre": "Chess Archive — Italian Game (liste des variantes : La Bourdonnais, Tarrasch…)",
+   "url": "https://chessarchive.net/en/study/openings/italian-game/page/7"
+  },
   "lichess_db": {
    "titre": "Base d'ouvertures Lichess (CC0)",
    "url": "https://github.com/lichess-org/chess-openings"
@@ -90,6 +102,9 @@
     "note": "Giuoco Piano, parties Lichess blitz/rapide, joueurs ~400"
    },
    "sources": [
+    "c365_c50",
+    "exeter_italian",
+    "chessarchive_italian",
     "to_c54",
     "wb_pianissimo",
     "cv_giuoco",
@@ -97,53 +112,6 @@
     "studer"
    ],
    "lignes": [
-    {
-     "nom": "Attaque Möller (variante tranchante)",
-     "coups": [
-      "e4",
-      "e5",
-      "Nf3",
-      "Nc6",
-      "Bc4",
-      "Bc5",
-      "c3",
-      "Nf6",
-      "d4",
-      "exd4",
-      "cxd4",
-      "Bb4+",
-      "Nc3",
-      "Nxe4",
-      "O-O",
-      "Bxc3",
-      "d5",
-      "Bf6",
-      "Re1",
-      "Ne7",
-      "Rxe4",
-      "O-O",
-      "d6",
-      "cxd6",
-      "Bg5",
-      "d5",
-      "Bxd5",
-      "Nxd5",
-      "Qxd5",
-      "Bxg5"
-     ],
-     "notes": {
-      "9": "On ouvre le centre : d4 est l'idée centrale de c3. Cela demande de connaître la suite par cœur.",
-      "15": "Le roque met le roi à l'abri avant les complications : si Noir prend en e4, on a du jeu contre le cavalier e4.",
-      "18": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
-     },
-     "extensionDepuis": 17,
-     "ecoDetecte": {
-      "code": "C54",
-      "nom": "Italian Game: Classical Variation, Greco Gambit, Moeller-Therkatz Attack",
-      "ply": 17
-     },
-     "fenFinale": "r1bq1rk1/pp1p1ppp/8/3Q2b1/4R3/5N2/PP3PPP/R5K1 w - - 0 16"
-    },
     {
      "nom": "Pianissimo classique",
      "coups": [
@@ -167,16 +135,16 @@
       "Be6",
       "Nf1",
       "h6",
-      "Be3",
-      "Bxe3",
-      "Nxe3",
+      "Ng3",
       "Bxb3",
       "Qxb3",
-      "Qd7",
+      "Rb8",
+      "Be3",
+      "Bxe3",
+      "Rxe3",
+      "Ne7",
       "d4",
-      "Rfe8",
-      "dxe5",
-      "Nxe4"
+      "Ng6"
      ],
      "notes": {
       "5": "Le fou vise f7, la case la plus faible du camp noir au départ.",
@@ -190,7 +158,249 @@
       "nom": "Italian Game: Classical Variation, Giuoco Pianissimo",
       "ply": 12
      },
-     "fenFinale": "r3r1k1/1ppq1pp1/p1np3p/4P3/4n3/1QP1NN2/PP3PPP/R3R1K1 w - - 0 16"
+     "fenFinale": "1r1q1rk1/1pp2pp1/p2p1nnp/4p3/3PP3/1QP1RNN1/PP3PPP/R5K1 w - - 1 16"
+    },
+    {
+     "nom": "Contre 3...Cf6 : le calme 4.d3",
+     "coups": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bc4",
+      "Nf6",
+      "d3",
+      "Bc5",
+      "c3",
+      "d6",
+      "O-O",
+      "O-O",
+      "Re1",
+      "a6",
+      "Bb3",
+      "Ba7",
+      "Nbd2",
+      "Be6",
+      "Nf1",
+      "h6",
+      "Ng3",
+      "Re8",
+      "Bc2",
+      "d5",
+      "exd5",
+      "Bxd5",
+      "Be3",
+      "Bxe3",
+      "Rxe3",
+      "Qd6"
+     ],
+     "notes": {
+      "7": "d3 évite les complications du 4.Cg5 et du 4.d4 : on joue le même plan solide que dans le Pianissimo.",
+      "9": "c3 prépare d4 et donne une retraite au fou c4/b3.",
+      "13": "La tour va en e1 pour soutenir e4 et préparer d4.",
+      "19": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+     },
+     "extensionDepuis": 18,
+     "ecoDetecte": {
+      "code": "C54",
+      "nom": "Italian Game: Classical Variation, Giuoco Pianissimo",
+      "ply": 12
+     },
+     "fenFinale": "r3r1k1/1pp2pp1/p1nq1n1p/3bp3/8/2PPRNN1/PPB2PPP/R2Q2K1 w - - 1 16"
+    },
+    {
+     "nom": "Möller sans risque : 7.Fd2 !",
+     "coups": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bc4",
+      "Bc5",
+      "c3",
+      "Nf6",
+      "d4",
+      "exd4",
+      "cxd4",
+      "Bb4+",
+      "Bd2",
+      "Bxd2+",
+      "Nbxd2",
+      "d5",
+      "exd5",
+      "Nxd5",
+      "Qb3",
+      "Nce7",
+      "O-O",
+      "O-O",
+      "Rfe1",
+      "c6",
+      "a4",
+      "a5",
+      "Ne4",
+      "Nb6",
+      "Bd3",
+      "Nbd5"
+     ],
+     "notes": {
+      "9": "On ouvre le centre : d4 est l'idée de c3. Si Noir prend, on reprend avec le pion et on gagne du temps avec le fou noir.",
+      "13": "7.Fd2 ! (et non 7.Cc3 ?! Cxe4 qui demande beaucoup de théorie) : on échange le fou qui nous embête et on garde un beau centre.",
+      "16": "...d5 est le coup naturel des Noirs pour casser le centre blanc.",
+      "19": "La dame attaque d5 et b7 en même temps : Noir doit répondre précisément.",
+      "25": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+     },
+     "extensionDepuis": 24,
+     "ecoDetecte": {
+      "code": "C54",
+      "nom": "Italian Game: Classical Variation, Greco Gambit, Traditional Line",
+      "ply": 11
+     },
+     "fenFinale": "r1bq1rk1/1p2nppp/2p5/p2n4/P2PN3/1Q1B1N2/1P3PPP/R3R1K1 w - - 4 16"
+    },
+    {
+     "nom": "Contre 4.c3 ...d6 : La Bourdonnais",
+     "coups": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bc4",
+      "Bc5",
+      "c3",
+      "d6",
+      "d4",
+      "exd4",
+      "cxd4",
+      "Bb6",
+      "Nc3",
+      "Nf6",
+      "O-O",
+      "O-O",
+      "h3",
+      "Nxe4",
+      "Nxe4",
+      "d5",
+      "Bxd5",
+      "Qxd5",
+      "Nc3",
+      "Qd6",
+      "d5",
+      "Ne7",
+      "Re1",
+      "h6",
+      "Be3",
+      "Ba5"
+     ],
+     "notes": {
+      "7": "Noir joue ...d6 au lieu de ...Cf6 : il garde un pion solide en e5.",
+      "9": "d4 ouvre le centre : c3 a été joué exactement pour ça.",
+      "12": "Le fou b6 se retire de l'attaque du pion d4 et garde la diagonale.",
+      "17": "h3 empêche ...Fg4 qui clouerait le cavalier f3 : on garde la paire de fous.",
+      "18": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+     },
+     "extensionDepuis": 17,
+     "ecoDetecte": {
+      "code": "C53",
+      "nom": "Italian Game: Classical Variation, La Bourdonnais Variation",
+      "ply": 12
+     },
+     "fenFinale": "r1b2rk1/ppp1npp1/3q3p/b2P4/8/2N1BN1P/PP3PP1/R2QR1K1 w - - 2 16"
+    },
+    {
+     "nom": "Contre 4.c3 ...De7 : le plan Tarrasch",
+     "coups": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bc4",
+      "Bc5",
+      "c3",
+      "Qe7",
+      "d4",
+      "Bb6",
+      "O-O",
+      "d6",
+      "a4",
+      "a6",
+      "h3",
+      "Nf6",
+      "Re1",
+      "O-O",
+      "b4",
+      "Bd7",
+      "Na3",
+      "Kh8",
+      "a5",
+      "Ba7",
+      "d5",
+      "Nd8",
+      "Bd3",
+      "Ne8",
+      "c4",
+      "f6"
+     ],
+     "notes": {
+      "8": "Noir se défend avec la dame : e5 est protégé et il prépare ...Cf6, mais la dame bloque le fou f8.",
+      "9": "d4 reste le bon coup : on prend le centre.",
+      "13": "a4 empêche ...Ca5 qui chasserait le fou b6... et gagne de l'espace.",
+      "15": "h3 évite le clouage ...Fg4.",
+      "18": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+     },
+     "extensionDepuis": 17,
+     "ecoDetecte": {
+      "code": "C53",
+      "nom": "Italian Game: Classical Variation, Tarrasch Variation",
+      "ply": 17
+     },
+     "fenFinale": "r2nnr1k/bppbq1pp/p2p1p2/P2Pp3/1PP1P3/N2B1N1P/5PP1/R1BQR1K1 w - - 0 16"
+    },
+    {
+     "nom": "Contre la défense hongroise 3...Fe7",
+     "coups": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bc4",
+      "Be7",
+      "d4",
+      "exd4",
+      "Nxd4",
+      "Nf6",
+      "Nc3",
+      "O-O",
+      "O-O",
+      "Nxd4",
+      "Qxd4",
+      "d6",
+      "a4",
+      "Be6",
+      "Rd1",
+      "Bxc4",
+      "Qxc4",
+      "c6",
+      "Bf4",
+      "Re8",
+      "a5",
+      "Nh5",
+      "Be3",
+      "Qc8",
+      "f3",
+      "Nf6"
+     ],
+     "notes": {
+      "7": "Contre 3...Fe7 (le fou est passif), on frappe tout de suite au centre avec d4.",
+      "9": "Cxd4 : le cavalier prend la case centrale ; les pièces blanches sont très actives.",
+      "14": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+     },
+     "extensionDepuis": 13,
+     "ecoDetecte": {
+      "code": "C44",
+      "nom": "Scotch Game: Benima Defense",
+      "ply": 8
+     },
+     "fenFinale": "r1q1r1k1/pp2bppp/2pp1n2/P7/2Q1P3/2N1BP2/1PP3PP/R2R2K1 w - - 1 16"
     }
    ],
    "variantes": [
@@ -649,9 +859,9 @@
       "O-O",
       "Qc7",
       "g3",
-      "Bf5",
-      "Bd2",
-      "Nc4"
+      "Bh3",
+      "Re1",
+      "c5"
      ],
      "notes": {
       "10": "Le cavalier a5 attaque le fou c4 et évite le piège sur f7.",
@@ -663,7 +873,7 @@
       "nom": "Italian Game: Two Knights Defense, Polerio Defense, Suhle Defense",
       "ply": 16
      },
-     "fenFinale": "r4rk1/p1q2pp1/2pb1n1p/5b2/2n5/3N2P1/PPPBBP1P/RN1Q1RK1 w - - 3 16"
+     "fenFinale": "r4rk1/p1q2pp1/3b1n1p/n1p5/8/3N2Pb/PPP1BP1P/RNBQR1K1 w - - 0 16"
     }
    ],
    "variantes": [
@@ -1296,18 +1506,18 @@
       "Ba6",
       "b3",
       "g6",
+      "Ba3",
+      "Nb4",
       "Bb2",
       "Bg7",
-      "g3",
+      "a3",
+      "Nd5",
+      "Nd2",
       "O-O",
-      "Bg2",
-      "Rae8",
-      "O-O",
-      "Bxe5",
-      "Qxe5",
-      "Qxe5",
-      "Bxe5",
-      "Rxe5"
+      "O-O-O",
+      "Rfe8",
+      "Qf3",
+      "Nb6"
      ],
      "notes": {
       "5": "d4 ouvre le centre : c'est l'idée de toute l'ouverture.",
@@ -1320,7 +1530,7 @@
       "nom": "Scotch Game: Mieses Variation",
       "ply": 11
      },
-     "fenFinale": "5rk1/p1pp1p1p/b1p3p1/3nr3/2P5/1P4P1/P4PBP/RN3RK1 w - - 0 16"
+     "fenFinale": "r3r1k1/p1ppqpbp/bnp3p1/4P3/2P5/PP3Q2/1B1N1PPP/2KR1B1R w - - 7 16"
     },
     {
      "nom": "Écossaise : 4...Fc5",
@@ -1343,18 +1553,18 @@
       "Qg6",
       "O-O",
       "d6",
-      "f3",
-      "d5",
-      "Nd2",
+      "Re1",
       "O-O",
-      "Kh1",
-      "dxe4",
-      "fxe4",
-      "Bg4",
+      "Nd2",
+      "Ng4",
       "Bf4",
-      "Bd6",
-      "h3",
-      "Bxe2"
+      "Nc6",
+      "N2b3",
+      "Bxd4",
+      "Nxd4",
+      "Qxe4",
+      "Qd2",
+      "Nxd4"
      ],
      "notes": {
       "9": "Fe3 défend le cavalier d4 et prépare c3.",
@@ -1366,7 +1576,7 @@
       "nom": "Scotch Game: Classical Variation",
       "ply": 8
      },
-     "fenFinale": "r4rk1/ppp1nppp/3b2q1/4n3/3NPB2/2P4P/PP1Nb1P1/R2Q1R1K w - - 0 16"
+     "fenFinale": "r1b2rk1/ppp2ppp/3p4/8/3nqBn1/2P5/PP1QBPPP/R3R1K1 w - - 0 16"
     }
    ],
    "variantes": [
@@ -1669,16 +1879,16 @@
       "Nxc3",
       "bxc3",
       "Nc6",
-      "Rb1",
-      "b6",
       "Qe1",
-      "Qd6",
-      "Rb3",
-      "Nd8",
-      "Ba3",
-      "c5",
-      "dxc5",
-      "bxc5"
+      "Be7",
+      "Rb1",
+      "a6",
+      "Bd2",
+      "b5",
+      "Qe2",
+      "Qe8",
+      "Ne5",
+      "Ba3"
      ],
      "notes": {
       "5": "f4 prépare une attaque, mais affaiblit la diagonale du roi blanc.",
@@ -1690,7 +1900,7 @@
       "nom": "Vienna Game: Vienna Gambit, Breyer Variation",
       "ply": 10
      },
-     "fenFinale": "r1bn1rk1/p5pp/3q1b2/2pp4/8/BRPB1N2/P1P3PP/4QRK1 w - - 0 16"
+     "fenFinale": "r1b1qrk1/2p3pp/p1n5/1p1pN3/3P4/b1PB4/P1PBQ1PP/1R3RK1 w - - 4 16"
     }
    ],
    "variantes": [
@@ -1944,20 +2154,17 @@
       "Nf5",
       "Qxd8+",
       "Kxd8",
-      "Nc3",
+      "Rd1+",
       "Ke8",
       "h3",
-      "a5",
-      "Rd1",
-      "h6",
-      "a4",
-      "Bd7",
-      "Bd2",
-      "Be7",
-      "g4",
-      "Nh4",
-      "Nxh4",
-      "Bxh4"
+      "Be6",
+      "Ng5",
+      "Bc8",
+      "Nf3",
+      "Be6",
+      "Ng5",
+      "Bc8",
+      "Nf3"
      ],
      "notes": {
       "15": "Les dames s'échangent tôt : le roi noir ne peut plus roquer, c'est l'avantage structurel des Blancs.",
@@ -1969,7 +2176,7 @@
       "nom": "Ruy Lopez: Berlin Defense, l'Hermet Variation, Berlin Wall Defense",
       "ply": 16
      },
-     "fenFinale": "r3k2r/1ppb1pp1/2p4p/p3P3/P5Pb/2N4P/1PPB1P2/R2R2K1 w - - 0 16"
+     "fenFinale": "r1b1kb1r/ppp2ppp/2p5/4Pn2/8/5N1P/PPP2PP1/RNBR2K1 b - - 8 14"
     },
     {
      "nom": "Espagnole fermée",
@@ -2001,9 +2208,9 @@
       "Nf1",
       "Bf8",
       "Ng3",
-      "g6",
-      "Bg5",
-      "h6"
+      "a5",
+      "Bd2",
+      "a4"
      ],
      "notes": {
       "21": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
@@ -2014,7 +2221,7 @@
       "nom": "Ruy Lopez: Closed, Breyer Defense, Zaitsev Hybrid",
       "ply": 20
      },
-     "fenFinale": "r2qrbk1/1bpn1p2/p2p1npp/1p2p1B1/3PP3/2P2NNP/PPB2PP1/R2QR1K1 w - - 0 16"
+     "fenFinale": "r2qrbk1/1bpn1ppp/3p1n2/1p2p3/p2PP3/2P2NNP/PPBB1PP1/R2QR1K1 w - - 0 16"
     },
     {
      "nom": "Variante d'échange",
@@ -2896,20 +3103,20 @@
       "O-O",
       "Bd3",
       "g6",
-      "Bb5",
+      "Bh4",
       "Be7",
-      "dxc5",
-      "Bxc5",
       "O-O",
-      "Qb6",
+      "b6",
       "a4",
-      "Be7",
-      "h3",
-      "a6",
-      "Bxc6",
-      "bxc6",
-      "a5",
-      "Qb7"
+      "Bb7",
+      "Ne5",
+      "Nxe5",
+      "dxe5",
+      "Ne4",
+      "Bxe7",
+      "Qxe7",
+      "Bxe4",
+      "dxe4"
      ],
      "notes": {
       "11": "Le fou f4 est sorti AVANT e3 : sinon il reste enfermé derrière sa chaîne de pions.",
@@ -2922,7 +3129,7 @@
       "nom": "Queen's Pawn Game: London System",
       "ply": 11
      },
-     "fenFinale": "r1b2rk1/1q2bp1p/p1p1pnp1/P2p4/8/2P1PNBP/1P1N1PP1/R2Q1RK1 w - - 1 16"
+     "fenFinale": "r4rk1/pb2qp1p/1p2p1p1/2p1P3/P3p3/2P1P3/1P1N1PPP/R2Q1RK1 w - - 0 16"
     },
     {
      "nom": "London contre ...e6 et ...Fd6",
@@ -2945,18 +3152,18 @@
       "g6",
       "O-O",
       "b6",
-      "Bh4",
-      "Be7",
       "Re1",
       "Bb7",
-      "h3",
+      "Rc1",
+      "Bxg3",
+      "hxg3",
       "Rc8",
       "Qa4",
-      "Nd7",
-      "Bg3",
-      "f5",
-      "Rac1",
-      "a6"
+      "Kg7",
+      "dxc5",
+      "bxc5",
+      "c4",
+      "d4"
      ],
      "notes": {
       "5": "Le fou sort avant e3 : c'est la clé du système.",
@@ -2970,7 +3177,7 @@
       "nom": "Queen's Pawn Game: London System, with e6",
       "ply": 6
      },
-     "fenFinale": "2rq1rk1/1b1nb2p/ppn1p1p1/2pp1p2/Q2P4/2PBPNBP/PP1N1PP1/2R1R1K1 w - - 0 16"
+     "fenFinale": "2rq1r2/pb3pkp/2n1pnp1/2p5/Q1Pp4/3BPNP1/PP1N1PP1/2R1R1K1 w - - 0 16"
     },
     {
      "nom": "London contre ...c5",
@@ -2998,13 +3205,13 @@
       "dxe5",
       "Nd7",
       "e4",
-      "Nc5",
+      "b4",
       "O-O",
-      "Na4",
+      "bxc3",
+      "bxc3",
+      "Ba3",
       "Rab1",
-      "Bd7",
-      "Be3",
-      "Bc5"
+      "Ra5"
      ],
      "notes": {
       "11": "Db3 défend b2 ; Noir peut proposer l'échange des dames.",
@@ -3016,7 +3223,7 @@
       "nom": "Queen's Pawn Game: London System",
       "ply": 7
      },
-     "fenFinale": "r3k2r/1p1b1ppp/4p3/1pbpP3/n1p1P3/2P1B3/PP1NBPPP/1R3RK1 w kq - 7 16"
+     "fenFinale": "2b1k2r/1p1n1ppp/4p3/r2pP3/2p1PB2/b1P5/P2NBPPP/1R3RK1 w k - 3 16"
     }
    ],
    "variantes": [
@@ -3149,14 +3356,14 @@
       "Be7",
       "Qe2",
       "Qc7",
+      "Nxf6+",
+      "Bxf6",
       "Re1",
-      "Nd5",
-      "Bc2",
-      "Rd8",
-      "Ng3",
-      "h6",
-      "a3",
-      "Rb8"
+      "Ne7",
+      "h4",
+      "Bd7",
+      "Bg5",
+      "Bc6"
      ],
      "notes": {
       "17": "e4 est le coup que prépare toute la structure.",
@@ -3168,7 +3375,7 @@
       "nom": "Queen's Pawn Game: Colle System, Traditional Colle",
       "ply": 9
      },
-     "fenFinale": "1rbr2k1/ppq1bpp1/2n1p2p/3n4/8/P1P2NN1/1PB1QPPP/R1B1R1K1 w - - 1 16"
+     "fenFinale": "r4rk1/ppq1nppp/2b1pb2/6B1/7P/2PB1N2/PP2QPP1/R3R1K1 w - - 3 16"
     }
    ],
    "variantes": [
@@ -3282,14 +3489,14 @@
       "exd5",
       "Rc1",
       "Be6",
-      "b3",
-      "a5",
       "Bd3",
       "c5",
       "O-O",
-      "Nd7",
-      "h3",
-      "Nf6"
+      "c4",
+      "Bb1",
+      "Nc6",
+      "Ne5",
+      "Nxe5"
      ],
      "notes": {
       "23": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
@@ -3300,7 +3507,7 @@
       "nom": "Queen's Gambit Declined: Tartakower Defense",
       "ply": 22
      },
-     "fenFinale": "r4rk1/4qpp1/1p2bn1p/p1pp4/3P4/1P1BPN1P/P4PP1/2RQ1RK1 w - - 1 16"
+     "fenFinale": "r4rk1/p3qpp1/1p2b2p/3pn3/2pP4/4P3/PP3PPP/1BRQ1RK1 w - - 0 16"
     },
     {
      "nom": "Gambit dame accepté",
@@ -3324,17 +3531,17 @@
       "Rd1",
       "Nbd7",
       "Nc3",
-      "Qc7",
+      "Qb6",
+      "h3",
+      "Rd8",
+      "a3",
+      "Bd6",
+      "dxc5",
+      "Qxc5",
       "e4",
-      "cxd4",
-      "Nxd4",
-      "Bc5",
-      "Bxe6",
-      "fxe6",
-      "Nxe6",
-      "Qe5",
-      "Nxg7+",
-      "Kf7"
+      "Qc7",
+      "Be3",
+      "O-O"
      ],
      "notes": {
       "4": "Noir prend le pion mais ne peut pas le garder longtemps.",
@@ -3346,7 +3553,7 @@
       "nom": "Queen's Gambit Accepted: Classical Defense, Alekhine System, Main Line",
       "ply": 16
      },
-     "fenFinale": "r6r/1b1n1kNp/p4n2/1pb1q3/4P3/2N5/PP2QPPP/R1BR2K1 w - - 1 16"
+     "fenFinale": "3r1rk1/1bqn1ppp/p2bpn2/1p6/4P3/PBN1BN1P/1P2QPP1/R2R2K1 w - - 3 16"
     },
     {
      "nom": "Contre la Slave",
@@ -3379,8 +3586,8 @@
       "cxd5",
       "Qe3",
       "Be7",
-      "Ng5",
-      "Bxg5"
+      "Bd2",
+      "Nb8"
      ],
      "notes": {
       "23": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
@@ -3391,7 +3598,7 @@
       "nom": "Slav Defense: Czech Variation, Dutch Variation",
       "ply": 15
      },
-     "fenFinale": "r2q1rk1/pp1n1ppp/4p3/3pP1bb/P2P4/3BQ3/1P3PPP/R1B2RK1 w - - 0 16"
+     "fenFinale": "rn1q1rk1/pp2bppp/4p3/3pP2b/P2P4/3BQN2/1P1B1PPP/R4RK1 w - - 4 16"
     }
    ],
    "variantes": [
@@ -4312,16 +4519,16 @@
       "Be6",
       "Rb1",
       "f6",
-      "Qc2",
-      "a5",
       "b5",
       "Nd4",
-      "Nxd4",
-      "exd4",
-      "Na4",
-      "Rb8",
-      "Nxb6",
-      "cxb6"
+      "e3",
+      "Nxf3+",
+      "Bxf3",
+      "Qc8",
+      "a4",
+      "a5",
+      "bxa6",
+      "Rxa6"
      ],
      "notes": {
       "18": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
@@ -4332,7 +4539,7 @@
       "nom": "English Opening: King's English Variation, Four Knights Variation, Fianchetto Line, with Nb6",
       "ply": 12
      },
-     "fenFinale": "1r1q1rk1/1p2b1pp/1p2bp2/pP6/3p4/P5P1/2QPPPBP/1RB2RK1 w - - 0 16"
+     "fenFinale": "2q2rk1/1pp1b1pp/rn2bp2/4p3/P7/2N1PBP1/3P1P1P/1RBQ1RK1 w - - 0 16"
     }
    ],
    "variantes": [
@@ -5064,17 +5271,17 @@
       "Qd2",
       "Bxd2+",
       "Nxd2",
-      "Rd8",
-      "Ne2",
-      "b6",
-      "Nf4",
       "Na6",
-      "f3",
-      "Nc5",
-      "Nc4",
-      "Ba6",
-      "Ne5+",
-      "Kg8"
+      "Ngf3",
+      "Re8",
+      "O-O",
+      "Kg8",
+      "Ne5",
+      "Nd7",
+      "f4",
+      "Nxe5",
+      "Bxe5",
+      "b6"
      ],
      "notes": {
       "7": "Les fous visent f7 et g7 : c'est la compensation des deux pions sacrifiés.",
@@ -5087,7 +5294,7 @@
       "nom": "Danish Gambit Accepted: Schlechter Defense",
       "ply": 10
      },
-     "fenFinale": "r2r2k1/p1p3pp/bp3n2/2n1N3/4PN2/5P2/PB4PP/R3K2R w KQ - 5 16"
+     "fenFinale": "r1b1r1k1/p1p3pp/np6/4B3/4PP2/8/P2N2PP/R4RK1 w - - 0 16"
     }
    ],
    "variantes": [
@@ -5178,17 +5385,17 @@
       "Nc3",
       "Bg4",
       "Qa4",
-      "Bxf3",
-      "d5",
-      "Bg4",
-      "dxc6",
-      "bxc6",
-      "Qxc6+",
       "Bd7",
-      "Qd5",
-      "Be6",
-      "Qc6+",
-      "Bd7"
+      "Qd1",
+      "Na5",
+      "Bd3",
+      "Ne7",
+      "h3",
+      "O-O",
+      "Re1",
+      "h6",
+      "Rb1",
+      "Re8"
      ],
      "notes": {
       "18": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
@@ -5199,7 +5406,7 @@
       "nom": "Italian Game: Evans Gambit, Fraser Attack",
       "ply": 19
      },
-     "fenFinale": "r2qk1nr/p1pb1ppp/1bQp4/8/2B1P3/2N5/P4PPP/R1B2RK1 w kq - 5 16"
+     "fenFinale": "r2qr1k1/pppbnpp1/1b1p3p/n7/3PP3/2NB1N1P/P4PP1/1RBQR1K1 w - - 2 16"
     }
    ],
    "variantes": [
@@ -5406,15 +5613,15 @@
       "d4",
       "Ne6",
       "Bc1",
-      "a6",
-      "Bc4",
       "Nd7",
       "a4",
       "a5",
-      "dxe5",
-      "Nxe5",
-      "Nxe5",
-      "dxe5"
+      "Be3",
+      "Rd8",
+      "g3",
+      "Nf6",
+      "Bd3",
+      "b6"
      ],
      "notes": {
       "21": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
@@ -5425,7 +5632,7 @@
       "nom": "Four Knights Game: Spanish Variation, Symmetrical Variation, Metger Unpin",
       "ply": 16
      },
-     "fenFinale": "r1b2rk1/1pp1qppp/4n3/p3p3/P1B1P3/2P5/2P2PPP/R1BQR1K1 w - - 0 16"
+     "fenFinale": "r1br2k1/2p1qppp/1p1pnn2/p3p3/P2PP3/2PBBNP1/2P2P1P/R2QR1K1 w - - 0 16"
     }
    ],
    "variantes": [
@@ -5733,20 +5940,20 @@
       "c5",
       "O-O",
       "Nc6",
-      "Ng3",
-      "h6",
-      "h3",
-      "Be6",
-      "Bd2",
-      "Qc7",
-      "c3",
+      "a4",
       "O-O",
-      "cxd4",
-      "exd4",
-      "Nh4",
-      "Bxg3",
-      "fxg3",
-      "Qxg3"
+      "Nd2",
+      "Na5",
+      "Ba2",
+      "Be6",
+      "Ng3",
+      "Qe8",
+      "Bxe6",
+      "fxe6",
+      "Nf3",
+      "Nc6",
+      "Re1",
+      "h6"
      ],
      "notes": {
       "12": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
@@ -5757,7 +5964,7 @@
       "nom": "Bishop's Opening: Paulsen Defense",
       "ply": 6
      },
-     "fenFinale": "r4rk1/pp3pp1/2n1bn1p/2p5/3pP2N/1B1P2qP/PP1B2P1/R2Q1RK1 w - - 0 16"
+     "fenFinale": "r3qrk1/pp4p1/2nbpn1p/2p1p3/P2pP3/3P1NN1/1PP2PPP/R1BQR1K1 w - - 0 16"
     }
    ],
    "variantes": [
@@ -6011,19 +6218,19 @@
       "c4",
       "Nbc6",
       "Qa4",
+      "a6",
+      "Nc3",
       "dxc4",
-      "Nd2",
+      "O-O-O",
       "Qa5",
       "Qxa5",
       "Nxa5",
-      "Nxc4",
-      "Nxc4",
-      "Bxc4",
-      "a6",
-      "f3",
-      "Ng6",
       "Nxf5",
-      "Nxe5"
+      "Nxf5",
+      "Bb6",
+      "Nc6",
+      "f4",
+      "Be7"
      ],
      "notes": {
       "15": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
@@ -6034,7 +6241,7 @@
       "nom": "Caro-Kann Defense: Advance Variation, Short Variation",
       "ply": 7
      },
-     "fenFinale": "r3kb1r/1p3ppp/p3p3/4nN2/2B5/4BP2/PP4PP/R3K2R w KQkq - 0 16"
+     "fenFinale": "r3k2r/1p2bppp/pBn1p3/4Pn2/2p2P2/2N5/PP2B1PP/2KR3R w kq - 1 16"
     },
     {
      "nom": "Variante d'échange / Panov",
@@ -6058,17 +6265,17 @@
       "O-O",
       "O-O",
       "Re1",
+      "Bd7",
+      "h3",
       "Bf6",
-      "Bb1",
-      "Qb6",
-      "Be4",
-      "Bxd4",
-      "Nxd4",
-      "Qxd4",
-      "Qf3",
-      "Ne5",
-      "Qg3",
-      "Ng6"
+      "Nxd5",
+      "exd5",
+      "Be3",
+      "Be6",
+      "Rc1",
+      "Re8",
+      "Bc2",
+      "Qb6"
      ],
      "notes": {
       "19": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
@@ -6079,7 +6286,7 @@
       "nom": "Caro-Kann Defense: Panov Attack",
       "ply": 10
      },
-     "fenFinale": "r1b2rk1/pp3ppp/4p1n1/3n4/3qB3/2N3Q1/PP3PPP/R1B1R1K1 w - - 4 16"
+     "fenFinale": "r3r1k1/pp3ppp/1qn1bb2/3p4/3P4/4BN1P/PPB2PP1/2RQR1K1 w - - 6 16"
     },
     {
      "nom": "Contre 2.Fc4 (Hillbilly)",
@@ -6100,20 +6307,20 @@
       "e6",
       "c3",
       "Bd6",
+      "O-O",
+      "O-O",
       "a4",
-      "Qc7",
-      "Na3",
       "a6",
-      "Qe2",
-      "O-O",
-      "O-O",
+      "Ne1",
+      "Qc7",
+      "h3",
       "Ne4",
-      "Nc2",
-      "Rae8",
-      "Nce1",
+      "Nd2",
       "f5",
       "Nd3",
-      "f4"
+      "h6",
+      "Re1",
+      "Rf7"
      ],
      "notes": {
       "4": "...d5 chasse le fou : c'est la bonne réponse contre 2.Fc4.",
@@ -6125,7 +6332,7 @@
       "nom": "Caro-Kann Defense: Hillbilly Attack",
       "ply": 3
      },
-     "fenFinale": "4rrk1/1pqn2pp/p2bp3/3p4/P2Pnp2/2PN1N2/1P2QPPP/R1B2RK1 w - - 0 16"
+     "fenFinale": "r5k1/1pqn1rp1/p2bp2p/3p1p2/P2Pn3/2PN3P/1P1N1PP1/R1BQR1K1 w - - 2 16"
     }
    ],
    "variantes": [
@@ -6547,22 +6754,22 @@
       "Bf5",
       "Bd2",
       "e6",
-      "Nd5",
-      "Qd8",
-      "Nxf6+",
-      "Qxf6",
-      "Qe2",
-      "Nd7",
-      "O-O-O",
-      "Be7",
-      "h3",
-      "Qg6",
-      "Bb3",
-      "O-O-O",
-      "Rde1",
+      "Nh4",
+      "Nbd7",
+      "Nxf5",
+      "Qxf5",
+      "O-O",
+      "Qg4",
+      "Qxg4",
+      "Nxg4",
+      "a4",
+      "a5",
+      "Nd1",
       "h5",
-      "Bf4",
-      "h4"
+      "Be2",
+      "Bd6",
+      "g3",
+      "Bc7"
      ],
      "notes": {
       "15": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
@@ -6573,7 +6780,7 @@
       "nom": "Scandinavian Defense: Main Line, Mieses Variation",
       "ply": 8
      },
-     "fenFinale": "2kr3r/pp1nbpp1/2p1p1q1/5b2/3P1B1p/1B3N1P/PPP1QPP1/2K1R2R w - - 0 16"
+     "fenFinale": "r3k2r/1pbn1pp1/2p1p3/p6p/P2P2n1/6P1/1PPBBP1P/R2N1RK1 w kq - 1 16"
     },
     {
      "nom": "Scandinave moderne : 2...Cf6",
@@ -6598,16 +6805,16 @@
       "Ne5",
       "Nxe5",
       "Bxe5",
-      "a4",
-      "a5",
-      "Bg5",
-      "Nd7",
       "Re1",
-      "Nc5",
-      "Bf3",
-      "f6",
-      "Be3",
-      "Bxc3"
+      "e6",
+      "Bf1",
+      "Bg7",
+      "Bf4",
+      "exd5",
+      "c5",
+      "Nc4",
+      "Nxd5",
+      "Nxb2"
      ],
      "notes": {
       "17": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
@@ -6618,7 +6825,7 @@
       "nom": "Scandinavian Defense: Richter Variation",
       "ply": 8
      },
-     "fenFinale": "r1bq1rk1/1pp1p2p/5pp1/p1nP4/P1P5/2b1BB2/1P3PPP/R2QR1K1 w - - 0 16"
+     "fenFinale": "r1bq1rk1/ppp2pbp/6p1/2PN4/5B2/8/Pn3PPP/R2QRBK1 w - - 0 16"
     }
    ],
    "variantes": [
@@ -6930,9 +7137,9 @@
       "Bxb3",
       "Qxb3",
       "Qd7",
-      "d4",
-      "exd4",
-      "Nxd4",
+      "a4",
+      "b6",
+      "h3",
       "Rfe8"
      ],
      "notes": {
@@ -6944,7 +7151,7 @@
       "nom": "Italian Game: Classical Variation, Giuoco Pianissimo",
       "ply": 12
      },
-     "fenFinale": "r3r1k1/1ppq1pp1/p1np1n1p/8/3NP3/1QP1N3/PP3PPP/R3R1K1 w - - 1 16"
+     "fenFinale": "r3r1k1/2pq1pp1/ppnp1n1p/4p3/P3P3/1QPPNN1P/1P3PP1/R3R1K1 w - - 1 16"
     },
     {
      "nom": "Contre 4.Cg5 : 5...Ca5 !",
@@ -7588,20 +7795,20 @@
       "Nf5",
       "Qxd8+",
       "Kxd8",
-      "Nc3",
+      "Rd1+",
       "Ke8",
-      "h3",
-      "a5",
-      "a3",
-      "h6",
-      "Bd2",
-      "Be6",
-      "g4",
+      "Nc3",
       "Ne7",
+      "h3",
+      "Ng6",
+      "Be3",
+      "Bb4",
+      "Rd2",
+      "Be6",
       "Nd4",
-      "Bc4",
-      "Rfe1",
-      "Rd8"
+      "Nxe5",
+      "Nxe6",
+      "fxe6"
      ],
      "notes": {
       "17": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
@@ -7612,7 +7819,7 @@
       "nom": "Ruy Lopez: Berlin Defense, l'Hermet Variation, Berlin Wall Defense",
       "ply": 16
      },
-     "fenFinale": "3rkb1r/1pp1npp1/2p4p/p3P3/2bN2P1/P1N4P/1PPB1P2/R3R1K1 w - - 5 16"
+     "fenFinale": "r3k2r/ppp3pp/2p1p3/4n3/1b6/2N1B2P/PPPR1PP1/R5K1 w - - 0 16"
     },
     {
      "nom": "Espagnole fermée (Breyer)",
@@ -7637,16 +7844,16 @@
       "Nb8",
       "d4",
       "Nbd7",
-      "Bc2",
-      "Re8",
       "Nbd2",
       "Bb7",
+      "Bc2",
+      "Re8",
       "Nf1",
       "Bf8",
       "Ng3",
       "a5",
-      "Bd2",
-      "a4"
+      "Qe2",
+      "b4"
      ],
      "notes": {
       "21": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
@@ -7657,7 +7864,7 @@
       "nom": "Ruy Lopez: Closed, Breyer Defense, Zaitsev Hybrid",
       "ply": 20
      },
-     "fenFinale": "r2qrbk1/1bpn1ppp/3p1n2/1p2p3/p2PP3/2P2NNP/PPBB1PP1/R2QR1K1 w - - 0 16"
+     "fenFinale": "r2qrbk1/1bpn1ppp/3p1n2/p3p3/1p1PP3/2P2NNP/PPB1QPP1/R1B1R1K1 w - - 0 16"
     }
    ],
    "variantes": [
@@ -8487,18 +8694,18 @@
       "Qg6",
       "O-O",
       "d6",
-      "f3",
-      "O-O",
+      "Re1",
+      "Ng4",
+      "Bf4",
+      "Qf6",
+      "Bxg4",
+      "Qxf4",
+      "Bxc8",
+      "Rxc8",
       "Nd2",
-      "d5",
-      "Kh1",
-      "dxe4",
-      "fxe4",
-      "Bg4",
-      "h3",
-      "Bxe2",
-      "Qxe2",
-      "Bd6"
+      "O-O",
+      "g3",
+      "Qf6"
      ],
      "notes": {
       "16": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
@@ -8509,7 +8716,7 @@
       "nom": "Scotch Game: Classical Variation",
       "ply": 8
      },
-     "fenFinale": "r4rk1/ppp1nppp/3b2q1/4n3/3NP3/2P1B2P/PP1NQ1P1/R4R1K w - - 1 16"
+     "fenFinale": "2r2rk1/ppp1nppp/3p1q2/2b5/3NP3/2P3P1/PP1N1P1P/R2QR1K1 w - - 1 16"
     }
    ],
    "variantes": [
@@ -9034,11 +9241,11 @@
       "Be3",
       "Rad8",
       "Rc1",
-      "Bc5",
-      "Nb5",
-      "Qxb5",
-      "Rxc5",
-      "Qxb2"
+      "Rfe8",
+      "a3",
+      "Bf8",
+      "Na4",
+      "Qb5"
      ],
      "notes": {
       "17": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
@@ -9049,7 +9256,7 @@
       "nom": "Danish Gambit Declined: Sörensen Defense",
       "ply": 6
      },
-     "fenFinale": "3r1rk1/ppp2ppp/2n2n2/2R5/3P4/4BB1P/Pq3PP1/3Q1RK1 w - - 0 16"
+     "fenFinale": "3rrbk1/ppp2ppp/2n2n2/1q6/N2P4/P3BB1P/1P3PP1/2RQ1RK1 w - - 3 16"
     }
    ],
    "variantes": [
@@ -9133,23 +9340,23 @@
       "bxc3",
       "Ne7",
       "h4",
-      "Nbc6",
-      "h5",
-      "Qa5",
-      "Bd2",
       "Qc7",
+      "h5",
+      "h6",
+      "Rb1",
+      "Nbc6",
       "Qg4",
-      "Bd7",
-      "Qxg7",
-      "O-O-O",
-      "Nf3",
       "Nf5",
-      "Qf6",
-      "cxd4",
-      "cxd4",
-      "Nfxd4",
-      "Nxd4",
-      "Nxd4"
+      "Bd3",
+      "O-O",
+      "Nf3",
+      "c4",
+      "Bxf5",
+      "exf5",
+      "Qg3",
+      "Kh8",
+      "Nh4",
+      "Be6"
      ],
      "notes": {
       "7": "e5 ferme le centre : le fou noir était brouillé avec les pions blancs, Noir doit attaquer le centre avec c5.",
@@ -9160,9 +9367,9 @@
      "ecoDetecte": {
       "code": "C18",
       "nom": "French Defense: Winawer Variation, Advance Variation, with h4",
-      "ply": 13
+      "ply": 14
      },
-     "fenFinale": "2kr3r/ppqb1p1p/4pQ2/3pP2P/3n4/P7/2PB1PP1/R3KB1R w KQ - 0 16"
+     "fenFinale": "r4r1k/ppq2pp1/2n1b2p/3pPp1P/2pP3N/P1P3Q1/2P2PP1/1RB1K2R w K - 4 16"
     },
     {
      "nom": "Française classique",
@@ -9189,14 +9396,14 @@
       "Nxc5",
       "Qe3",
       "a6",
-      "h4",
+      "a3",
       "b5",
-      "h5",
-      "h6",
-      "O-O-O",
       "b4",
-      "Ne2",
-      "a5"
+      "Ne4",
+      "Nxe4",
+      "dxe4",
+      "Qxe4",
+      "Bb7"
      ],
      "notes": {
       "19": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
@@ -9207,7 +9414,7 @@
       "nom": "French Defense: Classical Variation, Steinitz Variation",
       "ply": 13
      },
-     "fenFinale": "r1b2rk1/4qpp1/2n1p2p/p1npP2P/1p3P2/4QN2/PPP1N1P1/2KR1B1R w - - 0 16"
+     "fenFinale": "r4rk1/1b2qppp/p1n1p3/1p2P3/1P2QP2/P4N2/2P3PP/R3KB1R w KQ - 1 16"
     },
     {
      "nom": "Française Tarrasch",
@@ -9233,15 +9440,15 @@
       "Nbd4",
       "O-O",
       "h3",
-      "Nxd4",
-      "Nxd4",
       "a6",
       "Bd3",
+      "Nxd4",
+      "Nxd4",
       "Nc6",
-      "Nf3",
-      "h6",
+      "Be3",
+      "Ne5",
       "c3",
-      "Qf6"
+      "Nxd3"
      ],
      "notes": {
       "21": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
@@ -9252,7 +9459,7 @@
       "nom": "French Defense: Tarrasch Variation, Open System, Main Line",
       "ply": 10
      },
-     "fenFinale": "r1b2rk1/1p3pp1/p1nb1q1p/3p4/8/2PB1N1P/PP3PP1/R1BQ1RK1 w - - 1 16"
+     "fenFinale": "r1bq1rk1/1p3ppp/p2b4/3p4/3N4/2PnB2P/PP3PP1/R2Q1RK1 w - - 0 16"
     }
    ],
    "variantes": [
@@ -9952,13 +10159,13 @@
       "g4",
       "b5",
       "g5",
+      "b4",
+      "Na4",
       "Nh5",
-      "Kb1",
-      "Nb6",
-      "Nd5",
-      "Nxd5",
-      "exd5",
-      "Bf5"
+      "Qxb4",
+      "d5",
+      "Qa5",
+      "Bxg5"
      ],
      "notes": {
       "23": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
@@ -9969,7 +10176,7 @@
       "nom": "Sicilian Defense: Najdorf Variation, English Attack",
       "ply": 15
      },
-     "fenFinale": "r2q1rk1/4bppp/p2p4/1p1PpbPn/8/1N2BP2/PPPQ3P/1K1R1B1R w - - 1 16"
+     "fenFinale": "r2q1rk1/3n1ppp/p3b3/Q2pp1bn/N3P3/1N2BP2/PPP4P/2KR1B1R w - - 0 16"
     }
    ],
    "variantes": [
@@ -10146,10 +10353,10 @@
       "c5",
       "b3",
       "Nd7",
-      "O-O",
-      "Nf6",
       "h3",
-      "a5"
+      "Rac8",
+      "Ba6",
+      "Rc7"
      ],
      "notes": {
       "23": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
@@ -10160,7 +10367,7 @@
       "nom": "Queen's Gambit Declined: Tartakower Defense",
       "ply": 22
      },
-     "fenFinale": "r4rk1/4qpp1/1p2bn1p/p1pp4/3P4/1P1BPN1P/P4PP1/2RQ1RK1 w - - 0 16"
+     "fenFinale": "5rk1/p1rnqpp1/Bp2b2p/2pp4/3P4/1P2PN1P/P4PP1/2RQK2R w K - 3 16"
     }
    ],
    "variantes": [
@@ -11625,18 +11832,18 @@
       "Bf5",
       "Nh4",
       "Bd7",
-      "a3",
-      "b5",
       "Be2",
       "h6",
-      "Bc7",
-      "g5",
       "Nhf3",
+      "b5",
+      "a3",
       "Bf5",
-      "Be5",
-      "Bg7",
-      "Rc1",
-      "e6"
+      "h4",
+      "e6",
+      "O-O",
+      "Rg8",
+      "Rfe1",
+      "Be7"
      ],
      "notes": {
       "17": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
@@ -11647,7 +11854,7 @@
       "nom": "Queen's Pawn Game: Accelerated London System, Steinitz Countergambit",
       "ply": 4
      },
-     "fenFinale": "r3k2r/1p3pb1/2n1pn1p/1p1pBbp1/2pP4/P1P1PN2/1P1NBPPP/2R1K2R w Kkq - 0 16"
+     "fenFinale": "r3k1r1/1p2bpp1/2n1pn1p/1p1p1b2/2pP1B1P/P1P1PN2/1P1NBPP1/R3R1K1 w q - 4 16"
     }
    ],
    "variantes": [
@@ -11780,14 +11987,14 @@
       "f5",
       "f3",
       "Kh8",
-      "b4",
-      "a5",
-      "a3",
-      "Ng8",
       "Nd3",
-      "Bh6",
-      "Bf2",
-      "axb4"
+      "c5",
+      "b4",
+      "cxb4",
+      "Nxb4",
+      "Ng8",
+      "Qd2",
+      "Nc5"
      ],
      "notes": {
       "21": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
@@ -11798,7 +12005,7 @@
       "nom": "King's Indian Defense: Orthodox Variation, Classical System, Neo-Classical Line",
       "ply": 19
      },
-     "fenFinale": "r1bq1rnk/1ppn3p/3p2pb/3Ppp2/1pP1P3/P1NN1P2/4BBPP/R2Q1RK1 w - - 0 16"
+     "fenFinale": "r1bq1rnk/pp4bp/3p2p1/2nPpp2/1NP1P3/2N1BP2/P2QB1PP/R4RK1 w - - 3 16"
     }
    ],
    "variantes": [
@@ -12323,22 +12530,22 @@
       "c6",
       "a4",
       "Nbd7",
-      "a5",
+      "h3",
       "e5",
       "dxe5",
       "Nxe5",
-      "Nxe5",
-      "dxe5",
-      "Qxd8",
-      "Rxd8",
-      "Bc4",
-      "Rd4",
-      "Ra4",
-      "Nd7",
-      "f4",
-      "Kf8",
-      "Ba2",
-      "Rxa4"
+      "Bf4",
+      "Qc7",
+      "Qd2",
+      "Be6",
+      "Rfd1",
+      "Rfd8",
+      "Bg5",
+      "Nxf3+",
+      "Bxf3",
+      "Rd7",
+      "a5",
+      "h5"
      ],
      "notes": {
       "15": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
@@ -12349,7 +12556,7 @@
       "nom": "Pirc Defense: Classical Variation, Quiet System, Czech Defense",
       "ply": 12
      },
-     "fenFinale": "r1b2k2/pp1n1pbp/2p3p1/P3p3/r3PP2/2N5/BPP3PP/2B2RK1 w - - 0 16"
+     "fenFinale": "r5k1/ppqr1pb1/2ppbnp1/P5Bp/4P3/2N2B1P/1PPQ1PP1/R2R2K1 w - - 0 16"
     }
    ],
    "variantes": [
