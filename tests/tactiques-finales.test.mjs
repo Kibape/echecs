@@ -114,7 +114,7 @@ test("openings.json : variantes légales, uniques et en ordre d'arbre", () => {
 test("openings.json : répertoire exact (10 ouvertures, aucune ligne rallongée par Stockfish, pas de variantes ECO)", () => {
   const o = JSON.parse(readFileSync(new URL("../public/data/openings.json", import.meta.url))).ouvertures;
   assert.equal(o.length, 10);
-  assert.equal(o.flatMap((x) => x.lignes).length, 26);
+  assert.equal(o.flatMap((x) => x.lignes).length, 36);
   for (const l of o.flatMap((x) => x.lignes)) assert.equal(l.extensionDepuis, null);
   for (const x of o) assert.equal(x.variantes.length, 0);
 });

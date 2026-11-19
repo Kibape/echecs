@@ -183,3 +183,6 @@ dialog.dialogue::backdrop { background: rgba(0,0,0,.6); }
 @media (min-width:1101px) and (max-height:860px) {
   .gauche { --cote: min(calc(100vh - 290px), calc(100vw - 92px - 40px - 22px - 360px - 36px)); }
 }
+
+.conseils { background: var(--carte, rgba(127,127,127,.08)); border-radius: 10px; padding: 8px 12px; margin: 8px 0 12px; }
+.conseils summary { cursor: pointer; font-weight: 600; }

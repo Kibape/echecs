@@ -691,7 +691,12 @@ function panneauOuvertures() {
       ...[["recommande", "Recommandées pour mon Elo"], ["facile", "Plus faciles"], ["forte", "Plus fortes"], ["eco", "Code ECO"], ["nom", "Nom"]].map(([v, t]) => h("option", { value: v, selected: R.tri === v }, t)))),
     h("input", { type: "search", placeholder: "Rechercher (nom, code ECO)…", value: R.recherche || "", on: { input: (e) => { S.store.setReglage("recherche", e.target.value); maj(); } } }));
   maj();
-  return [h("h2", {}, "Ouvertures"), filtres, compte, liste];
+  const conseils = h("details", { class: "conseils", open: true },
+    h("summary", {}, "Conseils généraux (moins de 1000 Elo)"),
+    h("p", { class: "petit-texte" }, "Il est inutile de mémoriser toutes les variantes d'une ouverture. Objectifs prioritaires :"),
+    h("ol", { class: "puces" }, ["Contrôler le centre avec les pions.", "Développer les cavaliers et les fous.", "Éviter de déplacer plusieurs fois la même pièce sans raison.", "Mettre le roi en sécurité avec le roque.", "Éviter de sortir la dame trop tôt.", "Ne pas jouer automatiquement les coups mémorisés si l'adversaire change de variante.", "Toujours vérifier les menaces de capture et les échecs avant de jouer."].map((t) => h("li", {}, t))),
+    h("p", { class: "petit-texte" }, h("b", {}, "Répertoire conseillé pour commencer. "), "Blancs : Italienne (principale), London, Écossaise, Viennoise, Gambit dame. Noirs contre 1.e4 : Caro-Kann (principale), Scandinave, Française. Noirs contre 1.d4 : Slave (principale), Gambit dame refusé."));
+  return [h("h2", {}, "Ouvertures"), conseils, filtres, compte, liste];
 }
 
 // ----- Variantes d'une ouverture (comme ChessReps : des dizaines de cas, reprise à la divergence) -----
@@ -744,7 +749,9 @@ function panneauDetail(o) {
     h("div", { style: "display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px" }, pastille(campIcone(o.camp)), pastille(o.eco), o.piege ? pastille("Piège", "piege") : null, pastille(`Théorie ${o.theorie}`), pastille(o.style),
       pastille(adapt, elo >= o.elo[0] && elo <= o.elo[1] ? "ok" : ""), pastille(`${o.elo[0]}–${o.elo[1]} Elo`)),
     h("div", { class: "meta", style: "display:flex;gap:16px" }, h("span", {}, "Facilité ", etoiles(o.facilite)), h("span", {}, "Puissance ", etoiles(o.puissance))),
-    h("h3", {}, "L'idée en une phrase"), h("p", {}, o.idee),
+    o.role ? h("p", { class: "petit-texte", style: "margin:0 0 6px" }, h("b", {}, "Dans ton répertoire : "), o.role) : null,
+    h("h3", {}, "Objectif"), h("p", {}, o.idee),
+    o.retenir ? h("div", {}, h("h3", {}, "Idée générale à retenir"), h("p", {}, o.retenir)) : null,
     h("h3", {}, "Plans à retenir"), h("ul", { class: "puces" }, o.plans.map((t) => h("li", {}, t))),
     h("h3", {}, "Erreurs fréquentes"), h("ul", { class: "puces" }, o.erreurs.map((t) => h("li", {}, t))));
   if (o.stats400) {

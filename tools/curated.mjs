@@ -23,6 +23,20 @@ export const SOURCES = {
   c365_c50: { titre: "365chess — C50 Italian Game (statistiques de parties : 4.c3 le plus joué, 4.d3 en Deux cavaliers)", url: "https://www.365chess.com/eco/C50_Italian_Game" },
   exeter_italian: { titre: "Exeter Chess Club — The Modern Italian Game (plans : d3 puis c3/d4, routes de cavaliers)", url: "https://exeterchessclub.org.uk/content/modern-italian-game" },
   chessarchive_italian: { titre: "Chess Archive — Italian Game (liste des variantes : La Bourdonnais, Tarrasch…)", url: "https://chessarchive.net/en/study/openings/italian-game/page/7" },
+  cc_italian: { titre: "Chess.com — Italian Game", url: "https://www.chess.com/openings/Italian-Game" },
+  cb_pianissimo: { titre: "Chessbook — Giuoco Pianissimo", url: "https://chessbook.com/openings/giuoco-pianissimo" },
+  cc_london: { titre: "Chess.com — London System", url: "https://www.chess.com/openings/London-System" },
+  cc_scotch: { titre: "Chess.com — Scotch Game", url: "https://www.chess.com/openings/Scotch-Game" },
+  cc_vienna: { titre: "Chess.com — Vienna Game", url: "https://www.chess.com/openings/Vienna-Game" },
+  cc_qg: { titre: "Chess.com — Queen's Gambit", url: "https://www.chess.com/openings/queens-gambit" },
+  lv_qga: { titre: "LaviChess — Queen's Gambit Accepted", url: "https://lavichess.com/openings/queens-gambit/queens-gambit-accepted" },
+  cc_caro: { titre: "Chess.com — Caro-Kann", url: "https://www.chess.com/openings/Caro-Kann-Defense" },
+  cc_scandi: { titre: "Chess.com — Scandinavian, Mieses-Kotrc", url: "https://www.chess.com/fr/openings/Scandinavian-Defense-Mieses-Kotrc-Main-Line" },
+  cb_french_adv: { titre: "Chessbook — French Advance", url: "https://chessbook.com/openings/french-advance" },
+  cc_french: { titre: "Chess.com — French Defense", url: "https://www.chess.com/openings/french-defense" },
+  cc_slav: { titre: "Chess.com — Slav Defense", url: "https://www.chess.com/openings/Slav-Defense" },
+  cc_qgd: { titre: "Chess.com — Queen's Gambit Declined", url: "https://www.chess.com/openings/Queens-Gambit-Declined" },
+  cm_orthodox: { titre: "ChessMoments — QGD Orthodox Defense", url: "https://chessmoments.com/openings/queens-gambit-declined-orthodox-defense-classical-variation-3/" },
   lichess_db: { titre: "Base d'ouvertures Lichess (CC0)", url: "https://github.com/lichess-org/chess-openings" },
 };
 
@@ -49,7 +63,7 @@ const ANCIENNES = [
       "Oublier de roquer : le roi reste au centre et devient une cible.",
     ],
     stats400: STATS_GIUOCO,
-    sources: ["c365_c50", "exeter_italian", "chessarchive_italian", "to_c54", "wb_pianissimo", "cv_giuoco", "cv_italian", "studer"],
+    sources: ["cc_italian", "cb_pianissimo", "c365_c50", "exeter_italian", "chessarchive_italian", "to_c54", "wb_pianissimo", "cv_giuoco", "cv_italian", "studer"],
     attendu: ["Italian", "Giuoco", "Scotch"],
     lignes: [
       { nom: "Pianissimo classique", coups: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d3 d6 O-O a6 Bb3 Ba7 Re1 O-O Nbd2",
@@ -149,7 +163,7 @@ const ANCIENNES = [
       "Avancer e5 trop tôt quand Noir peut attaquer le pion.",
       "Laisser Noir égaliser en échangeant trop de pièces sans plan.",
     ],
-    sources: ["wp_scotch", "cv_rank", "studer"],
+    sources: ["cc_scotch", "wp_scotch", "cv_rank", "studer"],
     attendu: ["Scotch"],
     lignes: [
       { nom: "Écossaise : 4...Cf6 (Mieses)", coups: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nf6 Nxc6 bxc6 e5 Qe7 Qe2 Nd5 c4 Ba6 b3",
@@ -173,7 +187,7 @@ const ANCIENNES = [
       "Jouer f4 sans avoir de développement : le roi devient vulnérable sur la diagonale e1-h4.",
       "Ignorer ...Dh4+ quand f4 est joué et que le pion g reste en place.",
     ],
-    sources: ["cv_rank"],
+    sources: ["cc_vienna", "cv_rank"],
     attendu: ["Vienna", "Four Knights"],
     lignes: [
       { nom: "Gambit viennois", coups: "e4 e5 Nc3 Nf6 f4 d5 fxe5 Nxe4 Nf3 Be7 d4 O-O Bd3 f5 exf6 Bxf6 O-O Nxc3 bxc3",
@@ -220,7 +234,7 @@ const ANCIENNES = [
       "Oublier ...Db6 qui attaque b2 : prévoir Db3 ou b3 à l'avance.",
     ],
     stats400: STATS_LONDON,
-    sources: ["cv_london", "studer"],
+    sources: ["cc_london", "cv_london", "studer"],
     attendu: ["London"],
     lignes: [
       { nom: "Contre ...c5 : le plan Cc6 / e6", coups: "d4 d5 Bf4 Nf6 e3 c5 c3 Nc6 Nd2 e6 Ngf3 Bd6 Bg3 O-O Bd3", notes: { 11: "Le fou f4 est sorti AVANT e3 : sinon il reste enfermé derrière sa chaîne de pions.", 15: "Le fou échange la pièce la plus active des Noirs (Fd6) ; on garde un jeu simple et solide." } },
@@ -267,7 +281,7 @@ const ANCIENNES = [
       "Essayer de garder le pion de gambit trop longtemps après ...dxc4.",
       "Négliger le développement des pièces mineures.",
     ],
-    sources: ["wp_qga", "cv_rank"],
+    sources: ["cc_qg", "lv_qga", "wp_qga", "cv_rank"],
     attendu: ["Queen's Gambit", "Slav"],
     lignes: [
       { nom: "Gambit dame refusé (Tartakower)", coups: "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 h6 Bh4 b6 cxd5 Nxd5 Bxe7 Qxe7 Nxd5 exd5 Rc1 Be6" },
@@ -400,7 +414,7 @@ const ANCIENNES = [
       "Oublier que le fou c8 doit sortir avant ...e6.",
     ],
     stats400: STATS_CARO,
-    sources: ["cd_caro", "cv_caro", "studer"],
+    sources: ["cc_caro", "cd_caro", "cv_caro", "studer"],
     attendu: ["Caro-Kann"],
     lignes: [
       { nom: "Variante classique (3.Cc3)", coups: "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Bf5 Ng3 Bg6 h4 h6 Nf3 Nd7 h5 Bh7 Bd3 Bxd3 Qxd3 e6 Bf4 Ngf6 O-O-O",
@@ -426,7 +440,7 @@ const ANCIENNES = [
       "Laisser la dame sortir trop tôt : elle peut être chassée par Cc3.",
       "Oublier de développer le fou c8 avant ...e6.",
     ],
-    sources: ["lichess_db", "studer"],
+    sources: ["cc_scandi", "lichess_db", "studer"],
     attendu: ["Scandinavian"],
     lignes: [
       { nom: "Scandinave : 2...Dxd5", coups: "e4 d5 exd5 Qxd5 Nc3 Qa5 d4 Nf6 Nf3 c6 Bc4 Bf5 Bd2 e6" },
@@ -558,7 +572,7 @@ const ANCIENNES = [
       "Laisser le fou c8 enfermé : c'est le défaut classique.",
       "Rester passif sans jouer ...c5 à temps.",
     ],
-    sources: ["lichess_db"],
+    sources: ["cc_french", "cb_french_adv", "lichess_db"],
     attendu: ["French"],
     lignes: [
       { nom: "Variante Winawer", coups: "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Ne7", notes: { 7: "e5 ferme le centre : le fou noir était brouillé avec les pions blancs, Noir doit attaquer le centre avec c5.", 10: "Noir donne la paire de fous contre un pion doublé en c3 : un choix typique de la Winawer." } },
@@ -602,7 +616,7 @@ const ANCIENNES = [
       "Laisser le fou c8 sans plan : il doit sortir.",
       "Jouer ...dxc4 sans comprendre comment récupérer le pion.",
     ],
-    sources: ["lichess_db"],
+    sources: ["cc_qgd", "cm_orthodox", "lichess_db"],
     attendu: ["Queen's Gambit"],
     lignes: [
       { nom: "Gambit dame refusé (Tartakower)", coups: "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 h6 Bh4 b6 cxd5 Nxd5 Bxe7 Qxe7 Nxd5 exd5 Rc1 Be6" },
@@ -623,7 +637,7 @@ const ANCIENNES = [
       "Perdre du temps avec des coups de pions inutiles.",
       "Oublier de sortir le fou c8 avant ...e6.",
     ],
-    sources: ["lichess_db"],
+    sources: ["cc_slav", "lichess_db"],
     attendu: ["Slav"],
     lignes: [
       { nom: "Slave principale", coups: "d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 a4 Bf5 e3 e6 Bxc4 Bb4 O-O Nbd7 Qe2 Bg6 e4 O-O Bd3 Bh5" },
@@ -696,9 +710,11 @@ const ANCIENNES = [
 
 // ── Répertoire actuel : les 10 ouvertures du document de Kilian (lignes et explications dans tools/repertoire.mjs).
 // Les fiches (idée, plans, erreurs, sources, stats) sont reprises des anciennes entrées de même identifiant.
-import { REPERTOIRE } from "./repertoire.mjs";
+import { REPERTOIRE, FICHES, LIENS } from "./repertoire.mjs";
+for (const [k, [titre, url]] of Object.entries(LIENS)) SOURCES[k] = { titre, url };
 export const OUVERTURES = Object.entries(REPERTOIRE).map(([id, lignes]) => {
   const ancienne = ANCIENNES.find((o) => o.id === id);
   if (!ancienne) throw new Error("ouverture inconnue : " + id);
-  return { ...ancienne, lignes };
+  const f = FICHES[id];
+  return { ...ancienne, lignes, idee: f.idee, role: f.role, retenir: f.retenir, sources: [...f.sources, "lichess_analyse", "lichess_ouvertures"] };
 });

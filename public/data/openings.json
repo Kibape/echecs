@@ -65,9 +65,105 @@
    "titre": "Chess Archive — Italian Game (liste des variantes : La Bourdonnais, Tarrasch…)",
    "url": "https://chessarchive.net/en/study/openings/italian-game/page/7"
   },
+  "cc_italian": {
+   "titre": "Chess.com — Italian Game",
+   "url": "https://www.chess.com/openings/Italian-Game"
+  },
+  "cb_pianissimo": {
+   "titre": "Chessbook — Giuoco Pianissimo",
+   "url": "https://chessbook.com/openings/giuoco-pianissimo"
+  },
+  "cc_london": {
+   "titre": "Chess.com — Système de Londres",
+   "url": "https://www.chess.com/openings/London-System"
+  },
+  "cc_scotch": {
+   "titre": "Chess.com — Scotch Game",
+   "url": "https://www.chess.com/openings/Scotch-Game"
+  },
+  "cc_vienna": {
+   "titre": "Chess.com — Vienna Game",
+   "url": "https://www.chess.com/openings/Vienna-Game"
+  },
+  "cc_qg": {
+   "titre": "Chess.com — Queen's Gambit",
+   "url": "https://www.chess.com/openings/queens-gambit"
+  },
+  "lv_qga": {
+   "titre": "LaviChess — Queen's Gambit Accepted",
+   "url": "https://lavichess.com/openings/queens-gambit/queens-gambit-accepted"
+  },
+  "cc_caro": {
+   "titre": "Chess.com — Défense Caro-Kann",
+   "url": "https://www.chess.com/openings/caro-kann-defense"
+  },
+  "cc_scandi": {
+   "titre": "Chess.com — Scandinavian, Mieses-Kotrc",
+   "url": "https://www.chess.com/fr/openings/Scandinavian-Defense-Mieses-Kotrc-Main-Line"
+  },
+  "cb_french_adv": {
+   "titre": "Chessbook — French Advance",
+   "url": "https://chessbook.com/openings/french-advance"
+  },
+  "cc_french": {
+   "titre": "Chess.com — French Defense",
+   "url": "https://www.chess.com/openings/french-defense"
+  },
+  "cc_slav": {
+   "titre": "Chess.com — Slav Defense",
+   "url": "https://www.chess.com/openings/Slav-Defense"
+  },
+  "cc_qgd": {
+   "titre": "Chess.com — Queen's Gambit Declined",
+   "url": "https://www.chess.com/openings/Queens-Gambit-Declined"
+  },
+  "cm_orthodox": {
+   "titre": "ChessMoments — QGD Orthodox Defense",
+   "url": "https://chessmoments.com/openings/queens-gambit-declined-orthodox-defense-classical-variation-3/"
+  },
   "lichess_db": {
    "titre": "Base d'ouvertures Lichess (CC0)",
    "url": "https://github.com/lichess-org/chess-openings"
+  },
+  "cc_italienne": {
+   "titre": "Chess.com — Partie italienne",
+   "url": "https://www.chess.com/openings/Italian-Game"
+  },
+  "cc_ecossaise": {
+   "titre": "Chess.com — Partie écossaise",
+   "url": "https://www.chess.com/openings/Scotch-Game"
+  },
+  "cc_viennoise": {
+   "titre": "Chess.com — Partie viennoise",
+   "url": "https://www.chess.com/openings/Vienna-Game"
+  },
+  "cc_gambit_dame": {
+   "titre": "Chess.com — Gambit dame",
+   "url": "https://www.chess.com/openings/Queens-Gambit"
+  },
+  "cc_scandinave": {
+   "titre": "Chess.com — Défense scandinave",
+   "url": "https://www.chess.com/openings/scandinavian-defense"
+  },
+  "cc_francaise": {
+   "titre": "Chess.com — Défense française",
+   "url": "https://www.chess.com/openings/French-Defense"
+  },
+  "cc_slave": {
+   "titre": "Chess.com — Défense slave",
+   "url": "https://www.chess.com/openings/Slav-Defense"
+  },
+  "cc_gdr": {
+   "titre": "Chess.com — Gambit dame refusé",
+   "url": "https://www.chess.com/openings/Queens-Gambit-Declined"
+  },
+  "lichess_analyse": {
+   "titre": "Lichess — explorateur de variantes et de parties réelles",
+   "url": "https://lichess.org/analysis"
+  },
+  "lichess_ouvertures": {
+   "titre": "Lichess — base de données des ouvertures",
+   "url": "https://lichess.org/opening"
   }
  },
  "ouvertures": [
@@ -84,7 +180,7 @@
    "puissance": 4,
    "theorie": "faible",
    "style": "classique",
-   "idee": "Développer vite, viser f7 avec le fou c4, puis jouer c3 et d3 pour construire un centre solide avant de roquer.",
+   "idee": "La partie italienne permet de développer rapidement les pièces tout en contrôlant le centre. Le fou en c4 exerce une pression sur f7, une case sensible au début de la partie puisqu'elle n'est défendue que par le roi noir.",
    "plans": [
     "Sortir les cavaliers et le fou c4, puis roquer rapidement.",
     "Jouer c3 et d3 : préparer d4 sans se précipiter.",
@@ -102,16 +198,99 @@
     "note": "Giuoco Piano, parties Lichess blitz/rapide, joueurs ~400"
    },
    "sources": [
-    "c365_c50",
-    "exeter_italian",
-    "chessarchive_italian",
-    "to_c54",
-    "wb_pianissimo",
-    "cv_giuoco",
-    "cv_italian",
-    "studer"
+    "cc_italienne",
+    "lichess_analyse",
+    "lichess_ouvertures"
    ],
    "lignes": [
+    {
+     "nom": "Giuoco Pianissimo : ligne principale (4.d3, 5.O-O, 6.c3, 7.h3)",
+     "coups": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bc4",
+      "Bc5",
+      "d3",
+      "Nf6",
+      "O-O",
+      "O-O",
+      "c3",
+      "d6",
+      "h3"
+     ],
+     "notes": {
+      "1": "e4 : prend de l'espace au centre et libère le fou et la dame.",
+      "2": "e5 : les Noirs contestent immédiatement le centre.",
+      "3": "Cf3 : développe le cavalier et attaque le pion e5.",
+      "4": "Cc6 : défend e5 et développe une pièce.",
+      "5": "Fc4 : développe le fou sur une diagonale active, en visant f7 (défendue seulement par le roi).",
+      "6": "Fc5 : les Noirs développent leur fou et contrôlent le centre.",
+      "7": "d3 : consolide le pion e4 et ouvre la diagonale du fou c1.",
+      "8": "Cf6 : développe le cavalier et met la pression sur e4.",
+      "9": "O-O : met le roi en sécurité et active la tour.",
+      "10": "O-O : les Noirs font de même.",
+      "11": "c3 : prépare une éventuelle poussée d4 et construit un centre solide.",
+      "12": "d6 : soutient le pion e5 et stabilise le centre.",
+      "13": "h3 : empêche notamment les pièces noires de venir se placer en g4."
+     },
+     "extensionDepuis": null,
+     "ecoDetecte": {
+      "code": "C54",
+      "nom": "Italian Game: Classical Variation, Giuoco Pianissimo",
+      "ply": 12
+     },
+     "fenFinale": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N1P/PP3PP1/RNBQ1RK1 b - - 0 7"
+    },
+    {
+     "nom": "Pianissimo : variante de développement (5.c3, Te1, Fb3)",
+     "coups": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bc4",
+      "Bc5",
+      "d3",
+      "Nf6",
+      "c3",
+      "d6",
+      "O-O",
+      "O-O",
+      "Re1",
+      "a6",
+      "Bb3",
+      "Ba7",
+      "h3"
+     ],
+     "notes": {
+      "1": "e4 : prend de l'espace au centre.",
+      "2": "e5 : les Noirs contestent le centre.",
+      "3": "Cf3 : développe le cavalier et attaque e5.",
+      "4": "Cc6 : défend e5.",
+      "5": "Fc4 : le fou vise f7.",
+      "6": "Fc5 : les Noirs développent leur fou.",
+      "7": "d3 : consolide e4 et libère le fou c1.",
+      "8": "Cf6 : les Noirs pressent e4.",
+      "9": "c3 : prépare d4 et construit un centre solide.",
+      "10": "d6 : soutient e5 et stabilise le centre.",
+      "11": "O-O : le roi se met en sécurité.",
+      "12": "O-O : les Noirs font de même.",
+      "13": "Te1 : la tour soutient e4 et prépare d4.",
+      "14": "a6 : les Noirs préparent la retraite de leur fou.",
+      "15": "Fb3 : le fou se retire en gardant la diagonale a2-g8.",
+      "16": "Fa7 : les Noirs mettent leur fou à l'abri de d4. Position positionnelle : les Blancs préparent d4, les Noirs gardent leur structure.",
+      "17": "h3 : empêche ...Fg4 et prépare Cbd2-f1-g3."
+     },
+     "extensionDepuis": null,
+     "ecoDetecte": {
+      "code": "C54",
+      "nom": "Italian Game: Classical Variation, Giuoco Pianissimo, Main Line",
+      "ply": 17
+     },
+     "fenFinale": "r1bq1rk1/bpp2ppp/p1np1n2/4p3/4P3/1BPP1N1P/PP3PP1/RNBQR1K1 b - - 0 9"
+    },
     {
      "nom": "Giuoco Piano : 4.c3 Cf6 5.d3",
      "coups": [
@@ -145,34 +324,6 @@
      "fenFinale": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQK2R b KQkq - 0 5"
     },
     {
-     "nom": "Giuoco Pianissimo : 4.d3",
-     "coups": [
-      "e4",
-      "e5",
-      "Nf3",
-      "Nc6",
-      "Bc4",
-      "Bc5",
-      "d3"
-     ],
-     "notes": {
-      "1": "e4 : les Blancs occupent le centre et libèrent leur fou et leur dame.",
-      "2": "e5 : les Noirs contestent immédiatement le centre.",
-      "3": "Cf3 : le cavalier se développe et attaque le pion e5.",
-      "4": "Cc6 : les Noirs défendent leur pion et développent une pièce.",
-      "5": "Fc4 : le fou vise f7, case sensible puisque seul le roi noir la défend.",
-      "6": "Fc5 : les Noirs développent leur fou et pressent f2.",
-      "7": "d3 : approche plus calme. Les Blancs consolident e4, libèrent leur fou c1 et gardent une structure centrale solide. L'idée : développer tranquillement, roquer, puis progresser au centre sans ouvrir la position tout de suite."
-     },
-     "extensionDepuis": null,
-     "ecoDetecte": {
-      "code": "C50",
-      "nom": "Italian Game: Giuoco Pianissimo",
-      "ply": 7
-     },
-     "fenFinale": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R b KQkq - 0 4"
-    },
-    {
      "nom": "Défense des deux cavaliers : 4.Cg5 d5 5.exd5 Ca5",
      "coups": [
       "e4",
@@ -192,11 +343,11 @@
       "3": "Cf3 : le cavalier se développe et attaque le pion e5.",
       "4": "Cc6 : les Noirs défendent leur pion et développent une pièce.",
       "5": "Fc4 : le fou vise f7.",
-      "6": "Cf6 : les Noirs attaquent e4 au lieu de développer leur fou en c5.",
-      "7": "Cg5 : les Blancs attaquent f7 avec leur cavalier, case déjà visée par le fou c4.",
+      "6": "Cf6 : les Noirs attaquent e4 au lieu de développer leur fou en c5. Cela mène à des positions différentes du Pianissimo.",
+      "7": "Cg5 : les Blancs attaquent f7 avec leur cavalier, case déjà visée par le fou c4. Ça peut devenir tactique.",
       "8": "d5 : les Noirs contre-attaquent au centre et attaquent le fou blanc.",
       "9": "exd5 : les Blancs capturent le pion d5.",
-      "10": "Ca5 : les Noirs attaquent le fou c4 et gagnent du temps (et évitent le piège ...Cxd5? Cxf7). Ligne tactique : comprends les menaces avant de continuer."
+      "10": "Ca5 : les Noirs attaquent le fou c4 et gagnent du temps (et évitent le piège ...Cxd5? Cxf7). Comprends les menaces avant de continuer."
      },
      "extensionDepuis": null,
      "ecoDetecte": {
@@ -207,6 +358,8 @@
      "fenFinale": "r1bqkb1r/ppp2ppp/5n2/n2Pp1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 1 6"
     }
    ],
+   "role": "Ouverture principale des Blancs",
+   "retenir": "Développer rapidement, roquer et exercer une pression sur le centre et sur f7.",
    "variantes": []
   },
   {
@@ -222,7 +375,7 @@
    "puissance": 4,
    "theorie": "faible",
    "style": "système",
-   "idee": "Toujours la même installation (d4, Cf3, Ff4, e3, c3, Fd3, Cbd2) quoi que fasse l'adversaire.",
+   "idee": "Le London est un système positionnel. Il permet aux Blancs de conserver une structure de pions solide et de développer les pièces selon un schéma relativement constant.",
    "plans": [
     "Sortir le fou f4 AVANT de jouer e3 : sinon il reste enfermé.",
     "Installer d4, e3, c3, Cbd2, Fd3 puis roquer.",
@@ -240,12 +393,13 @@
     "note": "London System, parties Lichess blitz/rapide, joueurs ~400"
    },
    "sources": [
-    "cv_london",
-    "studer"
+    "cc_london",
+    "lichess_analyse",
+    "lichess_ouvertures"
    ],
    "lignes": [
     {
-     "nom": "London : ligne principale contre ...d5 / ...c5",
+     "nom": "London : ligne de référence (...d5 / ...c5)",
      "coups": [
       "d4",
       "d5",
@@ -267,24 +421,24 @@
       "Bb7"
      ],
      "notes": {
-      "1": "d4 : les Blancs prennent le centre et libèrent leur fou c1.",
-      "2": "d5 : les Noirs occupent aussi le centre.",
-      "3": "Ff4 : on développe le fou AVANT de jouer e3, pour ne pas l'enfermer derrière ses propres pions.",
-      "4": "Cf6 : les Noirs développent leur cavalier et contrôlent le centre.",
-      "5": "e3 : les Blancs renforcent d4 et libèrent leur fou f1.",
+      "1": "d4 : contrôle le centre et ouvre la diagonale du fou c1.",
+      "2": "d5 : les Noirs prennent leur part du centre.",
+      "3": "Ff4 : sort le fou avant de jouer e3, afin de ne pas l'enfermer.",
+      "4": "Cf6 : développe le cavalier et contrôle e4.",
+      "5": "e3 : consolide le centre et libère le fou f1.",
       "6": "c5 : les Noirs attaquent le centre blanc.",
-      "7": "c3 : les Blancs renforcent d4.",
-      "8": "Cc6 : les Noirs développent leur cavalier et accentuent la pression sur d4.",
-      "9": "Cd2 : les Blancs développent leur cavalier et préparent Cf3.",
-      "10": "e6 : les Noirs consolident leur centre et libèrent leur fou f8.",
-      "11": "Cgf3 : le cavalier rejoint f3 et participe au contrôle du centre.",
-      "12": "Fd6 : les Noirs développent leur fou et attaquent le fou f4.",
-      "13": "Fg3 : les Blancs préservent leur fou.",
-      "14": "O-O : les Noirs mettent leur roi en sécurité.",
-      "15": "Fd3 : les Blancs développent leur fou et visent notamment h7.",
-      "16": "b6 : les Noirs préparent le développement de leur fou en b7.",
-      "17": "De2 : les Blancs développent leur dame et soutiennent leur centre.",
-      "18": "Fb7 : les Noirs développent leur fou sur la grande diagonale."
+      "7": "c3 : renforce d4 et prépare une structure solide.",
+      "8": "Cc6 : développe une pièce et augmente la pression sur d4.",
+      "9": "Cd2 : développe le cavalier en gardant la possibilité de soutenir e4.",
+      "10": "e6 : renforce d5 et ouvre la diagonale du fou f8.",
+      "11": "Cgf3 : développe le deuxième cavalier.",
+      "12": "Fd6 : les Noirs développent leur fou et contestent le fou f4.",
+      "13": "Fg3 : le fou se replie pour éviter l'échange ou la perte de temps.",
+      "14": "O-O : le roi noir se met en sécurité.",
+      "15": "Fd3 : développe le fou vers une diagonale active.",
+      "16": "b6 : prépare le développement du fou c8.",
+      "17": "De2 : coordonne les pièces et prépare éventuellement le grand roque ou une action centrale.",
+      "18": "Fb7 : développe le fou sur la grande diagonale."
      },
      "extensionDepuis": null,
      "ecoDetecte": {
@@ -325,6 +479,8 @@
      "fenFinale": "rnbqk2r/ppp1ppbp/3p1np1/8/3P1B2/4PN2/PPP2PPP/RN1QKB1R w KQkq - 0 5"
     }
    ],
+   "role": "Alternative positionnelle des Blancs",
+   "retenir": "Ff4, e3, c3, Cf3 et Fd3 constituent le schéma de base. Il faut toutefois adapter le développement à la position adverse.",
    "variantes": []
   },
   {
@@ -340,7 +496,7 @@
    "puissance": 4,
    "theorie": "moyenne",
    "style": "ouvert, direct",
-   "idee": "Ouvrir le centre tout de suite avec d4 : les pièces blanches deviennent actives et la position est claire.",
+   "idee": "L'Écossaise est une ouverture ouverte et dynamique. Les Blancs attaquent immédiatement le centre noir avec d4, sans passer par une longue phase de manœuvres.",
    "plans": [
     "Après 3.d4 exd4 4.Cxd4, le cavalier d4 domine le centre.",
     "Développer rapidement, roquer, puis chercher l'initiative au centre.",
@@ -351,13 +507,13 @@
     "Laisser Noir égaliser en échangeant trop de pièces sans plan."
    ],
    "sources": [
-    "wp_scotch",
-    "cv_rank",
-    "studer"
+    "cc_ecossaise",
+    "lichess_analyse",
+    "lichess_ouvertures"
    ],
    "lignes": [
     {
-     "nom": "Écossaise : 4...Cf6",
+     "nom": "Écossaise classique : 4...Fc5 5.Fe3 Df6 6.c3 Cge7 7.Fc4",
      "coups": [
       "e4",
       "e5",
@@ -366,47 +522,33 @@
       "d4",
       "exd4",
       "Nxd4",
-      "Nf6"
+      "Bc5",
+      "Be3",
+      "Qf6",
+      "c3",
+      "Nge7",
+      "Bc4",
+      "O-O",
+      "O-O",
+      "Bb6"
      ],
      "notes": {
-      "1": "e4 : les Blancs occupent le centre et libèrent leur fou et leur dame.",
-      "2": "e5 : les Noirs contestent immédiatement le centre.",
-      "3": "Cf3 : le cavalier se développe et attaque le pion e5.",
-      "4": "Cc6 : les Noirs défendent leur pion et développent une pièce.",
-      "5": "d4 : les Blancs attaquent directement le centre noir.",
-      "6": "exd4 : les Noirs capturent le pion d4.",
-      "7": "Cxd4 : les Blancs reprennent avec le cavalier et placent une pièce au centre.",
-      "8": "Cf6 : les Noirs développent leur cavalier et pressent e4. La suite peut devenir tactique ou positionnelle."
-     },
-     "extensionDepuis": null,
-     "ecoDetecte": {
-      "code": "C45",
-      "nom": "Scotch Game: Schmidt Variation",
-      "ply": 8
-     },
-     "fenFinale": "r1bqkb1r/pppp1ppp/2n2n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5"
-    },
-    {
-     "nom": "Écossaise : 4...Fc5",
-     "coups": [
-      "e4",
-      "e5",
-      "Nf3",
-      "Nc6",
-      "d4",
-      "exd4",
-      "Nxd4",
-      "Bc5"
-     ],
-     "notes": {
-      "1": "e4 : les Blancs occupent le centre et libèrent leur fou et leur dame.",
-      "2": "e5 : les Noirs contestent immédiatement le centre.",
-      "3": "Cf3 : le cavalier se développe et attaque le pion e5.",
-      "4": "Cc6 : les Noirs défendent leur pion et développent une pièce.",
-      "5": "d4 : les Blancs attaquent directement le centre noir.",
-      "6": "exd4 : les Noirs capturent le pion d4.",
-      "7": "Cxd4 : les Blancs reprennent avec le cavalier.",
-      "8": "Fc5 : les Noirs développent leur fou et attaquent directement le cavalier d4 : il faut penser à le protéger."
+      "1": "e4 : les deux camps occupent le centre.",
+      "2": "e5 : les Noirs contestent le centre.",
+      "3": "Cf3 : les Blancs développent leur cavalier.",
+      "4": "Cc6 : les Noirs défendent e5.",
+      "5": "d4 : les Blancs attaquent immédiatement le centre noir.",
+      "6": "exd4 : les Noirs capturent le pion.",
+      "7": "Cxd4 : les Blancs reprennent avec le cavalier, qui occupe une case centrale.",
+      "8": "Fc5 : le fou noir se développe et attaque le cavalier d4.",
+      "9": "Fe3 : développe le fou et conteste la diagonale du fou noir.",
+      "10": "Df6 : la dame noire se place activement et exerce une pression sur le centre.",
+      "11": "c3 : soutient le centre et prépare le développement.",
+      "12": "Cge7 : développe le cavalier sans bloquer le fou c8.",
+      "13": "Fc4 : développe le fou sur une diagonale active.",
+      "14": "O-O : les Noirs mettent leur roi en sécurité.",
+      "15": "O-O : les Blancs font de même.",
+      "16": "Fb6 : le fou noir se replie pour éviter un échange défavorable."
      },
      "extensionDepuis": null,
      "ecoDetecte": {
@@ -414,10 +556,64 @@
       "nom": "Scotch Game: Classical Variation",
       "ply": 8
      },
-     "fenFinale": "r1bqk1nr/pppp1ppp/2n5/2b5/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5"
+     "fenFinale": "r1b2rk1/ppppnppp/1bn2q2/8/2BNP3/2P1B3/PP3PPP/RN1Q1RK1 w - - 5 9"
     },
     {
-     "nom": "Écossaise : 4...Fb4+",
+     "nom": "Écossaise : variante Schmidt (4...Cf6 5.Cc3 Fb4)",
+     "coups": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "d4",
+      "exd4",
+      "Nxd4",
+      "Nf6",
+      "Nc3",
+      "Bb4",
+      "Nxc6",
+      "bxc6",
+      "Bd3",
+      "d5",
+      "exd5",
+      "cxd5",
+      "O-O",
+      "O-O",
+      "Bg5",
+      "c6"
+     ],
+     "notes": {
+      "1": "e4 : les Blancs prennent le centre.",
+      "2": "e5 : les Noirs contestent le centre.",
+      "3": "Cf3 : les Blancs développent leur cavalier.",
+      "4": "Cc6 : les Noirs défendent e5.",
+      "5": "d4 : les Blancs attaquent directement le centre noir.",
+      "6": "exd4 : les Noirs capturent le pion.",
+      "7": "Cxd4 : les Blancs reprennent avec le cavalier.",
+      "8": "Cf6 : les Noirs développent leur cavalier et pressent e4.",
+      "9": "Cc3 : les Blancs défendent e4 et développent.",
+      "10": "Fb4 : les Noirs clouent le cavalier c3.",
+      "11": "Cxc6 : les Blancs échangent le cavalier d4 contre le cavalier c6.",
+      "12": "bxc6 : les Noirs reprennent et gardent un beau centre de pions.",
+      "13": "Fd3 : développe le fou vers une diagonale active.",
+      "14": "d5 : les Noirs frappent au centre.",
+      "15": "exd5 : les Blancs capturent.",
+      "16": "cxd5 : les Noirs reprennent. Thème central de l'Écossaise : développer en se disputant le centre.",
+      "17": "O-O : les Blancs mettent leur roi en sécurité.",
+      "18": "O-O : les Noirs font de même.",
+      "19": "Fg5 : les Blancs clouent le cavalier f6.",
+      "20": "c6 : les Noirs consolident leur centre."
+     },
+     "extensionDepuis": null,
+     "ecoDetecte": {
+      "code": "C45",
+      "nom": "Scotch Game: Schmidt Variation",
+      "ply": 8
+     },
+     "fenFinale": "r1bq1rk1/p4ppp/2p2n2/3p2B1/1b6/2NB4/PPP2PPP/R2Q1RK1 w - - 0 11"
+    },
+    {
+     "nom": "Écossaise : 4...Fb4+ (Malaniuk)",
      "coups": [
       "e4",
       "e5",
@@ -447,6 +643,8 @@
      "fenFinale": "r1bqk1nr/pppp1ppp/2n5/8/1b1NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5"
     }
    ],
+   "role": "Alternative plus directe des Blancs",
+   "retenir": "Ouvrir le centre, développer les cavaliers et éviter de perdre du temps à protéger inutilement les pièces.",
    "variantes": []
   },
   {
@@ -462,7 +660,7 @@
    "puissance": 4,
    "theorie": "moyenne",
    "style": "agressif",
-   "idee": "Contrôler d5 et e4 avec Cc3, puis préparer f4 pour un centre fort et une attaque sur l'aile roi.",
+   "idee": "La Viennoise est une ouverture flexible qui permet aux Blancs de préparer une attaque avec f4. Elle est moins théorique que certaines grandes ouvertures classiques.",
    "plans": [
     "Développer Cc3 avant Cf3 : f4 reste une option.",
     "Si Noir joue ...Cf6 et ...d5, ouvrir le centre avec fxe5 et d4.",
@@ -473,11 +671,13 @@
     "Ignorer ...Dh4+ quand f4 est joué et que le pion g reste en place."
    ],
    "sources": [
-    "cv_rank"
+    "cc_viennoise",
+    "lichess_analyse",
+    "lichess_ouvertures"
    ],
    "lignes": [
     {
-     "nom": "Viennoise : 3.g3 (fianchetto)",
+     "nom": "Viennoise : 2...Cf6 puis 3.g3 (Mieses)",
      "coups": [
       "e4",
       "e5",
@@ -525,6 +725,50 @@
      "fenFinale": "rnbqkb1r/pppp1ppp/5n2/4p3/4PP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 3"
     },
     {
+     "nom": "Viennoise : 2...Fc5",
+     "coups": [
+      "e4",
+      "e5",
+      "Nc3",
+      "Bc5"
+     ],
+     "notes": {
+      "1": "e4 : les Blancs occupent le centre.",
+      "2": "e5 : les Noirs contestent le centre.",
+      "3": "Cc3 : les Blancs développent leur cavalier et défendent e4.",
+      "4": "Fc5 : développement direct du fou, qui vise f2. Ne joue pas la variante Mieses comme si elle était obligatoire : ici on développe (Cf3, ou f4 si c'est le bon moment)."
+     },
+     "extensionDepuis": null,
+     "ecoDetecte": {
+      "code": "C25",
+      "nom": "Vienna Game: Anderssen Defense",
+      "ply": 4
+     },
+     "fenFinale": "rnbqk1nr/pppp1ppp/8/2b1p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3"
+    },
+    {
+     "nom": "Viennoise : 2...d6",
+     "coups": [
+      "e4",
+      "e5",
+      "Nc3",
+      "d6"
+     ],
+     "notes": {
+      "1": "e4 : les Blancs occupent le centre.",
+      "2": "e5 : les Noirs contestent le centre.",
+      "3": "Cc3 : les Blancs développent leur cavalier et défendent e4.",
+      "4": "d6 : défense plus calme du pion e5. La structure n'est pas la même que contre 2...Cf6."
+     },
+     "extensionDepuis": null,
+     "ecoDetecte": {
+      "code": "C25",
+      "nom": "Vienna Game",
+      "ply": 3
+     },
+     "fenFinale": "rnbqkbnr/ppp2ppp/3p4/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 0 3"
+    },
+    {
      "nom": "Viennoise : 2...Cc6",
      "coups": [
       "e4",
@@ -547,6 +791,8 @@
      "fenFinale": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3"
     }
    ],
+   "role": "Alternative offensive des Blancs",
+   "retenir": "Développer le cavalier en c3, puis choisir entre un jeu positionnel avec g3 ou une attaque avec f4.",
    "variantes": []
   },
   {
@@ -562,7 +808,7 @@
    "puissance": 4,
    "theorie": "moyenne",
    "style": "stratégique",
-   "idee": "Offrir un pion (c4) pour détourner le pion d5 et prendre le contrôle du centre.",
+   "idee": "Le gambit dame est une ouverture positionnelle qui cherche à contrôler le centre. Les Blancs proposent leur pion c4 afin de détourner le pion noir d5. Ce n'est pas nécessairement un sacrifice permanent : les Blancs cherchent souvent à récupérer le pion.",
    "plans": [
     "Attaquer le centre noir avec c4 : si ...dxc4, récupérer le pion en développant.",
     "Contre ...e6 : développer Cc3, Cf3, Fg5 et jouer e3.",
@@ -573,8 +819,9 @@
     "Négliger le développement des pièces mineures."
    ],
    "sources": [
-    "wp_qga",
-    "cv_rank"
+    "cc_gambit_dame",
+    "lichess_analyse",
+    "lichess_ouvertures"
    ],
    "lignes": [
     {
@@ -616,7 +863,7 @@
      "fenFinale": "r1bq1rk1/pppnbppp/4pn2/3p2B1/2PP4/2N1PN2/PP3PPP/R2QKB1R w KQ - 3 7"
     },
     {
-     "nom": "Gambit dame accepté",
+     "nom": "Gambit dame accepté : ligne classique (7.De2 b5 8.Fb3)",
      "coups": [
       "d4",
       "d5",
@@ -629,31 +876,47 @@
       "Bxc4",
       "c5",
       "O-O",
-      "a6"
+      "a6",
+      "Qe2",
+      "b5",
+      "Bb3",
+      "Bb7",
+      "Rd1",
+      "Nbd7",
+      "Nc3"
      ],
      "notes": {
       "1": "d4 : les Blancs prennent le centre et libèrent leur fou c1.",
       "2": "d5 : les Noirs occupent aussi le centre.",
       "3": "c4 : les Blancs proposent le pion c4.",
-      "4": "dxc4 : les Noirs acceptent le gambit et prennent le pion.",
-      "5": "Cf3 : les Blancs développent leur cavalier et préparent la récupération du pion.",
+      "4": "dxc4 : les Noirs prennent le pion. C'est jouable, mais ils devront en général le rendre pour développer leurs pièces.",
+      "5": "Cf3 : les Blancs développent leur cavalier avant de reprendre le pion.",
       "6": "Cf6 : les Noirs développent leur cavalier.",
-      "7": "e3 : les Blancs ouvrent la diagonale de leur fou f1 pour récupérer le pion.",
+      "7": "e3 : ouvre la diagonale du fou f1 pour récupérer le pion.",
       "8": "e6 : les Noirs renforcent leur centre et libèrent leur fou f8.",
       "9": "Fxc4 : les Blancs récupèrent le pion avec leur fou.",
-      "10": "c5 : les Noirs attaquent le centre blanc.",
+      "10": "c5 : les Noirs jouent ...c5 pour attaquer d4.",
       "11": "O-O : les Blancs mettent leur roi en sécurité.",
-      "12": "a6 : les Noirs préparent une expansion à l'aile dame et peuvent envisager ...b5."
+      "12": "a6 : les Noirs préparent ...b5.",
+      "13": "De2 : la dame se développe et prépare Td1 sur la colonne centrale.",
+      "14": "b5 : les Noirs gagnent de l'espace à l'aile dame.",
+      "15": "Fb3 : le fou se retire en gardant la diagonale.",
+      "16": "Fb7 : les Noirs développent leur fou sur la grande diagonale.",
+      "17": "Td1 : la tour prend une colonne centrale.",
+      "18": "Cbd7 : les Noirs développent leur dernier cavalier.",
+      "19": "Cc3 : les Blancs développent leur dernière pièce mineure."
      },
      "extensionDepuis": null,
      "ecoDetecte": {
-      "code": "D27",
-      "nom": "Queen's Gambit Accepted: Classical Defense, Main Line",
-      "ply": 12
+      "code": "D29",
+      "nom": "Queen's Gambit Accepted: Classical Defense, Alekhine System, Main Line",
+      "ply": 16
      },
-     "fenFinale": "rnbqkb1r/1p3ppp/p3pn2/2p5/2BP4/4PN2/PP3PPP/RNBQ1RK1 w kq - 0 7"
+     "fenFinale": "r2qkb1r/1b1n1ppp/p3pn2/1pp5/3P4/1BN1PN2/PP2QPPP/R1BR2K1 b kq - 5 10"
     }
    ],
+   "role": "Alternative positionnelle des Blancs",
+   "retenir": "Contrôler le centre, développer les pièces et ne pas chercher à conserver un pion supplémentaire au détriment du développement.",
    "variantes": []
   },
   {
@@ -669,7 +932,7 @@
    "puissance": 4,
    "theorie": "moyenne",
    "style": "solide",
-   "idee": "Préparer ...d5 avec ...c6 : on contrôle le centre sans enfermer le fou c8.",
+   "idee": "La Caro-Kann est une défense solide pour les Noirs. Le coup ...c6 prépare ...d5 sans enfermer immédiatement le fou c8.",
    "plans": [
     "Jouer ...c6 puis ...d5 ; contre l'avance e5, sortir le fou c8 en f5.",
     "Développer ...Cf6 et ...e6, puis roquer.",
@@ -687,9 +950,9 @@
     "note": "Caro-Kann, parties Lichess blitz/rapide, joueurs ~400"
    },
    "sources": [
-    "cd_caro",
-    "cv_caro",
-    "studer"
+    "cc_caro",
+    "lichess_analyse",
+    "lichess_ouvertures"
    ],
    "lignes": [
     {
@@ -779,8 +1042,58 @@
       "ply": 8
      },
      "fenFinale": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5"
+    },
+    {
+     "nom": "Caro-Kann : variante d'échange (3.exd5)",
+     "coups": [
+      "e4",
+      "c6",
+      "d4",
+      "d5",
+      "exd5"
+     ],
+     "notes": {
+      "1": "e4 : les Blancs prennent le centre.",
+      "2": "c6 : prépare ...d5.",
+      "3": "d4 : les Blancs construisent un centre de deux pions.",
+      "4": "d5 : les Noirs contestent ce centre.",
+      "5": "exd5 : les Blancs échangent au centre. Après ...cxd5, la structure est symétrique : développe tes pièces et surveille la colonne e."
+     },
+     "extensionDepuis": null,
+     "ecoDetecte": {
+      "code": "B13",
+      "nom": "Caro-Kann Defense: Exchange Variation",
+      "ply": 5
+     },
+     "fenFinale": "rnbqkbnr/pp2pppp/2p5/3P4/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3"
+    },
+    {
+     "nom": "Caro-Kann : défense des deux cavaliers (2.Cf3)",
+     "coups": [
+      "e4",
+      "c6",
+      "Nf3",
+      "d5",
+      "Nc3"
+     ],
+     "notes": {
+      "1": "e4 : les Blancs prennent le centre.",
+      "2": "c6 : prépare ...d5 sans bloquer le fou c8.",
+      "3": "Cf3 : les Blancs développent leur cavalier avant de jouer d4.",
+      "4": "d5 : les Noirs contestent le centre.",
+      "5": "Cc3 : une autre manière de développer les pièces et de soutenir e4."
+     },
+     "extensionDepuis": null,
+     "ecoDetecte": {
+      "code": "B10",
+      "nom": "Caro-Kann Defense: Two Knights Attack",
+      "ply": 5
+     },
+     "fenFinale": "rnbqkbnr/pp2pppp/2p5/3p4/4P3/2N2N2/PPPP1PPP/R1BQKB1R b KQkq - 1 3"
     }
    ],
+   "role": "Défense principale des Noirs contre 1.e4",
+   "retenir": "Préparer ...d5 avec ...c6, sortir le fou c8 avant ...e6, développer les cavaliers et attaquer le centre blanc avec ...c5 lorsque c'est possible.",
    "variantes": []
   },
   {
@@ -796,7 +1109,7 @@
    "puissance": 3,
    "theorie": "faible",
    "style": "solide",
-   "idee": "Attaquer immédiatement le pion e4 avec ...d5 : un centre clair et une théorie légère.",
+   "idee": "La Scandinave attaque immédiatement le centre blanc. Elle force les Blancs à prendre une décision dès le premier coup des Noirs.",
    "plans": [
     "Après 2.exd5, reprendre avec la dame (Dxd5) ou avec le cavalier (Cf6).",
     "Jouer ...Da5 ou ...Dd6 pour sortir la dame sans perdre de temps.",
@@ -807,8 +1120,9 @@
     "Oublier de développer le fou c8 avant ...e6."
    ],
    "sources": [
-    "lichess_db",
-    "studer"
+    "cc_scandinave",
+    "lichess_analyse",
+    "lichess_ouvertures"
    ],
    "lignes": [
     {
@@ -827,7 +1141,7 @@
       "3": "exd5 : les Blancs capturent le pion d5.",
       "4": "Dxd5 : les Noirs reprennent avec la dame.",
       "5": "Cc3 : les Blancs développent leur cavalier en attaquant la dame : ils gagnent un temps.",
-      "6": "Da5 : la dame se met à l'abri. C'est la réponse la plus courante. Elle pourra se repositionner pendant que les Noirs développent leurs pièces."
+      "6": "Da5 : la dame se met à l'abri. C'est la réponse la plus courante. La dame pourra ensuite se repositionner pendant que les Noirs développent leurs pièces."
      },
      "extensionDepuis": null,
      "ecoDetecte": {
@@ -836,6 +1150,50 @@
       "ply": 6
      },
      "fenFinale": "rnb1kbnr/ppp1pppp/8/q7/8/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 4"
+    },
+    {
+     "nom": "Scandinave : 3...Dd8 (la dame revient)",
+     "coups": [
+      "e4",
+      "d5",
+      "exd5",
+      "Qxd5",
+      "Nc3",
+      "Qd8",
+      "Nf3",
+      "Nf6",
+      "Bc4",
+      "e6",
+      "O-O",
+      "Be7",
+      "d4",
+      "O-O",
+      "Bg5"
+     ],
+     "notes": {
+      "1": "e4 : les Blancs prennent le centre.",
+      "2": "d5 : les Noirs attaquent immédiatement e4.",
+      "3": "exd5 : les Blancs capturent le pion.",
+      "4": "Dxd5 : les Noirs reprennent avec la dame.",
+      "5": "Cc3 : les Blancs attaquent la dame et gagnent un temps.",
+      "6": "Dd8 : la dame replace sur sa case initiale pour développer les pièces sans l'exposer aux attaques de tempo.",
+      "7": "Cf3 : développement du cavalier.",
+      "8": "Cf6 : les Noirs développent leur cavalier.",
+      "9": "Fc4 : le fou prend une diagonale active.",
+      "10": "e6 : les Noirs libèrent leur fou f8 et solidifient.",
+      "11": "O-O : les Blancs mettent leur roi en sécurité.",
+      "12": "Fe7 : les Noirs préparent le roque.",
+      "13": "d4 : les Blancs prennent le centre.",
+      "14": "O-O : les Noirs mettent leur roi en sécurité.",
+      "15": "Fg5 : les Blancs clouent le cavalier f6."
+     },
+     "extensionDepuis": null,
+     "ecoDetecte": {
+      "code": "B01",
+      "nom": "Scandinavian Defense: Valencian Variation",
+      "ply": 6
+     },
+     "fenFinale": "rnbq1rk1/ppp1bppp/4pn2/6B1/2BP4/2N2N2/PPP2PPP/R2Q1RK1 b - - 2 8"
     },
     {
      "nom": "Scandinave : 3...Dd6",
@@ -875,7 +1233,7 @@
       "1": "e4 : les Blancs prennent le centre.",
       "2": "d5 : les Noirs attaquent e4 immédiatement.",
       "3": "exd5 : les Blancs capturent le pion.",
-      "4": "Cf6 : les Noirs développent leur cavalier et préparent de récupérer le pion sans sortir la dame tout de suite. Autre grande famille de la Scandinave, avec des positions différentes de la ligne 2...Dxd5."
+      "4": "Cf6 : les Noirs développent leur cavalier et préparent de récupérer le pion sans sortir la dame tout de suite. C'est une autre grande famille de la Scandinave, avec des positions différentes de la ligne où la dame reprend en d5."
      },
      "extensionDepuis": null,
      "ecoDetecte": {
@@ -886,6 +1244,8 @@
      "fenFinale": "rnbqkb1r/ppp1pppp/5n2/3P4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 1 3"
     }
    ],
+   "role": "Alternative plus directe des Noirs contre 1.e4",
+   "retenir": "Attaquer le centre immédiatement, récupérer le pion et ne pas laisser la dame devenir une cible permanente pour les pièces blanches.",
    "variantes": []
   },
   {
@@ -901,7 +1261,7 @@
    "puissance": 3,
    "theorie": "moyenne",
    "style": "solide",
-   "idee": "Construire une chaîne de pions ...e6 et ...d5 : un centre solide et un contre-jeu avec ...c5.",
+   "idee": "La défense française permet aux Noirs de construire une structure de pions solide. Ils cherchent à attaquer le centre blanc, notamment avec ...c5.",
    "plans": [
     "Jouer ...e6 et ...d5 pour un centre solide.",
     "Attaquer la base de la chaîne blanche avec ...c5.",
@@ -912,34 +1272,68 @@
     "Rester passif sans jouer ...c5 à temps."
    ],
    "sources": [
-    "lichess_db"
+    "cc_francaise",
+    "lichess_analyse",
+    "lichess_ouvertures"
    ],
    "lignes": [
     {
-     "nom": "Française : variante d'avance 3.e5",
+     "nom": "Française : variante d'avance (4.c3 Cc6 5.Cf3 Db6)",
      "coups": [
       "e4",
       "e6",
       "d4",
       "d5",
       "e5",
-      "c5"
+      "c5",
+      "c3",
+      "Nc6",
+      "Nf3",
+      "Qb6",
+      "Bd3",
+      "Bd7",
+      "O-O",
+      "cxd4",
+      "cxd4",
+      "Nxd4",
+      "Nxd4",
+      "Qxd4",
+      "Nc3",
+      "Qxe5",
+      "Re1",
+      "Qc7"
      ],
      "notes": {
       "1": "e4 : les Blancs occupent le centre.",
-      "2": "e6 : les Noirs préparent d5 et libèrent leur fou f8.",
-      "3": "d4 : les Blancs renforcent leur centre.",
-      "4": "d5 : les Noirs attaquent le pion e4.",
-      "5": "e5 : les Blancs avancent leur pion et ferment le centre.",
-      "6": "c5 : les Noirs attaquent la base de la chaîne de pions blanche, notamment d4."
+      "2": "e6 : prépare la poussée ...d5.",
+      "3": "d4 : les Blancs construisent un centre fort.",
+      "4": "d5 : les Noirs attaquent ce centre.",
+      "5": "e5 : les Blancs avancent le pion et gagnent de l'espace.",
+      "6": "c5 : les Noirs attaquent immédiatement la base du centre blanc.",
+      "7": "c3 : les Blancs soutiennent d4.",
+      "8": "Cc6 : les Noirs développent le cavalier et augmentent la pression sur d4.",
+      "9": "Cf3 : développement naturel du cavalier.",
+      "10": "Db6 : la dame attaque notamment d4 et b2.",
+      "11": "Fd3 : les Blancs développent leur fou.",
+      "12": "Fd7 : les Noirs développent leur fou et préparent la coordination des pièces.",
+      "13": "O-O : les Blancs mettent leur roi en sécurité.",
+      "14": "cxd4 : les Noirs échangent leur pion c contre le pion d4.",
+      "15": "cxd4 : les Blancs reprennent.",
+      "16": "Cxd4 : les Noirs capturent le pion central.",
+      "17": "Cxd4 : les Blancs reprennent le cavalier.",
+      "18": "Dxd4 : la dame noire reprend à son tour.",
+      "19": "Cc3 : les Blancs développent leur cavalier en attaquant la dame.",
+      "20": "Dxe5 : les Noirs capturent le pion e5.",
+      "21": "Te1 : la tour attaque la dame sur la colonne e.",
+      "22": "Dc7 : la dame se replie. Cette ligne illustre la lutte pour le centre ; les positions peuvent diverger très tôt."
      },
      "extensionDepuis": null,
      "ecoDetecte": {
       "code": "C02",
-      "nom": "French Defense: Advance Variation",
-      "ply": 6
+      "nom": "French Defense: Advance Variation, Milner-Barry Gambit, Main Line",
+      "ply": 15
      },
-     "fenFinale": "rnbqkbnr/pp3ppp/4p3/2ppP3/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 0 4"
+     "fenFinale": "r3kbnr/ppqb1ppp/4p3/3p4/8/2NB4/PP3PPP/R1BQR1K1 w kq - 2 12"
     },
     {
      "nom": "Française : Winawer 3.Cc3 Fb4",
@@ -990,8 +1384,62 @@
       "ply": 5
      },
      "fenFinale": "rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/8/PPPN1PPP/R1BQKBNR b KQkq - 1 3"
+    },
+    {
+     "nom": "Française : variante classique (3.Cc3 Cf6 4.Fg5)",
+     "coups": [
+      "e4",
+      "e6",
+      "d4",
+      "d5",
+      "Nc3",
+      "Nf6",
+      "Bg5"
+     ],
+     "notes": {
+      "1": "e4 : les Blancs occupent le centre.",
+      "2": "e6 : les Noirs préparent d5.",
+      "3": "d4 : les Blancs renforcent le centre.",
+      "4": "d5 : les Noirs attaquent e4.",
+      "5": "Cc3 : les Blancs développent leur cavalier et défendent e4.",
+      "6": "Cf6 : les Noirs développent leur cavalier et pressent e4.",
+      "7": "Fg5 : les Blancs clouent le cavalier f6 et ajoutent de la pression sur d5."
+     },
+     "extensionDepuis": null,
+     "ecoDetecte": {
+      "code": "C12",
+      "nom": "French Defense: Classical, 4. Bg5",
+      "ply": 7
+     },
+     "fenFinale": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/3PP3/2N5/PPP2PPP/R2QKBNR b KQkq - 3 4"
+    },
+    {
+     "nom": "Française : variante d'échange (3.exd5)",
+     "coups": [
+      "e4",
+      "e6",
+      "d4",
+      "d5",
+      "exd5"
+     ],
+     "notes": {
+      "1": "e4 : les Blancs occupent le centre.",
+      "2": "e6 : les Noirs préparent d5.",
+      "3": "d4 : les Blancs renforcent le centre.",
+      "4": "d5 : les Noirs attaquent e4.",
+      "5": "exd5 : les pions centraux sont échangés et la position devient généralement plus symétrique."
+     },
+     "extensionDepuis": null,
+     "ecoDetecte": {
+      "code": "C01",
+      "nom": "French Defense: Exchange Variation",
+      "ply": 5
+     },
+     "fenFinale": "rnbqkbnr/ppp2ppp/4p3/3P4/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3"
     }
    ],
+   "role": "Alternative positionnelle des Noirs contre 1.e4",
+   "retenir": "Jouer ...e6 et ...d5, puis attaquer le centre blanc avec ...c5. Il faut surveiller le fou c8, qui peut rester enfermé derrière la chaîne de pions.",
    "variantes": []
   },
   {
@@ -1007,7 +1455,7 @@
    "puissance": 4,
    "theorie": "moyenne",
    "style": "solide",
-   "idee": "Défendre d5 avec ...c6 sans enfermer le fou c8 : une structure très saine.",
+   "idee": "La Slave est une défense solide contre le gambit dame. Le coup ...c6 soutient le pion d5 tout en laissant ouverte la diagonale du fou c8.",
    "plans": [
     "Jouer ...c6, ...Cf6, ...dxc4 puis sortir le fou c8.",
     "Garder le centre solide et attendre l'occasion de contre-attaquer.",
@@ -1018,7 +1466,9 @@
     "Oublier de sortir le fou c8 avant ...e6."
    ],
    "sources": [
-    "lichess_db"
+    "cc_slave",
+    "lichess_analyse",
+    "lichess_ouvertures"
    ],
    "lignes": [
     {
@@ -1096,8 +1546,42 @@
       "ply": 7
      },
      "fenFinale": "r1bqkb1r/pp1n1ppp/2p1pn2/3p4/2PP4/3BPN2/PP1N1PPP/R1BQK2R b KQkq - 3 6"
+    },
+    {
+     "nom": "Slave : 4...a6 5.c5",
+     "coups": [
+      "d4",
+      "d5",
+      "c4",
+      "c6",
+      "Nf3",
+      "Nf6",
+      "Nc3",
+      "a6",
+      "c5"
+     ],
+     "notes": {
+      "1": "d4 : les Blancs prennent le centre et libèrent leur fou c1.",
+      "2": "d5 : les Noirs occupent aussi le centre.",
+      "3": "c4 : les Blancs proposent le Gambit dame.",
+      "4": "c6 : les Noirs renforcent d5.",
+      "5": "Cf3 : développement du cavalier.",
+      "6": "Cf6 : développement et contrôle de e4.",
+      "7": "Cc3 : les Blancs augmentent la pression sur d5.",
+      "8": "a6 : les Noirs préparent ...b5 ou ...dxc4.",
+      "9": "c5 : les Blancs ferment le centre. Le cavalier b8 peut manquer de cases à cause du pion c6 : prépare les ruptures centrales."
+     },
+     "extensionDepuis": null,
+     "ecoDetecte": {
+      "code": "D15",
+      "nom": "Slav Defense: Chebanenko Variation, Advance System",
+      "ply": 9
+     },
+     "fenFinale": "rnbqkb1r/1p2pppp/p1p2n2/2Pp4/3P4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 0 5"
     }
    ],
+   "role": "Défense principale des Noirs contre 1.d4",
+   "retenir": "Défendre d5, sortir le fou c8 avant de jouer ...e6 dans les variantes principales et ne pas négliger le développement.",
    "variantes": []
   },
   {
@@ -1113,7 +1597,7 @@
    "puissance": 4,
    "theorie": "moyenne",
    "style": "solide",
-   "idee": "Refuser le pion avec ...e6 : un centre solide et un développement sans risque.",
+   "idee": "Le gambit dame refusé est une défense classique. Les Noirs refusent de prendre le pion c4 et préfèrent renforcer leur centre avec ...e6.",
    "plans": [
     "Jouer ...e6, ...Cf6, ...Fe7 puis roquer.",
     "Échanger les pièces pour dégager le fou c8.",
@@ -1124,11 +1608,13 @@
     "Jouer ...dxc4 sans comprendre comment récupérer le pion."
    ],
    "sources": [
-    "lichess_db"
+    "cc_gdr",
+    "lichess_analyse",
+    "lichess_ouvertures"
    ],
    "lignes": [
     {
-     "nom": "Gambit dame refusé : défense orthodoxe",
+     "nom": "Gambit dame refusé : défense orthodoxe (7.Tc1 c6 8.Fd3 dxc4)",
      "coups": [
       "d4",
       "d5",
@@ -1141,29 +1627,95 @@
       "e3",
       "O-O",
       "Nf3",
-      "Nbd7"
+      "Nbd7",
+      "Rc1",
+      "c6",
+      "Bd3",
+      "dxc4",
+      "Bxc4",
+      "Nd5",
+      "Bxe7",
+      "Qxe7",
+      "O-O",
+      "Nxc3",
+      "Rxc3",
+      "e5",
+      "Qc2"
      ],
      "notes": {
-      "1": "d4 : les Blancs prennent le centre et libèrent leur fou c1.",
+      "1": "d4 : les Blancs prennent le centre.",
       "2": "d5 : les Noirs occupent aussi le centre.",
-      "3": "c4 : les Blancs attaquent le pion d5.",
-      "4": "e6 : les Noirs défendent leur pion d5.",
-      "5": "Cc3 : les Blancs développent leur cavalier et renforcent leur centre.",
-      "6": "Cf6 : les Noirs développent leur cavalier.",
-      "7": "Fg5 : les Blancs développent leur fou et clouent le cavalier f6 contre la dame.",
+      "3": "c4 : les Blancs proposent le Gambit dame.",
+      "4": "e6 : les Noirs renforcent d5 sans le capturer.",
+      "5": "Cc3 : les Blancs développent leur cavalier et attaquent d5.",
+      "6": "Cf6 : les Noirs développent leur cavalier et contrôlent e4.",
+      "7": "Fg5 : les Blancs clouent le cavalier f6 à la dame.",
       "8": "Fe7 : les Noirs développent leur fou et préparent le roque.",
-      "9": "e3 : les Blancs renforcent leur centre et libèrent leur fou f1.",
+      "9": "e3 : les Blancs consolident d4 et libèrent leur fou.",
       "10": "O-O : les Noirs mettent leur roi en sécurité.",
-      "11": "Cf3 : les Blancs développent leur deuxième cavalier.",
-      "12": "Cbd7 : les Noirs développent leur cavalier b8."
+      "11": "Cf3 : développement du deuxième cavalier blanc.",
+      "12": "Cbd7 : les Noirs développent leur cavalier b8.",
+      "13": "Tc1 : la tour blanche prend place sur la colonne c.",
+      "14": "c6 : les Noirs renforcent d5 et construisent une structure solide.",
+      "15": "Fd3 : les Blancs développent leur fou.",
+      "16": "dxc4 : les Noirs capturent le pion c4.",
+      "17": "Fxc4 : les Blancs reprennent le pion.",
+      "18": "Cd5 : le cavalier noir prend une case centrale active.",
+      "19": "Fxe7 : les Blancs échangent leur fou contre le fou noir.",
+      "20": "Dxe7 : la dame reprend le fou.",
+      "21": "O-O : les Blancs mettent leur roi en sécurité.",
+      "22": "Cxc3 : les Noirs échangent leur cavalier contre le cavalier c3.",
+      "23": "Txc3 : la tour reprend le cavalier.",
+      "24": "e5 : les Noirs frappent au centre et cherchent à libérer leur position.",
+      "25": "Dc2 : la dame blanche se développe et soutient les possibilités d'attaque."
      },
      "extensionDepuis": null,
      "ecoDetecte": {
-      "code": "D60",
-      "nom": "Queen's Gambit Declined: Orthodox Defense",
-      "ply": 12
+      "code": "D68",
+      "nom": "Queen's Gambit Declined: Orthodox Defense, Classical Variation",
+      "ply": 25
      },
-     "fenFinale": "r1bq1rk1/pppnbppp/4pn2/3p2B1/2PP4/2N1PN2/PP3PPP/R2QKB1R w KQ - 3 7"
+     "fenFinale": "r1b2rk1/pp1nqppp/2p5/4p3/2BP4/2R1PN2/PPQ2PPP/5RK1 b - - 1 13"
+    },
+    {
+     "nom": "Gambit dame refusé : variante néo-orthodoxe (...h6)",
+     "coups": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "d5",
+      "Nc3",
+      "Be7",
+      "Bg5",
+      "h6",
+      "Bh4",
+      "O-O",
+      "e3"
+     ],
+     "notes": {
+      "1": "d4 : les Blancs prennent le centre.",
+      "2": "Cf6 : les Noirs développent leur cavalier et contrôlent e4.",
+      "3": "c4 : les Blancs proposent le Gambit dame.",
+      "4": "e6 : les Noirs préparent ...d5.",
+      "5": "Cf3 : développement du cavalier.",
+      "6": "d5 : les Noirs reviennent dans le Gambit dame refusé.",
+      "7": "Cc3 : les Blancs attaquent d5.",
+      "8": "Fe7 : les Noirs développent leur fou et préparent le roque.",
+      "9": "Fg5 : les Blancs clouent le cavalier f6.",
+      "10": "h6 : les Noirs demandent au fou ce qu'il compte faire.",
+      "11": "Fh4 : le fou garde le clouage.",
+      "12": "O-O : les Noirs mettent leur roi en sécurité.",
+      "13": "e3 : consolide le centre. Ensuite les Noirs ont notamment 7...b6 (fianchetto du fou c8), 7...Cbd7 (développement classique) ou 7...Ce4 (échange pour réduire la pression)."
+     },
+     "extensionDepuis": null,
+     "ecoDetecte": {
+      "code": "D55",
+      "nom": "Queen's Gambit Declined: Neo-Orthodox Variation, Main Line",
+      "ply": 13
+     },
+     "fenFinale": "rnbq1rk1/ppp1bpp1/4pn1p/3p4/2PP3B/2N1PN2/PP3PPP/R2QKB1R b KQ - 0 7"
     },
     {
      "nom": "Gambit dame refusé : ligne Harrwitz",
@@ -1208,6 +1760,8 @@
      "fenFinale": "rnbq1rk1/pp3ppp/4pn2/2bp4/2P2B2/2N1PN2/PP3PPP/R2QKB1R w KQ - 0 8"
     }
    ],
+   "role": "Alternative classique des Noirs contre 1.d4",
+   "retenir": "Construire une structure solide, développer les cavaliers et les fous, roquer et chercher le bon moment pour jouer ...c5.",
    "variantes": []
   }
  ]
