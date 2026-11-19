@@ -40,7 +40,7 @@ console.log(`ECO : ${eco.length} lignes valides, ${rejetes} rejetées`);
 
 // ───────────── 2) Répertoire curé ─────────────
 // Rallonges calculées par tools/extend-lignes.mjs (coups Stockfish, marqués comme tels) et audit Stockfish des variantes.
-const EXT = existsSync(join(ROOT, "tools", "extensions.json")) ? JSON.parse(readFileSync(join(ROOT, "tools", "extensions.json"), "utf8")) : {};
+const EXT = {}; // volontairement vide : les lignes sont EXACTEMENT celles du répertoire (aucun coup ajouté par Stockfish)
 const AUDIT = existsSync(join(ROOT, "tools", "audit-lignes.json")) ? JSON.parse(readFileSync(join(ROOT, "tools", "audit-lignes.json"), "utf8")) : { variantes: [] };
 // Rallonges Stockfish trop tranchantes pour ce niveau : on les coupe à N demi-coups.
 const TRONQUE = { "caro-kann|Caro-Kann : variante d'avance 3.e5": 20 };
@@ -96,7 +96,7 @@ const ouvertures = OUVERTURES.map((o) => {
   const { attendu, ...reste } = o;
   const fam = FAMILLES[o.id];
   if (!fam) console.warn(`⚠ pas de famille de variantes pour ${o.id}`);
-  return { ...reste, lignes, variantes: fam ? variantes(eco, fam).map((v) => { const perte = PERTE_MAX.get(v[2]) || 0; return perte > 200 ? [...v, +(Math.min(perte, 999) / 100).toFixed(1)] : v; }) : [] };
+  return { ...reste, lignes, variantes: false ? variantes(eco, fam).map((v) => { const perte = PERTE_MAX.get(v[2]) || 0; return perte > 200 ? [...v, +(Math.min(perte, 999) / 100).toFixed(1)] : v; }) : [] };
 }).filter(Boolean);
 
 for (const o of ouvertures) {

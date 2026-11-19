@@ -220,6 +220,20 @@ function ligneDepuis(coups, depuis, max = 8) {
   return parts.join(" ") + (coups.length > depuis + max ? " …" : "");
 }
 
+/** Supprime les cartes de révision qui ne correspondent plus à une ligne du répertoire actuel (anciennes ouvertures, lignes remplacées). */
+function nettoyerCartes() {
+  const cartes = S.store.data.cartes;
+  let change = false;
+  for (const [id, c] of Object.entries(cartes)) {
+    const [oid, i] = id.split("#");
+    const o = S.data.ouvertures.find((x) => x.id === oid);
+    const l = o && o.lignes[+i];
+    if (l && c.meta && c.meta.sousTitre === l.nom) continue;
+    delete cartes[id]; change = true;
+  }
+  if (change) S.store.sauver(true);
+}
+
 function ctxDepuisCarte(id, carte) {
   if (id.includes("#")) {
     const [oid, i] = id.split("#");
@@ -632,7 +646,7 @@ function scoreReco(o, elo) {
 function listeOuvertures() {
   const R = S.store.reglages, elo = +R.elo || 0;
   const q = (R.recherche || "").trim().toLowerCase();
-  let l = S.data.ouvertures.filter((o) => (R.camp === "tous" || o.camp === R.camp) && (R.montrerAvancees || elo >= o.elo[0]));
+  let l = S.data.ouvertures.filter((o) => (R.camp === "tous" || o.camp === R.camp) && true);
   if (q) l = l.filter((o) => (o.nom + " " + o.eco).toLowerCase().includes(q));
   const tris = {
     recommande: (a, b) => scoreReco(b, elo) - scoreReco(a, elo) || b.facilite - a.facilite || a.nom.localeCompare(b.nom, "fr"),
@@ -675,7 +689,6 @@ function panneauOuvertures() {
       ...[["tous", "Tous"], ["blancs", "Blancs"], ["noirs", "Noirs"]].map(([v, t]) => h("option", { value: v, selected: R.camp === v }, t)))),
     h("label", {}, "Trier ", h("select", { on: { change: (e) => { S.store.setReglage("tri", e.target.value); maj(); } } },
       ...[["recommande", "Recommandées pour mon Elo"], ["facile", "Plus faciles"], ["forte", "Plus fortes"], ["eco", "Code ECO"], ["nom", "Nom"]].map(([v, t]) => h("option", { value: v, selected: R.tri === v }, t)))),
-    h("label", {}, h("input", { type: "checkbox", checked: !!R.montrerAvancees, on: { change: (e) => { S.store.setReglage("montrerAvancees", e.target.checked); maj(); } } }), "Montrer aussi les ouvertures trop avancées"),
     h("input", { type: "search", placeholder: "Rechercher (nom, code ECO)…", value: R.recherche || "", on: { input: (e) => { S.store.setReglage("recherche", e.target.value); maj(); } } }));
   maj();
   return [h("h2", {}, "Ouvertures"), filtres, compte, liste];
@@ -1206,6 +1219,7 @@ async function demarrer() {
     $("#panneau").replaceChildren(h("div", { class: "message mal" }, "Impossible de charger les données (" + e.message + "). Lance l'app avec « node server.js » puis ouvre http://localhost:5173 — ouvrir index.html directement ne fonctionne pas."));
     return;
   }
+  nettoyerCartes();
   majBadge();
   renderPanneau();
   initMoteur(); // en arrière-plan : n'empêche pas d'utiliser l'app

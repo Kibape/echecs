@@ -101,7 +101,6 @@ test("openings.json : variantes légales, uniques et en ordre d'arbre", () => {
   const o = JSON.parse(readFileSync(new URL("../public/data/openings.json", import.meta.url))).ouvertures;
   let total = 0;
   for (const op of o) {
-    assert.ok(op.variantes.length >= 5, op.id);
     total += op.variantes.length;
     const vus = new Set();
     for (const [code, nom, pgn] of op.variantes) {
@@ -109,13 +108,13 @@ test("openings.json : variantes légales, uniques et en ordre d'arbre", () => {
       const c = new Chess(); for (const s of pgn.split(" ")) assert.ok(c.move(s), op.id + " " + pgn);
     }
   }
-  assert.ok(total > 800);
+  assert.ok(total >= 0);
 });
 
-test("openings.json : lignes curées longues, prolongements Stockfish marqués, variantes douteuses signalées", () => {
+test("openings.json : répertoire exact (10 ouvertures, aucune ligne rallongée par Stockfish, pas de variantes ECO)", () => {
   const o = JSON.parse(readFileSync(new URL("../public/data/openings.json", import.meta.url))).ouvertures;
-  const lignes = o.flatMap((x) => x.lignes);
-  assert.ok(lignes.filter((l) => l.coups.length >= 28).length >= 20);
-  for (const l of lignes) if (l.extensionDepuis) assert.match(l.notes[l.extensionDepuis + 1], /Stockfish/);
-  assert.ok(o.flatMap((x) => x.variantes).filter((v) => v[3]).length >= 5);
+  assert.equal(o.length, 10);
+  assert.equal(o.flatMap((x) => x.lignes).length, 26);
+  for (const l of o.flatMap((x) => x.lignes)) assert.equal(l.extensionDepuis, null);
+  for (const x of o) assert.equal(x.variantes.length, 0);
 });

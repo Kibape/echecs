@@ -123,28 +123,7 @@
       "Bc5",
       "c3",
       "Nf6",
-      "d3",
-      "d6",
-      "O-O",
-      "O-O",
-      "Re1",
-      "a5",
-      "h3",
-      "Ba7",
-      "a4",
-      "h6",
-      "Nbd2",
-      "Be6",
-      "Bb3",
-      "Bxb3",
-      "Qxb3",
-      "Qd7",
-      "Nc4",
-      "Rfe8",
-      "Qb5",
-      "Bc5",
-      "Be3",
-      "b6"
+      "d3"
      ],
      "notes": {
       "1": "e4 : les Blancs occupent le centre et libèrent leur fou et leur dame.",
@@ -155,16 +134,15 @@
       "6": "Fc5 : les Noirs développent leur fou symétriquement et pressent f2.",
       "7": "c3 : les Blancs préparent d4 pour construire un centre de pions plus important.",
       "8": "Cf6 : les Noirs développent leur deuxième cavalier et attaquent le pion e4.",
-      "9": "d3 : les Blancs consolident leur centre et ouvrent la diagonale du fou c1.",
-      "10": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+      "9": "d3 : les Blancs consolident leur centre et ouvrent la diagonale du fou c1."
      },
-     "extensionDepuis": 9,
+     "extensionDepuis": null,
      "ecoDetecte": {
       "code": "C54",
       "nom": "Italian Game: Classical Variation, Giuoco Pianissimo",
-      "ply": 12
+      "ply": 9
      },
-     "fenFinale": "r3r1k1/2pq1pp1/1pnp1n1p/pQb1p3/P1N1P3/2PPBN1P/1P3PP1/R3R1K1 w - - 0 16"
+     "fenFinale": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQK2R b KQkq - 0 5"
     },
     {
      "nom": "Giuoco Pianissimo : 4.d3",
@@ -175,30 +153,7 @@
       "Nc6",
       "Bc4",
       "Bc5",
-      "d3",
-      "Nf6",
-      "c3",
-      "d6",
-      "O-O",
-      "O-O",
-      "Re1",
-      "a5",
-      "h3",
-      "Ba7",
-      "Bb3",
-      "h6",
-      "Na3",
-      "Be6",
-      "Bc2",
-      "Bb6",
-      "Nc4",
-      "Bxc4",
-      "dxc4",
-      "Nh5",
-      "Nh2",
-      "Qh4",
-      "Be3",
-      "Bxe3"
+      "d3"
      ],
      "notes": {
       "1": "e4 : les Blancs occupent le centre et libèrent leur fou et leur dame.",
@@ -207,16 +162,15 @@
       "4": "Cc6 : les Noirs défendent leur pion et développent une pièce.",
       "5": "Fc4 : le fou vise f7, case sensible puisque seul le roi noir la défend.",
       "6": "Fc5 : les Noirs développent leur fou et pressent f2.",
-      "7": "d3 : approche plus calme. Les Blancs consolident e4, libèrent leur fou c1 et gardent une structure centrale solide. L'idée : développer tranquillement, roquer, puis progresser au centre sans ouvrir la position tout de suite.",
-      "8": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+      "7": "d3 : approche plus calme. Les Blancs consolident e4, libèrent leur fou c1 et gardent une structure centrale solide. L'idée : développer tranquillement, roquer, puis progresser au centre sans ouvrir la position tout de suite."
      },
-     "extensionDepuis": 7,
+     "extensionDepuis": null,
      "ecoDetecte": {
-      "code": "C54",
-      "nom": "Italian Game: Classical Variation, Giuoco Pianissimo",
-      "ply": 12
+      "code": "C50",
+      "nom": "Italian Game: Giuoco Pianissimo",
+      "ply": 7
      },
-     "fenFinale": "r4rk1/1pp2pp1/2np3p/p3p2n/2P1P2q/2P1b2P/PPB2PPN/R2QR1K1 w - - 0 16"
+     "fenFinale": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R b KQkq - 0 4"
     },
     {
      "nom": "Défense des deux cavaliers : 4.Cg5 d5 5.exd5 Ca5",
@@ -230,27 +184,7 @@
       "Ng5",
       "d5",
       "exd5",
-      "Na5",
-      "Bb5+",
-      "c6",
-      "dxc6",
-      "bxc6",
-      "Bd3",
-      "Nd5",
-      "Nf3",
-      "Bd6",
-      "O-O",
-      "Nf4",
-      "Nc3",
-      "Nxd3",
-      "cxd3",
-      "O-O",
-      "b3",
-      "Re8",
-      "Re1",
-      "f6",
-      "h3",
-      "Be7"
+      "Na5"
      ],
      "notes": {
       "1": "e4 : les Blancs occupent le centre et libèrent leur fou et leur dame.",
@@ -262,566 +196,18 @@
       "7": "Cg5 : les Blancs attaquent f7 avec leur cavalier, case déjà visée par le fou c4.",
       "8": "d5 : les Noirs contre-attaquent au centre et attaquent le fou blanc.",
       "9": "exd5 : les Blancs capturent le pion d5.",
-      "10": "Ca5 : les Noirs attaquent le fou c4 et gagnent du temps (et évitent le piège ...Cxd5? Cxf7). Ligne tactique : comprends les menaces avant de continuer.",
-      "11": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+      "10": "Ca5 : les Noirs attaquent le fou c4 et gagnent du temps (et évitent le piège ...Cxd5? Cxf7). Ligne tactique : comprends les menaces avant de continuer."
      },
-     "extensionDepuis": 10,
+     "extensionDepuis": null,
      "ecoDetecte": {
       "code": "C58",
-      "nom": "Italian Game: Two Knights Defense, Polerio Defense, Bishop Check Line",
-      "ply": 11
+      "nom": "Italian Game: Two Knights Defense, Polerio Defense",
+      "ply": 10
      },
-     "fenFinale": "r1bqr1k1/p3b1pp/2p2p2/n3p3/8/1PNP1N1P/P2P1PP1/R1BQR1K1 w - - 1 16"
+     "fenFinale": "r1bqkb1r/ppp2ppp/5n2/n2Pp1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 1 6"
     }
    ],
-   "variantes": [
-    [
-     "C50",
-     "Italian Game: Jerome Gambit",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 Bxf7+",
-     3.6
-    ],
-    [
-     "C50",
-     "Italian Game: Giuoco Pianissimo",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 Nc3 Nf6 O-O O-O d3"
-    ],
-    [
-     "C50",
-     "Italian Game: Classical Variation, Albin Gambit",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 O-O Nf6 c3"
-    ],
-    [
-     "C54",
-     "Italian Game: Classical Variation, Giuoco Pianissimo",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 O-O Nf6 d3 O-O c3 d5"
-    ],
-    [
-     "C54",
-     "Italian Game: Classical Variation, Giuoco Pianissimo, with a5",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 O-O Nf6 d3 a5 c3"
-    ],
-    [
-     "C54",
-     "Italian Game: Classical Variation, Giuoco Pianissimo",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 O-O Nf6 d3 d6 c3 Bb6"
-    ],
-    [
-     "C54",
-     "Italian Game: Classical Variation, Giuoco Pianissimo",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 O-O Nf6 d3 d6 c3 O-O"
-    ],
-    [
-     "C54",
-     "Italian Game: Classical Variation, Giuoco Pianissimo",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 O-O Nf6 d3 d6 c3 a5"
-    ],
-    [
-     "C54",
-     "Italian Game: Classical Variation, Giuoco Pianissimo",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 O-O Nf6 d3 d6 c3 a6 Re1 Ba7"
-    ],
-    [
-     "C54",
-     "Italian Game: Classical Variation, Giuoco Pianissimo",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 O-O Nf6 d3 d6 c3 a6 a4 Ba7"
-    ],
-    [
-     "C54",
-     "Italian Game: Classical Variation, Giuoco Pianissimo",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 O-O Nf6 d3 d6 c3 a6 a4 O-O"
-    ],
-    [
-     "C54",
-     "Italian Game: Classical Variation, Giuoco Pianissimo",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 O-O Nf6 d3 d6 c3 h6 Nbd2"
-    ],
-    [
-     "C54",
-     "Italian Game: Classical Variation, Giuoco Pianissimo",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 O-O Nf6 d3 d6 c3 h6 Re1"
-    ],
-    [
-     "C54",
-     "Italian Game: Classical Variation, Giuoco Pianissimo",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 O-O Nf6 d3 h6 c3"
-    ],
-    [
-     "C56",
-     "Italian Game: Scotch Gambit, Max Lange Attack Accepted",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 O-O Nf6 d4 exd4 e5 d5 exf6 dxc4 Re1+ Be6 fxg7"
-    ],
-    [
-     "C51",
-     "Italian Game: Evans Gambit Declined, Cordel Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bb6 Bb2"
-    ],
-    [
-     "C51",
-     "Italian Game: Evans Gambit Declined, Showalter Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bb6 a4 a6 Nc3"
-    ],
-    [
-     "C51",
-     "Italian Game: Evans Gambit Declined, Pavlov Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bb6 b5 Na5 Nxe5 Nh6 d4 d6 Bxh6 dxe5 Bxg7 Rg8 Bxf7+ Kxf7 Bxe5 Qg5 Nd2"
-    ],
-    [
-     "C51",
-     "Italian Game: Evans Gambit Declined, Vasquez Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bb6 b5 Na5 Nxe5 Qg5 Bxf7+ Ke7 Qh5"
-    ],
-    [
-     "C51",
-     "Italian Game: Evans Gambit Declined, Hicken Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bb6 b5 Na5 Nxe5 Qg5 Qf3 Qxe5 Qxf7+ Kd8 Bb2"
-    ],
-    [
-     "C52",
-     "Italian Game: Evans Gambit, Richardson Attack",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 O-O Nf6 d4 O-O Nxe5"
-    ],
-    [
-     "C52",
-     "Italian Game: Evans Gambit, Anderssen Defense",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 O-O Nf6 d4 exd4"
-    ],
-    [
-     "C52",
-     "Italian Game: Evans Gambit, Lasker Defense",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 O-O d6 d4 Bb6"
-    ],
-    [
-     "C52",
-     "Italian Game: Evans Gambit, Sanders-Alapin Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 O-O d6 d4 Bd7"
-    ],
-    [
-     "C52",
-     "Italian Game: Evans Gambit, Alapin-Steinitz Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 O-O d6 d4 Bg4"
-    ],
-    [
-     "C52",
-     "Italian Game: Evans Gambit, Laroche Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 Nf6"
-    ],
-    [
-     "C52",
-     "Italian Game: Evans Gambit, Leonhardt Countergambit",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 b5"
-    ],
-    [
-     "C52",
-     "Italian Game: Evans Gambit, Sokolsky Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 d6 Bg5"
-    ],
-    [
-     "C52",
-     "Italian Game: Evans Gambit, Levenfish Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 d6 Qb3 Qd7 dxe5 dxe5 O-O Bb6 Ba3 Na5 Nxe5"
-    ],
-    [
-     "C52",
-     "Italian Game: Evans Gambit, Mieses Defense",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 exd4 O-O Nge7"
-    ],
-    [
-     "C52",
-     "Italian Game: Evans Gambit, Johner Defense",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 exd4 O-O b5"
-    ],
-    [
-     "C52",
-     "Italian Game: Evans Gambit, Dufresne Defense",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 exd4 O-O d3"
-    ],
-    [
-     "C52",
-     "Italian Game: Evans Gambit, Waller Attack",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 exd4 O-O d6 Qb3"
-    ],
-    [
-     "C51",
-     "Italian Game: Evans Gambit, Morphy Attack",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 exd4 O-O d6 cxd4 Bb6 Nc3"
-    ],
-    [
-     "C52",
-     "Italian Game: Evans Gambit, Compromised Defense, Main Line",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 exd4 O-O dxc3 Qb3 Qf6 e5 Qg6 Nxc3 Nge7 Ba3"
-    ],
-    [
-     "C52",
-     "Italian Game: Evans Gambit, Compromised Defense, Potter Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 exd4 O-O dxc3 Qb3 Qf6 e5 Qg6 Nxc3 Nge7 Rd1"
-    ],
-    [
-     "C51",
-     "Italian Game: Evans Gambit, Mortimer-Evans Gambit",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 O-O d6 cxd4 Bb6 Nc3 Bg4 Qa4 Bd7 Qb3 Na5 Bxf7+ Kf8 Qc2 Kxf7"
-    ],
-    [
-     "C51",
-     "Italian Game: Evans Gambit, Steinitz Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 O-O d6 cxd4 Bb6 Nc3 Na5 Bg5 f6 Be3"
-    ],
-    [
-     "C51",
-     "Italian Game: Evans Gambit, Paulsen Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 O-O d6 cxd4 Bb6 d5 Na5 Bb2 Ne7"
-    ],
-    [
-     "C51",
-     "Italian Game: Evans Gambit, Harding Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 cxd4 Bb4+ Bd2"
-    ],
-    [
-     "C51",
-     "Italian Game: Evans Gambit, Stone-Ware Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bd6"
-    ],
-    [
-     "C51",
-     "Italian Game: Evans Gambit, Anderssen Variation, Cordel Line",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Be7 d4 Na5"
-    ],
-    [
-     "C51",
-     "Italian Game: Evans Gambit, Mayet Defense",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bf8"
-    ],
-    [
-     "C51",
-     "Italian Game: Evans Gambit, Fontaine Countergambit",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 b5"
-    ],
-    [
-     "C51",
-     "Italian Game: Evans Gambit, Hein Countergambit",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 d5"
-    ],
-    [
-     "C53",
-     "Italian Game: Bird's Attack",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 b4"
-    ],
-    [
-     "C54",
-     "Italian Game: Classical Variation, Giuoco Pianissimo, with a6",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d3 a6"
-    ],
-    [
-     "C54",
-     "Italian Game: Classical Variation, with d5",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d3 d5"
-    ],
-    [
-     "C54",
-     "Italian Game: Classical Variation, Giuoco Pianissimo",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d3 d6 Nbd2 O-O O-O"
-    ],
-    [
-     "C54",
-     "Italian Game: Classical Variation, Giuoco Pianissimo, with a6",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d3 d6 Nbd2 a6"
-    ],
-    [
-     "C54",
-     "Italian Game: Classical Variation, Giuoco Pianissimo, Main Line",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d3 d6 O-O O-O Re1 a6 Bb3 Ba7 h3"
-    ],
-    [
-     "C54",
-     "Italian Game: Classical Variation, Giuoco Pianissimo, with a4 a5",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d3 d6 O-O O-O a4 a5"
-    ],
-    [
-     "C54",
-     "Italian Game: Classical Variation, Giuoco Pianissimo, Albin Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d3 d6 b4"
-    ],
-    [
-     "C56",
-     "Italian Game: Scotch Gambit, Walbrodt-Baird Gambit",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 O-O"
-    ],
-    [
-     "C54",
-     "Italian Game: Classical Variation, Greco Gambit, Dubov Italian",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 b4"
-    ],
-    [
-     "C54",
-     "Italian Game: Giuoco Piano, Krause Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Bd2 Nxe4 Bxb4 Nxb4 Bxf7+ Kxf7 Qb3+ d5 Ne5+ Kf6 f3"
-    ],
-    [
-     "C54",
-     "Italian Game: Giuoco Piano, Cracow Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Kf1"
-    ],
-    [
-     "C54",
-     "Italian Game: Giuoco Piano, Steinitz Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Nc3 Nxe4 O-O Bxc3 bxc3 d5 Ba3"
-    ],
-    [
-     "C54",
-     "Italian Game: Giuoco Piano, Therkatz-Herzog Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Nc3 Nxe4 O-O Bxc3 d5 Bf6 Re1 Ne7 Rxe4 d6 Bg5 Bxg5 Nxg5 O-O Nxh7"
-    ],
-    [
-     "C54",
-     "Italian Game: Classical Variation, Greco Gambit, Moeller-Bayonet Attack",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Nc3 Nxe4 O-O Bxc3 d5 Bf6 Re1 Ne7 Rxe4 d6 g4"
-    ],
-    [
-     "C54",
-     "Italian Game: Giuoco Piano, Aitken Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Nc3 Nxe4 O-O Nxc3 bxc3 Bxc3 Ba3"
-    ],
-    [
-     "C54",
-     "Italian Game: Giuoco Piano, Bernstein Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Nc3 Nxe4 O-O Nxc3 bxc3 Bxc3 Qb3 d5"
-    ],
-    [
-     "C54",
-     "Italian Game: Classical Variation, Ghulam-Kassim Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 e5 Ne4 Bd5 Nxf2 Kxf2 dxc3+ Kg3"
-    ],
-    [
-     "C54",
-     "Italian Game: Classical Variation, Greco Gambit, Anderssen Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 e5 d5 Bb5 Ne4 cxd4 Bb4+"
-    ],
-    [
-     "C53",
-     "Italian Game: Classical Variation, Mestel Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Qe7 d4 Bb6 Bg5"
-    ],
-    [
-     "C53",
-     "Italian Game: Classical Variation, Tarrasch Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Qe7 d4 Bb6 O-O d6 a4 a6 h3 Nf6 Re1"
-    ],
-    [
-     "C53",
-     "Italian Game: Classical Variation, Eisinger Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Qe7 d4 Bb6 d5 Nb8 d6"
-    ],
-    [
-     "C53",
-     "Italian Game: Classical Variation, La Bourdonnais Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 d6 d4 exd4 cxd4 Bb6"
-    ],
-    [
-     "C50",
-     "Italian Game: Giuoco Pianissimo, Canal Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 d3 Nf6 Nc3 d6 Bg5"
-    ],
-    [
-     "C50",
-     "Italian Game: Giuoco Pianissimo, Dubois Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 d3 f5 Ng5 f4"
-    ],
-    [
-     "C50",
-     "Italian Game: Rosentreter Gambit",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 d4"
-    ],
-    [
-     "C50",
-     "Italian Game: Hungarian Defense, Tartakower Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Be7 d4 exd4 c3 Nf6 e5 Ne4"
-    ],
-    [
-     "C50",
-     "Italian Game: Blackburne-Kostić Gambit",
-     "e4 e5 Nf3 Nc6 Bc4 Nd4"
-    ],
-    [
-     "C47",
-     "Four Knights Game: Italian Variation, Noa Gambit",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 Nc3 Nxe4 Bxf7+"
-    ],
-    [
-     "C55",
-     "Italian Game: Two Knights Defense",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 Nc3 Nxe4 Nxe4 d5"
-    ],
-    [
-     "C57",
-     "Italian Game: Two Knights Defense, Traxler Variation, Trencianske-Teplice Gambit",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 Bc5 Bxf7+ Ke7 d4"
-    ],
-    [
-     "C57",
-     "Italian Game: Two Knights Defense, Traxler Counterattack, King March Line",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 Bc5 Nxf7 Bxf2+ Kxf2 Nxe4+ Ke3"
-    ],
-    [
-     "C57",
-     "Italian Game: Two Knights Defense, Ponziani-Steinitz Gambit",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 Nxe4"
-    ],
-    [
-     "C59",
-     "Italian Game: Two Knights Defense, Knorre Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 Bb5+ c6 dxc6 bxc6 Be2 h6 Nf3 e4 Ne5 Bd6 d4 Qc7 Bd2"
-    ],
-    [
-     "C59",
-     "Italian Game: Two Knights Defense, Polerio Defense, Göring Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 Bb5+ c6 dxc6 bxc6 Be2 h6 Nf3 e4 Ne5 Qc7"
-    ],
-    [
-     "C59",
-     "Italian Game: Two Knights Defense, Steinitz Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 Bb5+ c6 dxc6 bxc6 Be2 h6 Nh3"
-    ],
-    [
-     "C58",
-     "Italian Game: Two Knights Defense, Paoli Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 Bb5+ c6 dxc6 bxc6 Qf3 Qc7 Bd3"
-    ],
-    [
-     "C58",
-     "Italian Game: Two Knights Defense, Colman Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 Bb5+ c6 dxc6 bxc6 Qf3 Rb8"
-    ],
-    [
-     "C58",
-     "Italian Game: Two Knights Defense, Blackburne Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 Bb5+ c6 dxc6 bxc6 Qf3 cxb5"
-    ],
-    [
-     "C58",
-     "Italian Game: Two Knights Defense, Polerio Defense, Yankovich Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 d3 h6 Nf3 e4 Qe2 Nxc4 dxc4 Bc5 Nfd2"
-    ],
-    [
-     "C58",
-     "Italian Game: Two Knights Defense, Maróczy Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 d3 h6 Nf3 e4 Qe2 Nxc4 dxc4 Be7"
-    ],
-    [
-     "C57",
-     "Italian Game: Two Knights Defense, Kloss Gambit",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Nb4"
-    ],
-    [
-     "C57",
-     "Italian Game: Two Knights Defense, Fritz, Gruber Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Nd4 c3 b5 Bf1 Nxd5 Ne4"
-    ],
-    [
-     "C57",
-     "Italian Game: Two Knights Defense, Fegatello Attack, Leonhardt Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Nxd5 Nxf7 Kxf7 Qf3+ Ke6 Nc3 Nb4 Qe4 c6 a3 Na6 d4 Nc7"
-    ],
-    [
-     "C57",
-     "Italian Game: Two Knights Defense, Pincus Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Nxd5 d4 Bb4+"
-    ],
-    [
-     "C57",
-     "Italian Game: Two Knights Defense, Ulvestad Variation, Kurkin Gambit",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 b5 Bf1 h6 Nxf7"
-    ],
-    [
-     "C50",
-     "Italian Game: Giuoco Pianissimo",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 O-O Bc5 Nc3 d6 d3"
-    ],
-    [
-     "C54",
-     "Italian Game: Giuoco Piano, Holzhausen Attack",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 O-O Bc5 d4 Bxd4 Nxd4 Nxd4 Bg5 d6 f4 Qe7 fxe5 dxe5 Nc3"
-    ],
-    [
-     "C54",
-     "Italian Game: Giuoco Piano, Rosentreter Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 O-O Bc5 d4 Bxd4 Nxd4 Nxd4 Bg5 h6 Bh4 g5 f4"
-    ],
-    [
-     "C50",
-     "Italian Game: Giuoco Pianissimo, Normal",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 d3 Bc5"
-    ],
-    [
-     "C55",
-     "Italian Game: Two Knights Defense, Modern Bishop's Opening",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 d3 Be7"
-    ],
-    [
-     "C55",
-     "Italian Game: Two Knights Defense, Modern Bishop's Opening",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 d3 h6 O-O d6"
-    ],
-    [
-     "C56",
-     "Italian Game: Scotch Invitation Declined",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 d6"
-    ],
-    [
-     "C56",
-     "Italian Game: Two Knights Defense, Perreux Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 Ng5"
-    ],
-    [
-     "C56",
-     "Italian Game: Two Knights Defense, Max Lange Attack, Krause Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 O-O Bc5 e5 Ng4 c3"
-    ],
-    [
-     "C56",
-     "Italian Game: Two Knights Defense, Max Lange Attack, Rubinstein Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 O-O Bc5 e5 d5 exf6 dxc4 Re1+ Be6 Ng5 Qd5 Nc3 Qf5 Nce4 Bf8"
-    ],
-    [
-     "C56",
-     "Italian Game: Two Knights Defense, Max Lange Attack, Berger Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 O-O Bc5 e5 d5 exf6 dxc4 Re1+ Be6 Ng5 Qd5 Nc3 Qf5 g4 Qg6 Nce4 Bb6 f4 O-O-O"
-    ],
-    [
-     "C56",
-     "Italian Game: Scotch Gambit, Nakhmanson Gambit",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 O-O Nxe4 Nc3"
-    ],
-    [
-     "C56",
-     "Italian Game: Scotch Gambit, Anderssen Attack, Main Line",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 O-O Nxe4 Re1 d5 Bxd5 Qxd5 Nc3 Qa5 Nxe4 Be6 Bd2 Qd5 Bg5"
-    ],
-    [
-     "C44",
-     "Scotch Game: Scotch Gambit, Kingside Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 e5 Ng4"
-    ],
-    [
-     "C56",
-     "Italian Game: Two Knights Defense, Keidansky Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 e5 d5 Bb5 Ne4 Nxd4 Bc5 Nxc6 Bxf2+ Kf1 Qh4"
-    ],
-    [
-     "C50",
-     "Italian Game: Paris Defense",
-     "e4 e5 Nf3 Nc6 Bc4 d6"
-    ],
-    [
-     "C50",
-     "Italian Game: Rousseau Gambit",
-     "e4 e5 Nf3 Nc6 Bc4 f5"
-    ],
-    [
-     "C50",
-     "Italian Game: Anti-Fried Liver Defense",
-     "e4 e5 Nf3 Nc6 Bc4 h6"
-    ]
-   ]
+   "variantes": []
   },
   {
    "id": "london-blancs",
@@ -878,19 +264,7 @@
       "Bd3",
       "b6",
       "Qe2",
-      "Bb7",
-      "e4",
-      "Nxe4",
-      "Nxe4",
-      "dxe4",
-      "Bxe4",
-      "cxd4",
-      "Rd1",
-      "e5",
-      "O-O",
-      "Qc7",
-      "cxd4",
-      "exd4"
+      "Bb7"
      ],
      "notes": {
       "1": "d4 : les Blancs prennent le centre et libèrent leur fou c1.",
@@ -910,16 +284,15 @@
       "15": "Fd3 : les Blancs développent leur fou et visent notamment h7.",
       "16": "b6 : les Noirs préparent le développement de leur fou en b7.",
       "17": "De2 : les Blancs développent leur dame et soutiennent leur centre.",
-      "18": "Fb7 : les Noirs développent leur fou sur la grande diagonale.",
-      "19": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+      "18": "Fb7 : les Noirs développent leur fou sur la grande diagonale."
      },
-     "extensionDepuis": 18,
+     "extensionDepuis": null,
      "ecoDetecte": {
       "code": "D02",
       "nom": "Queen's Pawn Game: London System",
       "ply": 11
      },
-     "fenFinale": "r4rk1/pbq2ppp/1pnb4/8/3pB3/5NB1/PP2QPPP/3R1RK1 w - - 0 16"
+     "fenFinale": "r2q1rk1/pb3ppp/1pnbpn2/2pp4/3P4/2PBPNB1/PP1NQPPP/R3K2R w KQ - 2 10"
     },
     {
      "nom": "London contre l'indienne (...Cf6 ...g6)",
@@ -931,29 +304,7 @@
       "Nf3",
       "Bg7",
       "e3",
-      "d6",
-      "Nc3",
-      "O-O",
-      "h3",
-      "Nbd7",
-      "Bd3",
-      "Re8",
-      "e4",
-      "e5",
-      "dxe5",
-      "dxe5",
-      "Be3",
-      "Qe7",
-      "O-O",
-      "Nc5",
-      "a4",
-      "a5",
-      "Qc1",
-      "c6",
-      "Rd1",
-      "Be6",
-      "b3",
-      "Rad8"
+      "d6"
      ],
      "notes": {
       "1": "d4 : les Blancs prennent le centre.",
@@ -963,95 +314,18 @@
       "5": "Cf3 : les Blancs développent leur cavalier.",
       "6": "Fg7 : les Noirs placent leur fou sur la grande diagonale.",
       "7": "e3 : les Blancs renforcent leur centre.",
-      "8": "d6 : les Noirs consolident leur structure et préparent leur développement.",
-      "9": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+      "8": "d6 : les Noirs consolident leur structure et préparent leur développement."
      },
-     "extensionDepuis": 8,
+     "extensionDepuis": null,
      "ecoDetecte": {
       "code": "A48",
       "nom": "London System",
       "ply": 8
      },
-     "fenFinale": "3rr1k1/1p2qpbp/2p1bnp1/p1n1p3/P3P3/1PNBBN1P/2P2PP1/R1QR2K1 w - - 1 16"
+     "fenFinale": "rnbqk2r/ppp1ppbp/3p1np1/8/3P1B2/4PN2/PPP2PPP/RN1QKB1R w KQkq - 0 5"
     }
    ],
-   "variantes": [
-    [
-     "A12",
-     "Réti Opening: Anglo-Slav Variation, London Defensive System",
-     "c4 Nf6 g3 c6 Nf3 d5 b3 Bf5 Bb2"
-    ],
-    [
-     "A12",
-     "Réti Opening: Anglo-Slav Variation, London Defensive System",
-     "c4 Nf6 g3 c6 Nf3 d5 b3 Bf5 Bg2 e6 Bb2"
-    ],
-    [
-     "A45",
-     "Indian Defense: Accelerated London System",
-     "d4 Nf6 Bf4"
-    ],
-    [
-     "D02",
-     "London System: Poisoned Pawn Variation",
-     "d4 Nf6 Nf3 d5 Bf4 c5 e3 Qb6 Nc3"
-    ],
-    [
-     "A46",
-     "Indian Defense: London System",
-     "d4 Nf6 Nf3 e6 Bf4"
-    ],
-    [
-     "A48",
-     "London System, with Bd3",
-     "d4 Nf6 Nf3 g6 Bf4 Bg7 e3 d6 Bd3"
-    ],
-    [
-     "A48",
-     "London System, with Be2",
-     "d4 Nf6 Nf3 g6 Bf4 Bg7 e3 d6 Be2 O-O"
-    ],
-    [
-     "A48",
-     "London System, with Be2",
-     "d4 Nf6 Nf3 g6 Bf4 Bg7 e3 d6 h3 c5 Be2"
-    ],
-    [
-     "D00",
-     "Queen's Pawn Game: Accelerated London System, Steinitz Countergambit Accepted",
-     "d4 d5 Bf4 c5 dxc5"
-    ],
-    [
-     "D00",
-     "Queen's Pawn Game: Accelerated London System, Steinitz Countergambit, Morris Countergambit Accepted",
-     "d4 d5 Bf4 c5 e4 dxe4"
-    ],
-    [
-     "D02",
-     "Queen's Pawn Game: London System",
-     "d4 d5 Nf3 Nf6 Bf4 c5 e3 Nc6 Nbd2 e6 c3"
-    ],
-    [
-     "D02",
-     "Queen's Pawn Game: London System, with e6",
-     "d4 d5 Nf3 e6 Bf4 Nf6"
-    ],
-    [
-     "D02",
-     "Queen's Pawn Game: London System, Pterodactyl Variation",
-     "d4 g6 Nf3 Bg7 Bf4 c5 c3 cxd4 cxd4 Qa5+"
-    ],
-    [
-     "C44",
-     "Scotch Game: Scotch Gambit, London Defense",
-     "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Bb4+"
-    ],
-    [
-     "A00",
-     "Grob Opening: London Defense",
-     "g4 e5 h3 Nc6"
-    ]
-   ]
+   "variantes": []
   },
   {
    "id": "ecossaise",
@@ -1092,29 +366,7 @@
       "d4",
       "exd4",
       "Nxd4",
-      "Nf6",
-      "Nxc6",
-      "bxc6",
-      "e5",
-      "Qe7",
-      "Qe2",
-      "Nd5",
-      "c4",
-      "Nb6",
-      "Nc3",
-      "Qe6",
-      "Qe4",
-      "d5",
-      "exd6",
-      "Qxe4+",
-      "Nxe4",
-      "cxd6",
-      "Be3",
-      "Be6",
-      "Rc1",
-      "d5",
-      "cxd5",
-      "Bb4+"
+      "Nf6"
      ],
      "notes": {
       "1": "e4 : les Blancs occupent le centre et libèrent leur fou et leur dame.",
@@ -1124,16 +376,15 @@
       "5": "d4 : les Blancs attaquent directement le centre noir.",
       "6": "exd4 : les Noirs capturent le pion d4.",
       "7": "Cxd4 : les Blancs reprennent avec le cavalier et placent une pièce au centre.",
-      "8": "Cf6 : les Noirs développent leur cavalier et pressent e4. La suite peut devenir tactique ou positionnelle.",
-      "9": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+      "8": "Cf6 : les Noirs développent leur cavalier et pressent e4. La suite peut devenir tactique ou positionnelle."
      },
-     "extensionDepuis": 8,
+     "extensionDepuis": null,
      "ecoDetecte": {
       "code": "C45",
-      "nom": "Scotch Game: Mieses Variation",
-      "ply": 11
+      "nom": "Scotch Game: Schmidt Variation",
+      "ply": 8
      },
-     "fenFinale": "r3k2r/p4ppp/1np1b3/3P4/1b2N3/4B3/PP3PPP/2R1KB1R w Kkq - 1 16"
+     "fenFinale": "r1bqkb1r/pppp1ppp/2n2n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5"
     },
     {
      "nom": "Écossaise : 4...Fc5",
@@ -1145,29 +396,7 @@
       "d4",
       "exd4",
       "Nxd4",
-      "Bc5",
-      "Nb3",
-      "Bb6",
-      "Nc3",
-      "Nf6",
-      "a4",
-      "a6",
-      "Bg5",
-      "h6",
-      "Bh4",
-      "d6",
-      "a5",
-      "Ba7",
-      "Bc4",
-      "Ne5",
-      "Qe2",
-      "Ng6",
-      "Bg3",
-      "O-O",
-      "O-O-O",
-      "Bd7",
-      "Rhe1",
-      "b5"
+      "Bc5"
      ],
      "notes": {
       "1": "e4 : les Blancs occupent le centre et libèrent leur fou et leur dame.",
@@ -1177,16 +406,15 @@
       "5": "d4 : les Blancs attaquent directement le centre noir.",
       "6": "exd4 : les Noirs capturent le pion d4.",
       "7": "Cxd4 : les Blancs reprennent avec le cavalier.",
-      "8": "Fc5 : les Noirs développent leur fou et attaquent directement le cavalier d4 : il faut penser à le protéger.",
-      "9": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+      "8": "Fc5 : les Noirs développent leur fou et attaquent directement le cavalier d4 : il faut penser à le protéger."
      },
-     "extensionDepuis": 8,
+     "extensionDepuis": null,
      "ecoDetecte": {
       "code": "C45",
-      "nom": "Scotch Game: Potter Variation",
-      "ply": 9
+      "nom": "Scotch Game: Classical Variation",
+      "ply": 8
      },
-     "fenFinale": "r2q1rk1/b1pb1pp1/p2p1nnp/Pp6/2B1P3/1NN3B1/1PP1QPPP/2KRR3 w - b6 0 16"
+     "fenFinale": "r1bqk1nr/pppp1ppp/2n5/2b5/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5"
     },
     {
      "nom": "Écossaise : 4...Fb4+",
@@ -1198,29 +426,7 @@
       "d4",
       "exd4",
       "Nxd4",
-      "Bb4+",
-      "c3",
-      "Bc5",
-      "Be3",
-      "Bb6",
-      "Nf5",
-      "g6",
-      "Bxb6",
-      "axb6",
-      "Ne3",
-      "Nf6",
-      "f3",
-      "Qe7",
-      "Be2",
-      "O-O",
-      "c4",
-      "Qb4+",
-      "Qd2",
-      "Qxd2+",
-      "Kxd2",
-      "d6",
-      "Nc3",
-      "Nd4"
+      "Bb4+"
      ],
      "notes": {
       "1": "e4 : les Blancs occupent le centre et libèrent leur fou et leur dame.",
@@ -1230,267 +436,18 @@
       "5": "d4 : les Blancs attaquent directement le centre noir.",
       "6": "exd4 : les Noirs capturent le pion d4.",
       "7": "Cxd4 : les Blancs reprennent avec le cavalier.",
-      "8": "Fb4+ : les Noirs donnent échec en développant leur fou. Ils cherchent à provoquer c3, ce qui gêne le développement naturel du cavalier b1.",
-      "9": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+      "8": "Fb4+ : les Noirs donnent échec en développant leur fou. Ils cherchent à provoquer c3, ce qui gêne le développement naturel du cavalier b1."
      },
-     "extensionDepuis": 8,
+     "extensionDepuis": null,
      "ecoDetecte": {
       "code": "C45",
       "nom": "Scotch Game: Malaniuk Variation",
       "ply": 8
      },
-     "fenFinale": "r1b2rk1/1pp2p1p/1p1p1np1/8/2PnP3/2N1NP2/PP1KB1PP/R6R w - - 2 16"
+     "fenFinale": "r1bqk1nr/pppp1ppp/2n5/8/1b1NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5"
     }
    ],
-   "variantes": [
-    [
-     "C56",
-     "Italian Game: Scotch Gambit, Max Lange Attack Accepted",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 O-O Nf6 d4 exd4 e5 d5 exf6 dxc4 Re1+ Be6 fxg7"
-    ],
-    [
-     "C56",
-     "Italian Game: Scotch Gambit, Walbrodt-Baird Gambit",
-     "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 O-O"
-    ],
-    [
-     "C44",
-     "Scotch Game: Benima Defense",
-     "e4 e5 Nf3 Nc6 Bc4 Be7 d4 exd4"
-    ],
-    [
-     "C56",
-     "Italian Game: Scotch Invitation Declined",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 d6"
-    ],
-    [
-     "C56",
-     "Italian Game: Scotch Gambit, Nakhmanson Gambit",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 O-O Nxe4 Nc3"
-    ],
-    [
-     "C56",
-     "Italian Game: Scotch Gambit, Anderssen Attack, Main Line",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 O-O Nxe4 Re1 d5 Bxd5 Qxd5 Nc3 Qa5 Nxe4 Be6 Bd2 Qd5 Bg5"
-    ],
-    [
-     "C44",
-     "Scotch Game: Scotch Gambit, Kingside Variation",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 e5 Ng4"
-    ],
-    [
-     "C56",
-     "Italian Game: Scotch Gambit, Max Lange Attack",
-     "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 e5 d5 Bb5 Ne4"
-    ],
-    [
-     "C47",
-     "Four Knights Game: Scotch Variation, Krause Gambit, Leonhardt Defense",
-     "e4 e5 Nf3 Nc6 Nc3 Nf6 d4 Bb4 Nxe5 Qe7"
-    ],
-    [
-     "C47",
-     "Four Knights Game: Scotch Variation, Oxford Gambit",
-     "e4 e5 Nf3 Nc6 Nc3 Nf6 d4 Bb4 d5 Nd4",
-     2.3
-    ],
-    [
-     "C47",
-     "Four Knights Game: Scotch Variation, Belgrade Gambit, Modern Defense",
-     "e4 e5 Nf3 Nc6 Nc3 Nf6 d4 exd4 Nd5 Nxe4 Qe2 f5"
-    ],
-    [
-     "C47",
-     "Four Knights Game: Scotch Variation Accepted, Main Line",
-     "e4 e5 Nf3 Nc6 Nc3 Nf6 d4 exd4 Nxd4 Bb4 Nxc6 bxc6 Bd3 d5 exd5 O-O O-O"
-    ],
-    [
-     "C47",
-     "Four Knights Game: Scotch Variation, Schmid Defense",
-     "e4 e5 Nf3 Nc6 Nc3 Nf6 d4 exd4 Nxd4 Nxe4"
-    ],
-    [
-     "C44",
-     "Scotch Game: Napoleon Gambit",
-     "e4 e5 Nf3 Nc6 d4 Nxd4 Nxd4 exd4 Bc4"
-    ],
-    [
-     "C44",
-     "Scotch Game: Lolli Variation",
-     "e4 e5 Nf3 Nc6 d4 Nxd4 Nxd4 exd4 Qxd4"
-    ],
-    [
-     "C44",
-     "Scotch Game: Relfsson Gambit",
-     "e4 e5 Nf3 Nc6 d4 exd4 Bb5"
-    ],
-    [
-     "C44",
-     "Scotch Game: Hanneken Variation",
-     "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Bb4+ c3 dxc3 O-O cxb2 Bxb2 Nf6 Ng5 O-O e5 Nxe5"
-    ],
-    [
-     "C44",
-     "Scotch Game: Cochrane Variation",
-     "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Bb4+ c3 dxc3 bxc3 Ba5 e5"
-    ],
-    [
-     "C44",
-     "Scotch Game: Cochrane-Shumov Defense",
-     "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Bc5 Ng5 Nh6 Nxf7 Nxf7 Bxf7+ Kxf7 Qh5+ g6 Qxc5 d5"
-    ],
-    [
-     "C44",
-     "Scotch Game: Vitzthum Attack",
-     "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Bc5 Ng5 Nh6 Qh5"
-    ],
-    [
-     "C44",
-     "Scotch Game: Scotch Gambit, Cochrane-Anderssen Variation",
-     "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Bc5 O-O d6 c3 Bg4"
-    ],
-    [
-     "C56",
-     "Italian Game: Scotch Gambit, Max Lange Attack, Spielmann Defense",
-     "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Nf6 O-O Bc5 e5 Ng4"
-    ],
-    [
-     "C56",
-     "Italian Game: Scotch Gambit, Max Lange Attack, Long Variation",
-     "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Nf6 O-O Bc5 e5 d5 exf6 dxc4 Re1+ Be6 Ng5 Qd5 Nc3 Qf5 Nce4"
-    ],
-    [
-     "C56",
-     "Italian Game: Scotch Gambit, de Riviere Defense",
-     "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Nf6 O-O Be7"
-    ],
-    [
-     "C56",
-     "Italian Game: Scotch Gambit, Canal Variation",
-     "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Nf6 O-O Nxe4 Re1 d5 Nc3"
-    ],
-    [
-     "C56",
-     "Italian Game: Scotch Gambit, Janowski Defense",
-     "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Nf6 O-O d6"
-    ],
-    [
-     "C44",
-     "Scotch Game: Scotch Gambit, Advance Variation",
-     "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Nf6 e5"
-    ],
-    [
-     "C45",
-     "Scotch Game: Malaniuk Variation",
-     "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bb4+"
-    ],
-    [
-     "C45",
-     "Scotch Game: Blumenfeld Attack",
-     "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Be3 Qf6 Nb5"
-    ],
-    [
-     "C45",
-     "Scotch Game: Paulsen, Gunsberg Defense",
-     "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Be3 Qf6 c3 Nge7 Bb5 Nd8"
-    ],
-    [
-     "C45",
-     "Scotch Game: Meitner Variation",
-     "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Be3 Qf6 c3 Nge7 Nc2"
-    ],
-    [
-     "C45",
-     "Scotch Game: Gottschall Variation",
-     "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Be3 Qf6 c3 Nge7 Qd2 d5 Nb5 Bxe3 Qxe3 O-O Nxc7 Rb8 Nxd5 Nxd5 exd5 Nb4"
-    ],
-    [
-     "C45",
-     "Scotch Game: Classical Variation, Millennium Variation",
-     "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Be3 Qf6 c3 Qg6"
-    ],
-    [
-     "C45",
-     "Scotch Game: Romanishin Variation",
-     "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nb3 Bb4+"
-    ],
-    [
-     "C45",
-     "Scotch Game: Classical Variation, Intermezzo Variation",
-     "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nxc6 Qf6"
-    ],
-    [
-     "C45",
-     "Scotch Game: Tartakower Variation",
-     "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nf6 Nxc6 bxc6 Nd2"
-    ],
-    [
-     "C45",
-     "Scotch Game: Mieses Variation",
-     "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nf6 Nxc6 bxc6 e5"
-    ],
-    [
-     "C45",
-     "Scotch Game: Alekhine Gambit",
-     "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nf6 e5"
-    ],
-    [
-     "C45",
-     "Scotch Game: Ghulam-Kassim Variation",
-     "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nxd4 Qxd4 d6 Bd3"
-    ],
-    [
-     "C45",
-     "Scotch Game: Braune Variation",
-     "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Be3"
-    ],
-    [
-     "C45",
-     "Scotch Game: Rosenthal Variation",
-     "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Nb5 Bb4+ Bd2 Qxe4+ Be2 Kd8 O-O Bxd2 Nxd2 Qg6"
-    ],
-    [
-     "C45",
-     "Scotch Game: Horwitz Attack, Blackburne Variation",
-     "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Nb5 Bb4+ Bd2 Qxe4+ Be2 Kd8 O-O Bxd2 Qxd2"
-    ],
-    [
-     "C45",
-     "Scotch Game: Modern Defense",
-     "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Nc3 Bb4"
-    ],
-    [
-     "C45",
-     "Scotch Game: Fraser Variation",
-     "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Nf3"
-    ],
-    [
-     "C45",
-     "Scotch Game: Paulsen Variation",
-     "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Nf5"
-    ],
-    [
-     "C44",
-     "Scotch Game: Scotch Gambit, Göring Gambit Declined",
-     "e4 e5 Nf3 Nc6 d4 exd4 c3 d5"
-    ],
-    [
-     "C44",
-     "Scotch Game: Göring Gambit, Bardeleben Variation",
-     "e4 e5 Nf3 Nc6 d4 exd4 c3 dxc3 Bc4 Nf6 Nxc3 Bb4"
-    ],
-    [
-     "C44",
-     "Scotch Game: Göring Gambit, Main Line",
-     "e4 e5 Nf3 Nc6 d4 exd4 c3 dxc3 Nxc3 Bb4"
-    ],
-    [
-     "C44",
-     "Scotch Game: Sea-Cadet Mate",
-     "e4 e5 Nf3 Nc6 d4 exd4 c3 dxc3 Nxc3 d6 Bc4 Bg4 O-O Ne5 Nxe5 Bxd1 Bxf7+ Ke7 Nd5#",
-     10
-    ]
-   ]
+   "variantes": []
   },
   {
    "id": "viennoise",
@@ -1526,48 +483,22 @@
       "e5",
       "Nc3",
       "Nf6",
-      "g3",
-      "d5",
-      "exd5",
-      "c6",
-      "Nge2",
-      "Bc5",
-      "Bg2",
-      "cxd5",
-      "d4",
-      "exd4",
-      "Nxd4",
-      "O-O",
-      "O-O",
-      "Bg4",
-      "Nf3",
-      "h6",
-      "h3",
-      "Bf5",
-      "a3",
-      "a5",
-      "g4",
-      "Be6",
-      "g5",
-      "hxg5",
-      "Bxg5",
-      "Nc6"
+      "g3"
      ],
      "notes": {
       "1": "e4 : les Blancs occupent le centre.",
       "2": "e5 : les Noirs contestent le centre.",
       "3": "Cc3 : les Blancs développent leur cavalier et défendent e4.",
       "4": "Cf6 : les Noirs développent leur cavalier et attaquent e4.",
-      "5": "g3 : les Blancs préparent le fianchetto de leur fou en g2. Ce fou contrôlera les cases centrales d5 et e4 depuis la grande diagonale.",
-      "6": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+      "5": "g3 : les Blancs préparent le fianchetto de leur fou en g2. Ce fou contrôlera les cases centrales d5 et e4 depuis la grande diagonale."
      },
-     "extensionDepuis": 5,
+     "extensionDepuis": null,
      "ecoDetecte": {
       "code": "C26",
-      "nom": "Vienna Game: Mieses Variation, Erben Gambit",
-      "ply": 8
+      "nom": "Vienna Game: Mieses Variation",
+      "ply": 5
      },
-     "fenFinale": "r2q1rk1/1p3pp1/2n1bn2/p1bp2B1/8/P1N2N1P/1PP2PB1/R2Q1RK1 w - - 1 16"
+     "fenFinale": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N3P1/PPPP1P1P/R1BQKBNR b KQkq - 0 3"
     },
     {
      "nom": "Gambit viennois : 3.f4",
@@ -1576,48 +507,22 @@
       "e5",
       "Nc3",
       "Nf6",
-      "f4",
-      "d5",
-      "fxe5",
-      "Nxe4",
-      "Nf3",
-      "Be7",
-      "d3",
-      "Nxc3",
-      "bxc3",
-      "O-O",
-      "Be2",
-      "f6",
-      "exf6",
-      "Bxf6",
-      "d4",
-      "Bh4+",
-      "g3",
-      "Bf6",
-      "O-O",
-      "Nc6",
-      "Rb1",
-      "Bh3",
-      "Rf2",
-      "b6",
-      "Ba3",
-      "Re8"
+      "f4"
      ],
      "notes": {
       "1": "e4 : les Blancs occupent le centre.",
       "2": "e5 : les Noirs contestent le centre.",
       "3": "Cc3 : les Blancs développent leur cavalier et défendent e4.",
       "4": "Cf6 : les Noirs développent leur cavalier et attaquent e4.",
-      "5": "f4 : les Blancs proposent un pion pour attaquer le centre et ouvrir la colonne f. Ils cherchent une position active et des chances d'attaque sur le roi. C'est un gambit : on accepte de sacrifier un pion pour gagner du temps et de l'activité.",
-      "6": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+      "5": "f4 : les Blancs proposent un pion pour attaquer le centre et ouvrir la colonne f. Ils cherchent une position active et des chances d'attaque sur le roi. C'est un gambit : on accepte de sacrifier un pion pour gagner du temps et de l'activité."
      },
-     "extensionDepuis": 5,
+     "extensionDepuis": null,
      "ecoDetecte": {
       "code": "C29",
-      "nom": "Vienna Game: Vienna Gambit, Breyer Variation",
-      "ply": 10
+      "nom": "Vienna Game: Vienna Gambit",
+      "ply": 5
      },
-     "fenFinale": "r2qr1k1/p1p3pp/1pn2b2/3p4/3P4/B1P2NPb/P1P1BR1P/1R1Q2K1 w - - 2 16"
+     "fenFinale": "rnbqkb1r/pppp1ppp/5n2/4p3/4PP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 3"
     },
     {
      "nom": "Viennoise : 2...Cc6",
@@ -1625,254 +530,24 @@
       "e4",
       "e5",
       "Nc3",
-      "Nc6",
-      "Nf3",
-      "Nf6",
-      "Bb5",
-      "Bb4",
-      "O-O",
-      "O-O",
-      "d3",
-      "d5",
-      "Bxc6",
-      "bxc6",
-      "Nxe5",
-      "Qe8",
-      "Nf3",
-      "dxe4",
-      "dxe4",
-      "Ba6",
-      "Re1",
-      "Rd8",
-      "Bd2",
-      "Bxc3",
-      "bxc3",
-      "Nxe4",
-      "Nd4",
-      "c5",
-      "Qg4",
-      "Bc8"
+      "Nc6"
      ],
      "notes": {
       "1": "e4 : les Blancs occupent le centre.",
       "2": "e5 : les Noirs contestent le centre.",
       "3": "Cc3 : les Blancs développent leur cavalier et défendent e4.",
-      "4": "Cc6 : les Noirs développent leur cavalier et renforcent e5. Réponse classique à la Viennoise : les Blancs peuvent ensuite choisir Cf3, Fc4 ou Fb5.",
-      "5": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+      "4": "Cc6 : les Noirs développent leur cavalier et renforcent e5. Réponse classique à la Viennoise : les Blancs peuvent ensuite choisir Cf3, Fc4 ou Fb5."
      },
-     "extensionDepuis": 4,
+     "extensionDepuis": null,
      "ecoDetecte": {
-      "code": "C49",
-      "nom": "Four Knights Game: Spanish Variation, Double Spanish",
-      "ply": 11
+      "code": "C25",
+      "nom": "Vienna Game: Max Lange Defense",
+      "ply": 4
      },
-     "fenFinale": "2brqrk1/p1p2ppp/8/2p5/3Nn1Q1/2P5/P1PB1PPP/R3R1K1 w - - 2 16"
+     "fenFinale": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3"
     }
    ],
-   "variantes": [
-    [
-     "D30",
-     "Queen's Gambit Declined: Vienna Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Bg5 Bb4+"
-    ],
-    [
-     "D39",
-     "Queen's Gambit Declined: Ragozin Defense, Vienna Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Bb4 Bg5 dxc4"
-    ],
-    [
-     "D37",
-     "Queen's Gambit Declined: Vienna Variation, Quiet Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 dxc4 e3"
-    ],
-    [
-     "D95",
-     "Grünfeld Defense: Three Knights Variation, Vienna Variation",
-     "d4 Nf6 c4 g6 Nc3 d5 Nf3 Bg7 e3 O-O Qb3"
-    ],
-    [
-     "D00",
-     "Blackmar-Diemer Gambit Declined: Vienna Defense",
-     "d4 d5 e4 dxe4 Nc3 Nf6 f3 Bf5"
-    ],
-    [
-     "C24",
-     "Bishop's Opening: Vienna Hybrid",
-     "e4 e5 Bc4 Nf6 d3 Nc6 Nc3"
-    ],
-    [
-     "C25",
-     "Vienna Game: Zhuravlev Countergambit",
-     "e4 e5 Nc3 Bb4 Qg4 Nf6"
-    ],
-    [
-     "C25",
-     "Vienna Game: Hamppe-Meitner Variation",
-     "e4 e5 Nc3 Bc5 Na4"
-    ],
-    [
-     "C25",
-     "Vienna Game: Giraffe Attack",
-     "e4 e5 Nc3 Bc5 Qg4"
-    ],
-    [
-     "C25",
-     "Vienna Game: Stanley Variation, Meitner-Mieses Gambit",
-     "e4 e5 Nc3 Nc6 Bc4 Bc5 Qg4 Qf6 Nd5"
-    ],
-    [
-     "C28",
-     "Bishop's Opening: Vienna Hybrid, Hromádka Variation",
-     "e4 e5 Nc3 Nc6 Bc4 Nf6 d3 Bb4 Ne2"
-    ],
-    [
-     "C28",
-     "Vienna Game: Stanley Variation, Bronstein Gambit",
-     "e4 e5 Nc3 Nc6 Bc4 Nf6 f4 Nxe4 Nf3"
-    ],
-    [
-     "C25",
-     "Vienna Game: Philidor Countergambit",
-     "e4 e5 Nc3 Nc6 d4 f5",
-     2.3
-    ],
-    [
-     "C25",
-     "Vienna Gambit, with Max Lange Defense: Quelle Gambit",
-     "e4 e5 Nc3 Nc6 f4 Bc5 fxe5 d6"
-    ],
-    [
-     "C25",
-     "Vienna Gambit, with Max Lange Defense: Cunningham Defense",
-     "e4 e5 Nc3 Nc6 f4 exf4 Nf3 Be7"
-    ],
-    [
-     "C25",
-     "Vienna Game: Hamppe-Muzio, Dubois Variation",
-     "e4 e5 Nc3 Nc6 f4 exf4 Nf3 g5 Bc4 g4 O-O gxf3 Qxf3 Ne5 Qxf4 Qf6"
-    ],
-    [
-     "C25",
-     "Vienna Game: Pierce Gambit, Rushmere Attack",
-     "e4 e5 Nc3 Nc6 f4 exf4 Nf3 g5 d4 g4 Bc4 gxf3 O-O d5 exd5 Bg4 dxc6",
-     2.3
-    ],
-    [
-     "C25",
-     "Vienna Gambit, with Max Lange Defense: Hamppe-Allgaier Gambit, Alapin Variation",
-     "e4 e5 Nc3 Nc6 f4 exf4 Nf3 g5 h4 g4 Ng5 d6"
-    ],
-    [
-     "C25",
-     "Vienna Gambit, with Max Lange Defense: Steinitz Gambit, Fraser-Minckwitz Defense",
-     "e4 e5 Nc3 Nc6 f4 exf4 d4 Qh4+ Ke2 b6"
-    ],
-    [
-     "C25",
-     "Vienna Gambit, with Max Lange Defense: Steinitz Gambit, Zukertort Defense",
-     "e4 e5 Nc3 Nc6 f4 exf4 d4 Qh4+ Ke2 d5"
-    ],
-    [
-     "C25",
-     "Vienna Gambit, with Max Lange Defense: Steinitz Gambit, Paulsen Defense",
-     "e4 e5 Nc3 Nc6 f4 exf4 d4 Qh4+ Ke2 d6"
-    ],
-    [
-     "C25",
-     "Vienna Gambit, with Max Lange Defense: Steinitz Gambit, Sörensen Defense",
-     "e4 e5 Nc3 Nc6 f4 exf4 d4 Qh4+ Ke2 g5"
-    ],
-    [
-     "C25",
-     "Vienna Game: Paulsen Variation, Mariotti Gambit",
-     "e4 e5 Nc3 Nc6 g3 Bc5 Bg2 h5 Nf3 h4"
-    ],
-    [
-     "C25",
-     "Vienna Game: Paulsen Variation",
-     "e4 e5 Nc3 Nc6 g3 Nf6 Bg2 Bc5 Nge2 d5"
-    ],
-    [
-     "C26",
-     "Vienna Game: Stanley Variation, Reversed Spanish",
-     "e4 e5 Nc3 Nf6 Bc4 Bb4"
-    ],
-    [
-     "C26",
-     "Vienna Game: Stanley Variation, Eifel Gambit",
-     "e4 e5 Nc3 Nf6 Bc4 Bc5 Nge2 b5"
-    ],
-    [
-     "C26",
-     "Bishop's Opening: Vienna Hybrid, Spielmann Attack",
-     "e4 e5 Nc3 Nf6 Bc4 Bc5 d3"
-    ],
-    [
-     "C27",
-     "Vienna Game: Stanley Variation, Alekhine Variation",
-     "e4 e5 Nc3 Nf6 Bc4 Nxe4 Qh5 Nd6 Bb3 Be7 Nf3 Nc6 Nxe5"
-    ],
-    [
-     "C27",
-     "Vienna Game: Stanley Variation, Frankenstein-Dracula Variation",
-     "e4 e5 Nc3 Nf6 Bc4 Nxe4 Qh5 Nd6 Bb3 Nc6 Nb5 g6 Qf3 f5 Qd5 Qe7 Nxc7+ Kd8 Nxa8 b6"
-    ],
-    [
-     "C27",
-     "Vienna Game: Adams' Gambit",
-     "e4 e5 Nc3 Nf6 Bc4 Nxe4 Qh5 Nd6 Bb3 Nc6 d4"
-    ],
-    [
-     "C26",
-     "Vienna Game: Mengarini Variation",
-     "e4 e5 Nc3 Nf6 a3"
-    ],
-    [
-     "C29",
-     "Vienna Game: Vienna Gambit, Steinitz Variation",
-     "e4 e5 Nc3 Nf6 f4 d5 d3"
-    ],
-    [
-     "C29",
-     "Vienna Game: Vienna Gambit, Breyer Variation",
-     "e4 e5 Nc3 Nf6 f4 d5 fxe5 Nxe4 Nf3 Be7"
-    ],
-    [
-     "C29",
-     "Vienna Game: Vienna Gambit, Kaufmann Variation",
-     "e4 e5 Nc3 Nf6 f4 d5 fxe5 Nxe4 Nf3 Bg4 Qe2"
-    ],
-    [
-     "C29",
-     "Vienna Game: Heyde Variation",
-     "e4 e5 Nc3 Nf6 f4 d5 fxe5 Nxe4 Qf3 f5 d4"
-    ],
-    [
-     "C29",
-     "Vienna Game: Vienna Gambit, Wurzburger Trap",
-     "e4 e5 Nc3 Nf6 f4 d5 fxe5 Nxe4 d3 Qh4+ g3 Nxg3 Nf3 Qh5 Nxd5"
-    ],
-    [
-     "C26",
-     "Vienna Game: Paulsen Variation, Pollock Gambit",
-     "e4 e5 Nc3 Nf6 g3 Bc5 Bg2 Nc6 Nge2 d5 exd5"
-    ],
-    [
-     "C26",
-     "Vienna Game: Mieses Variation, Erben Gambit",
-     "e4 e5 Nc3 Nf6 g3 d5 exd5 c6"
-    ],
-    [
-     "C25",
-     "Vienna Game: Omaha Gambit",
-     "e4 e5 Nc3 d6 f4"
-    ],
-    [
-     "C25",
-     "Vienna Gambit, with Max Lange Defense: Hamppe-Allgaier Gambit, Thorold Variation",
-     "e4 e5 f4 exf4 Nf3 Nc6 Nc3 g5 h4 g4 Ng5 h6 Nxf7 Kxf7 d4"
-    ]
-   ]
+   "variantes": []
   },
   {
    "id": "gambit-dame",
@@ -1916,25 +591,7 @@
       "e3",
       "O-O",
       "Nf3",
-      "Nbd7",
-      "Qc2",
-      "h6",
-      "Bh4",
-      "c5",
-      "Rd1",
-      "Qa5",
-      "cxd5",
-      "Nxd5",
-      "Bxe7",
-      "Nxe7",
-      "Be2",
-      "cxd4",
-      "Rxd4",
-      "Nf6",
-      "O-O",
-      "Bd7",
-      "Rfd1",
-      "Bc6"
+      "Nbd7"
      ],
      "notes": {
       "1": "d4 : les Blancs prennent le centre et libèrent leur fou c1.",
@@ -1948,16 +605,15 @@
       "9": "e3 : les Blancs consolident d4 et libèrent leur fou f1.",
       "10": "O-O : les Noirs mettent leur roi en sécurité.",
       "11": "Cf3 : les Blancs développent leur deuxième cavalier.",
-      "12": "Cbd7 : les Noirs développent leur cavalier b8 vers d7.",
-      "13": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+      "12": "Cbd7 : les Noirs développent leur cavalier b8 vers d7."
      },
-     "extensionDepuis": 12,
+     "extensionDepuis": null,
      "ecoDetecte": {
-      "code": "D61",
-      "nom": "Queen's Gambit Declined: Orthodox Defense, Rubinstein Variation",
-      "ply": 13
+      "code": "D60",
+      "nom": "Queen's Gambit Declined: Orthodox Defense",
+      "ply": 12
      },
-     "fenFinale": "r4rk1/pp2npp1/2b1pn1p/q7/3R4/2N1PN2/PPQ1BPPP/3R2K1 w - - 5 16"
+     "fenFinale": "r1bq1rk1/pppnbppp/4pn2/3p2B1/2PP4/2N1PN2/PP3PPP/R2QKB1R w KQ - 3 7"
     },
     {
      "nom": "Gambit dame accepté",
@@ -1973,25 +629,7 @@
       "Bxc4",
       "c5",
       "O-O",
-      "a6",
-      "dxc5",
-      "Bxc5",
-      "Qxd8+",
-      "Kxd8",
-      "Be2",
-      "Ke7",
-      "b3",
-      "Rd8",
-      "Bb2",
-      "b6",
-      "Ne5",
-      "Bb7",
-      "Nd3",
-      "Bd6",
-      "Nd2",
-      "b5",
-      "a4",
-      "Nc6"
+      "a6"
      ],
      "notes": {
       "1": "d4 : les Blancs prennent le centre et libèrent leur fou c1.",
@@ -2005,885 +643,18 @@
       "9": "Fxc4 : les Blancs récupèrent le pion avec leur fou.",
       "10": "c5 : les Noirs attaquent le centre blanc.",
       "11": "O-O : les Blancs mettent leur roi en sécurité.",
-      "12": "a6 : les Noirs préparent une expansion à l'aile dame et peuvent envisager ...b5.",
-      "13": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+      "12": "a6 : les Noirs préparent une expansion à l'aile dame et peuvent envisager ...b5."
      },
-     "extensionDepuis": 12,
+     "extensionDepuis": null,
      "ecoDetecte": {
       "code": "D27",
-      "nom": "Queen's Gambit Accepted: Furman Variation",
-      "ply": 14
+      "nom": "Queen's Gambit Accepted: Classical Defense, Main Line",
+      "ply": 12
      },
-     "fenFinale": "r2r4/1b2kppp/p1nbpn2/1p6/P7/1P1NP3/1B1NBPPP/R4RK1 w - - 1 16"
+     "fenFinale": "rnbqkb1r/1p3ppp/p3pn2/2p5/2BP4/4PN2/PP3PPP/RNBQ1RK1 w kq - 0 7"
     }
    ],
-   "variantes": [
-    [
-     "D63",
-     "Queen's Gambit Declined: Orthodox Defense, Capablanca Variation",
-     "Nf3 d5 d4 Nf6 c4 e6 Nc3 Be7 Bg5 O-O e3 Nbd7 Rc1 b6 cxd5 exd5 Bb5"
-    ],
-    [
-     "D64",
-     "Queen's Gambit Declined: Orthodox Defense, Rubinstein Attack",
-     "Nf3 d5 d4 Nf6 c4 e6 Nc3 Be7 Bg5 O-O e3 Nbd7 Rc1 c6 Qc2 Ne4"
-    ],
-    [
-     "A04",
-     "Zukertort Opening: Queen's Gambit Invitation",
-     "Nf3 e6"
-    ],
-    [
-     "D41",
-     "Queen's Gambit Declined: Semi-Tarrasch Defense",
-     "c4 c5 Nf3 Nf6 Nc3 Nc6 g3 d5 d4 e6"
-    ],
-    [
-     "D30",
-     "Queen's Gambit Declined: Capablanca Variation",
-     "d4 Nf6 Nf3 e6 c4 d5 Bg5 c6 Nbd2 Nbd7 e3"
-    ],
-    [
-     "D53",
-     "Queen's Gambit Declined: Lasker Defense",
-     "d4 Nf6 c4 e6 Nc3 d5 Bg5 Be7 e3 Ne4"
-    ],
-    [
-     "D63",
-     "Queen's Gambit Declined: Orthodox Defense, Pillsbury Variation",
-     "d4 Nf6 c4 e6 Nc3 d5 Bg5 Be7 e3 O-O Nf3 Nbd7 Rc1 b6 cxd5 exd5 Bd3"
-    ],
-    [
-     "D54",
-     "Queen's Gambit Declined: Neo-Orthodox Variation",
-     "d4 Nf6 c4 e6 Nc3 d5 Bg5 Be7 e3 O-O Rc1"
-    ],
-    [
-     "D57",
-     "Queen's Gambit Declined: Lasker Defense, Bernstein Variation",
-     "d4 Nf6 c4 e6 Nc3 d5 Bg5 Be7 e3 h6 Bh4 O-O Nf3 Ne4 Bxe7 Qxe7 cxd5 Nxc3 bxc3 exd5 Qb3 Qd6"
-    ],
-    [
-     "D37",
-     "Queen's Gambit Declined: Harrwitz Attack, Two Knights Defense, Blockade Line",
-     "d4 Nf6 c4 e6 Nc3 d5 Nf3 Be7 Bf4 O-O e3 Nbd7 c5"
-    ],
-    [
-     "D64",
-     "Queen's Gambit Declined: Orthodox Defense, Rubinstein Attack",
-     "d4 Nf6 c4 e6 Nc3 d5 Nf3 Be7 Bg5 O-O e3 Nbd7 Rc1 c6 a3 a6 Qc2"
-    ],
-    [
-     "D35",
-     "Queen's Gambit Declined: Exchange Variation, Chameleon Variation",
-     "d4 Nf6 c4 e6 Nc3 d5 cxd5 exd5 Bg5 Be7 e3 O-O Bd3 Nbd7 Qc2 Re8 Nge2 Nf8 O-O-O"
-    ],
-    [
-     "D35",
-     "Queen's Gambit Declined: Exchange Variation, Carlsen Variation",
-     "d4 Nf6 c4 e6 Nc3 d5 cxd5 exd5 Bg5 Be7 e3 h6 Bh4 Bg4"
-    ],
-    [
-     "D36",
-     "Queen's Gambit Declined: Exchange Variation, Reshevsky Variation",
-     "d4 Nf6 c4 e6 Nc3 d5 cxd5 exd5 Bg5 c6 Qc2 Be7 e3 Nbd7 Bd3"
-    ],
-    [
-     "D36",
-     "Queen's Gambit Declined: Exchange Variation, Reshevsky Variation",
-     "d4 Nf6 c4 e6 Nc3 d5 cxd5 exd5 Bg5 c6 Qc2 Be7 e3 O-O Bd3 h6 Bh4"
-    ],
-    [
-     "D36",
-     "Queen's Gambit Declined: Exchange Variation, Reshevsky Variation",
-     "d4 Nf6 c4 e6 Nc3 d5 cxd5 exd5 Bg5 c6 e3 Be7 Bd3 Nbd7 Nge2 O-O O-O h6 Bh4 Re8 Qc2"
-    ],
-    [
-     "D55",
-     "Queen's Gambit Declined: Pillsbury Attack",
-     "d4 Nf6 c4 e6 Nf3 b6 Nc3 d5 cxd5 exd5 Bg5 Be7 e3 O-O Bd3 Bb7 Ne5"
-    ],
-    [
-     "D30",
-     "Queen's Gambit Declined: Vienna Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Bg5 Bb4+"
-    ],
-    [
-     "D30",
-     "Queen's Gambit Declined: Traditional Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Bg5 dxc4 Qa4+ c6 Qxc4"
-    ],
-    [
-     "D30",
-     "Queen's Gambit Declined: Capablanca Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Bg5 h6"
-    ],
-    [
-     "D38",
-     "Queen's Gambit Declined: Westphalian Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Bb4 Bg5 Nbd7 e3 c5"
-    ],
-    [
-     "D39",
-     "Queen's Gambit Declined: Ragozin Defense, Vienna Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Bb4 Bg5 dxc4"
-    ],
-    [
-     "D38",
-     "Queen's Gambit Declined: Ragozin Defense, Alekhine Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Bb4 Qa4+"
-    ],
-    [
-     "D37",
-     "Queen's Gambit Declined: Harrwitz Attack, Two Knights Defense",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bf4 O-O e3 Nbd7"
-    ],
-    [
-     "D37",
-     "Queen's Gambit Declined: Harrwitz Attack",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bf4 O-O e3 c5 dxc5 Bxc5 Qc2 Nc6 Rd1 Qa5 a3"
-    ],
-    [
-     "D37",
-     "Queen's Gambit Declined: Harrwitz Attack",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bf4 O-O e3 c5 dxc5 Bxc5 Qc2 Nc6 a3 Qa5 O-O-O"
-    ],
-    [
-     "D37",
-     "Queen's Gambit Declined: Miles Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bg5 O-O Qc2"
-    ],
-    [
-     "D60",
-     "Queen's Gambit Declined: Orthodox Defense, Botvinnik Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bg5 O-O e3 Nbd7 Bd3 c6"
-    ],
-    [
-     "D62",
-     "Queen's Gambit Declined: Orthodox Defense, Rubinstein Variation, Flohr Line",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bg5 O-O e3 Nbd7 Qc2 c5 cxd5"
-    ],
-    [
-     "D63",
-     "Queen's Gambit Declined: Orthodox Defense, Henneberger Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bg5 O-O e3 Nbd7 Rc1 a6 c5 c6 Bd3"
-    ],
-    [
-     "D63",
-     "Queen's Gambit Declined: Orthodox Defense, Swiss, Carlsbad Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bg5 O-O e3 Nbd7 Rc1 a6 cxd5"
-    ],
-    [
-     "D68",
-     "Queen's Gambit Declined: Orthodox Defense, Classical Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bg5 O-O e3 Nbd7 Rc1 c6 Bd3 dxc4 Bxc4 Nd5 Bxe7 Qxe7 O-O Nxc3 Rxc3 e5 Qc2"
-    ],
-    [
-     "D64",
-     "Queen's Gambit Declined: Orthodox Defense, Rubinstein Attack",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bg5 O-O e3 Nbd7 Rc1 c6 Qc2 a6"
-    ],
-    [
-     "D55",
-     "Queen's Gambit Declined: Anti-Tartakower Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bg5 O-O e3 h6 Bxf6"
-    ],
-    [
-     "D56",
-     "Queen's Gambit Declined: Lasker Defense, Teichmann Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bg5 h6 Bh4 O-O e3 Ne4 Bxe7 Qxe7 Qc2"
-    ],
-    [
-     "D58",
-     "Queen's Gambit Declined: Tartakower Defense",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bg5 h6 Bh4 O-O e3 b6"
-    ],
-    [
-     "D55",
-     "Queen's Gambit Declined: Anti-Tartakower Variation, Petrosian Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bg5 h6 Bxf6 Bxf6 e3 O-O Rc1 c6 Bd3 Nd7 O-O dxc4 Bxc4"
-    ],
-    [
-     "D37",
-     "Queen's Gambit Declined: Knight Defense, Alekhine Gambit",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Nbd7 Bg5 h6 Bh4 dxc4"
-    ],
-    [
-     "D35",
-     "Queen's Gambit Declined: Exchange Variation, Sämisch Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Nbd7 cxd5 exd5 Bf4"
-    ],
-    [
-     "D36",
-     "Queen's Gambit Declined: Exchange Variation, Reshevsky Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Nbd7 cxd5 exd5 Bg5 c6 e3 Be7 Bd3 Nf8 Qc2"
-    ],
-    [
-     "D36",
-     "Queen's Gambit Declined: Exchange Variation, Reshevsky Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Nbd7 cxd5 exd5 Bg5 c6 e3 Be7 Bd3 O-O Qc2"
-    ],
-    [
-     "D36",
-     "Queen's Gambit Declined: Exchange Variation, Reshevsky Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Nbd7 cxd5 exd5 Bg5 c6 e3 Be7 Qc2"
-    ],
-    [
-     "D42",
-     "Queen's Gambit Declined: Semi-Tarrasch Defense, Main Line",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 c5 cxd5 Nxd5 e3 Nc6 Bd3"
-    ],
-    [
-     "D41",
-     "Queen's Gambit Declined: Semi-Tarrasch Defense, Exchange Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 c5 cxd5 Nxd5 e4 Nxc3 bxc3"
-    ],
-    [
-     "D41",
-     "Queen's Gambit Declined: Semi-Tarrasch Defense",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 c5 cxd5 Nxd5 g3 Nc6 Bg2"
-    ],
-    [
-     "D41",
-     "Queen's Gambit Declined: Semi-Tarrasch Defense, Endgame Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 c5 cxd5 cxd4 Qxd4 exd5 e4 dxe4 Qxd8+"
-    ],
-    [
-     "D37",
-     "Queen's Gambit Declined: Vienna Variation, Quiet Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 dxc4 e3"
-    ],
-    [
-     "D35",
-     "Queen's Gambit Declined: Exchange Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 e3 b6 Nc3 Bd6 cxd5 exd5"
-    ],
-    [
-     "D32",
-     "Queen's Gambit Declined: Tarrasch Defense",
-     "d4 Nf6 c4 e6 Nf3 d5 e3 c5 cxd5 exd5 Nc3 a6 Be2 Nc6"
-    ],
-    [
-     "D02",
-     "Queen's Gambit Declined: Baltic Defense, Pseudo-Slav",
-     "d4 d5 Nf3 Bf5 c4 e6 Nc3 c6"
-    ],
-    [
-     "D60",
-     "Queen's Gambit Declined: Orthodox Defense, Rauzer Variation",
-     "d4 d5 Nf3 Nf6 c4 e6 Nc3 Be7 Bg5 O-O e3 Nbd7 Qb3"
-    ],
-    [
-     "D67",
-     "Queen's Gambit Declined: Orthodox Defense, Janowski Variation",
-     "d4 d5 Nf3 Nf6 c4 e6 Nc3 Be7 Bg5 O-O e3 Nbd7 Rc1 c6 Bd3 dxc4 Bxc4 Nd5 h4"
-    ],
-    [
-     "D65",
-     "Queen's Gambit Declined: Orthodox Defense, Rubinstein Attack",
-     "d4 d5 Nf3 Nf6 c4 e6 Nc3 Be7 Bg5 O-O e3 Nbd7 Rc1 c6 Qc2 a6 cxd5 exd5 Bd3"
-    ],
-    [
-     "D06",
-     "Queen's Gambit Declined: Baltic Defense, Pseudo-Chigorin",
-     "d4 d5 c4 Bf5 Nc3 e6 Nf3 Nc6"
-    ],
-    [
-     "D06",
-     "Queen's Gambit Declined: Baltic Defense, Queen Attack Deferred",
-     "d4 d5 c4 Bf5 Nc3 e6 Qb3"
-    ],
-    [
-     "D06",
-     "Queen's Gambit Declined: Baltic Defense, Queen Attack",
-     "d4 d5 c4 Bf5 Qb3"
-    ],
-    [
-     "D06",
-     "Queen's Gambit Declined: Baltic Defense, Argentinian Gambit",
-     "d4 d5 c4 Bf5 cxd5 Bxb1 Qa4+ c6 dxc6 Nxc6"
-    ],
-    [
-     "D07",
-     "Queen's Gambit Declined: Chigorin Defense, Modern Gambit",
-     "d4 d5 c4 Nc6 Nc3 dxc4 Nf3 Nf6"
-    ],
-    [
-     "D07",
-     "Queen's Gambit Declined: Chigorin Defense, Tartakower Gambit",
-     "d4 d5 c4 Nc6 Nc3 e5"
-    ],
-    [
-     "D07",
-     "Queen's Gambit Declined: Chigorin Defense",
-     "d4 d5 c4 Nc6 Nc3 e6 Nf3 Nf6 a3"
-    ],
-    [
-     "D07",
-     "Queen's Gambit Declined: Chigorin Defense, Main Line, Alekhine Variation",
-     "d4 d5 c4 Nc6 Nf3 Bg4 Qa4"
-    ],
-    [
-     "D07",
-     "Queen's Gambit Declined: Chigorin Defense, Lazard Gambit",
-     "d4 d5 c4 Nc6 Nf3 e5"
-    ],
-    [
-     "D07",
-     "Queen's Gambit Declined: Chigorin Defense, Exchange Variation, Costa's Line",
-     "d4 d5 c4 Nc6 cxd5 Qxd5 e3 e5 Nc3 Bb4 Bd2 Bxc3 Bxc3 exd4 Ne2"
-    ],
-    [
-     "D06",
-     "Queen's Gambit Declined: Marshall Defense, Tan Gambit",
-     "d4 d5 c4 Nf6 cxd5 c6"
-    ],
-    [
-     "D06",
-     "Queen's Gambit Declined: Zilbermints Gambit",
-     "d4 d5 c4 b5"
-    ],
-    [
-     "D40",
-     "Queen's Gambit Declined: Semi-Tarrasch Defense, with e3",
-     "d4 d5 c4 c5 Nf3 Nf6 Nc3 e6 e3 Nc6 Bd3"
-    ],
-    [
-     "D06",
-     "Queen's Gambit Declined: Austrian Defense, Haberditz Variation",
-     "d4 d5 c4 c5 cxd5 Nf6 e4 Nxe4 dxc5 Qa5+"
-    ],
-    [
-     "D06",
-     "Queen's Gambit Declined: Austrian Attack, Salvio Countergambit",
-     "d4 d5 c4 c5 dxc5 d4"
-    ],
-    [
-     "D52",
-     "Queen's Gambit Declined: Cambridge Springs Defense, Bogoljubow Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 e6 Bg5 Nbd7 e3 Qa5 Nd2 Bb4 Qc2"
-    ],
-    [
-     "D52",
-     "Queen's Gambit Declined: Cambridge Springs Defense, Rubinstein Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 e6 Bg5 Nbd7 e3 Qa5 Nd2 dxc4"
-    ],
-    [
-     "D52",
-     "Queen's Gambit Declined: Cambridge Springs Defense, Yugoslav Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 e6 Bg5 Nbd7 e3 Qa5 cxd5 Nxd5"
-    ],
-    [
-     "D30",
-     "Queen's Gambit Declined: Semmering Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 e3 e6 Nbd2 Nbd7 Bd3 c5"
-    ],
-    [
-     "D30",
-     "Queen's Gambit Declined: Stonewall Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 e3 e6 Nbd2 Ne4 Bd3 f5"
-    ],
-    [
-     "D21",
-     "Queen's Gambit Accepted: Godes Variation",
-     "d4 d5 c4 dxc4 Nf3 Nd7"
-    ],
-    [
-     "D24",
-     "Queen's Gambit Accepted: Bogoljubow Defense",
-     "d4 d5 c4 dxc4 Nf3 Nf6 Nc3 a6 e4"
-    ],
-    [
-     "D24",
-     "Queen's Gambit Accepted: Gunsberg Defense, Prianishenmo Gambit",
-     "d4 d5 c4 dxc4 Nf3 Nf6 Nc3 c5 d5 e6 e4 exd5 e5"
-    ],
-    [
-     "D23",
-     "Queen's Gambit Accepted: Mannheim Variation",
-     "d4 d5 c4 dxc4 Nf3 Nf6 Qa4+ c6 Qxc4 e6 Qc2"
-    ],
-    [
-     "D25",
-     "Queen's Gambit Accepted: Winawer Defense",
-     "d4 d5 c4 dxc4 Nf3 Nf6 e3 Be6"
-    ],
-    [
-     "D25",
-     "Queen's Gambit Accepted: Janowski-Larsen Variation",
-     "d4 d5 c4 dxc4 Nf3 Nf6 e3 Bg4"
-    ],
-    [
-     "D26",
-     "Queen's Gambit Accepted: Normal Variation, Traditional System",
-     "d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 Be7 O-O O-O Nc3"
-    ],
-    [
-     "D26",
-     "Queen's Gambit Accepted: Normal Variation, Traditional System",
-     "d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 Be7 O-O a6"
-    ],
-    [
-     "D27",
-     "Queen's Gambit Accepted: Classical Defense, Main Line",
-     "d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 a6 Nc3 b5 Bb3 Bb7 O-O c5"
-    ],
-    [
-     "D26",
-     "Queen's Gambit Accepted: Classical Defense, Steinitz Variation, Development Variation",
-     "d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 c5 O-O Nc6"
-    ],
-    [
-     "D27",
-     "Queen's Gambit Accepted: Classical Defense, Main Line",
-     "d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 c5 O-O a6 Nc3"
-    ],
-    [
-     "D29",
-     "Queen's Gambit Accepted: Classical Defense, Alekhine System, Main Line",
-     "d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 c5 O-O a6 Qe2 b5 Bb3 Bb7 Nc3"
-    ],
-    [
-     "D29",
-     "Queen's Gambit Accepted: Classical Defense, Alekhine System, Smyslov Variation",
-     "d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 c5 O-O a6 Qe2 b5 Bb3 Bb7 Rd1 Nbd7 Nc3 Bd6"
-    ],
-    [
-     "D28",
-     "Queen's Gambit Accepted: Classical, Flohr Variation",
-     "d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 c5 O-O a6 Qe2 b5 Bb3 Nc6 Rd1 c4 Bc2 Nb4 Nc3 Nxc2 Qxc2 Bb7 d5 Qc7"
-    ],
-    [
-     "D27",
-     "Queen's Gambit Accepted: Classical Defense, Rubinstein Variation",
-     "d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 c5 O-O a6 a4"
-    ],
-    [
-     "D27",
-     "Queen's Gambit Accepted: Furman Variation",
-     "d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 c5 O-O a6 dxc5 Bxc5"
-    ],
-    [
-     "D26",
-     "Queen's Gambit Accepted: Classical Defense, Steinitz Variation, Exchange Variation",
-     "d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 c5 O-O cxd4"
-    ],
-    [
-     "D26",
-     "Queen's Gambit Accepted: Classical, Furman Variation",
-     "d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 c5 Qe2 a6 dxc5 Bxc5 O-O Nc6 e4 b5 e5"
-    ],
-    [
-     "D25",
-     "Queen's Gambit Accepted: Smyslov Variation",
-     "d4 d5 c4 dxc4 Nf3 Nf6 e3 g6"
-    ],
-    [
-     "D22",
-     "Queen's Gambit Accepted: Alekhine Defense, Alatortsev Variation",
-     "d4 d5 c4 dxc4 Nf3 a6 e3 Bg4 Bxc4 e6 d5"
-    ],
-    [
-     "D22",
-     "Queen's Gambit Accepted: Alekhine Defense, Haberditz Variation",
-     "d4 d5 c4 dxc4 Nf3 a6 e3 b5"
-    ],
-    [
-     "D21",
-     "Queen's Gambit Accepted: Alekhine Defense, Borisenko-Furman Variation",
-     "d4 d5 c4 dxc4 Nf3 a6 e4"
-    ],
-    [
-     "D21",
-     "Queen's Gambit Accepted: Slav Gambit",
-     "d4 d5 c4 dxc4 Nf3 b5"
-    ],
-    [
-     "D21",
-     "Queen's Gambit Accepted: Gunsberg Defense",
-     "d4 d5 c4 dxc4 Nf3 c5"
-    ],
-    [
-     "D27",
-     "Queen's Gambit Accepted: Classical Defense, Rubinstein Variation",
-     "d4 d5 c4 dxc4 Nf3 e6 e3 Nf6 Bxc4 Be7 O-O O-O Nc3 a6 a4 c5"
-    ],
-    [
-     "D20",
-     "Queen's Gambit Accepted: Accelerated Mannheim Variation",
-     "d4 d5 c4 dxc4 Qa4+"
-    ],
-    [
-     "D27",
-     "Queen's Gambit Accepted: Classical Defense, Russian Gambit",
-     "d4 d5 c4 dxc4 e3 Nf6 Bxc4 e6 Nf3 c5 O-O a6 e4"
-    ],
-    [
-     "D20",
-     "Queen's Gambit Accepted: Old Variation, Korchnoi Gambit",
-     "d4 d5 c4 dxc4 e3 e5 Bxc4 exd4 Qb3 Qe7 Kf1"
-    ],
-    [
-     "D20",
-     "Queen's Gambit Accepted: Old Variation, Novikov Gambit",
-     "d4 d5 c4 dxc4 e3 e5 Bxc4 exd4 Qb3 Qe7 Nd2"
-    ],
-    [
-     "D20",
-     "Queen's Gambit Accepted: Old Variation, Christensen Gambit",
-     "d4 d5 c4 dxc4 e3 e5 Bxc4 exd4 Qb3 Qe7 Nf3"
-    ],
-    [
-     "D20",
-     "Queen's Gambit Accepted: Old Variation, Billinger Gambit",
-     "d4 d5 c4 dxc4 e3 e5 Bxc4 exd4 Qb3 Qe7 a3"
-    ],
-    [
-     "D20",
-     "Queen's Gambit Accepted: Central Variation, Modern Defense",
-     "d4 d5 c4 dxc4 e4 Nc6"
-    ],
-    [
-     "D20",
-     "Queen's Gambit Accepted: Central Variation, Alekhine System",
-     "d4 d5 c4 dxc4 e4 Nf6"
-    ],
-    [
-     "D20",
-     "Queen's Gambit Accepted: Central Variation, Greco Variation",
-     "d4 d5 c4 dxc4 e4 b5"
-    ],
-    [
-     "D20",
-     "Queen's Gambit Accepted: Linares Variation",
-     "d4 d5 c4 dxc4 e4 c5 d5 Nf6 Nc3 b5"
-    ],
-    [
-     "D20",
-     "Queen's Gambit Accepted: Central Variation, Rubinstein Defense, Yefimov Gambit",
-     "d4 d5 c4 dxc4 e4 c5 d5 b5"
-    ],
-    [
-     "D20",
-     "Queen's Gambit Accepted: Central Variation, McDonnell Defense, Somov Gambit",
-     "d4 d5 c4 dxc4 e4 e5 Bxc4"
-    ],
-    [
-     "D20",
-     "Queen's Gambit Accepted: Schwartz Defense",
-     "d4 d5 c4 dxc4 e4 f5"
-    ],
-    [
-     "D08",
-     "Queen's Gambit Declined: Albin Countergambit, Krenosz Variation",
-     "d4 d5 c4 e5 dxe5 d4 Nf3 Nc6 Nbd2 Bg4 h3 Bxf3 Nxf3 Bb4+ Bd2 Qe7"
-    ],
-    [
-     "D08",
-     "Queen's Gambit Declined: Albin Countergambit, Balogh Variation",
-     "d4 d5 c4 e5 dxe5 d4 Nf3 Nc6 Nbd2 Qe7"
-    ],
-    [
-     "D08",
-     "Queen's Gambit Declined: Albin Countergambit, Janowski Variation",
-     "d4 d5 c4 e5 dxe5 d4 Nf3 Nc6 Nbd2 f6"
-    ],
-    [
-     "D09",
-     "Queen's Gambit Declined: Albin Countergambit, Fianchetto Variation, Be6 Line",
-     "d4 d5 c4 e5 dxe5 d4 Nf3 Nc6 g3 Be6"
-    ],
-    [
-     "D09",
-     "Queen's Gambit Declined: Albin Countergambit, Fianchetto Variation, Bf5 Line",
-     "d4 d5 c4 e5 dxe5 d4 Nf3 Nc6 g3 Bf5"
-    ],
-    [
-     "D09",
-     "Queen's Gambit Declined: Albin Countergambit, Fianchetto Variation, Bg4 Line",
-     "d4 d5 c4 e5 dxe5 d4 Nf3 Nc6 g3 Bg4"
-    ],
-    [
-     "D08",
-     "Queen's Gambit Declined: Albin Countergambit, Tartakower Defense",
-     "d4 d5 c4 e5 dxe5 d4 Nf3 c5"
-    ],
-    [
-     "D08",
-     "Queen's Gambit Declined: Albin Countergambit, Lasker Trap",
-     "d4 d5 c4 e5 dxe5 d4 e3 Bb4+ Bd2 dxe3"
-    ],
-    [
-     "D08",
-     "Queen's Gambit Declined: Albin Countergambit, Spassky Variation",
-     "d4 d5 c4 e5 dxe5 d4 e4"
-    ],
-    [
-     "D37",
-     "Queen's Gambit Declined: Harrwitz Attack, Fianchetto Defense",
-     "d4 d5 c4 e6 Nc3 Be7 Nf3 Nf6 Bf4 O-O e3 b6"
-    ],
-    [
-     "D53",
-     "Queen's Gambit Declined: Uhlmann Variation",
-     "d4 d5 c4 e6 Nc3 Be7 Nf3 Nf6 Bg5 h6 Bh4 O-O Rc1 dxc4"
-    ],
-    [
-     "D57",
-     "Queen's Gambit Declined: Lasker Defense, Main Line",
-     "d4 d5 c4 e6 Nc3 Be7 Nf3 Nf6 Bg5 h6 Bh4 O-O e3 Ne4 Bxe7 Qxe7 cxd5 Nxc3 bxc3"
-    ],
-    [
-     "D59",
-     "Queen's Gambit Declined: Tartakower Defense",
-     "d4 d5 c4 e6 Nc3 Be7 Nf3 Nf6 Bg5 h6 Bh4 O-O e3 b6 cxd5 Nxd5 Bxe7 Qxe7 Nxd5 exd5 Rc1 Be6"
-    ],
-    [
-     "D58",
-     "Queen's Gambit Declined: Tartakower Defense, Exchange Variation",
-     "d4 d5 c4 e6 Nc3 Be7 Nf3 Nf6 Bg5 h6 Bh4 O-O e3 b6 cxd5 exd5"
-    ],
-    [
-     "D31",
-     "Queen's Gambit Declined: Charousek Variation, Miladinovic Gambit",
-     "d4 d5 c4 e6 Nc3 Be7 e4 dxe4 f3"
-    ],
-    [
-     "D35",
-     "Queen's Gambit Declined: Harrwitz Attack",
-     "d4 d5 c4 e6 Nc3 Nf6 Bf4"
-    ],
-    [
-     "D53",
-     "Queen's Gambit Declined: Modern Variation, Heral Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 Bxf6"
-    ],
-    [
-     "D53",
-     "Queen's Gambit Declined",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 Nf3 c6 e3 dxc4 Bxc4"
-    ],
-    [
-     "D63",
-     "Queen's Gambit Declined: Orthodox Defense, Main Line",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 Nbd7 Nf3 O-O Rc1 h6 Bh4 c5"
-    ],
-    [
-     "D61",
-     "Queen's Gambit Declined: Orthodox Defense, Rubinstein Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Qc2 a6 cxd5 exd5 Bd3 Re8"
-    ],
-    [
-     "D61",
-     "Queen's Gambit Declined: Orthodox Defense, Rubinstein Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Qc2 c5"
-    ],
-    [
-     "D61",
-     "Queen's Gambit Declined: Orthodox Defense, Rubinstein Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Qc2 c6 Rd1 a6"
-    ],
-    [
-     "D61",
-     "Queen's Gambit Declined: Orthodox Defense, Rubinstein Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Qc2 c6 a3"
-    ],
-    [
-     "D67",
-     "Queen's Gambit Declined: Orthodox Defense, Alekhine Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Rc1 c6 Bd3 dxc4 Bxc4 Nd5 Bxe7 Qxe7 Ne4"
-    ],
-    [
-     "D69",
-     "Queen's Gambit Declined: Orthodox Defense, Classical Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Rc1 c6 Bd3 dxc4 Bxc4 Nd5 Bxe7 Qxe7 O-O Nxc3 Rxc3 e5 dxe5 Nxe5 Nxe5 Qxe5"
-    ],
-    [
-     "D66",
-     "Queen's Gambit Declined: Orthodox Defense, Bd3 Line",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Rc1 c6 Bd3 h6 Bh4"
-    ],
-    [
-     "D56",
-     "Queen's Gambit Declined: Lasker Defense, Russian Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 h6 Bh4 Ne4 Bxe7 Qxe7 Qc2 Nf6 Bd3 dxc4 Bxc4 c5 O-O Nc6 Rfd1 Bd7"
-    ],
-    [
-     "D57",
-     "Queen's Gambit Declined: Lasker Defense, Bernstein Variation, Mar del Plata Gambit",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 h6 Bh4 Ne4 Bxe7 Qxe7 cxd5 Nxc3 bxc3 exd5 Qb3 Rd8 c4 Be6"
-    ],
-    [
-     "D51",
-     "Queen's Gambit Declined: Rochlin Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Nbd7 Nf3 c6 Rc1 Qa5 Bd2"
-    ],
-    [
-     "D51",
-     "Queen's Gambit Declined: Alekhine Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Nbd7 Nf3 c6 e4"
-    ],
-    [
-     "D51",
-     "Queen's Gambit Declined: Manhattan Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Nbd7 e3 Bb4"
-    ],
-    [
-     "D52",
-     "Queen's Gambit Declined: Cambridge Springs Defense, Capablanca Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Nbd7 e3 c6 Nf3 Qa5 Bxf6"
-    ],
-    [
-     "D52",
-     "Queen's Gambit Declined: Cambridge Springs Defense, Argentine Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Nbd7 e3 c6 Nf3 Qa5 Nd2 Bb4 Qc2 O-O Bh4"
-    ],
-    [
-     "D51",
-     "Queen's Gambit Declined: Capablanca Variation, Anti-Cambridge Springs Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Nbd7 e3 c6 a3"
-    ],
-    [
-     "D50",
-     "Queen's Gambit Declined: Semi-Tarrasch Defense, Krause Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 c5 Nf3 cxd4 Nxd4 e5 Ndb5 a6 Qa4"
-    ],
-    [
-     "D50",
-     "Queen's Gambit Declined: Pseudo-Tarrasch Variation, Primitive Pillsbury Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 c5 Nf3 cxd4 Qxd4"
-    ],
-    [
-     "D50",
-     "Queen's Gambit Declined: Pseudo-Tarrasch Variation, Canal Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 c5 cxd5 Qb6"
-    ],
-    [
-     "D66",
-     "Queen's Gambit Declined: Orthodox Defense, Fianchetto Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 c6 Nf3 Be7 e3 Nbd7 Rc1 O-O Bd3 dxc4 Bxc4 b5"
-    ],
-    [
-     "D37",
-     "Queen's Gambit Declined: Harrwitz Attack, Orthodox Defense",
-     "d4 d5 c4 e6 Nc3 Nf6 Nf3 Be7 Bf4 O-O e3 c6"
-    ],
-    [
-     "D37",
-     "Queen's Gambit Declined: Three Knights Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Nf3 Be7 e3 O-O"
-    ],
-    [
-     "D40",
-     "Queen's Gambit Declined: Semi-Tarrasch Defense, Pillsbury Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Nf3 c5 Bg5"
-    ],
-    [
-     "D41",
-     "Queen's Gambit Declined: Semi-Tarrasch Defense, Kmoch Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Nf3 c5 cxd5 Nxd5 e4 Nxc3 bxc3 cxd4 cxd4 Bb4+ Bd2 Bxd2+ Qxd2 O-O Bb5"
-    ],
-    [
-     "D40",
-     "Queen's Gambit Declined: Semi-Tarrasch Defense, Levenfish Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Nf3 c5 e3 Nc6 Bd3 Bd6 O-O O-O Qe2 Qe7 dxc5 Bxc5 e4"
-    ],
-    [
-     "D40",
-     "Queen's Gambit Declined: Semi-Tarrasch Defense",
-     "d4 d5 c4 e6 Nc3 Nf6 Nf3 c5 e3 Nc6 a3 cxd4 exd4 Bd6"
-    ],
-    [
-     "D41",
-     "Queen's Gambit Declined: Semi-Tarrasch Defense, San Sebastian Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 cxd5 Nxd5 e4 Nxc3 bxc3 c5 Nf3 cxd4 cxd4 Bb4+ Bd2 Qa5"
-    ],
-    [
-     "D36",
-     "Queen's Gambit Declined: Exchange Variation, Reshevsky Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 cxd5 exd5 Bg5 c6 e3 Be7 Bd3 Nbd7 Nge2 O-O O-O Re8 Qc2 Nf8"
-    ],
-    [
-     "D35",
-     "Queen's Gambit Declined: Exchange Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 e3 Be7 cxd5 exd5 Bd3 O-O Nf3 c6"
-    ],
-    [
-     "D31",
-     "Queen's Gambit Declined: Janowski Variation",
-     "d4 d5 c4 e6 Nc3 a6"
-    ],
-    [
-     "D32",
-     "Queen's Gambit Declined: Tarrasch Defense",
-     "d4 d5 c4 e6 Nc3 c5 cxd5 exd5 Nf3 Nc6 Bg5 Be7 Bxe7 Ngxe7"
-    ],
-    [
-     "D31",
-     "Queen's Gambit Declined: Semi-Slav, Abrahams Variation",
-     "d4 d5 c4 e6 Nc3 c6 Nf3 dxc4 a4 Bb4 e3 b5 Bd2 a5"
-    ],
-    [
-     "D31",
-     "Queen's Gambit Declined: Semi-Slav, Koomen Variation",
-     "d4 d5 c4 e6 Nc3 c6 Nf3 dxc4 e3 b5 a4 Bb4 Bd2 Qe7"
-    ],
-    [
-     "D68",
-     "Queen's Gambit Declined: Orthodox Defense, Classical Variation",
-     "d4 d5 c4 e6 Nf3 Nf6 Nc3 Be7 Bg5 O-O e3 Nbd7 Rc1 c6 Bd3 dxc4 Bxc4 Nd5 Bxe7 Qxe7 O-O Nxc3 Rxc3 e5 Qb1"
-    ],
-    [
-     "D56",
-     "Queen's Gambit Declined: Lasker Defense",
-     "d4 d5 c4 e6 Nf3 Nf6 Nc3 Nc6 Bg5 Be7 e3 O-O Rc1 h6 Bh4 Ne4"
-    ],
-    [
-     "D35",
-     "Queen's Gambit Declined: Exchange Variation",
-     "d4 d5 c4 e6 Nf3 Nf6 Nc3 Nc6 cxd5 exd5 Bg5 Be7 e3"
-    ],
-    [
-     "D53",
-     "Queen's Gambit Declined",
-     "d4 d5 c4 e6 Nf3 Nf6 Nc3 dxc4 Bg5 Be7 e4"
-    ],
-    [
-     "D24",
-     "Queen's Gambit Accepted",
-     "d4 d5 c4 e6 Nf3 Nf6 Nc3 dxc4 e4"
-    ],
-    [
-     "D30",
-     "Queen's Gambit Declined: Spielmann Variation",
-     "d4 d5 c4 e6 Nf3 Nf6 e3 c6 Nbd2 g6"
-    ],
-    [
-     "D30",
-     "Queen's Gambit Declined: Tarrasch Defense, Pseudo-Tarrasch Bishop Attack",
-     "d4 d5 c4 e6 Nf3 c5 cxd5 exd5 Bg5"
-    ],
-    [
-     "D34",
-     "Queen's Gambit Declined: Tarrasch Defense, Stoltz Variation",
-     "d4 d5 c4 e6 Nf3 c5 cxd5 exd5 g3 Nc6 Bg2 Nf6 O-O Be7 Nc3 O-O Bg5 Be6 Rc1 b6"
-    ],
-    [
-     "D31",
-     "Queen's Gambit Declined: Semi-Slav, Junge Variation",
-     "d4 d5 c4 e6 Nf3 c6 Nc3 dxc4 a4 Bb4 e3 b5 Bd2 Qb6"
-    ],
-    [
-     "D30",
-     "Queen's Gambit Declined",
-     "d4 d5 c4 e6 Nf3 c6 Qc2 dxc4 Qxc4 Nf6 g3"
-    ],
-    [
-     "D31",
-     "Queen's Gambit Declined: Alapin Variation",
-     "d4 e6 c4 b6 Nc3 d5"
-    ]
-   ]
+   "variantes": []
   },
   {
    "id": "caro-kann",
@@ -2931,29 +702,7 @@
       "Nc3",
       "dxe4",
       "Nxe4",
-      "Bf5",
-      "Ng3",
-      "Bg6",
-      "Nf3",
-      "Nd7",
-      "h4",
-      "h6",
-      "h5",
-      "Bh7",
-      "Bd3",
-      "Bxd3",
-      "Qxd3",
-      "Ngf6",
-      "Bf4",
-      "e6",
-      "O-O-O",
-      "Be7",
-      "Kb1",
-      "O-O",
-      "Ne4",
-      "Nxe4",
-      "Qxe4",
-      "Nf6"
+      "Bf5"
      ],
      "notes": {
       "1": "e4 : les Blancs occupent le centre.",
@@ -2963,16 +712,15 @@
       "5": "Cc3 : les Blancs développent leur cavalier et défendent e4.",
       "6": "dxe4 : les Noirs échangent leur pion d contre le pion e4.",
       "7": "Cxe4 : les Blancs reprennent avec leur cavalier et gardent une pièce au centre.",
-      "8": "Ff5 : les Noirs développent leur fou AVANT de jouer e6. C'est l'une des idées essentielles de la Caro-Kann classique.",
-      "9": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+      "8": "Ff5 : les Noirs développent leur fou AVANT de jouer e6. C'est l'une des idées essentielles de la Caro-Kann classique."
      },
-     "extensionDepuis": 8,
+     "extensionDepuis": null,
      "ecoDetecte": {
-      "code": "B19",
-      "nom": "Caro-Kann Defense: Classical Variation, Spassky Variation",
-      "ply": 15
+      "code": "B18",
+      "nom": "Caro-Kann Defense: Classical Variation",
+      "ply": 8
      },
-     "fenFinale": "r2q1rk1/pp2bpp1/2p1pn1p/7P/3PQB2/5N2/PPP2PP1/1K1R3R w - - 1 16"
+     "fenFinale": "rn1qkbnr/pp2pppp/2p5/5b2/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5"
     },
     {
      "nom": "Caro-Kann : variante d'avance 3.e5",
@@ -2983,20 +731,7 @@
       "d5",
       "e5",
       "Bf5",
-      "Nc3",
-      "e6",
-      "g4",
-      "Bg6",
-      "Nge2",
-      "c5",
-      "h4",
-      "cxd4",
-      "Nxd4",
-      "h5",
-      "Bb5+",
-      "Nd7",
-      "f4",
-      "hxg4"
+      "Nc3"
      ],
      "notes": {
       "1": "e4 : les Blancs occupent le centre.",
@@ -3005,16 +740,15 @@
       "4": "d5 : les Noirs contestent e4.",
       "5": "e5 : les Blancs avancent leur pion et ferment le centre.",
       "6": "Ff5 : les Noirs sortent le fou avant de jouer e6, pour ne pas l'enfermer.",
-      "7": "Cc3 : les Blancs développent leur cavalier et renforcent le contrôle des cases centrales.",
-      "8": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+      "7": "Cc3 : les Blancs développent leur cavalier et renforcent le contrôle des cases centrales."
      },
-     "extensionDepuis": 7,
+     "extensionDepuis": null,
      "ecoDetecte": {
       "code": "B12",
       "nom": "Caro-Kann Defense: Advance Variation, Van der Wiel Attack",
-      "ply": 13
+      "ply": 7
      },
-     "fenFinale": "r2qkbnr/pp1n1pp1/4p1b1/1B1pP3/3N1PpP/2N5/PPP5/R1BQK2R w KQkq - 0 11"
+     "fenFinale": "rn1qkbnr/pp2pppp/2p5/3pPb2/3P4/2N5/PPP2PPP/R1BQKBNR b KQkq - 2 4"
     },
     {
      "nom": "Caro-Kann : 4...Cd7 (Karpov)",
@@ -3026,29 +760,7 @@
       "Nc3",
       "dxe4",
       "Nxe4",
-      "Nd7",
-      "Nf3",
-      "Ngf6",
-      "Ng3",
-      "e6",
-      "Bd3",
-      "c5",
-      "O-O",
-      "Be7",
-      "Qe2",
-      "O-O",
-      "Rd1",
-      "Qc7",
-      "c4",
-      "Re8",
-      "dxc5",
-      "Bxc5",
-      "Ng5",
-      "h6",
-      "N5e4",
-      "Be7",
-      "Qf3",
-      "Ne5"
+      "Nd7"
      ],
      "notes": {
       "1": "e4 : les Blancs occupent le centre.",
@@ -3058,391 +770,18 @@
       "5": "Cc3 : les Blancs défendent e4.",
       "6": "dxe4 : les Noirs échangent.",
       "7": "Cxe4 : les Blancs reprennent avec le cavalier.",
-      "8": "Cd7 : les Noirs préparent ...Cf6 sans devoir reprendre avec un pion. Ligne associée à Anatoly Karpov.",
-      "9": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+      "8": "Cd7 : les Noirs préparent ...Cf6 sans devoir reprendre avec un pion. Ligne associée à Anatoly Karpov."
      },
-     "extensionDepuis": 8,
+     "extensionDepuis": null,
      "ecoDetecte": {
       "code": "B17",
-      "nom": "Caro-Kann Defense: Karpov Variation, Modern Variation, Kasparov Attack",
-      "ply": 11
+      "nom": "Caro-Kann Defense: Karpov Variation",
+      "ply": 8
      },
-     "fenFinale": "r1b1r1k1/ppq1bpp1/4pn1p/4n3/2P1N3/3B1QN1/PP3PPP/R1BR2K1 w - - 4 16"
+     "fenFinale": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5"
     }
    ],
-   "variantes": [
-    [
-     "A11",
-     "English Opening: Caro-Kann Defensive System",
-     "c4 c6"
-    ],
-    [
-     "B10",
-     "Caro-Kann Defense: Hillbilly Attack, Schaeffer Gambit",
-     "e4 c6 Bc4 d5 Bb3 dxe4 Qh5"
-    ],
-    [
-     "B11",
-     "Caro-Kann Defense: Two Knights Attack, Mindeno Variation, Retreat Line",
-     "e4 c6 Nc3 d5 Nf3 Bg4 h3 Bh5"
-    ],
-    [
-     "B11",
-     "Caro-Kann Defense: Two Knights Attack, Mindeno Variation, Exchange Line",
-     "e4 c6 Nc3 d5 Nf3 Bg4 h3 Bxf3"
-    ],
-    [
-     "B10",
-     "Caro-Kann Defense: Hector Gambit",
-     "e4 c6 Nc3 d5 Nf3 dxe4 Ng5"
-    ],
-    [
-     "B10",
-     "Caro-Kann Defense: Goldman Variation",
-     "e4 c6 Nc3 d5 Qf3"
-    ],
-    [
-     "B10",
-     "Caro-Kann Defense: Scorpion-Horus Gambit",
-     "e4 c6 Nc3 d5 d3 dxe4 Bg5"
-    ],
-    [
-     "B10",
-     "Caro-Kann Defense: St. Patrick's Attack",
-     "e4 c6 Nc3 d5 h3"
-    ],
-    [
-     "B10",
-     "Caro-Kann Defense: Dinic Gambit",
-     "e4 c6 Nf3 d5 d3 dxe4 Ng5"
-    ],
-    [
-     "B10",
-     "Caro-Kann Defense: Endgame Variation",
-     "e4 c6 Nf3 d5 d3 dxe4 dxe4 Qxd1+ Kxd1"
-    ],
-    [
-     "B10",
-     "Caro-Kann Defense: Apocalypse Attack",
-     "e4 c6 Nf3 d5 exd5 cxd5 Ne5"
-    ],
-    [
-     "B10",
-     "Caro-Kann Defense: Euwe Attack",
-     "e4 c6 b3"
-    ],
-    [
-     "B10",
-     "Caro-Kann Defense: Labahn Attack, Double Gambit",
-     "e4 c6 b4 d5 b5"
-    ],
-    [
-     "B10",
-     "Caro-Kann Defense: Labahn Attack, Polish Variation",
-     "e4 c6 b4 e5 Bb2"
-    ],
-    [
-     "B10",
-     "Caro-Kann Defense: Accelerated Panov Attack, Van Weersel Attack",
-     "e4 c6 c4 d5 cxd5 cxd5 Qb3"
-    ],
-    [
-     "B10",
-     "Caro-Kann Defense: Toikkanen Gambit",
-     "e4 c6 c4 d5 e5"
-    ],
-    [
-     "B10",
-     "Caro-Kann Defense: Accelerated Panov Attack, Modern Variation",
-     "e4 c6 c4 d5 exd5 cxd5 cxd5 Nf6"
-    ],
-    [
-     "B10",
-     "Caro-Kann Defense: Accelerated Panov Attack, Pseudo-Scandinavian",
-     "e4 c6 c4 d5 exd5 cxd5 cxd5 Qxd5"
-    ],
-    [
-     "B10",
-     "Caro-Kann Defense: Accelerated Panov Attack, Open Variation",
-     "e4 c6 c4 e5"
-    ],
-    [
-     "B10",
-     "Caro-Kann Defense: Breyer Variation, Stein Attack",
-     "e4 c6 d3 d5 Nd2 g6 Ngf3 Bg7 g3 e5 Bg2 Ne7 O-O O-O b4"
-    ],
-    [
-     "B12",
-     "Caro-Kann Defense: De Bruycker Defense",
-     "e4 c6 d4 Na6 Nc3 Nc7"
-    ],
-    [
-     "B12",
-     "Caro-Kann Defense: Masi Variation",
-     "e4 c6 d4 Nf6"
-    ],
-    [
-     "B12",
-     "Caro-Kann Defense: Mieses Attack, Landau Gambit",
-     "e4 c6 d4 d5 Bd3 Nf6 e5 Nfd7 e6"
-    ],
-    [
-     "B12",
-     "Caro-Kann Defense: Mieses Gambit",
-     "e4 c6 d4 d5 Be3"
-    ],
-    [
-     "B15",
-     "Caro-Kann Defense: Campomanes Attack",
-     "e4 c6 d4 d5 Nc3 Nf6"
-    ],
-    [
-     "B15",
-     "Caro-Kann Defense: Gurgenidze Counterattack",
-     "e4 c6 d4 d5 Nc3 b5"
-    ],
-    [
-     "B15",
-     "Caro-Kann Defense: von Hennig Gambit",
-     "e4 c6 d4 d5 Nc3 dxe4 Bc4"
-    ],
-    [
-     "B17",
-     "Caro-Kann Defense: Karpov Variation, Modern Variation, Kasparov Attack",
-     "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nd7 Nf3 Ngf6 Ng3"
-    ],
-    [
-     "B15",
-     "Caro-Kann Defense: Alekhine Gambit",
-     "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Bd3"
-    ],
-    [
-     "B15",
-     "Caro-Kann Defense: Alien Gambit",
-     "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Ng5 h6 Nxf7"
-    ],
-    [
-     "B15",
-     "Caro-Kann Defense: Forgacs Variation",
-     "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4"
-    ],
-    [
-     "B15",
-     "Caro-Kann Defense: Tartakower Variation, Perlis Line",
-     "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 c3 Bd6 Bd3 O-O Qc2 h6"
-    ],
-    [
-     "B16",
-     "Caro-Kann Defense: Bronstein-Larsen Variation",
-     "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ gxf6"
-    ],
-    [
-     "B15",
-     "Caro-Kann Defense: Rasa-Studier Gambit",
-     "e4 c6 d4 d5 Nc3 dxe4 f3"
-    ],
-    [
-     "B15",
-     "Caro-Kann Defense: Gurgenidze System",
-     "e4 c6 d4 d5 Nc3 g6"
-    ],
-    [
-     "B12",
-     "Caro-Kann Defense: Edinburgh Variation",
-     "e4 c6 d4 d5 Nd2 Qb6"
-    ],
-    [
-     "B18",
-     "Caro-Kann Defense: Classical Variation, Flohr Variation",
-     "e4 c6 d4 d5 Nd2 dxe4 Nxe4 Bf5 Ng3 Bg6 Nh3"
-    ],
-    [
-     "B18",
-     "Caro-Kann Defense: Classical Variation, Maróczy Attack",
-     "e4 c6 d4 d5 Nd2 dxe4 Nxe4 Bf5 Ng3 Bg6 f4"
-    ],
-    [
-     "B19",
-     "Caro-Kann Defense: Classical Variation, Seirawan Variation",
-     "e4 c6 d4 d5 Nd2 dxe4 Nxe4 Bf5 Ng3 Bg6 h4 h6 Nf3 Nd7 h5 Bh7 Bd3 Bxd3 Qxd3 Ngf6 Bd2 e6 O-O-O Bd6"
-    ],
-    [
-     "B19",
-     "Caro-Kann Defense: Classical Variation, Lobron System",
-     "e4 c6 d4 d5 Nd2 dxe4 Nxe4 Bf5 Ng3 Bg6 h4 h6 Nf3 Nd7 h5 Bh7 Bd3 Bxd3 Qxd3 e6 Bd2 Ngf6 O-O-O Be7"
-    ],
-    [
-     "B18",
-     "Caro-Kann Defense: Martian Gambit",
-     "e4 c6 d4 d5 Nd2 dxe4 Nxe4 Bf5 Ng5 Bg6 N1f3 h6 Ne6"
-    ],
-    [
-     "B17",
-     "Caro-Kann Defense: Karpov Variation, Smyslov Variation, Main Line",
-     "e4 c6 d4 d5 Nd2 dxe4 Nxe4 Nd7 Bc4 Ngf6 Ng5 e6 Qe2 Nb6 Bb3"
-    ],
-    [
-     "B17",
-     "Caro-Kann Defense: Karpov Variation, Tiviakov-Fischer Attack",
-     "e4 c6 d4 d5 Nd2 dxe4 Nxe4 Nd7 Bc4 Ngf6 Nxf6+ Nxf6"
-    ],
-    [
-     "B17",
-     "Caro-Kann Defense: Karpov Variation, Modern Variation, Ivanchuk Defense",
-     "e4 c6 d4 d5 Nd2 dxe4 Nxe4 Nd7 Ng5 Ndf6"
-    ],
-    [
-     "B17",
-     "Caro-Kann Defense: Karpov Variation, Modern Main Line",
-     "e4 c6 d4 d5 Nd2 dxe4 Nxe4 Nd7 Ng5 Ngf6 Bd3 e6 N1f3 Bd6 Qe2 h6 Ne4 Nxe4 Qxe4"
-    ],
-    [
-     "B16",
-     "Caro-Kann Defense: Finnish Variation",
-     "e4 c6 d4 d5 Nd2 dxe4 Nxe4 h6"
-    ],
-    [
-     "B12",
-     "Caro-Kann Defense: Ulysses Gambit",
-     "e4 c6 d4 d5 Nf3 dxe4 Ng5"
-    ],
-    [
-     "B12",
-     "Caro-Kann Defense: Advance Variation, Van der Wiel Attack, Dreyev Defense",
-     "e4 c6 d4 d5 e5 Bf5 Nc3 Qb6"
-    ],
-    [
-     "B12",
-     "Caro-Kann Defense: Advance Variation, Van der Wiel Attack",
-     "e4 c6 d4 d5 e5 Bf5 Nc3 e6 g4 Bg6 Nge2 c5 h4"
-    ],
-    [
-     "B12",
-     "Caro-Kann Defense: Advance Variation, Bronstein Variation",
-     "e4 c6 d4 d5 e5 Bf5 Ne2"
-    ],
-    [
-     "B12",
-     "Caro-Kann Defense: Advance Variation, Short Variation",
-     "e4 c6 d4 d5 e5 Bf5 Nf3"
-    ],
-    [
-     "B12",
-     "Caro-Kann Defense: Advance Variation, Prins Attack",
-     "e4 c6 d4 d5 e5 Bf5 b4"
-    ],
-    [
-     "B12",
-     "Caro-Kann Defense: Advance, Short Variation",
-     "e4 c6 d4 d5 e5 Bf5 c3 e6 Be2"
-    ],
-    [
-     "B12",
-     "Caro-Kann Defense: Advance Variation, Bayonet Attack",
-     "e4 c6 d4 d5 e5 Bf5 g4"
-    ],
-    [
-     "B12",
-     "Caro-Kann Defense: Advance Variation, Tal Variation",
-     "e4 c6 d4 d5 e5 Bf5 h4"
-    ],
-    [
-     "B12",
-     "Caro-Kann Defense: Advance Variation, Botvinnik-Carls Defense",
-     "e4 c6 d4 d5 e5 c5"
-    ],
-    [
-     "B13",
-     "Caro-Kann Defense: Exchange Variation, Rubinstein Variation",
-     "e4 c6 d4 d5 exd5 cxd5 Bd3 Nc6 c3 Nf6 Bf4"
-    ],
-    [
-     "B13",
-     "Caro-Kann Defense: Exchange Variation",
-     "e4 c6 d4 d5 exd5 cxd5 Bf4"
-    ],
-    [
-     "B13",
-     "Caro-Kann Defense: Exchange Variation",
-     "e4 c6 d4 d5 exd5 cxd5 Nf3 Nc6"
-    ],
-    [
-     "B14",
-     "Caro-Kann Defense: Panov Attack",
-     "e4 c6 d4 d5 exd5 cxd5 c4 Nc6 Nc3 Nf6 Nf3 e6 cxd5 exd5 Bb5 Bd6 Bg5 O-O O-O"
-    ],
-    [
-     "B14",
-     "Caro-Kann Defense: Panov Attack",
-     "e4 c6 d4 d5 exd5 cxd5 c4 Nc6 Nc3 Nf6 Nf3 e6 cxd5 exd5 Bb5 Bg4"
-    ],
-    [
-     "B13",
-     "Caro-Kann Defense: Panov Attack, Modern Defense, Czerniak Line",
-     "e4 c6 d4 d5 exd5 cxd5 c4 Nf6 Nc3 Nc6 Bg5 Qa5"
-    ],
-    [
-     "B13",
-     "Caro-Kann Defense: Panov Attack, Modern Defense, Reifir-Spielmann Line",
-     "e4 c6 d4 d5 exd5 cxd5 c4 Nf6 Nc3 Nc6 Bg5 Qb6"
-    ],
-    [
-     "B13",
-     "Caro-Kann Defense: Panov-Botvinnik, Herzog Defense",
-     "e4 c6 d4 d5 exd5 cxd5 c4 Nf6 Nc3 Nc6 Bg5 dxc4 d5 Na5"
-    ],
-    [
-     "B13",
-     "Caro-Kann Defense: Panov Attack, Modern Defense, Carlsbad Line",
-     "e4 c6 d4 d5 exd5 cxd5 c4 Nf6 Nc3 Nc6 Bg5 e6"
-    ],
-    [
-     "B13",
-     "Caro-Kann Defense: Panov Attack, Modern Defense, Mieses Line",
-     "e4 c6 d4 d5 exd5 cxd5 c4 Nf6 Nc3 Nc6 Nf3 Bg4"
-    ],
-    [
-     "B14",
-     "Caro-Kann Defense: Panov Attack",
-     "e4 c6 d4 d5 exd5 cxd5 c4 Nf6 Nc3 Nc6 Nf3 e6 c5"
-    ],
-    [
-     "B14",
-     "Caro-Kann Defense: Panov Attack, Main Line",
-     "e4 c6 d4 d5 exd5 cxd5 c4 Nf6 Nc3 e6 Nf3 Bb4"
-    ],
-    [
-     "B14",
-     "Caro-Kann Defense: Panov Attack, Fianchetto Defense, Fianchetto Gambit",
-     "e4 c6 d4 d5 exd5 cxd5 c4 Nf6 Nc3 g6 cxd5 Bg7"
-    ],
-    [
-     "B13",
-     "Caro-Kann Defense: Panov Attack, Gunderam Attack",
-     "e4 c6 d4 d5 exd5 cxd5 c4 Nf6 c5"
-    ],
-    [
-     "B13",
-     "Caro-Kann Defense: Exchange Variation, Bulla Attack",
-     "e4 c6 d4 d5 exd5 cxd5 g4"
-    ],
-    [
-     "B12",
-     "Caro-Kann Defense: Maróczy Variation, Maróczy Gambit",
-     "e4 c6 d4 d5 f3 dxe4 fxe4 e5 Nf3 exd4 Bc4"
-    ],
-    [
-     "B12",
-     "Caro-Kann Defense: Massachusetts Defense",
-     "e4 c6 d4 f5",
-     2.4
-    ],
-    [
-     "B10",
-     "Caro-Kann Defense: Spike Variation, Scorpion-Grob Gambit",
-     "e4 c6 g4 d5 Nc3 dxe4 d3"
-    ]
-   ]
+   "variantes": []
   },
   {
    "id": "scandinave",
@@ -3480,31 +819,7 @@
       "exd5",
       "Qxd5",
       "Nc3",
-      "Qa5",
-      "d4",
-      "Nf6",
-      "Nf3",
-      "Bf5",
-      "Ne5",
-      "c6",
-      "Bf4",
-      "Nbd7",
-      "Nc4",
-      "Qd8",
-      "Ne3",
-      "Be6",
-      "Qf3",
-      "Nb6",
-      "Be5",
-      "g6",
-      "h4",
-      "h5",
-      "Qg3",
-      "Nbd7",
-      "O-O-O",
-      "Bh6",
-      "Bc7",
-      "Qc8"
+      "Qa5"
      ],
      "notes": {
       "1": "e4 : les Blancs occupent le centre.",
@@ -3512,16 +827,15 @@
       "3": "exd5 : les Blancs capturent le pion d5.",
       "4": "Dxd5 : les Noirs reprennent avec la dame.",
       "5": "Cc3 : les Blancs développent leur cavalier en attaquant la dame : ils gagnent un temps.",
-      "6": "Da5 : la dame se met à l'abri. C'est la réponse la plus courante. Elle pourra se repositionner pendant que les Noirs développent leurs pièces.",
-      "7": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+      "6": "Da5 : la dame se met à l'abri. C'est la réponse la plus courante. Elle pourra se repositionner pendant que les Noirs développent leurs pièces."
      },
-     "extensionDepuis": 6,
+     "extensionDepuis": null,
      "ecoDetecte": {
       "code": "B01",
-      "nom": "Scandinavian Defense: Classical Variation",
-      "ply": 10
+      "nom": "Scandinavian Defense: Main Line",
+      "ply": 6
      },
-     "fenFinale": "r1q1k2r/ppBnpp2/2p1bnpb/7p/3P3P/2N1N1Q1/PPP2PP1/2KR1B1R w kq - 6 16"
+     "fenFinale": "rnb1kbnr/ppp1pppp/8/q7/8/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 4"
     },
     {
      "nom": "Scandinave : 3...Dd6",
@@ -3531,31 +845,7 @@
       "exd5",
       "Qxd5",
       "Nc3",
-      "Qd6",
-      "Nf3",
-      "Nf6",
-      "d4",
-      "g6",
-      "Nb5",
-      "Qd8",
-      "Bf4",
-      "Nd5",
-      "Be5",
-      "f6",
-      "Bg3",
-      "c6",
-      "Na3",
-      "Bh6",
-      "Bd3",
-      "Nf4",
-      "O-O",
-      "Nxd3",
-      "Qxd3",
-      "Be6",
-      "Qe2",
-      "Bf7",
-      "Rfe1",
-      "O-O"
+      "Qd6"
      ],
      "notes": {
       "1": "e4 : les Blancs occupent le centre.",
@@ -3563,16 +853,15 @@
       "3": "exd5 : les Blancs capturent le pion.",
       "4": "Dxd5 : les Noirs reprennent avec la dame.",
       "5": "Cc3 : les Blancs attaquent la dame et gagnent un temps.",
-      "6": "Dd6 : autre case pour la dame, plus flexible, qui permet des structures différentes (notamment avec un grand roque).",
-      "7": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+      "6": "Dd6 : autre case pour la dame, plus flexible, qui permet des structures différentes (notamment avec un grand roque)."
      },
-     "extensionDepuis": 6,
+     "extensionDepuis": null,
      "ecoDetecte": {
       "code": "B01",
       "nom": "Scandinavian Defense: Gubinsky-Melts Defense",
       "ply": 6
      },
-     "fenFinale": "rn1q1rk1/pp2pb1p/2p2ppb/8/3P4/N4NB1/PPP1QPPP/R3R1K1 w - - 5 16"
+     "fenFinale": "rnb1kbnr/ppp1pppp/3q4/8/8/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 4"
     },
     {
      "nom": "Scandinave moderne : 2...Cf6",
@@ -3580,294 +869,24 @@
       "e4",
       "d5",
       "exd5",
-      "Nf6",
-      "d4",
-      "Nxd5",
-      "c4",
-      "Nf6",
-      "Nf3",
-      "c5",
-      "Nc3",
-      "e6",
-      "Be2",
-      "Be7",
-      "d5",
-      "O-O",
-      "O-O",
-      "h6",
-      "Bf4",
-      "Bd6",
-      "Bxd6",
-      "Qxd6",
-      "Nd2",
-      "Na6",
-      "Re1",
-      "Qb6",
-      "Bf3",
-      "Bd7",
-      "Nde4",
-      "Nxe4"
+      "Nf6"
      ],
      "notes": {
       "1": "e4 : les Blancs prennent le centre.",
       "2": "d5 : les Noirs attaquent e4 immédiatement.",
       "3": "exd5 : les Blancs capturent le pion.",
-      "4": "Cf6 : les Noirs développent leur cavalier et préparent de récupérer le pion sans sortir la dame tout de suite. Autre grande famille de la Scandinave, avec des positions différentes de la ligne 2...Dxd5.",
-      "5": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+      "4": "Cf6 : les Noirs développent leur cavalier et préparent de récupérer le pion sans sortir la dame tout de suite. Autre grande famille de la Scandinave, avec des positions différentes de la ligne 2...Dxd5."
      },
-     "extensionDepuis": 4,
+     "extensionDepuis": null,
      "ecoDetecte": {
       "code": "B01",
-      "nom": "Scandinavian Defense: Marshall Variation",
-      "ply": 6
+      "nom": "Scandinavian Defense: Modern Variation",
+      "ply": 4
      },
-     "fenFinale": "r4rk1/pp1b1pp1/nq2p2p/2pP4/2P1n3/2N2B2/PP3PPP/R2QR1K1 w - - 0 16"
+     "fenFinale": "rnbqkb1r/ppp1pppp/5n2/3P4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 1 3"
     }
    ],
-   "variantes": [
-    [
-     "A00",
-     "Van Geet Opening: Reversed Scandinavian",
-     "Nc3 e5 d4 exd4 Qxd4 Nc6 Qa4"
-    ],
-    [
-     "A15",
-     "English Opening: Anglo-Indian Defense, Scandinavian Defense, Exchange Variation",
-     "c4 Nf6 Nf3 d5 cxd5 Nxd5"
-    ],
-    [
-     "A10",
-     "English Opening: Anglo-Scandinavian Defense, Schulz Gambit",
-     "c4 d5 cxd5 Nf6"
-    ],
-    [
-     "A10",
-     "English Opening: Anglo-Scandinavian Defense, Malvinas Variation",
-     "c4 d5 cxd5 Qxd5 Nc3 Qa5"
-    ],
-    [
-     "A10",
-     "English Opening: Anglo-Scandinavian Defense, Löhn Gambit",
-     "c4 d5 cxd5 e6"
-    ],
-    [
-     "B00",
-     "Nimzowitsch Defense: Scandinavian Variation, Bogoljubow Variation, Vehre Variation",
-     "e4 Nc6 d4 d5 Nc3 Nf6"
-    ],
-    [
-     "B00",
-     "Nimzowitsch Defense: Scandinavian Variation, Bogoljubow Variation, Brandics Gambit",
-     "e4 Nc6 d4 d5 Nc3 a6"
-    ],
-    [
-     "B00",
-     "Nimzowitsch Defense: Scandinavian Variation, Bogoljubow Variation, Richter Gambit",
-     "e4 Nc6 d4 d5 Nc3 dxe4 d5 Nb8 f3"
-    ],
-    [
-     "B00",
-     "Nimzowitsch Defense: Scandinavian Variation, Bogoljubow Variation, Nimzowitsch Gambit",
-     "e4 Nc6 d4 d5 Nc3 dxe4 d5 Ne5"
-    ],
-    [
-     "B00",
-     "Nimzowitsch Defense: Scandinavian Variation, Bogoljubow Variation, Heinola-Deppe Gambit",
-     "e4 Nc6 d4 d5 Nc3 e5"
-    ],
-    [
-     "B00",
-     "Nimzowitsch Defense: Scandinavian Variation, Bogoljubow Variation, Erben Gambit",
-     "e4 Nc6 d4 d5 Nc3 g6"
-    ],
-    [
-     "B00",
-     "Nimzowitsch Defense: Scandinavian Variation, Advance Variation",
-     "e4 Nc6 d4 d5 e5"
-    ],
-    [
-     "B00",
-     "Nimzowitsch Defense: Scandinavian Variation, Aachen Gambit",
-     "e4 Nc6 d4 d5 exd5 Nb4",
-     2.6
-    ],
-    [
-     "B00",
-     "Nimzowitsch Defense: Scandinavian Variation, Exchange Variation, Marshall Gambit",
-     "e4 Nc6 d4 d5 exd5 Qxd5 Nc3"
-    ],
-    [
-     "B02",
-     "Alekhine Defense: Scandinavian Variation, Myers Gambit",
-     "e4 Nf6 Nc3 d5 d3 dxe4 Bg5"
-    ],
-    [
-     "B02",
-     "Alekhine Defense: Scandinavian Variation, Geschev Gambit",
-     "e4 Nf6 Nc3 d5 exd5 c6"
-    ],
-    [
-     "B21",
-     "Sicilian Defense: Smith-Morra Gambit Declined, Scandinavian Formation",
-     "e4 c5 d4 cxd4 c3 d5"
-    ],
-    [
-     "B10",
-     "Caro-Kann Defense: Accelerated Panov Attack, Pseudo-Scandinavian",
-     "e4 c6 c4 d5 exd5 cxd5 cxd5 Qxd5"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense",
-     "e4 d5 b3"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Zilbermints Gambit",
-     "e4 d5 b4",
-     2.4
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Panov Transfer",
-     "e4 d5 exd5 Nf6 c4 c6"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Icelandic-Palme Gambit",
-     "e4 d5 exd5 Nf6 c4 e6"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Portuguese Gambit, Lusophobe Variation",
-     "e4 d5 exd5 Nf6 d4 Bg4 Bb5+ Nbd7 Be2"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Portuguese Gambit, Elbow Variation",
-     "e4 d5 exd5 Nf6 d4 Bg4 Bb5+ c6"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Portuguese Gambit, Wuss Variation",
-     "e4 d5 exd5 Nf6 d4 Bg4 Be2"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Portuguese Gambit, Classical Variation",
-     "e4 d5 exd5 Nf6 d4 Bg4 Nf3"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Portuguese Gambit, Melbourne Shuffle Variation",
-     "e4 d5 exd5 Nf6 d4 Bg4 f3 Bf5 Bb5+ Nbd7 Nc3"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Portuguese Gambit, Jadoul Variation",
-     "e4 d5 exd5 Nf6 d4 Bg4 f3 Bf5 Bb5+ Nbd7 c4"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Portuguese Gambit, Banker Variation",
-     "e4 d5 exd5 Nf6 d4 Bg4 f3 Bf5 c4"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Portuguese Gambit, Correspondence Refutation",
-     "e4 d5 exd5 Nf6 d4 Bg4 f3 Bf5 g4"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Modern Variation, Gipslis Variation",
-     "e4 d5 exd5 Nf6 d4 Nxd5 Nf3 Bg4"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Richter Variation",
-     "e4 d5 exd5 Nf6 d4 Nxd5 Nf3 g6"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Kiel Variation",
-     "e4 d5 exd5 Nf6 d4 Nxd5 c4 Nb4"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Kádas Gambit",
-     "e4 d5 exd5 Nf6 d4 c6 dxc6 e5"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Modern Variation, Wing Gambit",
-     "e4 d5 exd5 Nf6 d4 g6 c4 b5"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Main Line, Leonhardt Gambit",
-     "e4 d5 exd5 Qxd5 Nc3 Qa5 b4"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Grünfeld Variation",
-     "e4 d5 exd5 Qxd5 Nc3 Qa5 d4 Nf6 Nf3 Bf5 Ne5 c6 g4"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Lasker Variation",
-     "e4 d5 exd5 Qxd5 Nc3 Qa5 d4 Nf6 Nf3 Bg4 h3"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Anderssen Counterattack, Collijn Variation",
-     "e4 d5 exd5 Qxd5 Nc3 Qa5 d4 e5 Nf3 Bg4"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Anderssen Counterattack, Orthodox Attack",
-     "e4 d5 exd5 Qxd5 Nc3 Qa5 d4 e5 dxe5 Nc6 Nf3 Bb4 Bd2"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Schiller-Pytel Variation, Modern Variation",
-     "e4 d5 exd5 Qxd5 Nc3 Qd6 d4 Nf6 Bc4 c6 Nge2 Bf5 Bf4 Qb4"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Bronstein Variation",
-     "e4 d5 exd5 Qxd5 Nc3 Qd6 d4 Nf6 Nf3 a6"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Schiller-Pytel Variation",
-     "e4 d5 exd5 Qxd5 Nc3 Qd6 d4 c6"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Valencian Variation, Main Line",
-     "e4 d5 exd5 Qxd5 Nc3 Qd8 d4 Nf6 Nf3 Bg4"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Valencian Variation, Ilundain Variation",
-     "e4 d5 exd5 Qxd5 Nc3 Qd8 d4 Nf6 Nf3 c6"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Blackburne Gambit",
-     "e4 d5 exd5 c6 dxc6 Nxc6"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Kloosterboer Gambit",
-     "e4 d5 exd5 c6 dxc6 e5"
-    ],
-    [
-     "B01",
-     "Scandinavian Defense: Boehnke Gambit",
-     "e4 d5 exd5 e5 dxe6 Bxe6"
-    ]
-   ]
+   "variantes": []
   },
   {
    "id": "francaise",
@@ -3904,31 +923,7 @@
       "d4",
       "d5",
       "e5",
-      "c5",
-      "c3",
-      "Bd7",
-      "Nf3",
-      "Nc6",
-      "Be2",
-      "Nge7",
-      "O-O",
-      "Ng6",
-      "Be3",
-      "Be7",
-      "Nbd2",
-      "O-O",
-      "Re1",
-      "a5",
-      "Bd3",
-      "cxd4",
-      "cxd4",
-      "Nb4",
-      "Bb1",
-      "a4",
-      "a3",
-      "Nc6",
-      "Bd3",
-      "Be8"
+      "c5"
      ],
      "notes": {
       "1": "e4 : les Blancs occupent le centre.",
@@ -3936,16 +931,15 @@
       "3": "d4 : les Blancs renforcent leur centre.",
       "4": "d5 : les Noirs attaquent le pion e4.",
       "5": "e5 : les Blancs avancent leur pion et ferment le centre.",
-      "6": "c5 : les Noirs attaquent la base de la chaîne de pions blanche, notamment d4.",
-      "7": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+      "6": "c5 : les Noirs attaquent la base de la chaîne de pions blanche, notamment d4."
      },
-     "extensionDepuis": 6,
+     "extensionDepuis": null,
      "ecoDetecte": {
       "code": "C02",
-      "nom": "French Defense: Advance Variation, Euwe Variation",
-      "ply": 10
+      "nom": "French Defense: Advance Variation",
+      "ply": 6
      },
-     "fenFinale": "r2qbrk1/1p2bppp/2n1p1n1/3pP3/p2P4/P2BBN2/1P1N1PPP/R2QR1K1 w - - 3 16"
+     "fenFinale": "rnbqkbnr/pp3ppp/4p3/2ppP3/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 0 4"
     },
     {
      "nom": "Française : Winawer 3.Cc3 Fb4",
@@ -3955,31 +949,7 @@
       "d4",
       "d5",
       "Nc3",
-      "Bb4",
-      "e5",
-      "c5",
-      "a3",
-      "Ba5",
-      "b4",
-      "cxd4",
-      "Qg4",
-      "Kf8",
-      "Nb5",
-      "Bb6",
-      "Nf3",
-      "Nc6",
-      "Bb2",
-      "Nge7",
-      "Bd3",
-      "Ng6",
-      "Qg3",
-      "f6",
-      "Bxg6",
-      "hxg6",
-      "Nbxd4",
-      "Nxe5",
-      "Nxe5",
-      "fxe5"
+      "Bb4"
      ],
      "notes": {
       "1": "e4 : les Blancs prennent le centre.",
@@ -3987,16 +957,15 @@
       "3": "d4 : les Blancs renforcent le centre.",
       "4": "d5 : les Noirs contestent e4.",
       "5": "Cc3 : les Blancs développent leur cavalier et défendent e4.",
-      "6": "Fb4 : les Noirs clouent le cavalier c3 contre le roi blanc et créent une pression sur la structure centrale.",
-      "7": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+      "6": "Fb4 : les Noirs clouent le cavalier c3 contre le roi blanc et créent une pression sur la structure centrale."
      },
-     "extensionDepuis": 6,
+     "extensionDepuis": null,
      "ecoDetecte": {
-      "code": "C17",
-      "nom": "French Defense: Winawer Variation, Retreat Variation, Armenian Line",
-      "ply": 12
+      "code": "C15",
+      "nom": "French Defense: Winawer Variation",
+      "ply": 6
      },
-     "fenFinale": "r1bq1k1r/pp4p1/1b2p1p1/3pp3/1P1N4/P5Q1/1BP2PPP/R3K2R w KQ - 0 16"
+     "fenFinale": "rnbqk1nr/ppp2ppp/4p3/3p4/1b1PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 2 4"
     },
     {
      "nom": "Française : Tarrasch 3.Cd2",
@@ -4005,693 +974,25 @@
       "e6",
       "d4",
       "d5",
-      "Nd2",
-      "c5",
-      "Ngf3",
-      "Nc6",
-      "exd5",
-      "exd5",
-      "Bb5",
-      "Bd6",
-      "dxc5",
-      "Bxc5",
-      "Nb3",
-      "Bd6",
-      "O-O",
-      "Ne7",
-      "c3",
-      "Bg4",
-      "Be2",
-      "O-O",
-      "Re1",
-      "Re8",
-      "h3",
-      "Bh5",
-      "Be3",
-      "h6",
-      "Nh4",
-      "Bxe2"
+      "Nd2"
      ],
      "notes": {
       "1": "e4 : les Blancs prennent le centre.",
       "2": "e6 : les Noirs préparent d5.",
       "3": "d4 : les Blancs renforcent le centre.",
       "4": "d5 : les Noirs contestent e4.",
-      "5": "Cd2 : les Blancs développent le cavalier en d2 au lieu de c3, pour éviter le clouage ...Fb4 de la Winawer. Variante plus positionnelle, avec une structure centrale solide.",
-      "6": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+      "5": "Cd2 : les Blancs développent le cavalier en d2 au lieu de c3, pour éviter le clouage ...Fb4 de la Winawer. Variante plus positionnelle, avec une structure centrale solide."
      },
-     "extensionDepuis": 5,
+     "extensionDepuis": null,
      "ecoDetecte": {
-      "code": "C09",
-      "nom": "French Defense: Tarrasch Variation, Open System, Main Line",
-      "ply": 10
+      "code": "C03",
+      "nom": "French Defense: Tarrasch Variation",
+      "ply": 5
      },
-     "fenFinale": "r2qr1k1/pp2npp1/2nb3p/3p4/7N/1NP1B2P/PP2bPP1/R2QR1K1 w - - 0 16"
+     "fenFinale": "rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/8/PPPN1PPP/R1BQKBNR b KQkq - 1 3"
     }
    ],
-   "variantes": [
-    [
-     "C00",
-     "French Defense: Bird Invitation",
-     "e4 e6 Bb5"
-    ],
-    [
-     "C12",
-     "French Defense: McCutcheon Variation, Duras Variation",
-     "e4 e6 Nc3 d5 d4 Nf6 Bg5 Bb4 e5 h6 Bd2 Bxc3 bxc3 Ne4 Qg4 Kf8 Bc1"
-    ],
-    [
-     "C00",
-     "French Defense: Pelikan Variation",
-     "e4 e6 Nc3 d5 f4"
-    ],
-    [
-     "C00",
-     "French Defense: Two Knights Variation",
-     "e4 e6 Nf3 d5 Nc3"
-    ],
-    [
-     "C00",
-     "French Defense: Wing Gambit",
-     "e4 e6 Nf3 d5 e5 c5 b4"
-    ],
-    [
-     "C00",
-     "French Defense: Knight Variation, Franco-Hiva Gambit",
-     "e4 e6 Nf3 f5"
-    ],
-    [
-     "C00",
-     "French Defense: Chigorin Variation",
-     "e4 e6 Qe2"
-    ],
-    [
-     "C00",
-     "French Defense: Horwitz Attack, Papa-Ticulat Gambit",
-     "e4 e6 b3 d5 Bb2"
-    ],
-    [
-     "C00",
-     "French Defense: Banzai-Leong Gambit, Pinova Gambit",
-     "e4 e6 b4 Bxb4 e5"
-    ],
-    [
-     "C00",
-     "French Defense: Orthoschnapp Gambit",
-     "e4 e6 c4 d5 cxd5 exd5 Qb3"
-    ],
-    [
-     "C00",
-     "French Defense: Reversed Philidor Formation",
-     "e4 e6 d3 d5 Nd2 Nf6 Ngf3 Nc6 Be2"
-    ],
-    [
-     "C00",
-     "French Defense: King's Indian Attack, Franco-Hiva Gambit",
-     "e4 e6 d3 f5"
-    ],
-    [
-     "C00",
-     "French Defense: Mediterranean Defense",
-     "e4 e6 d4 Nf6"
-    ],
-    [
-     "C00",
-     "French Defense: St. George Defense, Traditional Line",
-     "e4 e6 d4 a6 Nf3 b5 Bd3 c5 c3 Bb7 O-O Nf6"
-    ],
-    [
-     "C00",
-     "French Defense: St. George Defense, St. George Gambit",
-     "e4 e6 d4 a6 c4 b5 cxb5 axb5"
-    ],
-    [
-     "C00",
-     "French Defense: Baeuerle Gambit",
-     "e4 e6 d4 b5"
-    ],
-    [
-     "C00",
-     "French Defense: Franco-Sicilian Defense",
-     "e4 e6 d4 c5"
-    ],
-    [
-     "C00",
-     "French Defense: Schlechter Variation",
-     "e4 e6 d4 d5 Bd3"
-    ],
-    [
-     "C00",
-     "French Defense: Alapin Gambit",
-     "e4 e6 d4 d5 Be3"
-    ],
-    [
-     "C15",
-     "French Defense: Winawer Variation, Fingerslip Variation, Schwarz's Line",
-     "e4 e6 d4 d5 Nc3 Bb4 Bd2 Ne7 Nb1"
-    ],
-    [
-     "C15",
-     "French Defense: Winawer Variation, Fingerslip Variation, Main Line",
-     "e4 e6 d4 d5 Nc3 Bb4 Bd2 dxe4 Qg4 Nf6 Qxg7 Rg8 Qh6"
-    ],
-    [
-     "C15",
-     "French Defense: Winawer Variation, Fingerslip Variation, Kunin Double Gambit",
-     "e4 e6 d4 d5 Nc3 Bb4 Bd2 dxe4 Qg4 Qxd4"
-    ],
-    [
-     "C15",
-     "French Defense: Winawer Variation, Kondratiyev Variation",
-     "e4 e6 d4 d5 Nc3 Bb4 Bd3 c5 exd5 Qxd5 Bd2"
-    ],
-    [
-     "C15",
-     "French Defense: McCutcheon Variation, Wolf Gambit",
-     "e4 e6 d4 d5 Nc3 Bb4 Ne2 Nf6 Bg5"
-    ],
-    [
-     "C15",
-     "French Defense: Winawer Variation, Alekhine Gambit, Alatortsev Variation",
-     "e4 e6 d4 d5 Nc3 Bb4 Ne2 dxe4 a3 Be7 Nxe4 Nf6 N2g3 O-O Be2 Nc6"
-    ],
-    [
-     "C15",
-     "French Defense: Winawer Variation, Alekhine Gambit, Kan Variation",
-     "e4 e6 d4 d5 Nc3 Bb4 Ne2 dxe4 a3 Bxc3+ Nxc3 Nc6"
-    ],
-    [
-     "C15",
-     "French Defense: Winawer Variation, Winckelmann-Reimer Gambit",
-     "e4 e6 d4 d5 Nc3 Bb4 a3 Bxc3+ bxc3 dxe4 f3"
-    ],
-    [
-     "C19",
-     "French Defense: Winawer Variation, Advance Variation, Smyslov Variation",
-     "e4 e6 d4 d5 Nc3 Bb4 e5 Ne7 a3 Bxc3+ bxc3 c5 a4 Qc7"
-    ],
-    [
-     "C16",
-     "French Defense: Winawer Variation, Petrosian Variation",
-     "e4 e6 d4 d5 Nc3 Bb4 e5 Qd7"
-    ],
-    [
-     "C17",
-     "French Defense: Winawer Variation, Bogoljubow Variation, Icelandic Defense",
-     "e4 e6 d4 d5 Nc3 Bb4 e5 c5 Bd2 Ne7 f4"
-    ],
-    [
-     "C17",
-     "French Defense: Winawer Variation, Advance Variation, Moscow Variation",
-     "e4 e6 d4 d5 Nc3 Bb4 e5 c5 Qg4"
-    ],
-    [
-     "C17",
-     "French Defense: Winawer Variation, Retreat Variation, Armenian Line",
-     "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Ba5 b4 cxd4"
-    ],
-    [
-     "C19",
-     "French Defense: Winawer Variation, Positional Variation",
-     "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Nc6 Nf3 Nge7"
-    ],
-    [
-     "C19",
-     "French Defense: Winawer Variation, Positional Variation",
-     "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Nc6 Nf3 Qa5 Bd2 Nge7"
-    ],
-    [
-     "C19",
-     "French Defense: Winawer Variation, Positional Variation",
-     "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Ne7 Bd3 Nbc6 Nf3"
-    ],
-    [
-     "C18",
-     "French Defense: Winawer Variation, Advance Variation, with Bd3",
-     "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Ne7 Bd3 Qc7"
-    ],
-    [
-     "C19",
-     "French Defense: Winawer Variation, Positional Variation",
-     "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Ne7 Nf3 Qc7 h4"
-    ],
-    [
-     "C18",
-     "French Defense: Winawer Variation, Eingorn Variation",
-     "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Ne7 Qg4 Kf8"
-    ],
-    [
-     "C18",
-     "French Defense: Winawer Variation, Warsaw Variation",
-     "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Ne7 Qg4 O-O"
-    ],
-    [
-     "C18",
-     "French Defense: Winawer Variation, Poisoned Pawn Variation Declined",
-     "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Ne7 Qg4 Qc7 Bd3"
-    ],
-    [
-     "C18",
-     "French Defense: Winawer Variation, Poisoned Pawn Variation, Paoli Variation",
-     "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Ne7 Qg4 Qc7 Qxg7 Rg8 Qxh7 cxd4 Kd1"
-    ],
-    [
-     "C18",
-     "French Defense: Winawer Variation, Poisoned Pawn Variation, Main Line",
-     "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Ne7 Qg4 Qc7 Qxg7 Rg8 Qxh7 cxd4 Ne2"
-    ],
-    [
-     "C18",
-     "French Defense: Winawer Variation, Poisoned Pawn Variation",
-     "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Ne7 Qg4 cxd4 Qxg7 Rg8 Qxh7 Nbc6"
-    ],
-    [
-     "C19",
-     "French Defense: Winawer Variation, Positional Variation",
-     "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Ne7 a4 Nbc6 Nf3 Qa5 Bd2 Bd7"
-    ],
-    [
-     "C19",
-     "French Defense: Winawer Variation, Positional Variation",
-     "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Ne7 a4 Nbc6 Nf3 Qa5 Bd2 c4"
-    ],
-    [
-     "C19",
-     "French Defense: Winawer Variation, Positional Variation",
-     "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Ne7 a4 Nbc6 Nf3 Qa5 Qd2 Bd7"
-    ],
-    [
-     "C18",
-     "French Defense: Winawer Variation, Advance Variation, with h4",
-     "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Ne7 h4 Qc7"
-    ],
-    [
-     "C18",
-     "French Defense: Winawer Variation, Portisch-Hook Variation",
-     "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Qa5"
-    ],
-    [
-     "C18",
-     "French Defense: Winawer Variation, Classical Variation",
-     "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Qc7"
-    ],
-    [
-     "C17",
-     "French Defense: Winawer Variation, Advance Variation",
-     "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 cxd4 axb4 dxc3 Nf3"
-    ],
-    [
-     "C15",
-     "French Defense: Winawer Variation, Exchange Variation, Canal Attack",
-     "e4 e6 d4 d5 Nc3 Bb4 exd5 exd5 Bd3 Ne7 Qh5"
-    ],
-    [
-     "C10",
-     "French Defense: Hecht-Reefschläger Variation",
-     "e4 e6 d4 d5 Nc3 Nc6"
-    ],
-    [
-     "C11",
-     "French Defense: Classical Variation, Swiss Variation",
-     "e4 e6 d4 d5 Nc3 Nf6 Bd3"
-    ],
-    [
-     "C11",
-     "French Defense: Henneberger Variation",
-     "e4 e6 d4 d5 Nc3 Nf6 Be3"
-    ],
-    [
-     "C12",
-     "French Defense: McCutcheon Variation, Dr. Olland Variation",
-     "e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4 e5 h6 Bc1"
-    ],
-    [
-     "C12",
-     "French Defense: McCutcheon Variation, Lasker Variation",
-     "e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4 e5 h6 Bd2 Bxc3 bxc3 Ne4 Qg4 g6"
-    ],
-    [
-     "C12",
-     "French Defense: McCutcheon Variation, Tartakower Variation",
-     "e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4 e5 h6 Bd2 Nfd7"
-    ],
-    [
-     "C12",
-     "French Defense: McCutcheon Variation, Janowski Variation",
-     "e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4 e5 h6 Be3"
-    ],
-    [
-     "C12",
-     "French Defense: McCutcheon Variation, Bernstein Variation",
-     "e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4 e5 h6 Bh4"
-    ],
-    [
-     "C12",
-     "French Defense: McCutcheon Variation, Grigoriev Variation",
-     "e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4 e5 h6 exf6 hxg5 fxg7 Rg8 h4 gxh4 Qg4"
-    ],
-    [
-     "C12",
-     "French Defense: McCutcheon Variation, Bogoljubow Variation",
-     "e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4 exd5 Qxd5 Bxf6 gxf6 Qd2 Qa5"
-    ],
-    [
-     "C13",
-     "French Defense: Classical Variation, Richter Attack",
-     "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 Bxf6 Bxf6 e5 Be7 Qg4"
-    ],
-    [
-     "C13",
-     "French Defense: Classical Variation, Tartakower Variation",
-     "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Ne4"
-    ],
-    [
-     "C14",
-     "French Defense: Classical Variation, Tarrasch Variation",
-     "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 Bxe7 Qxe7 Bd3"
-    ],
-    [
-     "C14",
-     "French Defense: Classical Variation, Alapin Variation",
-     "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 Bxe7 Qxe7 Nb5"
-    ],
-    [
-     "C14",
-     "French Defense: Classical Variation, Rubinstein Variation",
-     "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 Bxe7 Qxe7 Qd2"
-    ],
-    [
-     "C14",
-     "French Defense: Classical Variation, Pollock Variation",
-     "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 Bxe7 Qxe7 Qg4"
-    ],
-    [
-     "C14",
-     "French Defense: Classical Variation, Stahlberg Variation",
-     "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 Bxe7 Qxe7 f4 O-O Nf3 c5 Qd2 Nc6 O-O-O c4"
-    ],
-    [
-     "C13",
-     "French Defense: Alekhine-Chatard Attack, Albin-Chatard Gambit",
-     "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 h4 Bxg5 hxg5 Qxg5"
-    ],
-    [
-     "C13",
-     "French Defense: Alekhine-Chatard Attack, Spielmann Variation",
-     "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 h4 O-O"
-    ],
-    [
-     "C13",
-     "French Defense: Alekhine-Chatard Attack, Maróczy Variation",
-     "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 h4 a6"
-    ],
-    [
-     "C13",
-     "French Defense: Alekhine-Chatard Attack, Breyer Variation",
-     "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 h4 c5"
-    ],
-    [
-     "C13",
-     "French Defense: Alekhine-Chatard Attack, Teichmann Variation",
-     "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 h4 f6"
-    ],
-    [
-     "C13",
-     "French Defense: Classical Variation, Frankfurt Variation",
-     "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Ng8 Be3 b6"
-    ],
-    [
-     "C13",
-     "French Defense: Classical Variation, Burn Variation, Main Line",
-     "e4 e6 d4 d5 Nc3 Nf6 Bg5 dxe4 Nxe4 Be7 Bxf6 Bxf6 Nf3 O-O"
-    ],
-    [
-     "C13",
-     "French Defense: Classical Variation, Burn Variation, Morozevich Line",
-     "e4 e6 d4 d5 Nc3 Nf6 Bg5 dxe4 Nxe4 Be7 Bxf6 gxf6"
-    ],
-    [
-     "C11",
-     "French Defense: Classical Variation, Shirov-Anand Variation",
-     "e4 e6 d4 d5 Nc3 Nf6 e5 Nfd7 Nce2"
-    ],
-    [
-     "C11",
-     "French Defense: Steinitz Variation, Gledhill Attack",
-     "e4 e6 d4 d5 Nc3 Nf6 e5 Nfd7 Qg4"
-    ],
-    [
-     "C11",
-     "French Defense: Steinitz Variation, Boleslavsky Variation",
-     "e4 e6 d4 d5 Nc3 Nf6 e5 Nfd7 f4 c5 Nf3 Nc6 Be3"
-    ],
-    [
-     "C11",
-     "French Defense: Steinitz Variation, Bradford Attack Variation",
-     "e4 e6 d4 d5 Nc3 Nf6 e5 Nfd7 f4 c5 dxc5 Bxc5 Qg4"
-    ],
-    [
-     "C11",
-     "French Defense: Steinitz Variation, Brodsky-Jones Variation",
-     "e4 e6 d4 d5 Nc3 Nf6 e5 Nfd7 f4 c5 dxc5 Nc6 a3 Bxc5 Qg4 O-O Nf3 f6"
-    ],
-    [
-     "C01",
-     "French Defense: Exchange Variation, Svenonius Variation",
-     "e4 e6 d4 d5 Nc3 Nf6 exd5 exd5 Bg5"
-    ],
-    [
-     "C14",
-     "French Defense: Classical Variation",
-     "e4 e6 d4 d5 Nc3 a6 Nf3 Nf6 e5 Nfd7 Bg5"
-    ],
-    [
-     "C11",
-     "French Defense: Steinitz Variation",
-     "e4 e6 d4 d5 Nc3 a6 Nf3 Nf6 e5 Nfd7 Ne2"
-    ],
-    [
-     "C11",
-     "French Defense: Steinitz Variation",
-     "e4 e6 d4 d5 Nc3 a6 Nf3 Nf6 e5 Nfd7 a3"
-    ],
-    [
-     "C10",
-     "French Defense: Marshall Gambit",
-     "e4 e6 d4 d5 Nc3 c5"
-    ],
-    [
-     "C10",
-     "French Defense: Rubinstein Variation, Fort Knox Variation",
-     "e4 e6 d4 d5 Nc3 dxe4 Nxe4 Bd7 Nf3 Bc6"
-    ],
-    [
-     "C10",
-     "French Defense: Rubinstein Variation, Capablanca Line",
-     "e4 e6 d4 d5 Nc3 dxe4 Nxe4 Nd7 Nf3 Ngf6 Nxf6+ Nxf6 Ne5"
-    ],
-    [
-     "C10",
-     "French Defense: Rubinstein Variation, Maric Variation",
-     "e4 e6 d4 d5 Nc3 dxe4 Nxe4 Qd5"
-    ],
-    [
-     "C10",
-     "French Defense: Rubinstein Variation, Ellis Gambit",
-     "e4 e6 d4 d5 Nc3 dxe4 Nxe4 e5"
-    ],
-    [
-     "C03",
-     "French Defense: Tarrasch Variation, Morozevich Variation",
-     "e4 e6 d4 d5 Nd2 Be7"
-    ],
-    [
-     "C04",
-     "French Defense: Tarrasch Variation, Guimard Defense, Main Line",
-     "e4 e6 d4 d5 Nd2 Nc6 Ngf3 Nf6"
-    ],
-    [
-     "C03",
-     "French Defense: Tarrasch Variation, Guimard Defense, Thunderbunny Variation",
-     "e4 e6 d4 d5 Nd2 Nc6 c3 dxe4 Nxe4 e5"
-    ],
-    [
-     "C06",
-     "French Defense: Tarrasch Variation, Leningrad Variation",
-     "e4 e6 d4 d5 Nd2 Nf6 e5 Nfd7 Bd3 c5 c3 Nc6 Ne2 cxd4 cxd4 Nb6"
-    ],
-    [
-     "C05",
-     "French Defense: Tarrasch Variation, Botvinnik Variation",
-     "e4 e6 d4 d5 Nd2 Nf6 e5 Nfd7 Bd3 c5 c3 b6"
-    ],
-    [
-     "C05",
-     "French Defense: Tarrasch Variation, Pawn Center Variation",
-     "e4 e6 d4 d5 Nd2 Nf6 e5 Nfd7 f4"
-    ],
-    [
-     "C03",
-     "French Defense: Tarrasch Variation, Modern System",
-     "e4 e6 d4 d5 Nd2 a6"
-    ],
-    [
-     "C07",
-     "French Defense: Tarrasch Variation, Open System, Euwe-Keres Line",
-     "e4 e6 d4 d5 Nd2 c5 Ngf3"
-    ],
-    [
-     "C07",
-     "French Defense: Tarrasch Variation, Open System, Süchting Line",
-     "e4 e6 d4 d5 Nd2 c5 c3"
-    ],
-    [
-     "C07",
-     "French Defense: Tarrasch Variation, Open System, Shaposhnikov Gambit",
-     "e4 e6 d4 d5 Nd2 c5 exd5 Nf6"
-    ],
-    [
-     "C07",
-     "French Defense: Tarrasch Variation, Chistyakov Defense, Modern Line",
-     "e4 e6 d4 d5 Nd2 c5 exd5 Qxd5 Ngf3 cxd4 Bc4 Qd6 O-O Nf6 Nb3 Nc6 Nbxd4 Nxd4 Nxd4 a6"
-    ],
-    [
-     "C07",
-     "French Defense: Tarrasch Variation, Eliskases Variation",
-     "e4 e6 d4 d5 Nd2 c5 exd5 Qxd5 Ngf3 cxd4 Bc4 Qd8"
-    ],
-    [
-     "C09",
-     "French Defense: Tarrasch Variation, Open System, Main Line",
-     "e4 e6 d4 d5 Nd2 c5 exd5 exd5 Ngf3 Nc6 Bb5 Bd6 dxc5 Bxc5 O-O Ne7 c3"
-    ],
-    [
-     "C08",
-     "French Defense: Tarrasch Variation, Open System, Advance Line",
-     "e4 e6 d4 d5 Nd2 c5 exd5 exd5 Ngf3 c4"
-    ],
-    [
-     "C10",
-     "French Defense: Rubinstein Variation, Kasparov Attack",
-     "e4 e6 d4 d5 Nd2 dxe4 Nxe4 Nd7 Nf3 Ngf6 Nxf6+ Nxf6 c3"
-    ],
-    [
-     "C03",
-     "French Defense: Tarrasch Variation, Haberditz Variation",
-     "e4 e6 d4 d5 Nd2 f5"
-    ],
-    [
-     "C00",
-     "French Defense: Carlson Gambit",
-     "e4 e6 d4 d5 Nf3 dxe4 Ne5"
-    ],
-    [
-     "C00",
-     "French Defense: Morphy Gambit",
-     "e4 e6 d4 d5 Nh3"
-    ],
-    [
-     "C00",
-     "French Defense: Hoffmann Gambit",
-     "e4 e6 d4 d5 Qe2 e5 f4 exf4",
-     2.5
-    ],
-    [
-     "C00",
-     "French Defense: Diemer-Duhm Gambit Accepted",
-     "e4 e6 d4 d5 c4 dxe4"
-    ],
-    [
-     "C02",
-     "French Defense: Advance Variation, Extended Bishop Swap",
-     "e4 e6 d4 d5 e5 Bd7"
-    ],
-    [
-     "C02",
-     "French Defense: Advance Variation, Ruisdonk Gambit",
-     "e4 e6 d4 d5 e5 c5 Nf3 cxd4 Bd3"
-    ],
-    [
-     "C02",
-     "French Defense: Advance Variation, Nimzowitsch Gambit",
-     "e4 e6 d4 d5 e5 c5 Qg4 cxd4 Nf3"
-    ],
-    [
-     "C02",
-     "French Defense: Advance Variation, Frenkel Gambit",
-     "e4 e6 d4 d5 e5 c5 b4"
-    ],
-    [
-     "C02",
-     "French Defense: Advance Variation, Kupreichik Variation",
-     "e4 e6 d4 d5 e5 c5 c3 Nc6 Be3"
-    ],
-    [
-     "C02",
-     "French Defense: Advance Variation, Euwe Variation",
-     "e4 e6 d4 d5 e5 c5 c3 Nc6 Nf3 Bd7"
-    ],
-    [
-     "C02",
-     "French Defense: Advance Variation, Milner-Barry Gambit, Hector Variation",
-     "e4 e6 d4 d5 e5 c5 c3 Nc6 Nf3 Qb6 Bd3 cxd4 O-O Bd7 Re1"
-    ],
-    [
-     "C02",
-     "French Defense: Advance Variation, Milner-Barry Gambit, Sørensen Variation",
-     "e4 e6 d4 d5 e5 c5 c3 Nc6 Nf3 Qb6 Bd3 cxd4 cxd4 Bd7 O-O Nxd4 Ng5"
-    ],
-    [
-     "C02",
-     "French Defense: Advance Variation, Lputian Variation",
-     "e4 e6 d4 d5 e5 c5 c3 Nc6 Nf3 Qb6 a3 Nh6"
-    ],
-    [
-     "C02",
-     "French Defense: Advance Variation, Wade Variation",
-     "e4 e6 d4 d5 e5 c5 c3 Qb6 Nf3 Bd7"
-    ],
-    [
-     "C02",
-     "French Defense: Advance Variation, Steinitz Variation",
-     "e4 e6 d4 d5 e5 c5 dxc5"
-    ],
-    [
-     "C01",
-     "French Defense: Exchange Variation, Bogoljubow Variation",
-     "e4 e6 d4 d5 exd5 exd5 Nc3 Nf6 Bg5 Nc6"
-    ],
-    [
-     "C01",
-     "French Defense: Exchange Variation",
-     "e4 e6 d4 d5 exd5 exd5 Nf3"
-    ],
-    [
-     "C01",
-     "French Defense: Exchange Variation, Monte Carlo Variation",
-     "e4 e6 d4 d5 exd5 exd5 c4"
-    ],
-    [
-     "C00",
-     "French Defense: Franco-Hiva Gambit Accepted",
-     "e4 e6 d4 f5 exf5"
-    ],
-    [
-     "C00",
-     "French Defense: Steinitz Attack",
-     "e4 e6 e5"
-    ],
-    [
-     "C00",
-     "French Defense: La Bourdonnais Variation, Reuter Gambit",
-     "e4 e6 f4 d5 Nf3 dxe4"
-    ],
-    [
-     "C00",
-     "French Defense: Réti-Spielmann Attack",
-     "e4 e6 g3"
-    ]
-   ]
+   "variantes": []
   },
   {
    "id": "slave",
@@ -4735,24 +1036,7 @@
       "Bf5",
       "e3",
       "e6",
-      "Bxc4",
-      "Bb4",
-      "O-O",
-      "Nbd7",
-      "Qe2",
-      "O-O",
-      "Nh4",
-      "a5",
-      "f3",
-      "Bg6",
-      "Rd1",
-      "Nd5",
-      "Nxg6",
-      "hxg6",
-      "Na2",
-      "Be7",
-      "Nc3",
-      "Bb4"
+      "Bxc4"
      ],
      "notes": {
       "1": "d4 : les Blancs prennent le centre et libèrent leur fou c1.",
@@ -4767,16 +1051,15 @@
       "10": "Ff5 : les Noirs sortent le fou c8 avant de jouer e6.",
       "11": "e3 : les Blancs préparent la récupération du pion c4.",
       "12": "e6 : les Noirs consolident leur centre et libèrent leur fou f8.",
-      "13": "Fxc4 : les Blancs récupèrent le pion avec leur fou.",
-      "14": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+      "13": "Fxc4 : les Blancs récupèrent le pion avec leur fou."
      },
-     "extensionDepuis": 13,
+     "extensionDepuis": null,
      "ecoDetecte": {
-      "code": "D19",
-      "nom": "Slav Defense: Czech Variation, Dutch Variation",
-      "ply": 15
+      "code": "D18",
+      "nom": "Slav Defense: Czech Variation, Classical System",
+      "ply": 11
      },
-     "fenFinale": "r2q1rk1/1p1n1pp1/2p1p1p1/p2n4/PbBP4/2N1PP2/1P2Q1PP/R1BR2K1 w - - 4 16"
+     "fenFinale": "rn1qkb1r/pp3ppp/2p1pn2/5b2/P1BP4/2N1PN2/1P3PPP/R1BQK2R b KQkq - 0 7"
     },
     {
      "nom": "Slave : variante calme (e3, Fd3)",
@@ -4791,26 +1074,7 @@
       "e6",
       "Bd3",
       "Nbd7",
-      "Nbd2",
-      "Be7",
-      "O-O",
-      "O-O",
-      "e4",
-      "dxe4",
-      "Nxe4",
-      "c5",
-      "Nxc5",
-      "Nxc5",
-      "dxc5",
-      "Bxc5",
-      "Bg5",
-      "h6",
-      "Bh4",
-      "b6",
-      "Ne5",
-      "Bb7",
-      "Qe2",
-      "Qd4"
+      "Nbd2"
      ],
      "notes": {
       "1": "d4 : les Blancs prennent le centre et libèrent leur fou c1.",
@@ -4823,690 +1087,18 @@
       "8": "e6 : les Noirs consolident d5 et ouvrent leur fou f8.",
       "9": "Fd3 : les Blancs développent leur fou vers une diagonale active.",
       "10": "Cbd7 : les Noirs développent leur cavalier b8 en d7.",
-      "11": "Cbd2 : les Blancs développent leur cavalier b1 vers d2.",
-      "12": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+      "11": "Cbd2 : les Blancs développent leur cavalier b1 vers d2."
      },
-     "extensionDepuis": 11,
+     "extensionDepuis": null,
      "ecoDetecte": {
       "code": "D11",
       "nom": "Slav Defense: Quiet Variation",
       "ply": 7
      },
-     "fenFinale": "r4rk1/pb3pp1/1p2pn1p/2b1N3/2Pq3B/3B4/PP2QPPP/R4RK1 w - - 4 16"
+     "fenFinale": "r1bqkb1r/pp1n1ppp/2p1pn2/3p4/2PP4/3BPN2/PP1N1PPP/R1BQK2R b KQkq - 3 6"
     }
    ],
-   "variantes": [
-    [
-     "A12",
-     "Réti Opening: Anglo-Slav Variation, New York System",
-     "Nf3 Nf6 c4 c6 b3 d5 Bb2 Bf5 d3"
-    ],
-    [
-     "A12",
-     "Réti Opening: Anglo-Slav Variation, New York System",
-     "Nf3 Nf6 c4 c6 b3 d5 Bb2 Bf5 e3"
-    ],
-    [
-     "A11",
-     "Réti Opening: Anglo-Slav Variation, with g3",
-     "Nf3 Nf6 g3 d5 Bg2 c6 O-O Bf5 d3 h6 c4 e6"
-    ],
-    [
-     "A07",
-     "King's Indian Attack: Yugoslav Variation",
-     "Nf3 Nf6 g3 d5 Bg2 c6 O-O Bg4"
-    ],
-    [
-     "A04",
-     "Zukertort Opening: Slav Invitation",
-     "Nf3 c6"
-    ],
-    [
-     "A12",
-     "Réti Opening: Anglo-Slav Variation, Bled Variation",
-     "Nf3 d5 b3 Nf6 Bb2 g6 c4 c6"
-    ],
-    [
-     "A12",
-     "Réti Opening: Anglo-Slav Variation, Bogoljubow Variation",
-     "Nf3 d5 c4 c6 b3 Bf5 Bb2"
-    ],
-    [
-     "A12",
-     "Réti Opening: Anglo-Slav Variation, Bogoljubow Variation",
-     "Nf3 d5 c4 c6 b3 Bg4"
-    ],
-    [
-     "A14",
-     "Réti Opening: Anglo-Slav Variation",
-     "Nf3 d5 c4 c6 g3 Nf6 Bg2 e6 b3 Be7 Bb2"
-    ],
-    [
-     "A14",
-     "Réti Opening: Anglo-Slav Variation, Bogoljubow Variation, Stonewall Line",
-     "Nf3 d5 c4 e6 g3 Nf6 Bg2 Be7 O-O O-O b3 c6 Bb2"
-    ],
-    [
-     "D45",
-     "Semi-Slav Defense: Normal Variation",
-     "Nf3 d5 e3 Nf6 c4 c6 Nc3 e6 b3 Bd6 Bb2 O-O d4 Nbd7"
-    ],
-    [
-     "A12",
-     "Réti Opening: Anglo-Slav Variation, Capablanca Variation",
-     "c4 Nf6 Nf3 c6 b3 d5 Bb2 Bg4 d3"
-    ],
-    [
-     "A12",
-     "Réti Opening: Anglo-Slav Variation, Capablanca Variation",
-     "c4 Nf6 Nf3 c6 b3 d5 Bb2 Bg4 e3"
-    ],
-    [
-     "A15",
-     "English Opening: Anglo-Indian Defense, Slav Formation",
-     "c4 Nf6 Nf3 g6 g3 c6"
-    ],
-    [
-     "A12",
-     "Réti Opening: Anglo-Slav Variation, London Defensive System",
-     "c4 Nf6 g3 c6 Nf3 d5 b3 Bf5 Bb2"
-    ],
-    [
-     "A12",
-     "Réti Opening: Anglo-Slav Variation, London Defensive System",
-     "c4 Nf6 g3 c6 Nf3 d5 b3 Bf5 Bg2 e6 Bb2"
-    ],
-    [
-     "A12",
-     "Réti Opening: Anglo-Slav Variation, Torre System",
-     "c4 Nf6 g3 c6 Nf3 d5 b3 Bg4 Bb2"
-    ],
-    [
-     "A12",
-     "Réti Opening: Anglo-Slav Variation, Torre System",
-     "c4 Nf6 g3 c6 Nf3 d5 b3 Bg4 Bg2 e6 Bb2"
-    ],
-    [
-     "A12",
-     "Réti Opening: Anglo-Slav Variation, with dxc4",
-     "c4 Nf6 g3 c6 Nf3 d5 b3 dxc4"
-    ],
-    [
-     "A11",
-     "Réti Opening: Anglo-Slav Variation, Gurevich System",
-     "c4 c6 Nf3 d5 e3 Nf6 Nc3 Nbd7 Qc2"
-    ],
-    [
-     "A11",
-     "Réti Opening: Anglo-Slav Variation, Gurevich System",
-     "c4 c6 Nf3 d5 e3 Nf6 Nc3 Nbd7 b3 e5"
-    ],
-    [
-     "A11",
-     "Réti Opening: Anglo-Slav Variation, Gurevich System",
-     "c4 c6 Nf3 d5 e3 Nf6 Nc3 e6 b3 Bd6"
-    ],
-    [
-     "A11",
-     "Réti Opening: Anglo-Slav Variation, Gurevich System",
-     "c4 c6 Nf3 d5 e3 Nf6 Qc2"
-    ],
-    [
-     "A11",
-     "Réti Opening: Anglo-Slav Variation, with g3",
-     "c4 c6 Nf3 d5 g3 Nf6 Bg2 Bf5 O-O e6 d3"
-    ],
-    [
-     "A11",
-     "Réti Opening: Anglo-Slav Variation, with g3",
-     "c4 c6 Nf3 d5 g3 Nf6 Bg2 dxc4"
-    ],
-    [
-     "A11",
-     "Réti Opening: Anglo-Slav Variation, with g3",
-     "c4 c6 Nf3 d5 g3 Nf6 b3 g6"
-    ],
-    [
-     "A13",
-     "English Opening: Agincourt Defense, Catalan Defense, Semi-Slav Defense",
-     "c4 e6 Nf3 Nf6 g3 d5 Bg2 c6"
-    ],
-    [
-     "A07",
-     "King's Indian Attack: Yugoslav Variation",
-     "c4 e6 Nf3 d5 g3 Nf6 Bg2 b6 O-O"
-    ],
-    [
-     "A59",
-     "Benko Gambit Accepted: Yugoslav",
-     "d4 Nf6 c4 c5 d5 b5 cxb5 a6 bxa6 Bxa6 Nc3 d6 e4"
-    ],
-    [
-     "A59",
-     "Benko Gambit Accepted: Yugoslav",
-     "d4 Nf6 c4 c5 d5 b5 cxb5 a6 bxa6 g6 Nc3 Bxa6 e4 Bxf1 Kxf1 d6 Nge2"
-    ],
-    [
-     "A50",
-     "Slav Indian",
-     "d4 Nf6 c4 c6"
-    ],
-    [
-     "D44",
-     "Semi-Slav Defense: Botvinnik Variation, Alatortsev System",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 c6 Bg5 dxc4 e4 b5 e5 h6 Bh4 g5 Nxg5 Nd5"
-    ],
-    [
-     "D44",
-     "Semi-Slav Defense: Botvinnik Variation, Szabo Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 c6 Bg5 dxc4 e4 b5 e5 h6 Bh4 g5 Nxg5 hxg5 Bxg5 Nbd7 Qf3"
-    ],
-    [
-     "D99",
-     "Grünfeld Defense: Russian Variation, Yugoslav Variation",
-     "d4 Nf6 c4 g6 Nc3 d5 Nf3 Bg7 Qb3 dxc4 Qxc4 O-O e4 Bg4 Be3 Nfd7 Qb3 c5"
-    ],
-    [
-     "E66",
-     "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line",
-     "d4 Nf6 c4 g6 Nf3 Bg7 g3 O-O Bg2 d6 O-O c5 Nc3 Nc6 d5"
-    ],
-    [
-     "E65",
-     "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Exchange Line",
-     "d4 Nf6 c4 g6 Nf3 Bg7 g3 O-O Bg2 d6 O-O c5 Nc3 Nc6 dxc5 dxc5"
-    ],
-    [
-     "E64",
-     "King's Indian Defense: Fianchetto Variation, Yugoslav System",
-     "d4 Nf6 c4 g6 Nf3 Bg7 g3 d6 Bg2 O-O O-O c5"
-    ],
-    [
-     "E64",
-     "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Rare Line",
-     "d4 Nf6 c4 g6 g3 Bg7 Bg2 O-O Nc3 d6 Nf3 c5"
-    ],
-    [
-     "A40",
-     "Slav Indian: Kudischewitsch Gambit",
-     "d4 c6 Nf3 Nf6 c4 b5"
-    ],
-    [
-     "A40",
-     "Queen's Pawn Game: Anglo-Slav Opening",
-     "d4 c6 c4 d6"
-    ],
-    [
-     "D02",
-     "Queen's Gambit Declined: Baltic Defense, Pseudo-Slav",
-     "d4 d5 Nf3 Bf5 c4 e6 Nc3 c6"
-    ],
-    [
-     "D49",
-     "Semi-Slav Defense: Meran Variation, Sozin Variation",
-     "d4 d5 Nf3 Nf6 c4 c6 Nc3 e6 e3 Nbd7 Bd3 dxc4 Bxc4 b5 Bd3 a6 e4 c5 e5 cxd4 Nxb5 Nxe5 Nxe5 axb5 O-O"
-    ],
-    [
-     "D45",
-     "Semi-Slav Defense: Stonewall Defense",
-     "d4 d5 Nf3 Nf6 c4 c6 Nc3 e6 e3 Ne4 Bd3 f5"
-    ],
-    [
-     "D45",
-     "Semi-Slav Defense: Stoltz Variation",
-     "d4 d5 Nf3 Nf6 c4 c6 e3 e6 Nc3 Nbd7 Qc2 Bd6 b3 O-O Bb2"
-    ],
-    [
-     "D05",
-     "Rubinstein Opening: Semi-Slav Defense",
-     "d4 d5 Nf3 Nf6 e3 e6 Bd3 Bd6 O-O O-O b3 Nbd7 Bb2 c6 Nbd2"
-    ],
-    [
-     "D11",
-     "Slav Defense: Modern Line",
-     "d4 d5 Nf3 Nf6 g3 c6 Bg2 Bg4 O-O Nbd7 c4"
-    ],
-    [
-     "D49",
-     "Semi-Slav Defense: Meran Variation, Rellstab Attack",
-     "d4 d5 c4 c6 Nc3 Nf6 Nf3 e6 e3 Nbd7 Bd3 dxc4 Bxc4 b5 Bd3 a6 e4 c5 e5 cxd4 Nxb5 Nxe5 Nxe5 axb5 O-O Qd5 Qe2 Ba6 Bg5"
-    ],
-    [
-     "D46",
-     "Semi-Slav Defense: Romih Variation",
-     "d4 d5 c4 c6 Nc3 Nf6 e3 e6 Nf3 Nbd7 Bd3 Bb4"
-    ],
-    [
-     "D46",
-     "Semi-Slav Defense: Chigorin Defense",
-     "d4 d5 c4 c6 Nc3 Nf6 e3 e6 Nf3 Nbd7 Bd3 Bd6 Qc2"
-    ],
-    [
-     "D46",
-     "Semi-Slav Defense: Bogoljubow Variation",
-     "d4 d5 c4 c6 Nc3 Nf6 e3 e6 Nf3 Nbd7 Bd3 Be7"
-    ],
-    [
-     "D47",
-     "Semi-Slav Defense: Meran Variation, Wade Variation, Kaidanov Gambit",
-     "d4 d5 c4 c6 Nc3 Nf6 e3 e6 Nf3 Nbd7 Bd3 dxc4 Bxc4 b5 Bd3 Bb7 e4 b4 Na4 c5 e5 Nd5 O-O cxd4 Nxd4"
-    ],
-    [
-     "D46",
-     "Semi-Slav Defense: Chigorin Defense",
-     "d4 d5 c4 c6 Nc3 Nf6 e3 e6 Nf3 Nbd7 Bd3 dxc4 Bxc4 b5 Bd3 Bd6 O-O Bb7 a3 O-O Qc2"
-    ],
-    [
-     "D49",
-     "Semi-Slav Defense: Meran Variation, Rabinovich Variation",
-     "d4 d5 c4 c6 Nc3 Nf6 e3 e6 Nf3 Nbd7 Bd3 dxc4 Bxc4 b5 Bd3 a6 e4 c5 e5 cxd4 Nxb5 Ng4"
-    ],
-    [
-     "D49",
-     "Semi-Slav Defense: Meran Variation, Stahlberg Variation",
-     "d4 d5 c4 c6 Nc3 Nf6 e3 e6 Nf3 Nbd7 Bd3 dxc4 Bxc4 b5 Bd3 a6 e4 c5 e5 cxd4 Nxb5 Nxe5 Nxe5 axb5 Qf3"
-    ],
-    [
-     "D46",
-     "Semi-Slav Defense: Chigorin Defense",
-     "d4 d5 c4 c6 Nc3 Nf6 e3 e6 Nf3 Nbd7 Qc2 Bd6 b3 O-O Bb2 Qe7 Bd3"
-    ],
-    [
-     "D46",
-     "Semi-Slav Defense: Chigorin Defense",
-     "d4 d5 c4 c6 Nc3 Nf6 e3 e6 Nf3 Nbd7 Qc2 Bd6 b3 O-O Bb2 Re8 Bd3"
-    ],
-    [
-     "D46",
-     "Semi-Slav Defense: Main Line",
-     "d4 d5 c4 c6 Nc3 Nf6 e3 e6 Nf3 Nbd7 Qc2 b6 b3 Bb7 Bd3 Be7 O-O O-O Bb2"
-    ],
-    [
-     "D46",
-     "Semi-Slav Defense: Chigorin Defense",
-     "d4 d5 c4 c6 Nc3 Nf6 e3 e6 Nf3 Nbd7 b3 Bd6 Bb2 O-O Bd3"
-    ],
-    [
-     "D45",
-     "Semi-Slav Defense: Accelerated Meran Variation",
-     "d4 d5 c4 c6 Nc3 Nf6 e3 e6 Nf3 a6"
-    ],
-    [
-     "D10",
-     "Slav Defense: Slav Gambit, Alekhine Attack",
-     "d4 d5 c4 c6 Nc3 dxc4 e4"
-    ],
-    [
-     "D10",
-     "Slav Defense: Winawer Countergambit, Anti-Winawer Gambit",
-     "d4 d5 c4 c6 Nc3 e5 e4"
-    ],
-    [
-     "D11",
-     "Slav Defense: Bonet Gambit",
-     "d4 d5 c4 c6 Nf3 Nf6 Bg5"
-    ],
-    [
-     "D11",
-     "Slav Defense: Breyer Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 Nbd2"
-    ],
-    [
-     "D15",
-     "Slav Defense: Süchting Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 Qb6"
-    ],
-    [
-     "D15",
-     "Slav Defense: Chebanenko Variation, Advance System",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 a6 c5"
-    ],
-    [
-     "D15",
-     "Slav Defense: Chebanenko Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 a6 e3 Bf5"
-    ],
-    [
-     "D17",
-     "Slav Defense: Czech Variation, Krause Attack, Fazekas Gambit",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 a4 Bf5 Ne5 Na6 e4"
-    ],
-    [
-     "D17",
-     "Slav Defense: Czech Variation, Carlsbad Variation, Morozevich Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 a4 Bf5 Ne5 Nbd7 Nxc4 Qc7 g3 e5 dxe5 Nxe5 Bf4 Nfd7 Bg2 g5"
-    ],
-    [
-     "D17",
-     "Slav Defense: Czech Variation, Wiesbaden Variation, Sharp Line",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 a4 Bf5 Ne5 e6 f3 Bb4 e4"
-    ],
-    [
-     "D17",
-     "Slav Defense: Czech Variation, Bled Attack",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 a4 Bf5 Nh4"
-    ],
-    [
-     "D18",
-     "Slav Defense: Czech Variation, Lasker Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 a4 Bf5 e3 Na6"
-    ],
-    [
-     "D19",
-     "Slav Defense: Czech Variation, Dutch Variation, Sämisch Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 a4 Bf5 e3 e6 Bxc4 Bb4 O-O O-O Qe2 Ne4 g4"
-    ],
-    [
-     "D16",
-     "Slav Defense: Steiner Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 a4 Bg4"
-    ],
-    [
-     "D16",
-     "Slav Defense: Smyslov Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 a4 Na6"
-    ],
-    [
-     "D16",
-     "Slav Defense: Soultanbeieff Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 a4 e6"
-    ],
-    [
-     "D15",
-     "Slav Defense: Alekhine Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 e3"
-    ],
-    [
-     "D15",
-     "Slav Defense: Geller Gambit",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 e4 b5 e5"
-    ],
-    [
-     "D52",
-     "Queen's Gambit Declined: Cambridge Springs Defense, Yugoslav Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 e6 Bg5 Nbd7 e3 Qa5 cxd5 Nxd5"
-    ],
-    [
-     "D44",
-     "Semi-Slav Defense: Botvinnik Variation, Lilienthal Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 e6 Bg5 dxc4 e4 b5 e5 h6 Bh4 g5 Nxg5 hxg5 Bxg5 Nbd7 g3"
-    ],
-    [
-     "D44",
-     "Semi-Slav Defense: Botvinnik Variation, Ekstrom Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 e6 Bg5 dxc4 e4 b5 e5 h6 Bh4 g5 exf6 gxh4 Ne5"
-    ],
-    [
-     "D43",
-     "Semi-Slav Defense: Anti-Moscow Gambit",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 e6 Bg5 h6 Bh4"
-    ],
-    [
-     "D43",
-     "Semi-Slav Defense: Hastings Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 e6 Bg5 h6 Bxf6 Qxf6 Qb3"
-    ],
-    [
-     "D48",
-     "Semi-Slav Defense: Meran Variation, Reynolds' Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 e6 e3 Nbd7 Bd3 dxc4 Bxc4 b5 Bd3 a6 e4 c5 d5"
-    ],
-    [
-     "D49",
-     "Semi-Slav Defense: Meran Variation, Sozin Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 e6 e3 Nbd7 Bd3 dxc4 Bxc4 b5 Bd3 a6 e4 c5 e5 cxd4 Nxb5 Nxe5"
-    ],
-    [
-     "D47",
-     "Semi-Slav Defense: Meran Variation, Lundin Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 e6 e3 Nbd7 Bd3 dxc4 Bxc4 b5 Bd3 b4"
-    ],
-    [
-     "D45",
-     "Semi-Slav Defense: Stoltz Variation, Center Variation, Mikhalchishin Line",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 e6 e3 Nbd7 Qc2 Bd6 e4 dxe4 Nxe4 Nxe4 Qxe4 e5 dxe5"
-    ],
-    [
-     "D45",
-     "Semi-Slav Defense: Stoltz Variation, Shabalov Attack",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 e6 e3 Nbd7 Qc2 Bd6 g4"
-    ],
-    [
-     "D15",
-     "Slav Defense: Schlechter Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 g6"
-    ],
-    [
-     "D14",
-     "Slav Defense: Exchange Variation, Trifunovic Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 cxd5 cxd5 Nc3 Nc6 Bf4 Bf5 e3 e6 Qb3 Bb4"
-    ],
-    [
-     "D12",
-     "Slav Defense: Quiet Variation, Schallopp Defense",
-     "d4 d5 c4 c6 Nf3 Nf6 e3 Bf5 Nc3 e6"
-    ],
-    [
-     "D12",
-     "Slav Defense: Quiet Variation, Amsterdam Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 e3 Bf5 cxd5 cxd5 Nc3 e6 Ne5 Nfd7"
-    ],
-    [
-     "D12",
-     "Slav Defense: Quiet Variation, Landau Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 e3 Bf5 cxd5 cxd5 Qb3 Qc8 Bd2 e6 Na3"
-    ],
-    [
-     "D11",
-     "Slav Defense: Quiet Variation, Pin Defense",
-     "d4 d5 c4 c6 Nf3 Nf6 e3 Bg4"
-    ],
-    [
-     "D30",
-     "Semi-Slav Defense: Quiet Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 e3 e6 Nbd2 Nbd7"
-    ],
-    [
-     "D11",
-     "Slav Defense: Modern Line",
-     "d4 d5 c4 c6 Nf3 Nf6 g3 Bg4 Bg2 e6 O-O"
-    ],
-    [
-     "D11",
-     "Slav Defense: Modern Line",
-     "d4 d5 c4 c6 Nf3 Nf6 g3 dxc4 Bg2 g6"
-    ],
-    [
-     "D46",
-     "Semi-Slav Defense: Chigorin Defense",
-     "d4 d5 c4 c6 Nf3 e6 e3 Nf6 Nc3 Bd6 Bd3 dxc4 Bxc4 b5 Bd3 Nbd7 O-O O-O Qc2"
-    ],
-    [
-     "D14",
-     "Slav Defense: Exchange Variation, Symmetrical Line",
-     "d4 d5 c4 c6 cxd5 cxd5 Nc3 Nf6 Nf3 Nc6 Bf4 Bf5"
-    ],
-    [
-     "D10",
-     "Slav Defense: Exchange Variation, Boor Attack",
-     "d4 d5 c4 c6 cxd5 cxd5 Nc3 Nf6 f3"
-    ],
-    [
-     "D10",
-     "Slav Defense: Diemer Gambit",
-     "d4 d5 c4 c6 e4"
-    ],
-    [
-     "D21",
-     "Queen's Gambit Accepted: Slav Gambit",
-     "d4 d5 c4 dxc4 Nf3 b5"
-    ],
-    [
-     "D45",
-     "Semi-Slav Defense: Rubinstein System",
-     "d4 d5 c4 e6 Nc3 c6 Nf3 Nf6 e3 Nbd7 Ne5"
-    ],
-    [
-     "D45",
-     "Semi-Slav Defense: Normal Variation",
-     "d4 d5 c4 e6 Nc3 c6 Nf3 Nf6 e3 Nbd7 b3 Bd6 Bb2 O-O Be2"
-    ],
-    [
-     "D31",
-     "Semi-Slav Defense: Noteboom Variation, Anti-Noteboom Variation, Belyavsky Line",
-     "d4 d5 c4 e6 Nc3 c6 Nf3 dxc4 Bg5 f6"
-    ],
-    [
-     "D31",
-     "Semi-Slav Defense: Noteboom Variation, Abrahams Variation",
-     "d4 d5 c4 e6 Nc3 c6 Nf3 dxc4 a4 Bb4 e3 Bxc3+ bxc3 b5 axb5 cxb5"
-    ],
-    [
-     "D31",
-     "Queen's Gambit Declined: Semi-Slav, Abrahams Variation",
-     "d4 d5 c4 e6 Nc3 c6 Nf3 dxc4 a4 Bb4 e3 b5 Bd2 a5"
-    ],
-    [
-     "D31",
-     "Queen's Gambit Declined: Semi-Slav, Koomen Variation",
-     "d4 d5 c4 e6 Nc3 c6 Nf3 dxc4 e3 b5 a4 Bb4 Bd2 Qe7"
-    ],
-    [
-     "D31",
-     "Semi-Slav Defense: Noteboom Variation, Anti-Noteboom Gambit",
-     "d4 d5 c4 e6 Nc3 c6 Nf3 dxc4 g3"
-    ],
-    [
-     "D48",
-     "Semi-Slav Defense: Meran Variation, Pirc Variation",
-     "d4 d5 c4 e6 Nc3 c6 e3 Nf6 Nf3 Nbd7 Bd3 dxc4 Bxc4 b5 Bd3 a6 e4 b4"
-    ],
-    [
-     "D48",
-     "Semi-Slav Defense: Meran Variation",
-     "d4 d5 c4 e6 Nc3 c6 e3 Nf6 Nf3 a6 Bd3 dxc4 Bxc4 b5 Bd3 c5 O-O Bb7 Qe2 Nbd7"
-    ],
-    [
-     "D48",
-     "Semi-Slav Defense: Meran Variation",
-     "d4 d5 c4 e6 Nc3 c6 e3 Nf6 Nf3 a6 Bd3 dxc4 Bxc4 b5 Bd3 c5 a4"
-    ],
-    [
-     "D31",
-     "Semi-Slav Defense: Anti-Noteboom, Stonewall Variation, Portisch Gambit",
-     "d4 d5 c4 e6 Nc3 c6 e3 f5 g4"
-    ],
-    [
-     "D31",
-     "Semi-Slav Defense: Marshall Gambit, Tolush Variation",
-     "d4 d5 c4 e6 Nc3 c6 e4 dxe4 Nxe4 Bb4+ Bd2 Qxd4 Bxb4 Qxe4+ Be2 c5 Bxc5 Qxg2"
-    ],
-    [
-     "D31",
-     "Semi-Slav Defense: Marshall Gambit, Forgotten Variation",
-     "d4 d5 c4 e6 Nc3 c6 e4 dxe4 Nxe4 Bb4+ Nc3"
-    ],
-    [
-     "D31",
-     "Semi-Slav Defense: Gunderam Gambit",
-     "d4 d5 c4 e6 Nc3 c6 e4 dxe4 f3"
-    ],
-    [
-     "D31",
-     "Queen's Gambit Declined: Semi-Slav, Junge Variation",
-     "d4 d5 c4 e6 Nf3 c6 Nc3 dxc4 a4 Bb4 e3 b5 Bd2 Qb6"
-    ],
-    [
-     "B59",
-     "Sicilian Defense: Boleslavsky Variation",
-     "e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 Nf6 Nc3 d6 Be2 e5 Nb3"
-    ],
-    [
-     "B58",
-     "Sicilian Defense: Boleslavsky Variation, Louma Variation",
-     "e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 Nf6 Nc3 d6 Be2 e5 Nxc6"
-    ],
-    [
-     "B58",
-     "Sicilian Defense: Boleslavsky Variation",
-     "e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 Be2 e5"
-    ],
-    [
-     "B77",
-     "Sicilian Defense: Dragon Variation, Yugoslav Attack, Sosonko Variation",
-     "e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 f3 Nc6 Qd2 O-O Bc4 Nd7"
-    ],
-    [
-     "B77",
-     "Sicilian Defense: Dragon Variation, Yugoslav Attack, Czerniak Variation",
-     "e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 f3 Nc6 Qd2 O-O Bc4 Nxd4 Bxd4 Be6 Bb3 Qa5"
-    ],
-    [
-     "B76",
-     "Sicilian Defense: Dragon Variation, Yugoslav Attack, Modern Line",
-     "e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 f3 Nc6 Qd2 O-O O-O-O"
-    ],
-    [
-     "B77",
-     "Sicilian Defense: Dragon Variation, Yugoslav Attack, Main Line",
-     "e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 f3 O-O Qd2 Nc6 Bc4 Bd7 Bb3"
-    ],
-    [
-     "B79",
-     "Sicilian Defense: Dragon Variation, Yugoslav Attack, Soltis Variation",
-     "e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 f3 O-O Qd2 Nc6 Bc4 Bd7 O-O-O Qa5 h4 Rfc8 Bb3 h5"
-    ],
-    [
-     "B78",
-     "Sicilian Defense: Dragon Variation, Yugoslav Attack, Chinese Dragon",
-     "e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 f3 O-O Qd2 Nc6 Bc4 Bd7 O-O-O Rb8"
-    ],
-    [
-     "B78",
-     "Sicilian Defense: Dragon Variation, Yugoslav Attack, Topalov Variation",
-     "e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 f3 O-O Qd2 Nc6 Bc4 Bd7 O-O-O Rc8 Bb3 Nxd4 Bxd4"
-    ],
-    [
-     "B79",
-     "Sicilian Defense: Dragon Variation, Yugoslav Attack",
-     "e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 f3 O-O Qd2 Nc6 Bc4 Bd7 h4 Qa5 O-O-O Rfc8 Bb3"
-    ],
-    [
-     "B77",
-     "Sicilian Defense: Dragon Variation, Yugoslav Attack, Byrne Variation",
-     "e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 f3 O-O Qd2 Nc6 Bc4 a5"
-    ],
-    [
-     "B76",
-     "Sicilian Defense: Dragon Variation, Yugoslav Attack, Panov Variation",
-     "e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 f3 O-O Qd2 Nc6 g4"
-    ],
-    [
-     "B75",
-     "Sicilian Defense: Dragon Variation, Yugoslav Attack, Hungarian Dragon",
-     "e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Nc6 f3 h5"
-    ],
-    [
-     "C97",
-     "Ruy Lopez: Closed, Chigorin, Yugoslav System",
-     "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5 Bc2 c5 d4 Qc7 Nbd2 Bd7 Nf1 Rfe8 Ne3 g6"
-    ],
-    [
-     "C79",
-     "Ruy Lopez: Steinitz Defense Deferred, Boleslavsky Variation",
-     "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O d6 Bxc6+ bxc6 d4 Nxe4 Re1 f5 dxe5 d5 Nc3"
-    ],
-    [
-     "C11",
-     "French Defense: Steinitz Variation, Boleslavsky Variation",
-     "e4 e6 d4 d5 Nc3 Nf6 e5 Nfd7 f4 c5 Nf3 Nc6 Be3"
-    ],
-    [
-     "A00",
-     "Hungarian Opening: Slav Formation",
-     "g3 d5 Bg2 c6"
-    ]
-   ]
+   "variantes": []
   },
   {
    "id": "gambit-dame-noirs",
@@ -5549,25 +1141,7 @@
       "e3",
       "O-O",
       "Nf3",
-      "Nbd7",
-      "cxd5",
-      "Nxd5",
-      "Bxe7",
-      "Qxe7",
-      "Nxd5",
-      "exd5",
-      "Bd3",
-      "Nf6",
-      "Qc2",
-      "c6",
-      "O-O",
-      "a5",
-      "h3",
-      "g6",
-      "a4",
-      "Be6",
-      "Ne5",
-      "Ne8"
+      "Nbd7"
      ],
      "notes": {
       "1": "d4 : les Blancs prennent le centre et libèrent leur fou c1.",
@@ -5581,16 +1155,15 @@
       "9": "e3 : les Blancs renforcent leur centre et libèrent leur fou f1.",
       "10": "O-O : les Noirs mettent leur roi en sécurité.",
       "11": "Cf3 : les Blancs développent leur deuxième cavalier.",
-      "12": "Cbd7 : les Noirs développent leur cavalier b8.",
-      "13": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+      "12": "Cbd7 : les Noirs développent leur cavalier b8."
      },
-     "extensionDepuis": 12,
+     "extensionDepuis": null,
      "ecoDetecte": {
       "code": "D60",
       "nom": "Queen's Gambit Declined: Orthodox Defense",
       "ply": 12
      },
-     "fenFinale": "r3nrk1/1p2qp1p/2p1b1p1/p2pN3/P2P4/3BP2P/1PQ2PP1/R4RK1 w - - 3 16"
+     "fenFinale": "r1bq1rk1/pppnbppp/4pn2/3p2B1/2PP4/2N1PN2/PP3PPP/R2QKB1R w KQ - 3 7"
     },
     {
      "nom": "Gambit dame refusé : ligne Harrwitz",
@@ -5608,23 +1181,7 @@
       "e3",
       "c5",
       "dxc5",
-      "Bxc5",
-      "a3",
-      "dxc4",
-      "Bxc4",
-      "Qxd1+",
-      "Rxd1",
-      "a6",
-      "Be2",
-      "b5",
-      "Ne5",
-      "Bb7",
-      "O-O",
-      "Be7",
-      "Rd2",
-      "h6",
-      "Rfd1",
-      "Rc8"
+      "Bxc5"
      ],
      "notes": {
       "1": "d4 : les Blancs prennent le centre et libèrent leur fou c1.",
@@ -5640,685 +1197,18 @@
       "11": "e3 : les Blancs renforcent d4 et libèrent leur fou f1.",
       "12": "c5 : les Noirs attaquent le centre blanc et cherchent à libérer leur position.",
       "13": "dxc5 : les Blancs capturent le pion c5.",
-      "14": "Fxc5 : les Noirs reprennent avec leur fou et activent cette pièce.",
-      "15": "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres."
+      "14": "Fxc5 : les Noirs reprennent avec leur fou et activent cette pièce."
      },
-     "extensionDepuis": 14,
+     "extensionDepuis": null,
      "ecoDetecte": {
       "code": "D37",
       "nom": "Queen's Gambit Declined: Harrwitz Attack, Main Line",
       "ply": 14
      },
-     "fenFinale": "rnr3k1/1b2bpp1/p3pn1p/1p2N3/5B2/P1N1P3/1P1RBPPP/3R2K1 w - - 2 16"
+     "fenFinale": "rnbq1rk1/pp3ppp/4pn2/2bp4/2P2B2/2N1PN2/PP3PPP/R2QKB1R w KQ - 0 8"
     }
    ],
-   "variantes": [
-    [
-     "D63",
-     "Queen's Gambit Declined: Orthodox Defense, Capablanca Variation",
-     "Nf3 d5 d4 Nf6 c4 e6 Nc3 Be7 Bg5 O-O e3 Nbd7 Rc1 b6 cxd5 exd5 Bb5"
-    ],
-    [
-     "D64",
-     "Queen's Gambit Declined: Orthodox Defense, Rubinstein Attack",
-     "Nf3 d5 d4 Nf6 c4 e6 Nc3 Be7 Bg5 O-O e3 Nbd7 Rc1 c6 Qc2 Ne4"
-    ],
-    [
-     "D41",
-     "Queen's Gambit Declined: Semi-Tarrasch Defense",
-     "c4 c5 Nf3 Nf6 Nc3 Nc6 g3 d5 d4 e6"
-    ],
-    [
-     "D30",
-     "Queen's Gambit Declined: Capablanca Variation",
-     "d4 Nf6 Nf3 e6 c4 d5 Bg5 c6 Nbd2 Nbd7 e3"
-    ],
-    [
-     "D53",
-     "Queen's Gambit Declined: Lasker Defense",
-     "d4 Nf6 c4 e6 Nc3 d5 Bg5 Be7 e3 Ne4"
-    ],
-    [
-     "D63",
-     "Queen's Gambit Declined: Orthodox Defense, Pillsbury Variation",
-     "d4 Nf6 c4 e6 Nc3 d5 Bg5 Be7 e3 O-O Nf3 Nbd7 Rc1 b6 cxd5 exd5 Bd3"
-    ],
-    [
-     "D54",
-     "Queen's Gambit Declined: Neo-Orthodox Variation",
-     "d4 Nf6 c4 e6 Nc3 d5 Bg5 Be7 e3 O-O Rc1"
-    ],
-    [
-     "D57",
-     "Queen's Gambit Declined: Lasker Defense, Bernstein Variation",
-     "d4 Nf6 c4 e6 Nc3 d5 Bg5 Be7 e3 h6 Bh4 O-O Nf3 Ne4 Bxe7 Qxe7 cxd5 Nxc3 bxc3 exd5 Qb3 Qd6"
-    ],
-    [
-     "D37",
-     "Queen's Gambit Declined: Harrwitz Attack, Two Knights Defense, Blockade Line",
-     "d4 Nf6 c4 e6 Nc3 d5 Nf3 Be7 Bf4 O-O e3 Nbd7 c5"
-    ],
-    [
-     "D64",
-     "Queen's Gambit Declined: Orthodox Defense, Rubinstein Attack",
-     "d4 Nf6 c4 e6 Nc3 d5 Nf3 Be7 Bg5 O-O e3 Nbd7 Rc1 c6 a3 a6 Qc2"
-    ],
-    [
-     "D35",
-     "Queen's Gambit Declined: Exchange Variation, Chameleon Variation",
-     "d4 Nf6 c4 e6 Nc3 d5 cxd5 exd5 Bg5 Be7 e3 O-O Bd3 Nbd7 Qc2 Re8 Nge2 Nf8 O-O-O"
-    ],
-    [
-     "D35",
-     "Queen's Gambit Declined: Exchange Variation, Carlsen Variation",
-     "d4 Nf6 c4 e6 Nc3 d5 cxd5 exd5 Bg5 Be7 e3 h6 Bh4 Bg4"
-    ],
-    [
-     "D36",
-     "Queen's Gambit Declined: Exchange Variation, Reshevsky Variation",
-     "d4 Nf6 c4 e6 Nc3 d5 cxd5 exd5 Bg5 c6 Qc2 Be7 e3 Nbd7 Bd3"
-    ],
-    [
-     "D36",
-     "Queen's Gambit Declined: Exchange Variation, Reshevsky Variation",
-     "d4 Nf6 c4 e6 Nc3 d5 cxd5 exd5 Bg5 c6 Qc2 Be7 e3 O-O Bd3 h6 Bh4"
-    ],
-    [
-     "D36",
-     "Queen's Gambit Declined: Exchange Variation, Reshevsky Variation",
-     "d4 Nf6 c4 e6 Nc3 d5 cxd5 exd5 Bg5 c6 e3 Be7 Bd3 Nbd7 Nge2 O-O O-O h6 Bh4 Re8 Qc2"
-    ],
-    [
-     "D55",
-     "Queen's Gambit Declined: Pillsbury Attack",
-     "d4 Nf6 c4 e6 Nf3 b6 Nc3 d5 cxd5 exd5 Bg5 Be7 e3 O-O Bd3 Bb7 Ne5"
-    ],
-    [
-     "D30",
-     "Queen's Gambit Declined: Vienna Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Bg5 Bb4+"
-    ],
-    [
-     "D30",
-     "Queen's Gambit Declined: Traditional Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Bg5 dxc4 Qa4+ c6 Qxc4"
-    ],
-    [
-     "D30",
-     "Queen's Gambit Declined: Capablanca Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Bg5 h6"
-    ],
-    [
-     "D38",
-     "Queen's Gambit Declined: Westphalian Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Bb4 Bg5 Nbd7 e3 c5"
-    ],
-    [
-     "D39",
-     "Queen's Gambit Declined: Ragozin Defense, Vienna Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Bb4 Bg5 dxc4"
-    ],
-    [
-     "D38",
-     "Queen's Gambit Declined: Ragozin Defense, Alekhine Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Bb4 Qa4+"
-    ],
-    [
-     "D37",
-     "Queen's Gambit Declined: Harrwitz Attack, Two Knights Defense",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bf4 O-O e3 Nbd7"
-    ],
-    [
-     "D37",
-     "Queen's Gambit Declined: Harrwitz Attack",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bf4 O-O e3 c5 dxc5 Bxc5 Qc2 Nc6 Rd1 Qa5 a3"
-    ],
-    [
-     "D37",
-     "Queen's Gambit Declined: Harrwitz Attack",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bf4 O-O e3 c5 dxc5 Bxc5 Qc2 Nc6 a3 Qa5 O-O-O"
-    ],
-    [
-     "D37",
-     "Queen's Gambit Declined: Miles Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bg5 O-O Qc2"
-    ],
-    [
-     "D60",
-     "Queen's Gambit Declined: Orthodox Defense, Botvinnik Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bg5 O-O e3 Nbd7 Bd3 c6"
-    ],
-    [
-     "D62",
-     "Queen's Gambit Declined: Orthodox Defense, Rubinstein Variation, Flohr Line",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bg5 O-O e3 Nbd7 Qc2 c5 cxd5"
-    ],
-    [
-     "D63",
-     "Queen's Gambit Declined: Orthodox Defense, Henneberger Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bg5 O-O e3 Nbd7 Rc1 a6 c5 c6 Bd3"
-    ],
-    [
-     "D63",
-     "Queen's Gambit Declined: Orthodox Defense, Swiss, Carlsbad Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bg5 O-O e3 Nbd7 Rc1 a6 cxd5"
-    ],
-    [
-     "D68",
-     "Queen's Gambit Declined: Orthodox Defense, Classical Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bg5 O-O e3 Nbd7 Rc1 c6 Bd3 dxc4 Bxc4 Nd5 Bxe7 Qxe7 O-O Nxc3 Rxc3 e5 Qc2"
-    ],
-    [
-     "D64",
-     "Queen's Gambit Declined: Orthodox Defense, Rubinstein Attack",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bg5 O-O e3 Nbd7 Rc1 c6 Qc2 a6"
-    ],
-    [
-     "D55",
-     "Queen's Gambit Declined: Anti-Tartakower Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bg5 O-O e3 h6 Bxf6"
-    ],
-    [
-     "D56",
-     "Queen's Gambit Declined: Lasker Defense, Teichmann Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bg5 h6 Bh4 O-O e3 Ne4 Bxe7 Qxe7 Qc2"
-    ],
-    [
-     "D58",
-     "Queen's Gambit Declined: Tartakower Defense",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bg5 h6 Bh4 O-O e3 b6"
-    ],
-    [
-     "D55",
-     "Queen's Gambit Declined: Anti-Tartakower Variation, Petrosian Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Be7 Bg5 h6 Bxf6 Bxf6 e3 O-O Rc1 c6 Bd3 Nd7 O-O dxc4 Bxc4"
-    ],
-    [
-     "D37",
-     "Queen's Gambit Declined: Knight Defense, Alekhine Gambit",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Nbd7 Bg5 h6 Bh4 dxc4"
-    ],
-    [
-     "D35",
-     "Queen's Gambit Declined: Exchange Variation, Sämisch Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Nbd7 cxd5 exd5 Bf4"
-    ],
-    [
-     "D36",
-     "Queen's Gambit Declined: Exchange Variation, Reshevsky Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Nbd7 cxd5 exd5 Bg5 c6 e3 Be7 Bd3 Nf8 Qc2"
-    ],
-    [
-     "D36",
-     "Queen's Gambit Declined: Exchange Variation, Reshevsky Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Nbd7 cxd5 exd5 Bg5 c6 e3 Be7 Bd3 O-O Qc2"
-    ],
-    [
-     "D36",
-     "Queen's Gambit Declined: Exchange Variation, Reshevsky Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 Nbd7 cxd5 exd5 Bg5 c6 e3 Be7 Qc2"
-    ],
-    [
-     "D42",
-     "Queen's Gambit Declined: Semi-Tarrasch Defense, Main Line",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 c5 cxd5 Nxd5 e3 Nc6 Bd3"
-    ],
-    [
-     "D41",
-     "Queen's Gambit Declined: Semi-Tarrasch Defense, Exchange Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 c5 cxd5 Nxd5 e4 Nxc3 bxc3"
-    ],
-    [
-     "D41",
-     "Queen's Gambit Declined: Semi-Tarrasch Defense",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 c5 cxd5 Nxd5 g3 Nc6 Bg2"
-    ],
-    [
-     "D41",
-     "Queen's Gambit Declined: Semi-Tarrasch Defense, Endgame Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 c5 cxd5 cxd4 Qxd4 exd5 e4 dxe4 Qxd8+"
-    ],
-    [
-     "D37",
-     "Queen's Gambit Declined: Vienna Variation, Quiet Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 Nc3 dxc4 e3"
-    ],
-    [
-     "D35",
-     "Queen's Gambit Declined: Exchange Variation",
-     "d4 Nf6 c4 e6 Nf3 d5 e3 b6 Nc3 Bd6 cxd5 exd5"
-    ],
-    [
-     "D32",
-     "Queen's Gambit Declined: Tarrasch Defense",
-     "d4 Nf6 c4 e6 Nf3 d5 e3 c5 cxd5 exd5 Nc3 a6 Be2 Nc6"
-    ],
-    [
-     "D02",
-     "Queen's Gambit Declined: Baltic Defense, Pseudo-Slav",
-     "d4 d5 Nf3 Bf5 c4 e6 Nc3 c6"
-    ],
-    [
-     "D60",
-     "Queen's Gambit Declined: Orthodox Defense, Rauzer Variation",
-     "d4 d5 Nf3 Nf6 c4 e6 Nc3 Be7 Bg5 O-O e3 Nbd7 Qb3"
-    ],
-    [
-     "D67",
-     "Queen's Gambit Declined: Orthodox Defense, Janowski Variation",
-     "d4 d5 Nf3 Nf6 c4 e6 Nc3 Be7 Bg5 O-O e3 Nbd7 Rc1 c6 Bd3 dxc4 Bxc4 Nd5 h4"
-    ],
-    [
-     "D65",
-     "Queen's Gambit Declined: Orthodox Defense, Rubinstein Attack",
-     "d4 d5 Nf3 Nf6 c4 e6 Nc3 Be7 Bg5 O-O e3 Nbd7 Rc1 c6 Qc2 a6 cxd5 exd5 Bd3"
-    ],
-    [
-     "D06",
-     "Queen's Gambit Declined: Baltic Defense, Pseudo-Chigorin",
-     "d4 d5 c4 Bf5 Nc3 e6 Nf3 Nc6"
-    ],
-    [
-     "D06",
-     "Queen's Gambit Declined: Baltic Defense, Queen Attack Deferred",
-     "d4 d5 c4 Bf5 Nc3 e6 Qb3"
-    ],
-    [
-     "D06",
-     "Queen's Gambit Declined: Baltic Defense, Queen Attack",
-     "d4 d5 c4 Bf5 Qb3"
-    ],
-    [
-     "D06",
-     "Queen's Gambit Declined: Baltic Defense, Argentinian Gambit",
-     "d4 d5 c4 Bf5 cxd5 Bxb1 Qa4+ c6 dxc6 Nxc6"
-    ],
-    [
-     "D07",
-     "Queen's Gambit Declined: Chigorin Defense, Modern Gambit",
-     "d4 d5 c4 Nc6 Nc3 dxc4 Nf3 Nf6"
-    ],
-    [
-     "D07",
-     "Queen's Gambit Declined: Chigorin Defense, Tartakower Gambit",
-     "d4 d5 c4 Nc6 Nc3 e5"
-    ],
-    [
-     "D07",
-     "Queen's Gambit Declined: Chigorin Defense",
-     "d4 d5 c4 Nc6 Nc3 e6 Nf3 Nf6 a3"
-    ],
-    [
-     "D07",
-     "Queen's Gambit Declined: Chigorin Defense, Main Line, Alekhine Variation",
-     "d4 d5 c4 Nc6 Nf3 Bg4 Qa4"
-    ],
-    [
-     "D07",
-     "Queen's Gambit Declined: Chigorin Defense, Lazard Gambit",
-     "d4 d5 c4 Nc6 Nf3 e5"
-    ],
-    [
-     "D07",
-     "Queen's Gambit Declined: Chigorin Defense, Exchange Variation, Costa's Line",
-     "d4 d5 c4 Nc6 cxd5 Qxd5 e3 e5 Nc3 Bb4 Bd2 Bxc3 Bxc3 exd4 Ne2"
-    ],
-    [
-     "D06",
-     "Queen's Gambit Declined: Marshall Defense, Tan Gambit",
-     "d4 d5 c4 Nf6 cxd5 c6"
-    ],
-    [
-     "D06",
-     "Queen's Gambit Declined: Zilbermints Gambit",
-     "d4 d5 c4 b5"
-    ],
-    [
-     "D40",
-     "Queen's Gambit Declined: Semi-Tarrasch Defense, with e3",
-     "d4 d5 c4 c5 Nf3 Nf6 Nc3 e6 e3 Nc6 Bd3"
-    ],
-    [
-     "D06",
-     "Queen's Gambit Declined: Austrian Defense, Haberditz Variation",
-     "d4 d5 c4 c5 cxd5 Nf6 e4 Nxe4 dxc5 Qa5+"
-    ],
-    [
-     "D06",
-     "Queen's Gambit Declined: Austrian Attack, Salvio Countergambit",
-     "d4 d5 c4 c5 dxc5 d4"
-    ],
-    [
-     "D52",
-     "Queen's Gambit Declined: Cambridge Springs Defense, Bogoljubow Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 e6 Bg5 Nbd7 e3 Qa5 Nd2 Bb4 Qc2"
-    ],
-    [
-     "D52",
-     "Queen's Gambit Declined: Cambridge Springs Defense, Rubinstein Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 e6 Bg5 Nbd7 e3 Qa5 Nd2 dxc4"
-    ],
-    [
-     "D52",
-     "Queen's Gambit Declined: Cambridge Springs Defense, Yugoslav Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 Nc3 e6 Bg5 Nbd7 e3 Qa5 cxd5 Nxd5"
-    ],
-    [
-     "D30",
-     "Queen's Gambit Declined: Semmering Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 e3 e6 Nbd2 Nbd7 Bd3 c5"
-    ],
-    [
-     "D30",
-     "Queen's Gambit Declined: Stonewall Variation",
-     "d4 d5 c4 c6 Nf3 Nf6 e3 e6 Nbd2 Ne4 Bd3 f5"
-    ],
-    [
-     "D08",
-     "Queen's Gambit Declined: Albin Countergambit, Krenosz Variation",
-     "d4 d5 c4 e5 dxe5 d4 Nf3 Nc6 Nbd2 Bg4 h3 Bxf3 Nxf3 Bb4+ Bd2 Qe7"
-    ],
-    [
-     "D08",
-     "Queen's Gambit Declined: Albin Countergambit, Balogh Variation",
-     "d4 d5 c4 e5 dxe5 d4 Nf3 Nc6 Nbd2 Qe7"
-    ],
-    [
-     "D08",
-     "Queen's Gambit Declined: Albin Countergambit, Janowski Variation",
-     "d4 d5 c4 e5 dxe5 d4 Nf3 Nc6 Nbd2 f6"
-    ],
-    [
-     "D09",
-     "Queen's Gambit Declined: Albin Countergambit, Fianchetto Variation, Be6 Line",
-     "d4 d5 c4 e5 dxe5 d4 Nf3 Nc6 g3 Be6"
-    ],
-    [
-     "D09",
-     "Queen's Gambit Declined: Albin Countergambit, Fianchetto Variation, Bf5 Line",
-     "d4 d5 c4 e5 dxe5 d4 Nf3 Nc6 g3 Bf5"
-    ],
-    [
-     "D09",
-     "Queen's Gambit Declined: Albin Countergambit, Fianchetto Variation, Bg4 Line",
-     "d4 d5 c4 e5 dxe5 d4 Nf3 Nc6 g3 Bg4"
-    ],
-    [
-     "D08",
-     "Queen's Gambit Declined: Albin Countergambit, Tartakower Defense",
-     "d4 d5 c4 e5 dxe5 d4 Nf3 c5"
-    ],
-    [
-     "D08",
-     "Queen's Gambit Declined: Albin Countergambit, Lasker Trap",
-     "d4 d5 c4 e5 dxe5 d4 e3 Bb4+ Bd2 dxe3"
-    ],
-    [
-     "D08",
-     "Queen's Gambit Declined: Albin Countergambit, Spassky Variation",
-     "d4 d5 c4 e5 dxe5 d4 e4"
-    ],
-    [
-     "D37",
-     "Queen's Gambit Declined: Harrwitz Attack, Fianchetto Defense",
-     "d4 d5 c4 e6 Nc3 Be7 Nf3 Nf6 Bf4 O-O e3 b6"
-    ],
-    [
-     "D53",
-     "Queen's Gambit Declined: Uhlmann Variation",
-     "d4 d5 c4 e6 Nc3 Be7 Nf3 Nf6 Bg5 h6 Bh4 O-O Rc1 dxc4"
-    ],
-    [
-     "D57",
-     "Queen's Gambit Declined: Lasker Defense, Main Line",
-     "d4 d5 c4 e6 Nc3 Be7 Nf3 Nf6 Bg5 h6 Bh4 O-O e3 Ne4 Bxe7 Qxe7 cxd5 Nxc3 bxc3"
-    ],
-    [
-     "D59",
-     "Queen's Gambit Declined: Tartakower Defense",
-     "d4 d5 c4 e6 Nc3 Be7 Nf3 Nf6 Bg5 h6 Bh4 O-O e3 b6 cxd5 Nxd5 Bxe7 Qxe7 Nxd5 exd5 Rc1 Be6"
-    ],
-    [
-     "D58",
-     "Queen's Gambit Declined: Tartakower Defense, Exchange Variation",
-     "d4 d5 c4 e6 Nc3 Be7 Nf3 Nf6 Bg5 h6 Bh4 O-O e3 b6 cxd5 exd5"
-    ],
-    [
-     "D31",
-     "Queen's Gambit Declined: Charousek Variation, Miladinovic Gambit",
-     "d4 d5 c4 e6 Nc3 Be7 e4 dxe4 f3"
-    ],
-    [
-     "D35",
-     "Queen's Gambit Declined: Harrwitz Attack",
-     "d4 d5 c4 e6 Nc3 Nf6 Bf4"
-    ],
-    [
-     "D53",
-     "Queen's Gambit Declined: Modern Variation, Heral Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 Bxf6"
-    ],
-    [
-     "D53",
-     "Queen's Gambit Declined",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 Nf3 c6 e3 dxc4 Bxc4"
-    ],
-    [
-     "D63",
-     "Queen's Gambit Declined: Orthodox Defense, Main Line",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 Nbd7 Nf3 O-O Rc1 h6 Bh4 c5"
-    ],
-    [
-     "D61",
-     "Queen's Gambit Declined: Orthodox Defense, Rubinstein Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Qc2 a6 cxd5 exd5 Bd3 Re8"
-    ],
-    [
-     "D61",
-     "Queen's Gambit Declined: Orthodox Defense, Rubinstein Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Qc2 c5"
-    ],
-    [
-     "D61",
-     "Queen's Gambit Declined: Orthodox Defense, Rubinstein Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Qc2 c6 Rd1 a6"
-    ],
-    [
-     "D61",
-     "Queen's Gambit Declined: Orthodox Defense, Rubinstein Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Qc2 c6 a3"
-    ],
-    [
-     "D67",
-     "Queen's Gambit Declined: Orthodox Defense, Alekhine Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Rc1 c6 Bd3 dxc4 Bxc4 Nd5 Bxe7 Qxe7 Ne4"
-    ],
-    [
-     "D69",
-     "Queen's Gambit Declined: Orthodox Defense, Classical Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Rc1 c6 Bd3 dxc4 Bxc4 Nd5 Bxe7 Qxe7 O-O Nxc3 Rxc3 e5 dxe5 Nxe5 Nxe5 Qxe5"
-    ],
-    [
-     "D66",
-     "Queen's Gambit Declined: Orthodox Defense, Bd3 Line",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Rc1 c6 Bd3 h6 Bh4"
-    ],
-    [
-     "D56",
-     "Queen's Gambit Declined: Lasker Defense, Russian Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 h6 Bh4 Ne4 Bxe7 Qxe7 Qc2 Nf6 Bd3 dxc4 Bxc4 c5 O-O Nc6 Rfd1 Bd7"
-    ],
-    [
-     "D57",
-     "Queen's Gambit Declined: Lasker Defense, Bernstein Variation, Mar del Plata Gambit",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 h6 Bh4 Ne4 Bxe7 Qxe7 cxd5 Nxc3 bxc3 exd5 Qb3 Rd8 c4 Be6"
-    ],
-    [
-     "D51",
-     "Queen's Gambit Declined: Rochlin Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Nbd7 Nf3 c6 Rc1 Qa5 Bd2"
-    ],
-    [
-     "D51",
-     "Queen's Gambit Declined: Alekhine Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Nbd7 Nf3 c6 e4"
-    ],
-    [
-     "D51",
-     "Queen's Gambit Declined: Manhattan Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Nbd7 e3 Bb4"
-    ],
-    [
-     "D52",
-     "Queen's Gambit Declined: Cambridge Springs Defense, Capablanca Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Nbd7 e3 c6 Nf3 Qa5 Bxf6"
-    ],
-    [
-     "D52",
-     "Queen's Gambit Declined: Cambridge Springs Defense, Argentine Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Nbd7 e3 c6 Nf3 Qa5 Nd2 Bb4 Qc2 O-O Bh4"
-    ],
-    [
-     "D51",
-     "Queen's Gambit Declined: Capablanca Variation, Anti-Cambridge Springs Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 Nbd7 e3 c6 a3"
-    ],
-    [
-     "D50",
-     "Queen's Gambit Declined: Semi-Tarrasch Defense, Krause Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 c5 Nf3 cxd4 Nxd4 e5 Ndb5 a6 Qa4"
-    ],
-    [
-     "D50",
-     "Queen's Gambit Declined: Pseudo-Tarrasch Variation, Primitive Pillsbury Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 c5 Nf3 cxd4 Qxd4"
-    ],
-    [
-     "D50",
-     "Queen's Gambit Declined: Pseudo-Tarrasch Variation, Canal Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 c5 cxd5 Qb6"
-    ],
-    [
-     "D66",
-     "Queen's Gambit Declined: Orthodox Defense, Fianchetto Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Bg5 c6 Nf3 Be7 e3 Nbd7 Rc1 O-O Bd3 dxc4 Bxc4 b5"
-    ],
-    [
-     "D37",
-     "Queen's Gambit Declined: Harrwitz Attack, Orthodox Defense",
-     "d4 d5 c4 e6 Nc3 Nf6 Nf3 Be7 Bf4 O-O e3 c6"
-    ],
-    [
-     "D37",
-     "Queen's Gambit Declined: Three Knights Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Nf3 Be7 e3 O-O"
-    ],
-    [
-     "D40",
-     "Queen's Gambit Declined: Semi-Tarrasch Defense, Pillsbury Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Nf3 c5 Bg5"
-    ],
-    [
-     "D41",
-     "Queen's Gambit Declined: Semi-Tarrasch Defense, Kmoch Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Nf3 c5 cxd5 Nxd5 e4 Nxc3 bxc3 cxd4 cxd4 Bb4+ Bd2 Bxd2+ Qxd2 O-O Bb5"
-    ],
-    [
-     "D40",
-     "Queen's Gambit Declined: Semi-Tarrasch Defense, Levenfish Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 Nf3 c5 e3 Nc6 Bd3 Bd6 O-O O-O Qe2 Qe7 dxc5 Bxc5 e4"
-    ],
-    [
-     "D40",
-     "Queen's Gambit Declined: Semi-Tarrasch Defense",
-     "d4 d5 c4 e6 Nc3 Nf6 Nf3 c5 e3 Nc6 a3 cxd4 exd4 Bd6"
-    ],
-    [
-     "D41",
-     "Queen's Gambit Declined: Semi-Tarrasch Defense, San Sebastian Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 cxd5 Nxd5 e4 Nxc3 bxc3 c5 Nf3 cxd4 cxd4 Bb4+ Bd2 Qa5"
-    ],
-    [
-     "D36",
-     "Queen's Gambit Declined: Exchange Variation, Reshevsky Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 cxd5 exd5 Bg5 c6 e3 Be7 Bd3 Nbd7 Nge2 O-O O-O Re8 Qc2 Nf8"
-    ],
-    [
-     "D35",
-     "Queen's Gambit Declined: Exchange Variation",
-     "d4 d5 c4 e6 Nc3 Nf6 e3 Be7 cxd5 exd5 Bd3 O-O Nf3 c6"
-    ],
-    [
-     "D31",
-     "Queen's Gambit Declined: Janowski Variation",
-     "d4 d5 c4 e6 Nc3 a6"
-    ],
-    [
-     "D32",
-     "Queen's Gambit Declined: Tarrasch Defense",
-     "d4 d5 c4 e6 Nc3 c5 cxd5 exd5 Nf3 Nc6 Bg5 Be7 Bxe7 Ngxe7"
-    ],
-    [
-     "D31",
-     "Queen's Gambit Declined: Semi-Slav, Abrahams Variation",
-     "d4 d5 c4 e6 Nc3 c6 Nf3 dxc4 a4 Bb4 e3 b5 Bd2 a5"
-    ],
-    [
-     "D31",
-     "Queen's Gambit Declined: Semi-Slav, Koomen Variation",
-     "d4 d5 c4 e6 Nc3 c6 Nf3 dxc4 e3 b5 a4 Bb4 Bd2 Qe7"
-    ],
-    [
-     "D68",
-     "Queen's Gambit Declined: Orthodox Defense, Classical Variation",
-     "d4 d5 c4 e6 Nf3 Nf6 Nc3 Be7 Bg5 O-O e3 Nbd7 Rc1 c6 Bd3 dxc4 Bxc4 Nd5 Bxe7 Qxe7 O-O Nxc3 Rxc3 e5 Qb1"
-    ],
-    [
-     "D56",
-     "Queen's Gambit Declined: Lasker Defense",
-     "d4 d5 c4 e6 Nf3 Nf6 Nc3 Nc6 Bg5 Be7 e3 O-O Rc1 h6 Bh4 Ne4"
-    ],
-    [
-     "D35",
-     "Queen's Gambit Declined: Exchange Variation",
-     "d4 d5 c4 e6 Nf3 Nf6 Nc3 Nc6 cxd5 exd5 Bg5 Be7 e3"
-    ],
-    [
-     "D53",
-     "Queen's Gambit Declined",
-     "d4 d5 c4 e6 Nf3 Nf6 Nc3 dxc4 Bg5 Be7 e4"
-    ],
-    [
-     "D30",
-     "Queen's Gambit Declined: Spielmann Variation",
-     "d4 d5 c4 e6 Nf3 Nf6 e3 c6 Nbd2 g6"
-    ],
-    [
-     "D30",
-     "Queen's Gambit Declined: Tarrasch Defense, Pseudo-Tarrasch Bishop Attack",
-     "d4 d5 c4 e6 Nf3 c5 cxd5 exd5 Bg5"
-    ],
-    [
-     "D34",
-     "Queen's Gambit Declined: Tarrasch Defense, Stoltz Variation",
-     "d4 d5 c4 e6 Nf3 c5 cxd5 exd5 g3 Nc6 Bg2 Nf6 O-O Be7 Nc3 O-O Bg5 Be6 Rc1 b6"
-    ],
-    [
-     "D31",
-     "Queen's Gambit Declined: Semi-Slav, Junge Variation",
-     "d4 d5 c4 e6 Nf3 c6 Nc3 dxc4 a4 Bb4 e3 b5 Bd2 Qb6"
-    ],
-    [
-     "D30",
-     "Queen's Gambit Declined",
-     "d4 d5 c4 e6 Nf3 c6 Qc2 dxc4 Qxc4 Nf6 g3"
-    ],
-    [
-     "D31",
-     "Queen's Gambit Declined: Alapin Variation",
-     "d4 e6 c4 b6 Nc3 d5"
-    ]
-   ]
+   "variantes": []
   }
  ]
 }
