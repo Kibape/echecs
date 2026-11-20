@@ -186,3 +186,17 @@ dialog.dialogue::backdrop { background: rgba(0,0,0,.6); }
 
 .conseils { background: var(--carte, rgba(127,127,127,.08)); border-radius: 10px; padding: 8px 12px; margin: 8px 0 12px; }
 .conseils summary { cursor: pointer; font-weight: 600; }
+
+/* Changement rapide de ligne + liste groupée */
+.switch-lignes { margin: 8px 0 4px; padding: 8px; background: var(--carte); border: 1px solid var(--bord); border-radius: 10px; }
+.switch-lignes .rang { display: flex; gap: 6px; align-items: center; margin-top: 6px; }
+.switch-lignes .choix-ligne { flex: 1; min-width: 0; padding: 6px; border-radius: 8px; border: 1px solid var(--bord); background: var(--fond); color: inherit; font: inherit; }
+.switch-lignes button[disabled] { opacity: .4; cursor: default; }
+.filtre-lignes { width: 100%; box-sizing: border-box; padding: 8px 10px; margin: 4px 0 8px; border-radius: 8px; border: 1px solid var(--bord); background: var(--fond); color: inherit; font: inherit; }
+.rang-outils { display: flex; gap: 6px; margin-bottom: 8px; }
+details.groupe { margin-bottom: 8px; }
+details.groupe > summary { cursor: pointer; font-weight: 600; padding: 8px 10px; background: var(--carte); border: 1px solid var(--bord); border-radius: 10px; list-style: revert; }
+details.groupe > summary .nb { font-weight: 400; color: var(--doux); font-size: .85rem; }
+details.groupe[open] > summary { margin-bottom: 8px; }
+.ligne .inclut { grid-column: 1 / -1; }
+.ligne[hidden], details.groupe[hidden] { display: none; }

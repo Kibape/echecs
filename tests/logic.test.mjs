@@ -153,7 +153,7 @@ test("positionsDeLigne", () => {
 
 test("openings.json : intégrité du répertoire", () => {
   const ids = new Set();
-  assert.ok(data.ouvertures.length >= 10);
+  assert.ok(data.ouvertures.length >= 9);
   for (const o of data.ouvertures) {
     assert.ok(!ids.has(o.id), `id en double ${o.id}`); ids.add(o.id);
     assert.ok(["blancs", "noirs"].includes(o.camp));

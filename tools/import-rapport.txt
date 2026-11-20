@@ -1,0 +1,10 @@
+Tome 1 — A6 : l'en-tête annonce 5.d3, la base du document écrit 5.d4 → j'ai utilisé 5.d3.
+Tome 1 — A7 : l'en-tête annonce 5.d3, la base du document écrit 5.d4 → j'ai utilisé 5.d3.
+Tome 2 — 2.B · Variante avec ...Fd6 : coup illégal « Nf6 » (demi-coup 6) ; ligne coupée avant ce coup.
+Tome 3 — 2.A6 · Variante avec 6...d5 : coup illégal « d5 » (demi-coup 18) ; ligne coupée avant ce coup.
+Tome 4 — 2.B3.2 · Variante avec ...Df6 : coup illégal « Qf6 » (demi-coup 8) ; ligne coupée avant ce coup.
+Tome 4 — 2.B3.3 · Variante avec ...Dxf2+ : coup illégal « Qf6 » (demi-coup 8) ; ligne coupée avant ce coup.
+Tome 4 — 3.A2.2 · Échange sur f6 : coup illégal « Bxf6 » (demi-coup 9) ; ligne coupée avant ce coup.
+Tome 5 — 2.A3.1 · Piège de l'Éléphant — ligne tactique : coup illégal « Bxd8 » (demi-coup 13) ; ligne coupée avant ce coup.
+Tome 7 — A3 · Variante Karpov — 5.Cg3 Cgf6 6.Cf3 : coup illégal « Bg4 » (demi-coup 12) ; ligne coupée avant ce coup.
+Tome 7 — B1 · Ligne principale — 7...Db6 8.Cc3 : coup illégal « Nc3 » (demi-coup 15) ; ligne coupée avant ce coup.

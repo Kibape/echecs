@@ -582,10 +582,10 @@ const ANCIENNES = [
   },
   {
     id: "sicilienne-najdorf",
-    nom: "Sicilienne Najdorf",
+    nom: "Défense sicilienne",
     camp: "noirs", eco: "B90",
-    elo: [1600, 2800], facilite: 1, puissance: 5, theorie: "forte", style: "dynamique",
-    idee: "Lutter pour le centre depuis le flanc avec ...c5, puis ...a6 pour préparer ...e5 ou ...b5.",
+    elo: [0, 2800], facilite: 2, puissance: 5, theorie: "forte", style: "dynamique",
+    idee: "Lutter pour le centre depuis le flanc avec ...c5, puis choisir un système (Najdorf, Dragon, Scheveningen, Taimanov, Kan…) selon la réponse des Blancs.",
     plans: [
       "Jouer ...c5, ...d6, ...Cf6 et ...a6.",
       "Préparer ...e5 pour un centre solide ou ...b5 pour l'activité sur l'aile dame.",

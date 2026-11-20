@@ -182,6 +182,35 @@ function ctxCurated(o, i) {
   return { id: `${o.id}#${i}`, titre: o.nom, sousTitre: l.nom, camp: o.camp, coups: l.coups, notes: l.notes || {}, ouverture: o };
 }
 
+/** Position (0-based) de la ligne du répertoire en cours d'entraînement (ctx.id = "ouverture#i"), ou -1. */
+const indexLigne = (ctx) => (ctx && ctx.ouverture && /#\d+$/.test(ctx.id) ? +ctx.id.split("#")[1] : -1);
+
+/** Passe à une autre ligne de la même ouverture en gardant le mode (découvrir / apprendre / réviser). */
+function changerLigne(i) {
+  const o = S.ctx && S.ctx.ouverture;
+  if (!o || i < 0 || i >= o.lignes.length) return;
+  const mode = S.mode === "libre" || !S.mode ? "decouvrir" : S.mode;
+  lancer(ctxCurated(o, i), mode);
+}
+
+/** Sélecteur de ligne : précédente / suivante + liste de toutes les lignes de l'ouverture, groupées par section du document. */
+function selecteurLignes(ctx) {
+  const o = ctx.ouverture, i = indexLigne(ctx);
+  if (i < 0 || S.session) return null;
+  const sel = h("select", { class: "choix-ligne", title: "Aller directement à une autre ligne de cette ouverture", on: { change: (e) => changerLigne(+e.target.value) } });
+  let grp = null, g = null;
+  o.lignes.forEach((l, k) => {
+    if (l.groupe !== grp) { grp = l.groupe; g = h("optgroup", { label: grp || "Lignes" }); sel.append(g); }
+    g.append(h("option", { value: String(k), selected: k === i }, l.nom));
+  });
+  return h("div", { class: "switch-lignes" },
+    h("div", { class: "petit-texte" }, `Ligne ${i + 1} / ${o.lignes.length}`, o.lignes[i].groupe ? ` · ${o.lignes[i].groupe}` : ""),
+    h("div", { class: "rang" },
+      h("button", { class: "petit", disabled: i === 0, title: "Ligne précédente (PageUp)", on: { click: () => changerLigne(i - 1) } }, "◀ Précédente"),
+      sel,
+      h("button", { class: "petit", disabled: i + 1 >= o.lignes.length, title: "Ligne suivante (PageDown)", on: { click: () => changerLigne(i + 1) } }, "Suivante ▶")));
+}
+
 function ctxEco(entree, camp) {
   const coups = entree.pgn.split(" ");
   return { id: `eco:${entree.code}:${hashCourt(entree.pgn)}:${camp[0]}`, titre: entree.nom, sousTitre: entree.code, camp, coups, notes: {}, ouverture: null };
@@ -264,6 +293,7 @@ function lancer(ctx, mode) {
   quitterMode();
   ctx.notes = { ...expliquerLigne(ctx.coups), ...(ctx.notes || {}) }; // explication auto de chaque coup ; les notes rédigées à la main passent devant
   S.ctx = ctx; S.mode = mode; S.erreursCoup = 0;
+  { const l = ctx.ouverture && ctx.ouverture.lignes[indexLigne(ctx)]; if (l) (S.groupesOuverts ||= new Set()).add(`${ctx.ouverture.id}|${l.groupe || ""}`); }
   board.marquerDernier();
   board.orienter(ctx.camp === "blancs" ? "w" : "b");
   majBarreOrientation();
@@ -447,6 +477,8 @@ function finLigne() {
     const reste = S.session.i + 1 < S.session.ids.length;
     actions.push([reste ? "Carte suivante" : "Terminer la session", suivanteSession, true]);
   }
+  const iL = indexLigne(ctx);
+  if (!S.session && iL >= 0 && iL + 1 < ctx.ouverture.lignes.length) actions.push([`Ligne suivante (${iL + 2}/${ctx.ouverture.lignes.length})`, () => changerLigne(iL + 1), !C]);
   actions.push(["Recommencer", () => lancer(ctx, S.mode)], ["Analyse libre", passerLibre]);
   if (ctx.depart > 0) actions.push(["Ligne entière", () => lancer({ ...ctx, depart: 0 }, S.mode)]);
   if (type === "ok") Son.ok(); else Son.erreur();
@@ -557,6 +589,13 @@ function brancherControles() {
   const c = $("#c-fleche");
   c.checked = S.fleche;
   c.onchange = () => { S.fleche = c.checked; S.store.setReglage("fleche", S.fleche); if (!S.fleche) board.effacerFleches(); else if (S.mode === "libre") majEval(); };
+  document.addEventListener("keydown", (e) => { // PageUp / PageDown : ligne précédente / suivante de l'ouverture
+    if (!S.ctx || S.session || /INPUT|TEXTAREA/.test(document.activeElement.tagName)) return;
+    const i = indexLigne(S.ctx);
+    if (i < 0) return;
+    if (e.key === "PageDown") { e.preventDefault(); changerLigne(i + 1); }
+    if (e.key === "PageUp") { e.preventDefault(); changerLigne(i - 1); }
+  });
   document.addEventListener("keydown", (e) => {
     if (S.mode !== "decouvrir" || /INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName)) return;
     if (e.key === "ArrowLeft") { e.preventDefault(); allerA(S.decouv.i - 1, false); }
@@ -613,6 +652,8 @@ function panneauLigne() {
     h("div", { style: "display:flex;gap:6px;flex-wrap:wrap;margin:8px 0" }, pastille(campIcone(ctx.camp)), pastille(MODES[S.mode], "info"),
       S.session ? pastille(`Révision ${S.session.i + 1}/${S.session.ids.length}`, "piege") : null),
   );
+  const sw = selecteurLignes(ctx);
+  if (sw) bloc.append(sw);
   if (ctx.depart > 0) bloc.append(h("div", { class: "message info" }, `Reprise au coup ${Math.floor(ctx.depart / 2) + 1}, là où cette variante diffère de la précédente. Déjà joué : ${ligneFr(ctx.coups, ctx.depart)}`));
   if (S.chaine) bloc.append(h("div", { class: "petit-texte" }, `Variante ${S.chaine.i + 1} / ${S.chaine.o.variantes.length} de l'enchaînement.`));
   if (o) bloc.append(h("h3", {}, "Idée"), h("p", {}, o.idee));
@@ -695,7 +736,7 @@ function panneauOuvertures() {
     h("summary", {}, "Conseils généraux (moins de 1000 Elo)"),
     h("p", { class: "petit-texte" }, "Il est inutile de mémoriser toutes les variantes d'une ouverture. Objectifs prioritaires :"),
     h("ol", { class: "puces" }, ["Contrôler le centre avec les pions.", "Développer les cavaliers et les fous.", "Éviter de déplacer plusieurs fois la même pièce sans raison.", "Mettre le roi en sécurité avec le roque.", "Éviter de sortir la dame trop tôt.", "Ne pas jouer automatiquement les coups mémorisés si l'adversaire change de variante.", "Toujours vérifier les menaces de capture et les échecs avant de jouer."].map((t) => h("li", {}, t))),
-    h("p", { class: "petit-texte" }, h("b", {}, "Répertoire conseillé pour commencer. "), "Blancs : Italienne (principale), London, Écossaise, Viennoise, Gambit dame. Noirs contre 1.e4 : Caro-Kann (principale), Scandinave, Française. Noirs contre 1.d4 : Slave (principale), Gambit dame refusé."));
+    h("p", { class: "petit-texte" }, h("b", {}, "Répertoire conseillé pour commencer. "), "Blancs : Italienne (principale), London, Écossaise, Viennoise, Gambit dame. Noirs contre 1.e4 : Caro-Kann (principale), Scandinave, Française. Noirs contre 1.d4 : Slave."));
   return [h("h2", {}, "Ouvertures"), conseils, filtres, compte, liste];
 }
 
@@ -761,18 +802,38 @@ function panneauDetail(o) {
         h("i", { class: "b", style: `width:${s.blancs}%` }), h("i", { class: "n", style: `width:${s.nulles}%` }), h("i", { class: "nr", style: `width:${s.noirs}%` })),
       h("div", { class: "petit-texte" }, `Victoires blancs ${s.blancs}% · nulles ${s.nulles}% · victoires noirs ${s.noirs}%. ${s.note}.`, src ? [" Source : ", h("a", { href: src.url, target: "_blank", rel: "noopener noreferrer" }, src.titre)] : null));
   }
-  bloc.append(h("h3", {}, "Lignes à apprendre"));
+  bloc.append(h("h3", {}, `Lignes à apprendre (${o.lignes.length})`));
+  const ouverts = (S.groupesOuverts ||= new Set());
+  const rangees = [], groupes = [];
   o.lignes.forEach((l, i) => {
     const ctx = ctxCurated(o, i), st = statut(S.store.carte(ctx.id));
-    bloc.append(h("div", { class: "ligne" },
-      h("div", {}, h("b", {}, l.nom), " ", pastille(st.texte, st.code === "maitrise" ? "ok" : st.code === "difficile" || st.code === "due" ? "mal" : ""),
-        l.extensionDepuis ? pastille(`${Math.ceil(l.extensionDepuis / 2)} coups de théorie + suite Stockfish`, "info") : null),
+    const cle = `${o.id}|${l.groupe || ""}`;
+    let G = groupes.find((x) => x.cle === cle);
+    if (!G) { G = { cle, titre: l.groupe || "Lignes", rows: [] }; groupes.push(G); }
+    const row = h("div", { class: "ligne", "data-q": `${l.nom} ${l.groupe || ""} ${(l.inclut || []).join(" ")}`.toLowerCase() },
+      h("div", {}, h("b", {}, l.nom), " ", pastille(st.texte, st.code === "maitrise" ? "ok" : st.code === "difficile" || st.code === "due" ? "mal" : "")),
       h("div", { class: "boutons" },
         h("button", { class: "petit", on: { click: () => lancer(ctx, "decouvrir") } }, "Découvrir"),
         h("button", { class: "petit", on: { click: () => lancer(ctx, "apprendre") } }, "Apprendre"),
         h("button", { class: "petit primaire", on: { click: () => lancer(ctx, "reviser") } }, "Réviser")),
-      h("div", { class: "coups" }, ligneFr(l.coups, Math.min(l.coups.length, 16)) + (l.coups.length > 16 ? " …" : ""))));
+      l.inclut && l.inclut.length ? h("div", { class: "petit-texte inclut" }, "Contient aussi : " + l.inclut.join(" · ")) : null,
+      h("div", { class: "coups" }, ligneFr(l.coups, Math.min(l.coups.length, 16)) + (l.coups.length > 16 ? " …" : "")));
+    G.rows.push(row);
   });
+  const dets = groupes.map((G) => h("details", { class: "groupe", open: ouverts.has(G.cle), on: { toggle: (e) => { if (e.target.open) ouverts.add(G.cle); else ouverts.delete(G.cle); } } },
+    h("summary", {}, G.titre, h("span", { class: "nb" }, ` ${G.rows.length} ligne${G.rows.length > 1 ? "s" : ""}`)), G.rows));
+  const filtre = h("input", { type: "search", class: "filtre-lignes", placeholder: "Chercher une ligne (ex. Polerio, Max Lange, Jobava…)", on: { input: (e) => {
+    const q = e.target.value.trim().toLowerCase();
+    for (const d of dets) {
+      let vus = 0;
+      for (const r of d.querySelectorAll(".ligne")) { const ok = !q || q.split(/\s+/).every((m) => r.dataset.q.includes(m)); r.hidden = !ok; if (ok) vus++; }
+      d.hidden = vus === 0;
+      if (q) d.open = vus > 0;
+    }
+  } } });
+  bloc.append(filtre, h("div", { class: "rang-outils" },
+    h("button", { class: "petit", on: { click: () => dets.forEach((d) => { d.open = true; }) } }, "Tout déplier"),
+    h("button", { class: "petit", on: { click: () => dets.forEach((d) => { d.open = false; }) } }, "Tout replier")), ...dets);
   if (o.variantes && o.variantes.length) bloc.append(blocVariantes(o));
   const liens = (o.sources || []).map((k) => S.data.sources[k]).filter(Boolean);
   if (liens.length) bloc.append(h("h3", {}, "Pour aller plus loin"), h("ul", { class: "puces" }, liens.map((s) => h("li", {}, h("a", { href: s.url, target: "_blank", rel: "noopener noreferrer" }, s.titre)))));

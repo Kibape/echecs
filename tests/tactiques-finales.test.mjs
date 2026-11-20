@@ -111,10 +111,14 @@ test("openings.json : variantes légales, uniques et en ordre d'arbre", () => {
   assert.ok(total >= 0);
 });
 
-test("openings.json : répertoire exact (10 ouvertures, aucune ligne rallongée par Stockfish, pas de variantes ECO)", () => {
+test("openings.json : répertoire = document de Kilian (10 tomes, aucune ligne rallongée par Stockfish, pas de variantes ECO)", () => {
   const o = JSON.parse(readFileSync(new URL("../public/data/openings.json", import.meta.url))).ouvertures;
-  assert.equal(o.length, 10);
-  assert.equal(o.flatMap((x) => x.lignes).length, 36);
-  for (const l of o.flatMap((x) => x.lignes)) assert.equal(l.extensionDepuis, null);
-  for (const x of o) assert.equal(x.variantes.length, 0);
+  assert.deepEqual(o.map((x) => x.id), ["italienne-pianissimo", "london-blancs", "ecossaise", "viennoise", "gambit-dame", "slave", "caro-kann", "scandinave", "francaise", "sicilienne-najdorf"]);
+  assert.ok(o.flatMap((x) => x.lignes).length >= 300);
+  for (const x of o) {
+    assert.equal(x.variantes.length, 0);
+    const noms = x.lignes.map((l) => l.nom);
+    assert.equal(new Set(noms).size, noms.length, "noms de lignes en double dans " + x.id);
+    for (const l of x.lignes) { assert.equal(l.extensionDepuis, null); assert.ok(l.groupe, x.id + " / " + l.nom); }
+  }
 });

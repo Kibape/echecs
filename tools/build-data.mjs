@@ -73,9 +73,11 @@ const ouvertures = OUVERTURES.map((o) => {
     const attendu = o.attendu || [];
     const accord = nomEco && attendu.some((k) => nomEco.nom.toLowerCase().includes(k.toLowerCase()));
     if (!nomEco) { console.warn(`⚠ non trouvé dans la base ECO : ${o.id} / ${l.nom}`); avertissements++; }
-    else if (!accord) { console.warn(`⚠ nom ECO inattendu : ${o.id} / ${l.nom} → "${nomEco.nom}" (${nomEco.eco}) ; attendu : ${attendu.join(" | ")}`); avertissements++; }
+    // Le nom ECO peut différer (transposition, famille voisine) : ce sont les lignes de Kilian, on ne les juge pas sur ce critère.
     return {
       nom: l.nom,
+      groupe: l.groupe || null,
+      inclut: l.inclut || [],
       coups,
       notes: { ...(l.notes || {}), ...(extensionDepuis ? { [extensionDepuis + 1]: "À partir d'ici, les coups viennent de Stockfish (meilleure suite), pas d'une base de théorie : ce sont des coups solides, pas forcément ceux que jouent les maîtres." } : {}) },
       extensionDepuis,

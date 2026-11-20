@@ -1,0 +1,1884 @@
+Il faudrait un moyen de switch de lignes facilement pour un opening, aussi il fallait remplacer les lignes actuelles par toutes celles du doc, pas juste rajouter 2 3 lignes et garder les anciennes
+Ducoup j'ai refait un répertoire, tu vas devoir prendre l'intégralité du répertoire et le mettre dans l'app en remplaçant tout
+
+
+
+TOME 1 — PARTIE ITALIENNE
+Répertoire de variantes — Blancs
+Notation :
+• Les coups sont écrits en notation algébrique internationale.
+• Chaque ligne commence depuis la position indiquée.
+• Les variantes sont séparées par des lettres.
+• Les lignes courtes correspondent à des embranchements identifiés ; elles ne prétendent pas être des variantes forcées jusqu'à la fin.
+POSITION DE DÉPART
+1. e4 e5
+2. Nf3 Nc6
+3. Bc4
+==================================================
+1. GIOUOCO PIANO — 3...Bc5 ==================================================
+A) VARIANTE CLASSIQUE — 4.c3
+1. e4 e5
+2. Nf3 Nc6
+3. Bc4 Bc5
+4. c3 Nf6
+5. d4
+A1) Ligne principale
+5... exd4 6. cxd4 Bb4+ 7. Bd2 Bxd2+ 8. Nbxd2
+A2) Variante avec 7.Nc3
+5... exd4 6. cxd4 Bb4+ 7. Nc3 Nxe4 8. O-O Nxc3 9. bxc3 Bxc3 10. Ba3
+A3) Variante Steinitz
+5... exd4 6. cxd4 Bb4+ 7. Nc3 Nxe4 8. O-O Bxc3 9. bxc3 d5 10. Ba3
+A4) Variante Bernstein
+5... exd4 6. cxd4 Bb4+ 7. Nc3 Nxe4 8. O-O Nxc3 9. bxc3 Bxc3 10. Qb3 d5
+A5) Variante Aitken
+5... exd4 6. cxd4 Bb4+ 7. Nc3 Nxe4 8. O-O Nxc3 9. bxc3 Bxc3 10. Ba3
+A6) Variante avec 5...Qe7
+5... Qe7 6. d4 Bb6
+A7) Variante Pianissimo après 5.d3
+5... d6
+A8) Variante avec 5...a6
+5... a6
+B) GIOUOCO PIANISSIMO — 4.d3
+1. e4 e5
+2. Nf3 Nc6
+3. Bc4 Bc5
+4. d3
+B1) Développement classique
+4... Nf6 5. Nc3
+B2) Variante avec 4...d6
+4... d6
+B3) Gambit Lucchini
+4... f5
+B4) Variante italienne à quatre cavaliers
+4... Nf6 5. Nc3
+C) ÉCHANGE IMMÉDIAT AU CENTRE — 4.d4
+1. e4 e5
+2. Nf3 Nc6
+3. Bc4 Bc5
+4. d4
+C1) Gambit Rosentreter
+4... exd4
+D) ROQUE IMMÉDIAT — 4.O-O
+1. e4 e5
+2. Nf3 Nc6
+3. Bc4 Bc5
+4. O-O
+D1) Développement classique
+4... Nf6 5. c3
+D2) Gambit Deutz
+4... Nf6 5. d4
+D3) Attaque Holzhausen
+4... Nf6 5. d4 Bxd4 6. Nxd4 Nxd4 7. Bg5 d6 8. f4
+D4) Variante Rosentreter
+4... Nf6 5. d4 Bxd4 6. Nxd4 Nxd4 7. Bg5 h6 8. Bh4 g5 9. f4
+E) GAMBIT EVANS — 4.b4
+1. e4 e5
+2. Nf3 Nc6
+3. Bc4 Bc5
+4. b4
+E1) Gambit accepté — ligne principale
+4... Bxb4 5. c3 Ba5 6. d4 exd4 7. O-O dxc3 8. Qb3 Qf6 9. e5 Qg6 10. Nxc3 Nge7 11. Ba3
+E2) Gambit accepté — variante avec 5...Bc5
+4... Bxb4 5. c3 Bc5 6. d4 exd4 7. O-O d6 8. cxd4 Bb6 9. d5 Na5 10. Bb2 Ne7
+E3) Gambit refusé
+4... Bb6 5. a4
+E4) Variante Cordel
+4... Bb6 5. Bb2
+E5) Contre-gambit Fontaine
+4... b5
+E6) Contre-gambit Hein
+4... d5
+================================================== 2. DÉFENSE DES DEUX CAVALIERS — 3...Nf6
+1. e4 e5
+2. Nf3 Nc6
+3. Bc4 Nf6
+A) ATTAQUE DES CAVALIERS — 4.Ng5
+4. Ng5
+A1) Défense Polerio — ligne principale
+4... d5 5. exd5 Na5 6. Bb5+ c6 7. dxc6 bxc6 8. Be2 h6 9. Nf3 e4 10. Ne5
+A2) Variante Polerio avec 6.d3
+4... d5 5. exd5 Na5 6. d3 h6 7. Nf3 e4 8. Qe2 Nxc4 9. dxc4 Be7
+A3) Variante Blackburne
+4... d5 5. exd5 Na5 6. Bb5+ c6 7. dxc6 bxc6 8. Qf3 cxb5
+A4) Variante Colman
+4... d5 5. exd5 Na5 6. Bb5+ c6 7. dxc6 bxc6 8. Qf3 Rb8
+A5) Variante Steinitz
+4... d5 5. exd5 Na5 6. Bb5+ c6 7. dxc6 bxc6 8. Be2 h6 9. Nh3
+A6) Variante Paoli
+4... d5 5. exd5 Na5 6. Bb5+ c6 7. dxc6 bxc6 8. Qf3 Qc7 9. Bd3
+A7) Variante Knorre
+4... d5 5. exd5 Na5 6. Bb5+ c6 7. dxc6 bxc6 8. Be2 h6 9. Nf3 e4 10. Ne5 Bd6 11. d4 Qc7 12. Bd2
+B) ATTAQUE FRIED LIVER — 5...Nxd5?!
+4. Ng5 d5
+2. exd5 Nxd5?!
+B1) Fried Liver
+6. Nxf7 Kxf7
+2. Qf3+ Ke6
+3. Nc3
+B2) Variante avec 8...Nb4
+6. Nxf7 Kxf7
+2. Qf3+ Ke6
+3. Nc3 Nb4
+B3) Variante Lolli
+6. d4
+B4) Variante Pincus
+6. d4 Bb4+
+C) VARIANTE FRITZ — 5...Nd4
+4. Ng5 d5
+2. exd5 Nd4
+C1) Variante Gruber
+6. c3 b5
+2. Bf1 Nxd5
+3. Ne4
+D) VARIANTE ULVESTAD — 5...b5
+4. Ng5 d5
+2. exd5 b5
+E) CONTRE-ATTAQUE TRAXLER — 4...Bc5
+4. Ng5 Bc5
+E1) Sacrifice du fou
+5. Bxf7+ Ke7
+2. Bb3
+E2) Sacrifice du cavalier
+5. Nxf7
+E3) Variante Trencianske-Teplice
+5. Bxf7+ Ke7
+2. d4
+F) VARIANTE CALME — 4.d3
+4. d3
+F1) Développement avec ...Bc5
+4... Bc5
+F2) Développement avec ...Be7
+4... Be7
+G) VARIANTE OUVERTE — 4.d4
+4. d4 exd4
+G1) Gambit écossais
+5. O-O
+G2) Attaque Anderssen
+5. O-O Nxe4
+2. Re1 d5
+3. Bxd5 Qxd5
+4. Nc3
+G3) Variante Perreux
+5. Ng5
+G4) Variante Max Lange
+5. O-O Bc5
+2. e5
+================================================== 3. DÉFENSE HONGROISE — 3...Be7
+1. e4 e5
+2. Nf3 Nc6
+3. Bc4 Be7
+A) Développement classique
+4. d3
+B) Centre immédiat
+4. d4 exd4
+2. c3 Nf6
+3. e5 Ne4
+================================================== 4. DÉFENSE DE PARIS — 3...d6
+1. e4 e5
+2. Nf3 Nc6
+3. Bc4 d6
+================================================== 5. GAMBIT ROUSSEAU — 3...f5
+1. e4 e5
+2. Nf3 Nc6
+3. Bc4 f5
+================================================== 6. GAMBIT BLACKBURNE-KOSTIĆ — 3...Nd4
+1. e4 e5
+2. Nf3 Nc6
+3. Bc4 Nd4
+================================================== 7. DÉFENSE ANTI-FRIED LIVER — 3...h6
+1. e4 e5
+2. Nf3 Nc6
+3. Bc4 h6
+================================================== RÉCAPITULATIF DES BRANCHES
+3...Bc5 : Giuoco Piano 4.c3 : Variante classique 5.d4 : centre immédiat 5.d3 : Pianissimo ...Bb4+ : branches Steinitz, Bernstein, Aitken 4.d3 : Giuoco Pianissimo 4.d4 : Gambit Rosentreter 4.O-O : développement classique 4.b4 : Gambit Evans 4...Bxb4 : accepté 4...Bb6 : refusé 4...b5 : contre-gambit Fontaine 4...d5 : contre-gambit Hein
+3...Nf6 : Défense des deux cavaliers 4.Ng5 : attaque des cavaliers 4...d5 5.exd5 Na5 : Polerio 4...d5 5.exd5 Nxd5 : Fried Liver / Lolli 4...d5 5.exd5 Nd4 : Fritz 4...d5 5.exd5 b5 : Ulvestad 4...Bc5 : Traxler 4.d3 : variante calme 4.d4 : variante ouverte / gambit écossais
+3...Be7 : Défense hongroise 3...d6 : Défense de Paris 3...f5 : Gambit Rousseau 3...Nd4 : Gambit Blackburne-Kostić 3...h6 : Défense Anti-Fried Liver
+FIN DU TOME 1
+
+TOME 2 — SYSTÈME DE LONDRES
+Répertoire des Blancs
+Notation : anglaise internationale. Les variantes sont classées selon les réponses des Noirs. Les lignes sont arrêtées lorsqu'une continuation fiable n'est pas suffisamment documentée.
+==================================================
+1. LONDRES ACCÉLÉRÉ — 1...d5 ==================================================
+POSITION DE DÉPART
+1. d4 d5
+2. Bf4
+A) DÉFENSE AVEC ...Nf6
+1. d4 d5
+2. Bf4 Nf6
+3. e3
+A1) Variante classique avec ...c5
+3... c5 4. c3 Nc6 5. Nd2 e6 6. Ngf3 Bd6 7. Bg3 O-O 8. Bd3 b6 9. Qe2 Bb7
+A2) Variante avec ...e6 et ...Bd6
+3... e6 4. Nf3 Bd6 5. Bg3 O-O 6. Bd3 b6 7. O-O Bb7 8. h3 Nbd7
+A3) Variante avec ...e6 et ...c5
+3... e6 4. Nd2 Bd6 5. Bg3 O-O 6. Bd3 c5 7. c3 Qc7
+A4) Variante avec ...Bf5
+3... Bf5
+A5) Variante avec ...Bg4
+3... Bg4
+A6) Variante avec ...c5 immédiat
+3... c5 4. c3
+A7) Variante avec ...Nc6
+3... Nc6
+B) CONTRE-GAMBIT STEINITZ — 2...c5
+1. d4 d5
+2. Bf4 c5
+3. e3
+B1) Ligne principale
+3... Nc6 4. c3 Nf6 5. Nd2 Bf5 6. Ngf3 Qb6
+B2) Variante avec ...Qb6 immédiat
+3... Qb6 4. Nc3
+B3) Variante avec défense de b2
+3... Qb6 4. Qc1
+B4) Variante avec b3
+3... Qb6 4. b3
+C) DÉVELOPPEMENT DU FOU NOIR — 2...Bf5
+1. d4 d5
+2. Bf4 Bf5
+C1) Développement classique
+3. e3
+C2) Développement avec c4
+3. c4
+D) DÉVELOPPEMENT DU CAVALIER — 2...Nc6
+1. d4 d5
+2. Bf4 Nc6
+3. e3
+E) AVANCE DU PION H — 2...h5
+1. d4 d5
+2. Bf4 h5
+F) AUTRES RÉPONSES
+1. d4 d5
+2. Bf4 e6
+3. e3
+================================================== 2. LONDRES CLASSIQUE — ORDRE AVEC Nf3
+POSITION DE DÉPART
+1. d4 d5
+2. Nf3 Nf6
+3. Bf4
+A) VARIANTE PRINCIPALE
+3... e6 4. e3 c5 5. c3 Nc6 6. Nbd2 Bd6 7. Bg3
+B) VARIANTE AVEC ...Bd6
+3... Nf6 4. e3 e6 5. Bd3 Bd6 6. Bg3
+C) VARIANTE AVEC ...c5
+3... c5 4. e3 Nc6 5. Nbd2 e6 6. c3
+D) VARIANTE AVEC ...g6
+3... g6 4. e3 Bg7 5. h3 O-O 6. Be2 c5 7. c3 Nc6
+E) VARIANTE AVEC ...Bf5
+3... Bf5 4. e3
+F) VARIANTE AVEC ...Bg4
+3... Bg4 4. e3
+================================================== 3. LONDRES CONTRE LE FIANCHETTO
+A) FIANCHETTO INDIEN
+1. d4 Nf6
+2. Nf3 g6
+3. Bf4 Bg7
+4. e3 d6
+5. h3 c5
+6. Be2
+B) FIANCHETTO AVEC ROQUE RAPIDE
+1. d4 Nf6
+2. Nf3 g6
+3. Bf4 Bg7
+4. e3 d6
+5. Be2 O-O
+C) VARIANTE AVEC ...c5
+1. d4 Nf6
+2. Nf3 g6
+3. Bf4 Bg7
+4. e3 d6
+5. h3 O-O
+6. Be2 c5
+7. c3 Nc6
+D) VARIANTE AVEC ...d5
+1. d4 Nf6
+2. Nf3 g6
+3. Bf4 d5
+4. e3 Bg7
+================================================== 4. ATTAQUE PRÉCOCE ...Qb6
+A) POSITION DE BASE
+1. d4 d5
+2. Bf4 c5
+3. e3 Qb6
+B) DÉVELOPPEMENT AVEC Nc3
+4. Nc3
+C) DÉFENSE DE b2 AVEC Qc1
+4. Qc1
+D) DÉFENSE DE b2 AVEC b3
+4. b3
+E) AUTRE ORDRE DE COUPS
+1. d4 Nf6
+2. Bf4 c5
+3. e3 Qb6
+Dans cette position, les réponses ne sont pas identiques à celles de la position précédente : il faut tenir compte du développement du cavalier noir.
+================================================== 5. ÉCHANGE DU FOU — ...Bd6
+A) RECUL DU FOU
+1. d4 d5
+2. Bf4 Nf6
+3. e3 e6
+4. Nf3 Bd6
+5. Bg3
+B) ÉCHANGE SUR g3
+1. d4 d5
+2. Bf4 Nf6
+3. e3 e6
+4. Nf3 Bd6
+5. Bg3 Bxg3
+6. hxg3
+C) POSITION AVEC ...O-O
+1. d4 d5
+2. Bf4 Nf6
+3. e3 e6
+4. Nf3 Bd6
+5. Bg3 O-O
+6. Bd3
+D) VARIANTE AVEC ...c5
+1. d4 d5
+2. Bf4 Nf6
+3. e3 e6
+4. Nd2 Bd6
+5. Bg3 O-O
+6. Bd3 c5
+7. c3 Qc7
+================================================== 6. LONDRES JOBAVA — 2.Nc3
+Le Jobava est une variante distincte du Londres classique. Le cavalier est développé en c3 plutôt qu'en d2.
+POSITION DE DÉPART
+1. d4 d5
+2. Nc3 Nf6
+3. Bf4
+A) DÉVELOPPEMENT AVEC ...e6
+3... e6
+B) DÉVELOPPEMENT AVEC ...c5
+3... c5
+C) DÉVELOPPEMENT AVEC ...Bf5
+3... Bf5
+D) DÉVELOPPEMENT AVEC ...Nc6
+3... Nc6
+E) VARIANTE AVEC ...a6
+1. d4 d5
+2. Nc3 Nf6
+3. Bf4 a6
+F) VARIANTE AVEC ...e6 ET ...Na6
+1. d4 d5
+2. Nc3 Nf6
+3. Bf4 e6
+4. Nb5 Na6
+5. e3 c6
+6. Nc3
+G) ATTAQUE AVEC Nb5
+1. d4 d5
+2. Nc3 Nf6
+3. Bf4 e6
+4. Nb5 Na6
+================================================== 7. LIGNES TACTIQUES DU JOBAVA
+A) ATTAQUE SUR c7
+1. d4 d5
+2. Nc3 Nf6
+3. Bf4 Nc6
+4. Nb5
+B) VARIANTE AVEC ...e5
+1. d4 d5
+2. Nc3 Nf6
+3. Bf4 Nc6
+4. Nb5 e5
+5. Bxe5 Nxe5
+6. dxe5
+C) VARIANTE AVEC ...c5
+1. d4 d5
+2. Nc3 Nf6
+3. Bf4 c5
+4. e3 Nc6
+5. Nb5
+D) VARIANTE AVEC ...e6
+1. d4 d5
+2. Nc3 Nf6
+3. Bf4 e6
+4. Nb5 Na6
+5. e3 c6
+6. Nc3
+================================================== 8. RÉCAPITULATIF
+LONDRES ACCÉLÉRÉ
+1. d4 d5 2. Bf4
+Réponses principales :
+• 2...Nf6
+• 2...c5
+• 2...Bf5
+• 2...Nc6
+• 2...e6
+• 2...h5
+LONDRES CLASSIQUE
+1. d4 d5 2. Nf3 Nf6 3. Bf4
+Réponses principales :
+• 3...e6
+• 3...c5
+• 3...g6
+• 3...Bf5
+• 3...Bg4
+• 3...Bd6
+CONTRE LE FIANCHETTO
+• ...g6
+• ...Bg7
+• ...d6
+• ...O-O
+• ...c5
+ATTAQUE ...Qb6
+• Nc3
+• Qc1
+• b3
+JOBAVA LONDON
+1. d4 d5 2. Nc3 Nf6 3. Bf4
+Réponses principales :
+• ...e6
+• ...c5
+• ...Bf5
+• ...Nc6
+• ...a6
+FIN DU TOME 2
+
+TOME 3 — PARTIE ÉCOSSAISE
+Répertoire des Blancs
+Notation : anglaise internationale. Les variantes sont classées par réponse des Noirs. Les lignes principales sont développées en priorité. Les variantes secondaires sont incluses lorsqu'une suite théorique est disponible.
+==================================================
+1. POSITION DE DÉPART ==================================================
+2. e4 e5
+3. Nf3 Nc6
+4. d4
+Réponses principales des Noirs :
+A) 3...exd4 — variante principale B) 3...d6 — défense Philidor C) 3...Nf6 — défense Schmidt inversée D) 3...Nxd4 — variante Lolli E) 3...d5 — contre-attaque centrale
+================================================== 2. VARIANTE PRINCIPALE — 3...exd4 4.Nxd4
+1. e4 e5
+2. Nf3 Nc6
+3. d4 exd4
+4. Nxd4
+A) VARIANTE SCHMIDT — 4...Nf6
+4... Nf6 5. Nxc6 bxc6 6. e5 Qe7 7. Qe2 Nd5 8. c4 Ba6 9. b3
+A1) Variante principale
+9... g6
+A2) Variante avec ...Nb6
+9... Nb6
+A3) Variante avec ...Qb4+
+9... Qb4+ 10. Bd2 Qb6
+A4) Recapture avec le pion d
+5. Nxc6 dxc6
+2. Qxd8+ Kxd8
+3. Nc3
+A5) Développement sans échange
+5. Nc3 Bb4
+2. Nxc6 bxc6
+3. Bd3 d5
+4. exd5 cxd5
+5. O-O O-O
+6. Bg5 c6
+A6) Variante avec 6...d5
+5. Nxc6 bxc6
+2. e5 Qe7
+3. Qe2 Nd5
+4. c4 Ba6
+5. b3 d5
+B) VARIANTE CLASSIQUE — 4...Bc5
+4... Bc5 5. Be3
+B1) Ligne principale avec ...Qf6
+5... Qf6 6. c3 Nge7 7. Bc4 Ne5 8. Be2
+B2) Variante avec ...Bb6
+5... Bb6 6. Nc3
+B3) Variante avec ...Nf6
+5... Nf6 6. Nc3
+B4) Échange du cavalier
+5. Nxc6 Qf6
+2. Qd2 dxc6
+3. Nc3
+B5) Variante avec 5.Nb3
+5. Nb3 Bb6
+2. Nc3 Qf6
+3. Qe2 Nge7
+4. Be3 O-O
+5. O-O-O
+B6) Variante avec 6.a4
+5. Nb3 Bb6
+2. a4 a6
+3. Nc3
+B7) Variante avec 5...Qf6 et 7.g3
+5. Be3 Qf6
+2. c3 Nge7
+3. g3
+C) VARIANTE STEINITZ — 4...Qh4
+4... Qh4 5. Nc3 Bb4 6. Be2 Qxe4 7. Nb5 Bxc3+ 8. bxc3 Kd8 9. O-O
+D) VARIANTE AVEC LA DAME — 4...Qf6
+4... Qf6
+D1) Développement avec Nc3
+5. Nc3
+D2) Développement avec Be3
+5. Be3
+E) ÉCHEC INTERMÉDIAIRE — 4...Bb4+
+4... Bb4+
+E1) Interposition
+5. c3
+E2) Développement du fou
+5. Bd2
+================================================== 3. GAMBIT ÉCOSSAIS — 4.Bc4
+1. e4 e5
+2. Nf3 Nc6
+3. d4 exd4
+4. Bc4
+A) DÉFENSE DES DEUX CAVALIERS — 4...Nf6
+4... Nf6 5. e5
+A1) Variante principale
+5... d5 6. Bb5 Ne4 7. Nxd4 Bd7 8. Bxc6 bxc6 9. O-O Bc5 10. f3 Ng5
+A2) Variante avec ...Ng4
+5... Ng4
+A3) Variante avec roque immédiat
+5. O-O Nxe4
+2. Re1
+A4) ATTAQUE ANDERSSEN
+5. O-O Nxe4
+2. Re1 d5
+3. Bxd5 Qxd5
+4. Nc3
+A5) Variante avec 5.Ng5
+5. Ng5
+B) GAMBIT HAXO — 4...Bc5
+4... Bc5 5. c3
+B1) Refus du sacrifice avec ...Nf6
+5... Nf6 6. cxd4
+B2) Acceptation avec ...dxc3
+5... dxc3 6. Bxf7+ Kxf7 7. Qd5+
+B3) Variante avec ...d3
+5... d3
+B4) Variante Sarratt
+5. Ng5 Nh6
+2. Nxf7 Nxf7
+3. Bxf7+ Kxf7
+4. Qh5+ g6
+5. Qxc5
+C) DÉFENSE AVEC ...h6
+4... h6
+D) DÉFENSE BENIMA — 4...Be7
+4... Be7 5. Nxd4
+E) DÉFENSE DE LONDRES — 4...Bb4+
+4... Bb4+ 5. c3 dxc3 6. O-O cxb2 7. Bxb2
+F) VARIANTE AVEC ROQUE
+4... Bc5 5. O-O
+F1) Max Lange Attack
+5... Nf6 6. e5
+F2) Cochrane-Anderssen
+5... d6 6. c3 Bg4
+================================================== 4. GAMBIT GÖRING — 4.c3
+1. e4 e5
+2. Nf3 Nc6
+3. d4 exd4
+4. c3
+A) GAMBIT ACCEPTÉ — 4...dxc3
+4... dxc3 5. Nxc3
+A1) Variante avec ...Bb4
+5... Bb4 6. Bc4 d6 7. O-O Bxc3 8. bxc3 Nf6
+A2) Variante avec ...d6
+5... d6 6. Bc4 Nf6 7. Qb3 Qd7 8. Ng5 Ne5 9. Bb5 c6 10. f4
+A3) Variante avec ...Bc5
+5... Bc5 6. Bc4
+A4) Variante avec ...Nf6
+5... Nf6 6. Bc4 d6
+A5) Variante avec ...Be7
+5... Be7 6. Qd5
+B) GAMBIT DOUBLE — 5.Bc4
+4... dxc3 5. Bc4
+B1) Acceptation du deuxième pion
+5... cxb2 6. Bxb2
+B2) Variante avec ...d6
+5... d6 6. Nxc3
+B3) Variante avec ...Nf6
+5... Nf6 6. Nxc3
+B4) Variante avec ...Bb4
+5... Bb4 6. O-O
+C) GAMBIT REFUSÉ — 4...d5
+4... d5 5. exd5 Qxd5 6. cxd4 Bg4 7. Be2 Bb4+ 8. Nc3 Bxf3 9. Bxf3 Qc4
+C1) Échange des dames
+10. Qb3 Qxb3
+2. axb3
+C2) Échange du fou
+10. Bxc6+ bxc6
+2. Qe2+ Qxe2+
+3. Kxe2
+D) REFUS AVEC ...Nf6
+4... Nf6 5. e5
+D1) Variante avec ...Ne4
+5... Ne4 6. cxd4
+D2) Variante avec ...Nd5
+5... Nd5 6. Bb5 a6 7. Ba4 Nb6 8. Bb3
+E) REFUS AVEC ...Nge7
+4... Nge7 5. Bc4 d5 6. exd5 Nxd5 7. O-O
+================================================== 5. VARIANTE RELFSSON — 4.Bb5
+1. e4 e5
+2. Nf3 Nc6
+3. d4 exd4
+4. Bb5
+Variante secondaire de l'Écossaise.
+A) Développement avec ...Nf6
+4... Nf6
+B) Développement avec ...Bc5
+4... Bc5
+================================================== 6. DÉFENSE PHILIDOR — 3...d6
+1. e4 e5
+2. Nf3 Nc6
+3. d4 d6
+A) Échange central
+4. dxe5 dxe5
+2. Qxd8+ Kxd8
+3. Bc4
+B) Développement avec Bb5
+4. Bb5
+B1) Échange central
+4... exd4 5. Nxd4 Bd7
+================================================== 7. VARIANTE LOLLI — 3...Nxd4
+1. e4 e5
+2. Nf3 Nc6
+3. d4 Nxd4
+4. Nxd4 exd4
+5. Qxd4
+A) Développement avec ...Ne7
+5... Ne7 6. Bc4 Nc6 7. Qd5 Qf6 8. O-O Ne5 9. Be2 c6 10. Qb3 Ng6 11. f4 Bc5+ 12. Kh1 d6
+B) Développement avec ...d6
+5... d6 6. Nc3 Nf6 7. Bc4 Be7 8. O-O O-O 9. Bg5 c6 10. a4 Qa5 11. Bh4
+C) Gambit Napoléon
+5. Bc4
+================================================== 8. AUTRES RÉPONSES DES NOIRS
+A) DÉFENSE AVEC ...Nf6 AU TROISIÈME COUP
+1. e4 e5
+2. Nf3 Nc6
+3. d4 Nf6
+B) CONTRE-ATTAQUE ...d5
+1. e4 e5
+2. Nf3 Nc6
+3. d4 d5
+================================================== 9. RÉCAPITULATIF DES GRANDES BRANCHES
+3...exd4 4.Nxd4 4...Nf6 : Schmidt 5.Nxc6 bxc6 6.e5 : ligne principale 5.Nxc6 dxc6 : variante d'échange 5.Nc3 : Scotch à quatre cavaliers 4...Bc5 : Classique 5.Be3 : ligne principale 5.Nb3 : Potter 5.Nxc6 : variante d'échange 4...Qh4 : Steinitz 4...Qf6 : variante de la dame 4...Bb4+ : échec intermédiaire
+3...exd4 4.Bc4 4...Nf6 : Gambit écossais / Deux Cavaliers 5.e5 : attaque avancée 5.O-O : attaque Anderssen 5.Ng5 : variante Perreux 4...Bc5 : Haxo 5.c3 : gambit 5.Ng5 : Sarratt 4...h6 : défense ...h6 4...Be7 : Benima 4...Bb4+ : défense de Londres
+3...exd4 4.c3 Gambit Göring 4...dxc3 : accepté 4...d5 : refusé 4...Nf6 : refusé 4...Nge7 : refusé
+3...exd4 4.Bb5 Relfsson
+3...d6 Défense Philidor
+3...Nxd4 Variante Lolli Gambit Napoléon
+FIN DU TOME 3
+
+TOME 4 — PARTIE VIENNOISE
+Répertoire de variantes — Blancs
+Notation : anglaise internationale. Position de départ : 1.e4 e5 2.Nc3. Les variantes sont classées selon les réponses noires. Les lignes principales sont développées en priorité. Les lignes secondaires sont conservées lorsqu'une suite théorique est disponible.
+==================================================
+1. POSITION DE DÉPART ==================================================
+2. e4 e5
+3. Nc3
+A) 2...Nc6 — Défense Max Lange B) 2...Nf6 — Défense Falkbeer C) 2...Bc5 — Défense Anderssen D) 2...d6 — Défense Philidor E) 2...Bb4 — Défense Zhuravlev
+================================================== 2. DÉFENSE FALKBEER — 2...Nf6
+1. e4 e5
+2. Nc3 Nf6
+A) GAMBIT VIENNOIS — 3.f4
+3. f4
+A1) Contre-attaque centrale — 3...d5
+3... d5 4. fxe5 Nxe4 5. Nf3
+A1.1) Variante Breyer
+5... Be7 6. Qe2 Nxc3 7. dxc3
+A1.2) Variante Kaufmann
+5... Bg4 6. Qe2
+A1.3) Attaque Paulsen
+5. Qf3
+A1.4) Variante Bardeleben
+5. Qf3 f5
+A1.5) Variante moderne
+5. d3
+A1.6) Piège de Würzburger
+5. d3 Qh4+
+2. g3 Nxg3
+3. Nf3 Qh5
+4. Nxd5
+A1.7) Variante Steinitz
+4. d3
+A1.8) Variante avec échange au centre
+4. exd5 exf4
+A2) Gambit accepté — 3...exf4
+3... exf4 4. e5
+A2.1) Repli du cavalier
+4... Ng8 5. Nf3 d6
+A2.2) Variante avec ...Qe7
+4... Qe7 5. Qe2
+A2.3) Variante avec ...Ng4
+4... Ng4 5. Qxg4
+A3) Défense avec ...d6
+3... d6 4. Nf3 Nc6 5. Bb5 Bd7 6. d3
+A3.1) Acceptation du pion
+6... exf4 7. Bxf4
+A4) Variante avec ...Nc6
+3... Nc6 4. fxe5 Nxe5 5. d4
+A5) Variante avec ...Bc5
+3... Bc5
+B) VARIANTE STANLEY — 3.Bc4
+3. Bc4
+B1) Frankenstein-Dracula — 3...Nxe4
+3... Nxe4 4. Qh5
+B1.1) Ligne principale
+4... Nd6 5. Bb3 Nc6 6. Nb5 g6 7. Qf3 f5 8. Qd5 Qe7 9. Nxc7+ Kd8 10. Nxa8 b6
+B1.2) Variante avec prise du cavalier
+4. Nxe4 d5
+2. Bxd5 Qxd5
+B1.3) Variante Boden-Kieseritzky
+4. Nf3
+B1.4) Sacrifice sur f7
+4. Bxf7+ Kxf7
+2. Nxe4 d5
+3. Qh5+ Kg8
+B2) Développement avec ...Nc6
+3... Nc6 4. d3
+B3) Variante avec ...Bc5
+3... Bc5
+B3.1) Attaque de la dame
+4. Qg4
+B3.2) Variante avec ...Qf6
+4... Qf6 5. Nd5
+B3.3) Variante avec ...Qxf2+
+4... Qf6 5. Nd5 Qxf2+ 6. Kd1
+B4) Variante avec ...Bb4
+3... Bb4
+B5) Variante avec ...d6
+3... d6
+C) VARIANTE MIESES — 3.g3
+3. g3
+C1) Contre ...d5
+3... d5 4. exd5 Nxd5 5. Bg2 Nxc3 6. bxc3
+C2) Variante avec ...Bc5
+3... Bc5
+D) VARIANTE MENGARINI — 3.a3
+3. a3
+D1) Développement avec ...Nc6
+3... Nc6
+D2) Développement avec ...Bc5
+3... Bc5
+E) VARIANTE AVEC 3.Nf3
+3. Nf3
+E1) Quatre Cavaliers
+3... Nc6
+E2) Développement avec ...Bc5
+3... Bc5
+F) VARIANTE AVEC 3.d3
+3. d3
+G) AUTRES OPTIONS
+3. f3 — King's Head Opening
+================================================== 3. DÉFENSE MAX LANGE — 2...Nc6
+1. e4 e5
+2. Nc3 Nc6
+A) VARIANTE CLASSIQUE — 3.Bc4
+3. Bc4
+A1) Défense symétrique — 3...Bc5
+3... Bc5 4. Qg4
+A1.1) Défense de g7 avec ...Qf6
+4... Qf6 5. Nd5
+A1.2) Variante avec ...Kf8
+4... Kf8
+A1.3) Variante avec ...g6
+4... g6
+A2) Défense avec ...Nf6
+3... Nf6 4. d3
+A2.1) Variante Berlin-Vienne
+4... Bb4 5. Bg5 h6
+A2.2) Échange sur f6
+5. Bxf6
+A2.3) Variante avec ...d6
+4... d6 5. Nf3
+A3) Variante avec ...Bb4
+3... Bb4
+B) GAMBIT VIENNOIS — 3.f4
+3. f4
+B1) Gambit accepté
+3... exf4 4. Nf3
+B1.1) Hamppe-Muzio
+4... g5 5. Bc4 g4 6. O-O
+B1.2) Hamppe-Allgaier
+4... g5 5. h4 g4 6. Ng5
+B1.3) Gambit Pierce
+4... g5 5. d4
+B1.4) Gambit Steinitz
+4. d4 Qh4+
+2. Ke2
+B1.5) Variante Dubois
+4... g5 5. Bc4 g4 6. O-O gxf3 7. Qxf3 Ne5 8. Qxf4 Qf6
+B1.6) Attaque Rushmere
+4... g5 5. d4 g4 6. Bc4 gxf3 7. O-O d5 8. exd5 Bg4 9. dxc6
+B2) Refus du gambit
+3... d6
+B3) Variante avec ...Nf6
+3... Nf6
+C) VARIANTE PAULSEN — 3.g3
+3. g3
+C1) Développement avec ...Nf6
+3... Nf6 4. Bg2
+C2) Développement avec ...Bc5
+3... Bc5
+D) GAMBIT FYFE — 3.d4
+3. d4
+E) VARIANTE DES TROIS CAVALIERS — 3.Nf3
+3. Nf3
+E1) Réponse symétrique
+3... Nf6
+E2) Variante avec ...Bc5
+3... Bc5
+================================================== 4. DÉFENSE ANDERSSEN — 2...Bc5
+1. e4 e5
+2. Nc3 Bc5
+A) DÉVELOPPEMENT CLASSIQUE — 3.Nf3
+3. Nf3
+A1) Défense principale
+3... d6 4. d4 exd4 5. Nxd4 Nf6
+A1.1) Variante avec Be2
+6. Be2 d5
+2. e5 Ne4
+3. O-O Nxc3
+A1.2) Variante avec Bg5
+6. Bg5 h6
+2. Bh4 O-O
+3. Nb3 Bb4
+4. Bd3 Re8
+5. O-O Bxc3
+6. bxc3 g5
+7. Bg3 Nxe4
+A2) Échange du cavalier
+4. Na4 Nd7
+2. d3 Ngf6
+3. Be2 O-O
+4. O-O c6
+5. Nxc5 Nxc5
+6. Ne1 Ne6
+7. c3 d5
+A3) Erreur à éviter : 3...Nc6?!
+3... Nc6 4. Nxe5 Nxe5 5. d4
+B) DÉVELOPPEMENT AVEC 3.Bc4
+3. Bc4
+B1) Développement avec ...Nf6
+3... Nf6
+B2) Développement avec ...Nc6
+3... Nc6
+B3) Développement avec ...d6
+3... d6
+C) GAMBIT RETARDÉ — 3.f4
+3. f4 d6
+D) ATTAQUE GIRAFFE — 3.Qg4
+3. Qg4
+D1) Réponse ...Nf6
+3... Nf6 4. Qxg7 Rg8 5. Qh6 Bxf2+ 6. Kxf2 Ng4+
+E) VARIANTE HAMPPE-MEITNER — 3.Na4
+3. Na4 Bxf2+
+2. Kxf2 Qh4+
+3. Ke3 Qf4+
+4. Kd3 d5
+F) VARIANTE AVEC ...Be7
+3... Be7
+================================================== 5. DÉFENSE AVEC 2...d6
+1. e4 e5
+2. Nc3 d6
+A) DÉVELOPPEMENT CLASSIQUE
+3. Nf3
+B) GAMBIT OMAHA
+3. f4
+C) VARIANTE AVEC Bc4
+3. Bc4
+================================================== 6. DÉFENSE ZHURAVLEV — 2...Bb4
+1. e4 e5
+2. Nc3 Bb4
+A) ATTAQUE AVEC LA DAME
+3. Qg4
+A1) Défense avec ...Nf6
+3... Nf6
+================================================== 7. RÉCAPITULATIF DES GRANDES BRANCHES
+2...Nf6 — Falkbeer 3.f4 — Gambit viennois 3...d5 — contre-attaque centrale 4.fxe5 Nxe4 5.Nf3 — Breyer 5.Nf3 Bg4 — Kaufmann 5.Qf3 — Paulsen 5.Qf3 f5 — Bardeleben 5.d3 — Moderne 5.d3 Qh4+ — Würzburger 4.d3 — Steinitz 3...exf4 — gambit accepté 4.e5 — recul du cavalier 3...d6 — défense du centre 3.Bc4 — Stanley 3...Nxe4 — Frankenstein-Dracula 3...Nc6 3...Bc5 3...Bb4 3.g3 — Mieses 3.a3 — Mengarini 3.Nf3 — Trois Cavaliers
+2...Nc6 — Max Lange 3.Bc4 — variante classique 3...Bc5 — symétrique 3...Nf6 — Berlin-Vienne 3...Bb4 3.f4 — Gambit viennois 3...exf4 — accepté 4.Nf3 g5 — Hamppe-Muzio 5.h4 g4 — Hamppe-Allgaier 5.d4 — Pierce 4.d4 Qh4+ — Steinitz 3...d6 — refus 3.g3 — Paulsen 3.d4 — Fyfe 3.Nf3 — Trois Cavaliers
+2...Bc5 — Anderssen 3.Nf3 d6 4.d4 exd4 5.Nxd4 Nf6 3.Bc4 3.f4 d6 3.Qg4 — Giraffe 3.Na4 — Hamppe-Meitner
+2...d6 3.Nf3 3.f4 — Omaha 3.Bc4
+2...Bb4 3.Qg4 — Zhuravlev
+FIN DU TOME 4
+
+TOME 5 — GAMBIT DAME
+Répertoire de variantes — Blancs
+Notation : anglaise internationale. Position de départ : 1.d4 d5 2.c4. Les variantes sont classées par défense noire. Les lignes sont développées uniquement lorsque les continuations sont documentées.
+==================================================
+1. POSITION DE DÉPART ==================================================
+2. d4 d5
+3. c4
+A) 2...e6 — Gambit Dame refusé B) 2...dxc4 — Gambit Dame accepté C) 2...c6 — Défense Slave (traitée dans un tome séparé) D) 2...e5 — Contre-gambit Albin E) 2...Nc6 — Défense Chigorin F) 2...c5 — Défense symétrique G) 2...Bf5 — Défense Baltique H) 2...Nf6 — Défense Marshall
+================================================== 2. GAMBIT DAME REFUSÉ — 2...e6
+1. d4 d5
+2. c4 e6
+A) VARIANTE CLASSIQUE — 3.Nc3 Nf6
+3. Nc3 Nf6
+2. Bg5 Be7
+3. e3 O-O
+4. Nf3 Nbd7
+5. Rc1 c6
+6. Bd3 dxc4
+7. Bxc4
+A1) Variante orthodoxe
+4. Bg5 Be7
+2. e3 O-O
+3. Nf3 Nbd7
+4. Rc1 c6
+5. Bd3 dxc4
+6. Bxc4
+A2) Variante avec 7...c6
+4. Bg5 Be7
+2. e3 O-O
+3. Nf3 Nbd7
+4. Rc1 c6
+5. Bd3
+A3) Variante avec 4...Nbd7
+4. Bg5 Nbd7
+2. e3
+A3.1) Piège de l'Éléphant — ligne tactique
+5... Be7 6. Nxd5?? Nxd5 7. Bxd8 Bb4+ 8. Qd2 Bxd2+ 9. Kxd2 Kxd8
+A3.2) Variante sans le piège
+5... Be7 6. Nf3 O-O 7. Bd3
+A4) Variante avec 4...Be7 et 5.cxd5
+4. Bg5 Be7
+2. cxd5 exd5
+3. e3
+B) VARIANTE D'ÉCHANGE — 3...Nf6 4.cxd5
+3. Nc3 Nf6
+2. cxd5 exd5
+3. Bg5
+B1) Ligne principale
+5... c6 6. e3 Be7 7. Bd3 Nbd7 8. Qc2
+B2) Développement avec Nf3
+5... Be7 6. e3 O-O 7. Bd3 c6 8. Nge2
+B3) Variante avec Bf4
+5... Be7 6. e3 O-O 7. Bd3 c6 8. Nf3
+B4) Variante avec ...c6 et ...Nbd7
+5... c6 6. e3 Nbd7 7. Bd3 Be7 8. Nge2 O-O
+C) VARIANTE ALATORTSEV — 3...Be7
+3. Nc3 Be7
+2. Nf3 Nf6
+3. Bf4
+D) VARIANTE TARRASCH — 3...c5
+3. Nc3 c5
+2. cxd5 exd5
+3. Nf3 Nc6
+D1) Développement avec g3
+6. g3 Nf6
+2. Bg2 Be7
+D2) Variante suédoise
+6. g3 c4
+D3) Développement avec e3
+6. e3 Nf6
+2. Bd3 Be7
+D4) Développement avec Bg5
+6. Bg5 Nf6
+2. e3 Be7
+E) VARIANTE CAMBRIDGE SPRINGS
+3. Nc3 Nf6
+2. Bg5 Nbd7
+3. e3 c6
+4. Nf3 Qa5
+E1) Développement classique
+7. Nd2
+E2) Développement avec Bd3
+7. Bd3
+E3) Variante avec Rc1
+7. Rc1
+================================================== 3. GAMBIT DAME ACCEPTÉ — 2...dxc4
+1. d4 d5
+2. c4 dxc4
+A) VARIANTE CLASSIQUE — 3.Nf3
+3. Nf3 Nf6
+2. e3 e6
+3. Bxc4 c5
+4. O-O a6
+A1) Développement avec Qe2
+7. Qe2
+A2) Développement avec a4
+7. a4
+A3) Développement avec Nc3
+7. Nc3
+A4) Développement avec b3
+7. b3
+B) VARIANTE AVEC 3.e3
+3. e3
+B1) Tentative de conservation du pion
+3... b5?! 4. a4 c6 5. axb5 cxb5 6. Qf3
+B2) Développement avec ...Nf6
+3... Nf6 4. Bxc4 e6 5. Nf3
+C) VARIANTE AVEC 3.Nc3
+3. Nc3 Nf6
+2. e4
+D) VARIANTE AVEC 3.e4
+3. e4
+D1) Développement noir avec ...e5
+3... e5
+D2) Développement noir avec ...Nf6
+3... Nf6
+================================================== 4. CONTRE-GAMBIT ALBIN — 2...e5
+1. d4 d5
+2. c4 e5
+A) ACCEPTATION DU CONTRE-GAMBIT
+3. dxe5 d4
+A1) Développement du cavalier
+4. Nf3 Nc6
+A2) Développement avec e3
+4. e3
+A3) Développement avec a3
+4. a3
+A4) Variante avec g3
+4. g3
+B) REFUS DU CONTRE-GAMBIT
+3. e3
+B1) Développement avec ...Nc6
+3... Nc6
+B2) Développement avec ...Nf6
+3... Nf6
+C) VARIANTE AVEC 3.Nf3
+3. Nf3
+================================================== 5. DÉFENSE CHIGORIN — 2...Nc6
+1. d4 d5
+2. c4 Nc6
+A) VARIANTE PRINCIPALE
+3. Nf3 Bg4
+A1) Développement avec Nc3
+4. Nc3
+A2) Développement avec e3
+4. e3
+B) VARIANTE AVEC 3.cxd5
+3. cxd5 Qxd5
+2. Nf3
+C) VARIANTE AVEC 3.Nc3
+3. Nc3
+================================================== 6. DÉFENSE SYMÉTRIQUE — 2...c5
+1. d4 d5
+2. c4 c5
+A) ÉCHANGE CENTRAL
+3. cxd5
+B) DÉVELOPPEMENT AVEC Nf3
+3. Nf3
+================================================== 7. DÉFENSE BALTIQUE — 2...Bf5
+1. d4 d5
+2. c4 Bf5
+A) ÉCHANGE CENTRAL
+3. cxd5
+B) DÉVELOPPEMENT AVEC Nc3
+3. Nc3
+================================================== 8. DÉFENSE MARSHALL — 2...Nf6
+1. d4 d5
+2. c4 Nf6
+A) DÉVELOPPEMENT AVEC Nc3
+3. Nc3
+B) DÉVELOPPEMENT AVEC Nf3
+3. Nf3
+================================================== 9. AUTRES RÉPONSES
+A) DÉFENSE ALEKHINE
+1. d4 d5
+2. c4 g6
+B) DÉVELOPPEMENT AVEC ...e6 ET ...c6
+1. d4 d5
+2. c4 e6
+3. Nc3 c6
+Cette structure peut transposer dans la Semi-Slave.
+C) DÉFENSE AVEC ...a6
+1. d4 d5
+2. c4 a6
+================================================== 10. RÉCAPITULATIF
+GAMBIT DAME REFUSÉ
+1. d4 d5 2. c4 e6
+2. 3.Nc3 Nf6 4.Bg5 Be7 5.e3 O-O 6.Nf3 Nbd7 7.Rc1 c6 8.Bd3 dxc4 9.Bxc4
+3. 3.Nc3 Nf6 4.cxd5 exd5 5.Bg5 c6 6.e3 Be7 7.Bd3 Nbd7 8.Qc2
+4. 3...Be7 — Alatortsev 3...c5 — Tarrasch 4...Nbd7 — Cambridge Springs avec ...c6 et ...Qa5
+GAMBIT DAME ACCEPTÉ
+1. d4 d5 2. c4 dxc4
+2. 3.Nf3 Nf6 4.e3 e6 5.Bxc4 c5 6.O-O a6 7.Qe2 7.a4 7.Nc3 7.b3
+3. 3.e3 — récupération du pion 3.Nc3 — développement central 3.e4 — grand centre
+CONTRE-GAMBIT ALBIN
+1. d4 d5 2. c4 e5 3.dxe5 d4 4.Nf3 Nc6 4.e3 4.a3 4.g3
+DÉFENSE CHIGORIN
+1. d4 d5 2. c4 Nc6 3.Nf3 Bg4 3.cxd5 Qxd5 3.Nc3
+DÉFENSES SECONDAIRES 2...c5 — Symétrique 2...Bf5 — Baltique 2...Nf6 — Marshall 2...g6 — Alekhine
+FIN DU TOME 5
+
+
+TOME 6 — DÉFENSE SLAVE
+Répertoire encyclopédique
+Départ : 1.d4 d5 2.c4 c6
+La défense Slave est une réponse solide au Gambit Dame. Le coup 2...c6 soutient le pion d5 tout en laissant libre le fou c8. Les variantes Semi-Slave (...e6 joué dans certaines positions) seront traitées séparément.
+Notation : N = Cavalier, B = Fou, R = Tour, Q = Dame, K = Roi.
+
+───
+
+A. LIGNE PRINCIPALE — 3.Nf3
+A1. Variante principale : 3...Nf6 4.Nc3
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3
+A1.1. Slave classique — 4...dxc4
+5.a4 Bf5 6.e3 e6 7.Bxc4 Bb4 8.O-O O-O
+Position de référence de la Slave classique.
+Autre continuation : 5.e3 b5 La tentative de conserver le pion c4 par ...b5 est une idée typique de la Slave acceptée.
+A1.2. Attaque de Bled — 5...Bf5 6.Nh4
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.a4 Bf5 6.Nh4
+Les Blancs attaquent directement le fou f5 avec le cavalier.
+A1.3. Variante Chebanenko — 4...a6
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 a6
+L'idée noire est de préparer ...b5 sans abandonner le centre.
+Ligne principale : 5.e3 b5 6.b3 Bg4 7.Be2 e6
+Autre réponse blanche : 5.c5
+Les Blancs ferment le centre et gagnent de l'espace à l'aile dame.
+A1.4. Variante Schlechter — 4...g6
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 g6
+Les Noirs préparent le fianchetto du fou.
+A1.5. Variante Süchting — 4...Qb6
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 Qb6
+La dame attaque notamment b2 et exerce une pression sur le centre.
+
+───
+
+A2. Variante tranquille — 4.e3
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3
+Les Blancs développent tranquillement et préparent le développement du fou f1.
+A2.1. Défense Schallopp — 4...Bf5
+5.Nc3 e6
+Le fou noir sort avant la fermeture de la diagonale par ...e6.
+A2.2. Défense avec clouage — 4...Bg4
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bg4
+Les Noirs développent le fou en clouant le cavalier f3.
+A2.3. Développement classique
+4...Bf5 5.Nc3
+Les Blancs développent leur cavalier et maintiennent la pression centrale.
+
+───
+
+A3. Variante Breyer — 4.Nbd2
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nbd2
+Les Blancs développent le cavalier sans le placer immédiatement en c3.
+
+───
+
+A4. Bonet Gambit — 4.Bg5
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Bg5
+Les Blancs développent le fou et exercent une pression sur le cavalier f6.
+
+───
+
+B. DÉVELOPPEMENT IMMÉDIAT — 3.Nc3
+1.d4 d5 2.c4 c6 3.Nc3
+Les Blancs développent leur cavalier avant de jouer Nf3.
+B1. Slave acceptée — 3...dxc4
+4.e4
+Gambit Slave, attaque Alekhine. Les Blancs abandonnent temporairement le pion c4 afin de construire un centre puissant.
+B2. Contre-gambit Winawer — 3...e5
+1.d4 d5 2.c4 c6 3.Nc3 e5
+Les Noirs contestent immédiatement le centre.
+B2.1. Gambit Anti-Winawer — 4.e4
+1.d4 d5 2.c4 c6 3.Nc3 e5 4.e4
+Les Blancs acceptent une position tactique et contestent le centre noir.
+B3. Développement classique — 3...Nf6
+1.d4 d5 2.c4 c6 3.Nc3 Nf6
+On retrouve les grandes structures de la Slave après Nf3.
+
+───
+
+C. VARIANTE D'ÉCHANGE — 3.cxd5
+1.d4 d5 2.c4 c6 3.cxd5 cxd5
+Les deux camps échangent les pions centraux. La structure devient symétrique.
+C1. Développement classique
+4.Nc3 Nf6 5.Bf4 Nc6 6.e3 Bf5
+Ligne de référence de la Slave d'échange.
+C2. Développement avec Nf3
+4.Nf3 Nf6
+Les deux camps développent leurs cavaliers et conservent une structure symétrique.
+C3. Développement du fou
+4.Nc3 Nf6 5.Bf4
+Les Blancs développent le fou avant de jouer e3.
+
+───
+
+D. SYSTÈMES SECONDAIRES DES BLANCS
+D1. Gambit Diemer — 3.e4
+1.d4 d5 2.c4 c6 3.e4
+Les Blancs proposent un gambit pour ouvrir le centre.
+Réponse principale : 3...dxe4
+D2. Avance — 3.c5
+1.d4 d5 2.c4 c6 3.c5
+Les Blancs ferment le centre et gagnent de l'espace à l'aile dame.
+D3. Développement — 3.e3
+1.d4 d5 2.c4 c6 3.e3
+Les Blancs soutiennent leur pion d4 et préparent le développement du fou f1.
+D4. Développement du cavalier — 3.Nf3
+1.d4 d5 2.c4 c6 3.Nf3
+La réponse noire la plus courante est : 3...Nf6
+D5. Déviation prématurée — 3...Bf5?!
+1.d4 d5 2.c4 c6 3.Nf3 Bf5 4.cxd5 cxd5 5.Qb3 Bc8
+Le développement immédiat du fou permet aux Blancs de gagner un tempo en attaquant simultanément b7 et d5. Les Noirs doivent ramener leur fou en c8 dans cette ligne.
+
+───
+
+E. RÉCAPITULATIF DES VARIANTES
+
+Variante
+Départ
+
+Slave classique
+3.Nf3 Nf6 4.Nc3 dxc4
+
+Attaque de Bled
+3.Nf3 Nf6 4.Nc3 dxc4 5.a4 Bf5 6.Nh4
+
+Chebanenko
+3.Nf3 Nf6 4.Nc3 a6
+
+Schlechter
+3.Nf3 Nf6 4.Nc3 g6
+
+Süchting
+3.Nf3 Nf6 4.Nc3 Qb6
+
+Schallopp
+3.Nf3 Nf6 4.e3 Bf5
+
+Défense avec clouage
+3.Nf3 Nf6 4.e3 Bg4
+
+Breyer
+3.Nf3 Nf6 4.Nbd2
+
+Bonet Gambit
+3.Nf3 Nf6 4.Bg5
+
+Slave acceptée
+3.Nc3 dxc4
+
+Attaque Alekhine
+3.Nc3 dxc4 4.e4
+
+Contre-gambit Winawer
+3.Nc3 e5
+
+Anti-Winawer
+3.Nc3 e5 4.e4
+
+Slave d'échange
+3.cxd5 cxd5
+
+Gambit Diemer
+3.e4
+
+Avance
+3.c5
+
+
+
+───
+
+F. POINTS THÉORIQUES À RETENIR
+• La Slave classique repose sur le développement du fou c8 avant ...e6.
+• Après ...dxc4, le coup a4 empêche généralement ...b5 et facilite la récupération du pion.
+• La Chebanenko avec ...a6 prépare ...b5 sans abandonner le centre.
+• La Slave d'échange conduit à une structure symétrique.
+• La Semi-Slave constitue une branche théorique distincte et sera traitée dans un tome séparé.
+• Les gambits Diemer et Alekhine conduisent à des positions plus tactiques que les lignes principales.
+FIN DU TOME 6.
+
+TOME 7 — DÉFENSE CARO-KANN
+1. e4 c6
+================================================== A. VARIANTE CLASSIQUE
+1.e4 c6 2.d4 d5
+
+───
+
+A1. Variante classique : 3.Nc3
+3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng3 Bg6 6.h4 h6 7.Nf3 Nd7 8.h5 Bh7 9.Bd3 Bxd3 10.Qxd3
+Position principale.
+Suite modèle : 10...e6 11.Bf4 Ngf6 12.O-O-O Be7 13.c3 O-O
+
+───
+
+A2. Variante classique par 3.Nd2
+3.Nd2 dxe4 4.Nxe4 Bf5 5.Ng3 Bg6 6.h4 h6 7.Nf3 Nd7 8.h5 Bh7 9.Bd3 Bxd3 10.Qxd3
+Transposition vers la structure classique.
+
+───
+
+A3. Variante Karpov : 3.Nc3 dxe4 4.Nxe4 Nd7
+3.Nc3 dxe4 4.Nxe4 Nd7
+Autre grande réponse noire.
+5.Nf3 Ngf6 6.Nxf6+ Nxf6
+5.Ng3 Ngf6 6.Nf3 Bg4
+5.Bd3 Ngf6 6.Nf3 Nxe4
+================================================== B. VARIANTE D'AVANCE
+1.e4 c6 2.d4 d5 3.e5
+Les Blancs ferment le centre et gagnent de l'espace.
+
+───
+
+B1. Ligne principale : 3...Bf5
+3...Bf5 4.Nf3 e6 5.Be2 c5 6.O-O Nc6 7.c3
+7...Nge7 8.Be3 cxd4 9.Nxd4 Nxd4 10.cxd4
+Autre continuation : 7...Qb6 8.Nc3
+
+───
+
+B2. Système Short
+3...Bf5 4.Nf3 e6 5.Be2 Ne7 6.O-O c5 7.c3 Nec6
+
+───
+
+B3. Attaque Van der Wiel
+3...Bf5 4.Nc3 e6 5.g4 Bg6 6.Nge2 c5
+
+───
+
+B4. Attaque à la baïonnette
+3...Bf5 4.g4
+Réponses noires : 4...Bd7 4...Be4
+
+───
+
+B5. Variante Tal
+3...Bf5 4.h4
+Réponse : 4...h5
+Suite possible : 5.Bd3 Bxd3 6.Qxd3 e6
+
+───
+
+B6. Contre-attaque immédiate : 3...c5
+3...c5 4.dxc5 Nc6 5.f4 e6 6.Be3 d4 7.Bf2 Bxc5
+Autre réponse blanche : 4.Nf3 cxd4 5.Nxd4
+================================================== C. VARIANTE D'ÉCHANGE
+1.e4 c6 2.d4 d5 3.exd5 cxd5
+
+───
+
+C1. Développement classique
+4.Bd3 Nc6 5.c3 Nf6 6.Bf4 Bg4
+Autres possibilités blanches : 4.Nf3 4.Bd3 4.c4
+
+───
+
+C2. Développement avec Nf3
+4.Nf3 Nc6 5.c3 Nf6
+
+───
+
+C3. Développement avec Bf4
+4.Bd3 Nc6 5.c3 Nf6 6.Bf4
+Réponse noire : 6...Bg4
+================================================== D. ATTAQUE PANOV-BOTVINNIK
+1.e4 c6 2.d4 d5 3.exd5 cxd5 4.c4
+Les Blancs acceptent une structure avec pion isolé potentiel pour obtenir du jeu actif.
+
+───
+
+D1. Développement avec Nf6
+4...Nf6
+Réponses blanches : 5.Nc3 5.Nf3
+
+───
+
+D2. Développement avec Nc6
+4...Nc6
+Réponses blanches : 5.Nc3 5.Nf3
+================================================== E. VARIANTE FANTASY
+1.e4 c6 2.d4 d5 3.f3
+Réponses noires : 3...e6 3...dxe4
+Après 3...dxe4 : 4.fxe4 e5
+================================================== F. SYSTÈME DES DEUX CAVALIERS
+1.e4 c6 2.Nc3 d5 3.Nf3
+Réponse noire : 3...Bg4
+================================================== G. RÉCAPITULATIF DES RÉPONSES À CONNAÎTRE
+Après 1.e4 c6 2.d4 d5 :
+3.Nc3 dxe4 — Variante classique 3.Nd2 dxe4 — Variante des deux cavaliers 3.e5 Bf5 — Variante d'avance 3.e5 c5 — Contre-attaque immédiate 3.exd5 cxd5 — Variante d'échange 3.exd5 cxd5 4.c4 — Panov-Botvinnik 3.f3 — Variante Fantasy
+================================================== FIN DU TOME 7
+
+TOME 8 — DÉFENSE SCANDINAVE
+1.e4 d5
+================================================== A. VARIANTE PRINCIPALE — REPRISE PAR LA DAME
+1.e4 d5 2.exd5 Qxd5 3.Nc3
+La dame doit se déplacer.
+
+───
+
+A1. Variante principale : 3...Qa5
+1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 c6 6.Bc4 Bf5 7.Bd2 e6 8.Qe2 Bb4 9.O-O-O Nbd7 10.a3 Bxc3 11.Bxc3 Qc7
+Autres réponses blanches au 5e coup :
+5.Bc4 5.Bd2 5.Nf3
+
+───
+
+A1.1. Avec développement classique
+1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 Bf5 6.Bc4 e6 7.Bd2 c6
+
+───
+
+A1.2. Développement avec 4.Nf3
+1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.Nf3 Nf6 5.d4 c6
+
+───
+
+A1.3. Attaque avec 4.d4
+1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4
+Réponses noires : 4...Nf6 4...c6 4...Bf5
+
+───
+
+A2. Variante moderne : 3...Qd6
+1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Nf3 a6 6.g3 Bg4 7.Bg2 Nc6 8.O-O O-O-O
+
+───
+
+A2.1. Développement avec 5.g3
+1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.g3
+
+───
+
+A2.2. Développement avec 5.Bc4
+1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Bc4
+
+───
+
+A3. Variante de retrait : 3...Qd8
+1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 4.d4 Nf6 5.Nf3 g6
+
+───
+
+A3.1. Développement classique
+1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 4.d4 Nf6 5.Nf3 g6 6.Bc4 Bg7 7.O-O O-O
+================================================== B. VARIANTE MODERNE — 2...Nf6
+1.e4 d5 2.exd5 Nf6
+Les Noirs retardent la reprise du pion.
+
+───
+
+B1. Variante Marshall
+1.e4 d5 2.exd5 Nf6 3.d4 Nxd5 4.c4 Nb6 5.Nf3 g6 6.Nc3 Bg7 7.h3 O-O 8.Be3 Nc6 9.Qd2 e5 10.d5 Ne7
+
+───
+
+B1.1. Développement avec 4.Nf3
+1.e4 d5 2.exd5 Nf6 3.d4 Nxd5 4.Nf3
+
+───
+
+B1.2. Développement avec 4.c4
+1.e4 d5 2.exd5 Nf6 3.d4 Nxd5 4.c4 Nb6
+Réponses blanches : 5.Nf3 5.Nc3
+
+───
+
+B2. Variante portugaise
+1.e4 d5 2.exd5 Nf6 3.d4 Bg4 4.f3 Bf5 5.Bb5+ Nbd7 6.c4
+
+───
+
+B2.1. Ligne tactique portugaise
+1.e4 d5 2.exd5 Nf6 3.d4 Bg4 4.f3 Bf5 5.c4
+
+───
+
+B2.2. Réponse blanche 4.Nf3
+1.e4 d5 2.exd5 Nf6 3.d4 Bg4 4.Nf3
+
+───
+
+B3. Si les Blancs veulent conserver le pion
+1.e4 d5 2.exd5 Nf6 3.c4 c6 4.d4 cxd5
+La position prend une structure de type Panov.
+
+───
+
+B4. Gambit islandais
+1.e4 d5 2.exd5 Nf6 3.c4 e6 4.dxe6 Bxe6 5.Nf3
+Les Noirs sacrifient un pion pour accélérer leur développement.
+================================================== C. RÉPONSES BLANCHES ALTERNATIVES
+
+───
+
+C1. Avance : 2.e5
+1.e4 d5 2.e5 Bf5 3.d4 e6 4.Nf3
+Autre continuation : 3...c5
+
+───
+
+C2. Développement : 2.Nc3
+1.e4 d5 2.Nc3
+Réponses noires : 2...d4 2...dxe4
+================================================== D. RÉCAPITULATIF DES LIGNES
+Après 1.e4 d5 :
+2.exd5 Qxd5 3.Nc3 Qa5 — Variante principale 2.exd5 Qxd5 3.Nc3 Qd6 — Variante moderne 2.exd5 Qxd5 3.Nc3 Qd8 — Retrait classique 2.exd5 Nf6 3.d4 Nxd5 — Variante Marshall 2.exd5 Nf6 3.d4 Bg4 — Variante portugaise 2.exd5 Nf6 3.c4 e6 — Gambit islandais 2.exd5 Nf6 3.c4 c6 — Structure de type Panov 2.e5 Bf5 — Variante d'avance
+================================================== FIN DU TOME 8
+
+TOME 9 — DÉFENSE FRANÇAISE
+1.e4 e6 2.d4 d5
+================================================== A. VARIANTE D'AVANCE
+1.e4 e6 2.d4 d5 3.e5
+
+───
+
+A1. Ligne principale : 3...c5
+3...c5 4.c3 Nc6 5.Nf3 Qb6 6.Bd3
+Réponses noires : 6...cxd4 6...Bd7
+
+───
+
+A1.1. Après 6...cxd4
+1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nf3 Qb6 6.Bd3 cxd4 7.cxd4
+
+───
+
+A1.2. Après 6...Bd7
+1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nf3 Qb6 6.Bd3 Bd7
+
+───
+
+A2. Variante avec 6.a3
+1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nf3 Qb6 6.a3
+
+───
+
+A3. Variante avec 4.Nf3
+1.e4 e6 2.d4 d5 3.e5 c5 4.Nf3
+Réponses noires : 4...Nc6 4...Qb6
+================================================== B. VARIANTE WINAWER
+1.e4 e6 2.d4 d5 3.Nc3 Bb4
+
+───
+
+B1. Ligne principale : 4.e5
+4.e5 c5 5.a3 Bxc3+ 6.bxc3 Ne7 7.Qg4
+Réponses noires : 7...Qc7 7...O-O
+
+───
+
+B1.1. Gambit du pion empoisonné
+1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.a3 Bxc3+ 6.bxc3 Ne7 7.Qg4 Qc7 8.Qxg7 Rg8 9.Qxh7 cxd4
+
+───
+
+B1.2. Variante avec petit roque
+1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.a3 Bxc3+ 6.bxc3 Ne7 7.Qg4 O-O
+
+───
+
+B2. Variante de retrait
+1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.a3 Ba5
+
+───
+
+B3. Variante avec 4.Bd2
+1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.Bd2
+Réponse : 4...dxe4
+
+───
+
+B4. Variante avec 4.Ne2
+1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.Ne2 dxe4 5.a3 Bxc3+ 6.Nxc3
+================================================== C. VARIANTE CLASSIQUE
+1.e4 e6 2.d4 d5 3.Nc3 Nf6
+
+───
+
+C1. Variante principale : 4.Bg5
+4.Bg5 Be7 5.e5 Nfd7 6.Bxe7 Qxe7 7.f4 c5 8.Nf3 Nc6
+
+───
+
+C1.1. Développement avec 7.Nf3
+1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7 6.Bxe7 Qxe7 7.Nf3
+
+───
+
+C2. Variante MacCutcheon
+1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6 6.Bd2 Bxc3 7.bxc3 Ne4
+
+───
+
+C3. Variante Burn
+1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 dxe4 5.Nxe4 Be7 6.Bxf6 Bxf6
+================================================== D. VARIANTE STEINITZ
+1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7
+
+───
+
+D1. Ligne principale
+5.f4 c5 6.Nf3 Nc6 7.Be3
+Réponses noires : 7...cxd4 7...Qb6
+
+───
+
+D1.1. Avec 7...cxd4
+1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7 5.f4 c5 6.Nf3 Nc6 7.Be3 cxd4 8.Nxd4
+
+───
+
+D1.2. Avec 7...Qb6
+1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7 5.f4 c5 6.Nf3 Nc6 7.Be3 Qb6
+
+───
+
+D2. Variante avec 5.Nce2
+1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7 5.Nce2
+================================================== E. VARIANTE TARRASCH
+1.e4 e6 2.d4 d5 3.Nd2
+
+───
+
+E1. Variante principale : 3...Nf6
+3...Nf6 4.e5 Nfd7 5.Bd3 c5 6.c3 Nc6 7.Ne2
+
+───
+
+E1.1. Développement avec 7...cxd4
+1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.Bd3 c5 6.c3 Nc6 7.Ne2 cxd4 8.cxd4
+
+───
+
+E2. Variante ouverte : 3...c5
+1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 exd5 5.Ngf3 Nc6 6.Bb5 Bd6
+
+───
+
+E3. Variante Rubinstein contre la Tarrasch
+1.e4 e6 2.d4 d5 3.Nd2 dxe4 4.Nxe4 Nd7 5.Nf3 Ngf6 6.Nxf6+ Nxf6
+================================================== F. VARIANTE D'ÉCHANGE
+1.e4 e6 2.d4 d5 3.exd5 exd5
+
+───
+
+F1. Développement classique
+4.Nf3 Nf6 5.Bd3 Bd6 6.O-O O-O 7.Re1
+
+───
+
+F2. Développement avec 4.Bd3
+1.e4 e6 2.d4 d5 3.exd5 exd5 4.Bd3
+Réponses noires : 4...Nf6 4...Bd6
+
+───
+
+F3. Variante avec c4
+1.e4 e6 2.d4 d5 3.exd5 exd5 4.c4
+================================================== G. VARIANTE RUBINSTEIN
+1.e4 e6 2.d4 d5 3.Nc3 dxe4 4.Nxe4
+
+───
+
+G1. Ligne principale
+4...Nd7 5.Nf3 Ngf6 6.Nxf6+ Nxf6 7.Bd3
+
+───
+
+G2. Développement avec 5.Ng3
+1.e4 e6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Ng3
+
+───
+
+G3. Rubinstein contre la Tarrasch
+1.e4 e6 2.d4 d5 3.Nd2 dxe4 4.Nxe4 Nd7 5.Nf3 Ngf6 6.Nxf6+ Nxf6
+================================================== H. AUTRES SYSTÈMES
+
+───
+
+H1. Variante des deux cavaliers
+1.e4 e6 2.Nf3 d5 3.Nc3
+Réponse : 3...Nf6
+
+───
+
+H2. Attaque avec 2.Qe2
+1.e4 e6 2.Qe2
+Réponse : 2...c5
+
+───
+
+H3. Attaque King's Indian
+1.e4 e6 2.d3 d5 3.Nd2 Nf6 4.Ngf3 Nc6
+================================================== I. RÉCAPITULATIF
+Après 1.e4 e6 2.d4 d5 :
+3.e5 — Variante d'avance 3.Nc3 Bb4 — Variante Winawer 3.Nc3 Nf6 — Variante classique 3.Nc3 Nf6 4.e5 — Variante Steinitz 3.Nd2 — Variante Tarrasch 3.exd5 exd5 — Variante d'échange 3.Nc3 dxe4 — Variante Rubinstein
+================================================== FIN DU TOME 9
+
+TOME 10 — DÉFENSE SICILIENNE
+1.e4 c5
+================================================== A. SICILIENNE OUVERTE — POSITION DE BASE
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3
+Les Noirs choisissent maintenant leur système :
+5...a6 — Najdorf 5...g6 — Dragon 5...e6 — Scheveningen 5...Nc6 — Classique
+================================================== B. VARIANTE NAJDORF
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6
+
+───
+
+B1. Variante principale : 6.Bg5
+6.Bg5 e6 7.f4 Be7 8.Qf3 Qc7 9.O-O-O Nbd7
+
+───
+
+B2. Variante du pion empoisonné
+6.Bg5 e6 7.f4 Qb6 8.Qd2 Qxb2 9.Rb1 Qa3
+
+───
+
+B3. Variante Polugaevsky
+6.Bg5 e6 7.f4 b5 8.e5 dxe5 9.fxe5 Qc7 10.Qe2 Nfd7 11.O-O-O Bb7
+
+───
+
+B4. Attaque anglaise
+6.Be3 e5 7.Nb3 Be6 8.f3 Nbd7 9.g4 b5
+
+───
+
+B5. Variante avec 6.Bc4
+6.Bc4 e6 7.Bb3 b5 8.O-O Be7 9.Qf3
+
+───
+
+B6. Variante avec 6.Be2
+6.Be2 e5 7.Nb3 Be7 8.O-O O-O 9.Be3 Be6 10.Qd2 Nbd7 11.a4 Rc8 12.a5 Qc7 13.Rfd1
+================================================== C. VARIANTE DRAGON
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6
+
+───
+
+C1. Attaque yougoslave
+6.Be3 Bg7 7.f3 O-O 8.Qd2 Nc6 9.Bc4 Bd7 10.O-O-O
+
+───
+
+C2. Dragon classique
+6.Be2 Bg7 7.O-O Nc6 8.Be3 O-O 9.Nb3 Be6
+
+───
+
+C3. Attaque Levenfish
+6.f4 Nc6 7.Nxc6 bxc6 8.e5 Nd7 9.exd6 exd6
+
+───
+
+C4. Développement avec 6.g3
+6.g3 Nc6 7.Nde2 Bg7 8.Bg2 O-O 9.O-O
+================================================== D. VARIANTE SCHEVENINGEN
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e6
+
+───
+
+D1. Scheveningen classique
+6.Be2 a6 7.O-O Be7 8.f4 O-O 9.Be3 Nc6 10.a4 Qc7
+
+───
+
+D2. Attaque anglaise
+6.Be3 a6 7.Qd2 b5 8.f3 Nbd7 9.g4 h6 10.O-O-O Bb7
+
+───
+
+D3. Attaque Keres
+6.g4 h6 7.h4 Nc6 8.Rg1 h5 9.gxh5 Nxh5 10.Bg5 Nf6
+
+───
+
+D4. Attaque Fischer
+6.Bc4 a6 7.Bb3 b5 8.O-O Be7 9.Qf3 Qc7 10.Qg3 O-O
+
+───
+
+D5. Scheveningen moderne
+6.Be2 Nc6 7.O-O Be7 8.Be3 O-O 9.f4
+================================================== E. VARIANTE CLASSIQUE
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6
+
+───
+
+E1. Attaque Richter-Rauzer
+6.Bg5 e6 7.Qd2 a6 8.O-O-O h6 9.Be3 Be7 10.f4 Nxd4 11.Bxd4 b5
+
+───
+
+E2. Attaque Sozin
+6.Bc4 e6 7.Be3 a6 8.Qe2 Be7 9.O-O-O O-O 10.Bb3 Qc7
+
+───
+
+E3. Variante Boleslavsky
+6.Be2 e5 7.Nf3 h6 8.O-O Be7 9.Re1 O-O 10.h3 Be6 11.Bf1
+================================================== F. VARIANTE SVESHNIKOV
+1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5 6.Ndb5 d6 7.Bg5 a6 8.Na3 b5
+
+───
+
+F1. Variante avec 9.Bxf6
+9.Bxf6 gxf6
+
+───
+
+F2. Variante avec 9.Nd5
+9.Nd5
+Réponse noire : 9...Be7
+================================================== G. DRAGON ACCÉLÉRÉ
+1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6
+
+───
+
+G1. Attaque Maroczy
+5.c4 Bg7 6.Be3 Nf6 7.Nc3
+
+───
+
+G2. Développement avec 5.Nc3
+5.Nc3 Bg7 6.Be3 Nf6 7.Bc4
+================================================== H. VARIANTE TAIMANOV
+1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6
+
+───
+
+H1. Taimanov classique
+5.Nc3 Qc7 6.Be3 a6 7.Be2 Nf6 8.O-O Bb4 9.Na4
+
+───
+
+H2. Variante avec 5.Nb5
+5.Nb5 d6 6.c4 Nf6 7.N1c3 a6 8.Na3
+================================================== I. VARIANTE KAN
+1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6
+
+───
+
+I1. Ligne principale
+5.Bd3 Nf6 6.O-O Qc7 7.Qe2 d6 8.c4
+================================================== J. VARIANTE DES QUATRE CAVALIERS
+1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e6 6.Ndb5 Bb4 7.a3 Bxc3+ 8.Nxc3 d5 9.exd5 exd5 10.Bd3 O-O 11.O-O
+================================================== K. VARIANTE KALASHNIKOV
+1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 e5 5.Nb5 d6
+
+───
+
+K1. Variante avec 6.c4
+6.c4 Be7 7.N1c3 a6 8.Na3 Be6 9.Be2 Bg5 10.Nc2 Bxc1 11.Rxc1 Nf6 12.O-O O-O
+================================================== L. VARIANTE ALAPIN
+1.e4 c5 2.c3
+
+───
+
+L1. Réponse 2...Nf6
+2...Nf6 3.e5 Nd5 4.d4 cxd4 5.Nf3 Nc6
+
+───
+
+L2. Réponse 2...d5
+2...d5 3.exd5 Qxd5 4.d4 Nf6 5.Nf3 e6 6.Be3 cxd4 7.cxd4 Nc6 8.Nc3 Qd6 9.a3 Be7 10.Bd3 O-O 11.O-O
+================================================== M. GAMBIT SMITH-MORRA
+1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Nf3 d6 6.Bc4 e6 7.O-O Nf6 8.Qe2 Be7 9.Rd1 e5 10.h3 O-O
+================================================== N. VARIANTE FERMÉE
+1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 d6 6.Be3 Rb8 7.Qd2 b5 8.Nge2 Nd4 9.O-O b4 10.Nd1
+================================================== O. SYSTÈMES AVEC Bb5
+
+───
+
+O1. Rossolimo
+1.e4 c5 2.Nf3 Nc6 3.Bb5 g6 4.O-O Bg7 5.Re1 Nf6 6.c3 O-O 7.d4 d5 8.e5 Ne4
+
+───
+
+O2. Moscou
+1.e4 c5 2.Nf3 d6 3.Bb5+ Bd7 4.Bxd7+ Qxd7 5.c4 Nc6 6.O-O Nf6 7.Nc3 g6 8.d4 cxd4 9.Nxd4 Bg7 10.Nde2
+================================================== P. ATTAQUE GRAND PRIX
+1.e4 c5 2.Nc3 Nc6 3.f4 g6 4.Nf3 Bg7 5.Bb5 Nd4
+================================================== Q. RÉCAPITULATIF DES GRANDES VARIANTES
+SICILIENNES OUVERTES :
+5...a6 — Najdorf 5...g6 — Dragon 5...e6 — Scheveningen 5...Nc6 — Classique 2...Nc6 et 5...e5 — Sveshnikov 2...Nc6 et 4...g6 — Dragon accéléré 2...e6 et 4...Nc6 — Taimanov 2...e6 et 4...a6 — Kan 4...e5 — Kalashnikov
+ANTI-SICILIENNES :
+2.c3 — Alapin 2.d4 cxd4 3.c3 — Smith-Morra 2.Nc3 — Sicilienne fermée 3.Bb5 — Rossolimo 3.Bb5+ — Moscou 2.Nc3 et 3.f4 — Grand Prix
+================================================== FIN DU TOME 10
